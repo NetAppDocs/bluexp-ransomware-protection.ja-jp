@@ -1,0 +1,22 @@
+---
+sidebar: sidebar 
+permalink: rp-use-manage.html 
+keywords: ransomware protection workload name, ransomware protection 
+summary: デフォルトの名前（リスクの高い名前）を使用するのではなく、ワークロード名を変更してワークロードを管理できます。 
+---
+= ワークロードの管理
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+ワークロード名を変更することで、ワークロードを管理できます。デフォルトの名前を使用することは、ランサムウェア攻撃のリスクです。
+
+.手順
+. BlueXPの左側のナビゲーションで、*[保護]*>*[Ransomware protection]*を選択します。
+. メニューから*[保護]*を選択します。
+. ワークロードを選択し、*[操作]*を選択します。 アイコンをクリックし、*[ワークロード名の編集]*を選択します。
+. 新しいワークロード名を入力し、*[保存]*を選択します。
+

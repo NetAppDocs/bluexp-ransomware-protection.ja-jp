@@ -1,0 +1,147 @@
+---
+sidebar: sidebar 
+permalink: rp-use-settings.html 
+keywords: ransomware protection, protect against ransomware attacks, anti-ransomware settings, backup destination 
+summary: BlueXPランサムウェア対策サービスでは、バックアップ先など、いくつかのオプションを設定できます。 
+---
+= BlueXPのランサムウェア対策の設定
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media
+
+
+[role="lead"]
+ダッシュボードで推奨事項を確認して、バックアップ先を設定できます。
+
+
+
+== バックアップ先の追加
+
+BlueXPのランサムウェア対策なら、バックアップがまだないワークロードだけでなく、バックアップ先がまだ割り当てられていないワークロードも特定できます。
+
+これらのワークロードを保護するには、バックアップ先を追加する必要があります。次のいずれかのバックアップ先を選択できます。
+
+* NetApp StorageGRID
+* Amazon Web Services （ AWS ）
+
+
+ダッシュボードで推奨される対処方法に基づいてバックアップ先を追加できます。
+
+
+
+=== ダッシュボードの推奨アクションから[バックアップ先]オプションにアクセスする
+
+ダッシュボードにはさまざまな推奨事項が表示されます。バックアップ先を設定することも推奨されます。
+
+.手順
+. BlueXPの左側のナビゲーションで、*[保護]*>*[Ransomware protection]*を選択します。
+. ダッシュボードの推奨される操作ウィンドウを確認します。
++
+image:screen-dashboard-recommended-actions-configure-backup-destinations.png["ダッシュボードページ"]
+
+. ダッシュボードで、[バックアップ先の設定]の推奨事項について*[確認と修正]*を選択します。
+. バックアッププロバイダに応じて手順を続行します。
+
+
+
+
+== バックアップ先としてのStorageGRIDの追加
+
+NetApp StorageGRIDをバックアップ先として設定するには、次の情報を入力します。
+
+. [設定]>[バックアップデスティネーション]*ページで、*[追加]*を選択します。
+. バックアップ先の名前を入力します。
++
+image:screen-settings-backup-destination-storagegrid.png["[バックアップデスティネーション]ページ"]
+
+. 「* StorageGRID *」を選択します。
+. 各設定の横にある下矢印を選択し、値を入力または選択します。
++
+** *プロバイダ設定*：
++
+*** 新しいバケットを作成するか、バックアップを保存する独自のバケットを使用します。
+*** StorageGRIDゲートウェイノードの完全修飾ドメイン名、ポート、StorageGRIDアクセスキー、シークレットキーのクレデンシャル。
+
+
+** *ネットワーク*：IPspaceを選択します。
++
+*** IPspaceは、バックアップするボリュームが配置されているクラスタです。この IPspace のクラスタ間 LIF には、アウトバウンドのインターネットアクセスが必要です。
+
+
+** *バックアップロック*：バックアップが変更または削除されないようにサービスで保護するかどうかを選択します。このオプションは、NetApp DataLockテクノロジを使用します。各バックアップは、保持期間中（最低30日間）、および最大14日間のバッファ期間中にロックされます。
++
+
+CAUTION: ここでバックアップロックの設定を行う場合は、バックアップ先の設定後に設定を変更することはできません。
+
++
+*** *準拠モード*：保持期間中は、保護されたバックアップファイルを上書きまたは削除することはできません。
+
+
+
+
+. 「 * 追加」を選択します。
+
+
+.結果
+新しいバックアップ先がバックアップ先のリストに追加されます。
+
+image:screen-settings-backup-destinations-list-storagegrid.png["[Backup destinations]ページの[Settings]オプション"]
+
+
+
+== バックアップ先としてAmazon Web Servicesを追加
+
+バックアップ先としてAWSを設定するには、次の情報を入力します。
+
+BlueXPでのAWSストレージの管理の詳細については、 https://docs.netapp.com/us-en/bluexp-setup-admin/task-viewing-amazon-s3.html["Amazon S3バケットを管理します"^]。
+
+. [設定]>[バックアップデスティネーション]*ページで、*[追加]*を選択します。
+. バックアップ先の名前を入力します。
++
+image:screen-settings-backup-destination-storagegrid.png["[バックアップデスティネーション]ページ"]
+
+. Amazon Web Servicesを選択します。
+. 各設定の横にある下矢印を選択し、値を入力または選択します。
++
+** *プロバイダ設定*：
++
+*** 新しいバケットを作成し、BlueXPに既存のバケットがある場合は既存のバケットを選択するか、バックアップを格納する独自のバケットを使用します。
+*** AWSクレデンシャル用のAWSアカウント、リージョン、アクセスキー、シークレットキー
++
+https://docs.netapp.com/us-en/bluexp-s3-storage/task-add-s3-bucket.html["独自のバケットを使用する場合は、S3バケットの追加を参照してください。"^]。
+
+
+
+** *暗号化*：新しいS3バケットを作成する場合は、プロバイダから提供された暗号化キー情報を入力します。既存のバケットを選択した場合は、暗号化情報がすでに表示されています。
++
+バケット内のデータは、デフォルトでAWSが管理するキーを使用して暗号化されます。AWSで管理されるキーを引き続き使用することも、独自のキーを使用してデータの暗号化を管理することもできます。
+
+** *ネットワーク*：IPspaceとプライベートエンドポイントを使用するかどうかを選択します。
++
+*** IPspaceは、バックアップするボリュームが配置されているクラスタです。この IPspace のクラスタ間 LIF には、アウトバウンドのインターネットアクセスが必要です。
+*** 必要に応じて、以前に設定したAWSプライベートエンドポイント（PrivateLink）を使用するかどうかを選択します。
++
+AWS PrivateLinkを使用する場合は、を参照してください。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/privatelink-interface-endpoints.html["Amazon S3用のAWS PrivateLink"^]。
+
+
+
+** *バックアップロック*：バックアップが変更または削除されないようにサービスで保護するかどうかを選択します。このオプションは、NetApp DataLockテクノロジを使用します。各バックアップは、保持期間中（最低30日間）、および最大14日間のバッファ期間中にロックされます。
++
+
+CAUTION: ここでバックアップロックの設定を行う場合は、バックアップ先の設定後に設定を変更することはできません。
+
++
+*** *ガバナンスモード*：特定のユーザ（s3：BypassGovernanceRetention権限を持つ）は、保持期間中に保護されたファイルを上書きまたは削除できます。
+*** *準拠モード*：保持期間中は、保護されたバックアップファイルを上書きまたは削除することはできません。
+
+
+
+
+. 「 * 追加」を選択します。
+
+
+.結果
+新しいバックアップ先がバックアップ先のリストに追加されます。
+
+image:screen-settings-backup-destinations-list-aws.png["[Backup destinations]ページの[Settings]オプション"]

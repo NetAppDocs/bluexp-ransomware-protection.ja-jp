@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: rp-start-login.html 
+keywords: bluexp login, ransomware protection log in 
+summary: BlueXPのサービスにアクセスして、BlueXPのランサムウェア対策を始めましょう。 
+---
+= BlueXPのランサムウェア対策にアクセス
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media
+
+
+[role="lead"]
+NetApp BlueXPを使用して、BlueXPランサムウェア対策サービスにログインします。
+
+BlueXPにログインするには、NetApp Support Site のクレデンシャルを使用するか、Eメールとパスワードを使用してネットアップクラウドへのログインにサインアップします。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["ログインの詳細については、こちらをご覧ください"^]。
+
+.手順
+. Webブラウザを開き、にアクセスします https://console.bluexp.netapp.com/["BlueXPコンソール"^]。
++
+NetApp BlueXPのログインページが表示されます。
+
+. BlueXPにログインします。
+. BlueXPの左側のナビゲーションで、*[保護]*>*[Ransomware protection]*を選択します。
++
+このサービスに初めてログインする場合は、ランディングページが表示されます。
+
++
+それ以外の場合は、BlueXPランサムウェア対策ダッシュボードが表示されます。
+
++
+image:screen-dashboard.png["BlueXPランサムウェア対策ダッシュボード"]
+
+. サービスの使用を開始します。
++
+** BlueXPコネクタがない場合や、このプレビュー用のコネクタではない場合は、NetAppサポートに連絡するか、メッセージに従ってこのプレビューにサインアップする必要があります。
+** BlueXPを初めて使用し、コネクタを使用したことがない場合は、「*ランサムウェア対策*」を選択すると、サインアップに関するメッセージが表示されます。フォームを送信してください。評価リクエストについては、NetAppからご連絡させていただきます。
+** 既存のコネクタを使用しているBlueXPユーザの場合は、「*ランサムウェア対策*」を選択すると、サインアップに関するメッセージが表示されます。
+** すでにプレビューに参加している場合は、「*ランサムウェア対策*」を選択すると、サービスを続行できます。まだ実行していない場合は、*[ワークロードを検出]*オプションを選択します。
+
+
+

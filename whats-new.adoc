@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, ransomware protection, bluexp, anti-ransomware, cyber attack' 
+summary: BlueXPランサムウェア対策の新機能をご紹介します。 
+---
+= リリースノート：BlueXPランサムウェア対策プレビューの最新情報
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXPランサムウェア対策プレビューの新機能をご紹介します。
+
+
+
+== 2024年3月5日
+
+今回のBlueXPランサムウェア対策プレビューリリースには、次の更新が含まれています。
+
+* *保護ポリシーの管理*：事前定義されたポリシーの使用に加えて、ポリシーを作成、変更、削除できるようになりました。 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["ポリシーの管理の詳細"]。
+* *セカンダリストレージの変更不可（DataLock）*：オブジェクトストアのNetApp DataLockテクノロジを使用して、セカンダリストレージのバックアップを変更不可にできるようになりました。 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["保護ポリシーの作成に関する詳細情報"]。
+
+
+* * NetApp StorageGRIDへの自動バックアップ*：AWSを使用するだけでなく、バックアップ先としてStorageGRIDを選択できるようになりました。 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["バックアップ先の設定に関する詳細情報"]。
+* *潜在的な攻撃を調査するための追加機能*:検出された潜在的な攻撃を調査するために、より多くのフォレンジックの詳細を表示できるようになりました。 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-alert.html["ランサムウェアのアラートが検出された場合の対応の詳細"]。
+* *リカバリプロセス*。回復プロセスが強化されました。ボリューム単位、ワークロードのすべてのボリューム、またはボリュームからいくつかのファイルを1つのワークフローでリカバリできるようになりました。 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-recover.html["ランサムウェア攻撃からのリカバリの詳細（インシデントの中和後）"]。
+
+
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-protection.html["BlueXPランサムウェア対策の詳細をご確認ください"]。
+
+
+
+== 2023年10月6日
+
+BlueXPランサムウェア対策サービスは、データの保護、潜在的な攻撃の検出、ランサムウェア攻撃からのデータのリカバリを行うSaaS解決策です。
+
+プレビュー版では、オンプレミスのNASストレージ上のOracle、MySQL、VMデータストア、ファイル共有のアプリケーションベースのワークロードと、BlueXPアカウント全体のCloud Volumes ONTAP on AWS（NFSプロトコルを使用）のアプリケーションベースのワークロードを個別に保護し、Amazon Web Servicesクラウドストレージにデータをバックアップします。
+
+BlueXPのランサムウェア対策サービスでは、複数のNetAppテクノロジをフルに活用できるため、データセキュリティ管理者やセキュリティ運用エンジニアは次の目標を達成できます。
+
+* すべてのワークロードに対するランサムウェア対策を一目で確認できます。
+* ランサムウェア対策に関する推奨事項を分析
+* BlueXPのランサムウェア対策に関する推奨事項に基づいて、保護態勢を強化
+* ランサムウェア対策ポリシーを割り当てて、主要なワークロードとハイリスクデータをランサムウェア攻撃から保護します。
+* ワークロードの健全性を監視してランサムウェア攻撃からデータの異常を検出
+* ランサムウェアのインシデントがワークロードに与える影響を迅速に評価します。
+* データをリストアし、保存されたデータからの再感染を防ぐことで、ランサムウェアのインシデントからインテリジェントにリカバリします。
+
+
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-protection.html["BlueXPランサムウェア対策の詳細をご確認ください"]。

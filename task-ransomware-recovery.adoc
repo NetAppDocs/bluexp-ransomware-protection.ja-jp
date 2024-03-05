@@ -1,0 +1,48 @@
+---
+sidebar: sidebar 
+permalink: task-ransomware-recovery.html 
+keywords: ransomware, ransomware protection, cyberstorage, cyber attack, cybersecurity, recovery 
+summary: Ransomware Recover Dashboardには、ランサムウェアに感染した可能性のあるデータをリカバリするためのオプションが用意されています。これにより、システムを迅速にバックアップして稼働させることができます。 
+---
+= ランサムウェア攻撃からリカバリ
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXPランサムウェア対策のリカバリダッシュボードには、ランサムウェアに感染した可能性のあるデータをリカバリするためのオプションが用意されています。これにより、システムを迅速にバックアップして稼働させることができます。
+
+BlueXPのランサムウェア対策ダッシュボードの[Ransomware Incidents]パネルで、ボリュームがランサムウェアに感染したことが示された場合は、*[Recover]*ボタンをクリックして問題 の解決を試みることができます。
+
+現時点では、Ransomware Recover Dashboardを使用して、感染したボリュームをランサムウェアの影響を受けていないSnapshotコピーに置き換えることができます。
+
+.手順
+. ランサムウェアに感染したボリュームの[Ransomware Incidents]パネルで*[Recover]*をクリックします。
++
+Ransomware Recover Dashboardにボリューム名が表示されます。
+
++
+image:screenshot_ransomware_recovery_dashboard.png["BlueXPランサムウェア対策リカバリダッシュボードのスクリーンショット。"]
+
+. [ Snapshotの表示]*をクリックして、そのボリュームで使用可能なSnapshotコピーのリストを表示します。
++
+image:screenshot_ransomware_recovery_select_snap.png["破損したボリュームのリカバリに使用できるSnapshotコピーのスクリーンショット。"]
+
+. 暗号化されたデータがないSnapshotを選択し、*[リカバリ]*をクリックします。
+. [Recover data from selected Snapshot]ダイアログで、*[Yes]*をクリックしてSnapshotからデータをリカバリします。
++
+Snapshotのリカバリステータスを確認したり、Snapshotによって破損したボリュームがいつリストアされたかを確認したりできます。
+
++
+image:screenshot_ransomware_recovery_snap_complete.png["Snapshotによって破損したボリュームがリカバリされたことを示すスクリーンショット。"]
+
+
+
+.結果
+破損したボリュームは、過去に作成されたSnapshotを使用してリカバリされています。
+
+最新のSnapshot以外のSnapshotからリストア処理が実行された場合、リストア後に破損している可能性があるため、より新しいSnapshotコピーもすべてONTAPシステムから削除されます（上のスクリーンショットを参照）。

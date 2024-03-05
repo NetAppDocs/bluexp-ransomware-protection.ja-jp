@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: rp-start-prerequisites.html 
+keywords: what are bluexp ransomware protection requirements, bluexp ransomware protection, ransomware protection prerequisites 
+summary: お客様の環境、ネットワークアクセス、ログイン、Webブラウザのサポート状況を確認して、BlueXPランサムウェア対策を開始しましょう。 
+---
+= BlueXPのランサムウェア対策の前提条件
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/get-started/
+
+
+[role="lead"]
+運用環境、ログイン、ネットワークアクセス、Webブラウザの準備状況を確認して、BlueXPランサムウェア対策を始めましょう。
+
+BlueXPランサムウェア対策を使用するには、次の前提条件が必要です。
+
+* プレビュー版では、バックアップターゲット用のNetApp StorageGRIDまたはAWS S3のアカウントとAWS権限セットが必要です。
++
+を参照してください https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["AWS権限リスト"^] を参照してください。
+
+* ONTAP 9.11.1以降
++
+** クラスタカンリシヤONTAPノケンケン
+** BlueXPランサムウェア対策で使用されるNetApp自律型ランサムウェア対策のライセンス。使用しているONTAPのバージョンに応じて、ONTAPインスタンスで使用されます。を参照してください https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["Autonomous Ransomware Protection Overview"^]。
+
+
+* BlueXPの場合：
++
+** NetApp BlueXPでは、クラウド内またはオンプレミスリージョン内のリージョンごとにBlueXPコネクタを設定する必要があります。すべてのソース環境と作業環境が同じBlueXPアカウントに属している必要があります。を参照してください https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["コネクタを設定するためのBlueXPドキュメント"^]。
++
+
+NOTE: BlueXPコネクタが複数ある場合は、BlueXP UIに現在表示されているコネクタ以外のすべてのコネクタのデータがスキャンされます。
+
+** 作業環境でバックアップを有効にしたBlueXPのバックアップとリカバリサービス
+** オンプレミスストレージのNetApp NASを使用するBlueXP作業環境をセットアップする必要があります。
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["BlueXPの標準の要件"^]
+
+
+

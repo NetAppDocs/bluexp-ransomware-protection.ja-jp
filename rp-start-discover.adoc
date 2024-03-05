@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: rp-start-discover.html 
+keywords: bluexp, ransomware protection, 
+summary: BlueXPのランサムウェア対策は、調査中に、BlueXPのすべてのコネクタとアカウントにわたって、作業環境内のすべてのボリュームとファイルを分析します。 
+---
+= BlueXPのランサムウェア対策でワークロードを検出
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXPのランサムウェア対策を使用するには、まずデータを検出する必要があります。BlueXPのランサムウェア対策は、調査の際に、アカウント内のすべてのBlueXPコネクタとワークスペースにわたって、作業環境内のすべてのボリュームとファイルを分析します。
+
+
+NOTE: プレビュー版では、BlueXPのランサムウェア対策でMySQLアプリケーション、Oracleアプリケーション、VMwareデータストア、ファイル共有を評価します。
+
+このサービスは、現在のバックアップ保護、Snapshotコピー、NetApp Autonomous Ransomware Protectionのオプションなど、既存の保護レベルを評価します。評価に基づいて、サービスはランサムウェア対策を改善する方法を提案します。
+
+.手順
+. BlueXPの左側のナビゲーションで、*[保護]*>*[Ransomware protection]*を選択します。
+. 最初のランディングページで*[Discover workloads]*を選択します。
++
+サービスによってワークロードデータが検出され、ダッシュボードにデータ保護の健常性が表示されます。
+
++
+image:screen-dashboard.png["BlueXPランサムウェア対策ダッシュボード"]
+
+

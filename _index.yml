@@ -1,0 +1,50 @@
+---
+indexpage:
+  title: BlueXPランサムウェア対策ドキュメント
+  summary: BlueXPランサムウェア対策は、ランサムウェアの保護、検出、リカバリのためのオーケストレーションサービスです。プレビュー版では、Oracle、MySQL、VMデータストアのアプリケーションベースのワークロードを保護し、
+    また、オンプレミスのNASストレージでファイルを共有し、Amazon Web ServicesのCloud Volumes ONTAP（NFSプロトコルを使用）を各BlueXPアカウントで共有し、Amazon
+    Web Services（AWS）クラウドストレージまたはNetApp StorageGRIDにデータをバックアップします。
+  keywords: bluexp, ransomware, anti-ransomware, cyber attack, netapp, ontap, amazon
+    web services, aws, storagegrid
+  lead: BlueXPランサムウェア対策は、ランサムウェアの保護、検出、リカバリのためのオーケストレーションサービスです。プレビュー版では、Oracle、MySQL、VMデータストアのアプリケーションベースのワークロードを保護し、
+    また、オンプレミスのNASストレージでファイルを共有し、Amazon Web ServicesのCloud Volumes ONTAP（NFSプロトコルを使用）を各BlueXPアカウントで共有し、Amazon
+    Web Services（AWS）クラウドストレージまたはNetApp StorageGRIDにデータをバックアップします。
+  tiles:
+  - title: はじめに
+    links:
+    - title: BlueXPランサムウェア対策の詳細をご確認ください
+      url: "/concept-ransomware-protection.html"
+    - title: BlueXPランサムウェア対策の新機能
+      url: "/whats-new.html"
+    - title: 前提条件
+      url: "/rp-start-prerequisites.html"
+    - title: クイックスタート
+      url: "/rp-start-quick-start.html"
+    - title: BlueXPランサムウェア対策のセットアップ
+      url: "/rp-start-setup.html"
+    - title: BlueXPのランサムウェア対策にアクセス
+      url: "/rp-start-login.html"
+    - title: よく寄せられる質問
+      url: "/rp-start-faq.html"
+  - title: BlueXPのランサムウェア対策を活用
+    links:
+    - title: BlueXPのランサムウェア対策の概要を活用
+      url: "/rp-use-overview.html"
+    - title: ワークロードを検出
+      url: "/rp-start-discover.html"
+    - title: ダッシュボードを使用したワークロードの健全性の表示
+      url: "/rp-use-dashboard.html"
+    - title: ワークロードを保護
+      url: "/rp-use-protect.html"
+    - title: 検出されたアラートへの対応
+      url: "/rp-use-alert.html"
+    - title: 攻撃からのリカバリ
+      url: "/rp-use-recover.html"
+  - title: ブログとコミュニティ
+    links:
+    - title: ネットアップコミュニティ
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+    - title: クラウドに関する Web セミナー
+      url: https://bluexp.netapp.com/events
+    - title: NetApp.comのBlueXPランサムウェア対策サイト
+      url: https://www.netapp.com/cyber-resilience/ransomware-protection/

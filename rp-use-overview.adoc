@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: rp-use-overview.html 
+keywords: ransomware protection, ransomware protection, detect ransomware attacks, recover from ransomware attack 
+summary: BlueXPのランサムウェア対策を使用すると、ワークロードの健常性を確認してワークロードを保護できます。 
+---
+= BlueXPのランサムウェア対策を活用
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXPのランサムウェア対策を使用すると、ワークロードの健常性を確認してワークロードを保護できます。
+
+* link:rp-start-discover.html["BlueXPのランサムウェア対策でワークロードを検出"]。
+* link:rp-use-dashboard.html["ダッシュボードから保護とワークロードの健全性を表示"]。
++
+** ランサムウェア対策に関する推奨事項を確認して対処
+
+
+* link:rp-use-protect.html["ワークロードを保護"]：
++
+** ワークロードにランサムウェア対策ポリシーを割り当てる。
+** アプリケーションの保護を強化して、将来のランサムウェア攻撃を防止します。
+** 保護ポリシーを作成、変更、削除します。
+
+
+* link:rp-use-alert.html["ランサムウェア攻撃の可能性の検出に対応"]。
+* link:rp-use-recover.html["攻撃からのリカバリ"] （事件が中和された後）。
+* link:rp-use-settings.html["保護の設定"]。
+

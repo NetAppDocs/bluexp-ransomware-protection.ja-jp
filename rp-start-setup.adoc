@@ -1,0 +1,78 @@
+---
+sidebar: sidebar 
+permalink: rp-start-setup.html 
+keywords: bluexp, ransomware protection, 
+summary: BlueXPランサムウェア対策を使用するには、いくつかの手順を実行してセットアップします。 
+---
+= BlueXPランサムウェア対策のセットアップ
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: /media/
+
+
+[role="lead"]
+BlueXPランサムウェア対策を使用するには、いくつかの手順を実行してセットアップします。
+
+作業を開始する前に、 link:rp-start-prerequisites.html["前提条件"] 環境の準備が整っていることを確認します。
+
+
+
+== バックアップ先の準備
+
+次のいずれかのバックアップ先を準備します。
+
+* NetApp StorageGRID
+* Amazon Web Services の
+
+
+バックアップ先自体でオプションを設定したら、あとでBlueXPランサムウェア対策サービスでバックアップ先として設定します。
+
+
+
+=== StorageGRIDをバックアップ先にするための準備
+
+StorageGRIDをバックアップ先として使用する場合は、を参照してください。 https://docs.netapp.com/us-en/storagegrid-117/index.html["StorageGRID のドキュメント"^] を参照してくださいStorageGRID。
+
+
+
+=== バックアップ先としてのAWSの準備
+
+* AWSでアカウントをセットアップします。
+* 設定 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["AWS権限"^] 実現します。
+
+
+BlueXPでのAWSストレージの管理の詳細については、 https://docs.netapp.com/us-en/bluexp-setup-admin/task-viewing-amazon-s3.html["Amazon S3バケットを管理します"^]。
+
+
+
+== BlueXPをセットアップします
+
+次のステップでは、BlueXPとBlueXPランサムウェア対策サービスをセットアップします。
+
+レビュー https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["BlueXPの標準の要件"^]。
+
+
+
+=== BlueXPでコネクタを作成します
+
+このサービスをお試しいただくには、NetApp営業担当者にお問い合わせください。その後、BlueXPコネクタを使用すると、ランサムウェア対策サービスに適した機能が含まれます。
+
+サービスを使用する前にBlueXPでコネクタを作成する方法については、該当するBlueXPのドキュメントを参照してください https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["BlueXPコネクタの作成方法"^]。
+
+
+NOTE: BlueXPコネクタが複数ある場合は、BlueXP UIに現在表示されているコネクタ以外のすべてのコネクタのデータがスキャンされます。このサービスは、このアカウントに関連付けられているすべてのワークスペースとすべてのコネクタを検出します。
+
+
+
+=== BlueXPのランサムウェア対策にアクセス
+
+NetApp BlueXPを使用して、BlueXPランサムウェア対策サービスにログインします。BlueXPの左側のナビゲーションで、*[保護]*>*[Ransomware protection]*を選択します。
+
+詳細については、を参照してください link:rp-start-login.html["BlueXPのランサムウェア対策にアクセス"]。
+
+
+
+=== BlueXPランサムウェア対策でのバックアップ先の設定
+
+BlueXPランサムウェア対策のバックアップ先オプションを使用して、バックアップ先を設定します。詳細については、を参照してください link:rp-use-settings.html["設定オプションの設定"]。

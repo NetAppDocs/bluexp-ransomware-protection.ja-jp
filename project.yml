@@ -1,0 +1,58 @@
+---
+settings:
+  name: BlueXP ransomware protection
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: ja-jp,us-en,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
+sidebar:
+  entries:
+  - title: BlueXPランサムウェア対策ドキュメント
+    url: "/index.html"
+  - title: リリースノート
+    url: "/whats-new.html"
+  - title: はじめに
+    entries:
+    - title: BlueXPランサムウェア対策の詳細をご確認ください
+      url: "/concept-ransomware-protection.html"
+    - title: 前提条件
+      url: "/rp-start-prerequisites.html"
+    - title: クイックスタート
+      url: "/rp-start-quick-start.html"
+    - title: BlueXPランサムウェア対策のセットアップ
+      url: "/rp-start-setup.html"
+    - title: BlueXPのランサムウェア対策にアクセス
+      url: "/rp-start-login.html"
+    - title: ワークロードを検出
+      url: "/rp-start-discover.html"
+    - title: バックアップデスティネーションの設定
+      url: "/rp-use-settings.html"
+    - title: よく寄せられる質問
+      url: "/rp-start-faq.html"
+  - title: BlueXPのランサムウェア対策を活用
+    entries:
+    - title: BlueXPのランサムウェア対策の概要を活用
+      url: "/rp-use-overview.html"
+    - title: ダッシュボードを使用したワークロードの健全性の表示
+      url: "/rp-use-dashboard.html"
+    - title: ワークロードを保護
+      url: "/rp-use-protect.html"
+    - title: 検出されたアラートへの対応
+      url: "/rp-use-alert.html"
+    - title: ランサムウェア攻撃からリカバリ
+      url: "/rp-use-recover.html"
+  - title: 知識とサポート
+    entries:
+    - title: サポートに登録します
+      url: "/task-support-registration.html"
+    - title: ヘルプを表示します
+      url: "/task-get-help.html"
+  - title: 法的通知
+    url: "/legal-notices.html"
+product-family:
+  name: BlueXP
+  repo: bluexp-family

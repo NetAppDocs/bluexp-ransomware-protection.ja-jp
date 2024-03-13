@@ -45,12 +45,7 @@ sidebar:
       url: "/rp-use-alert.html"
     - title: ランサムウェア攻撃からリカバリ
       url: "/rp-use-recover.html"
-  - title: 知識とサポート
-    entries:
-    - title: サポートに登録します
-      url: "/task-support-registration.html"
-    - title: ヘルプを表示します
-      url: "/task-get-help.html"
+  - section: support
   - title: 法的通知
     url: "/legal-notices.html"
 product-family:

@@ -1,13 +1,13 @@
 ---
 sidebar: sidebar 
-permalink: task-support-registration.html 
-keywords: support registration, register for support, support, nss account, add nss account, 
+permalink: support/task-support-registration.html 
+keywords: support registration, register for support, support, nss account, add nss account 
 summary: ネットアップテクニカルサポートでサポートケースをオープンするには、まずNetApp Support Site アカウントをBlueXPに追加し、サポートに登録する必要があります。 
 ---
 = サポートに登録します
 :allow-uri-read: 
 :icons: font
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

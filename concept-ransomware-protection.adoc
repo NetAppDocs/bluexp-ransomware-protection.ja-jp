@@ -29,7 +29,7 @@ BlueXPのランサムウェア対策サービスは、複数のNetAppテクノ�
 
 * * BlueXPのアカウント、ワークスペース、BlueXPコネクタにわたって、オンプレミスのNetApp NASとNFSの作業環境にある、アプリケーションベース、ファイル共有、VMwareが管理するワークロードをすべて特定*します。次に、データの優先順位を分類し、ランサムウェア対策の強化に関する推奨事項を提供します。
 * *データ上のバックアップやSnapshotコピーを有効にして、ワークロードを保護*します。
-* *ランサムウェア攻撃につながる可能性のある異常を検出*します。
+* *ランサムウェア攻撃の可能性がある異常を検出*します。
 
 
 * * NetApp ONTAP Snapshotコピーを自動的に開始して、ランサムウェア攻撃の可能性に対応*します。
@@ -51,7 +51,7 @@ BlueXPのランサムウェア対策には、次のようなメリットがあ�
 * MySQL、Oracle、VMwareデータストア、ファイル共有など、最上位のアプリケーションベースワークロードのデータを保護します。
 * AIテクノロジを活用して、プライマリストレージ上のデータに対するランサムウェア攻撃をリアルタイムで検出します。
 * Snapshotコピーを作成し、異常なアクティビティに関するアラートを開始することで、検出された潜在的な攻撃に対応して自動化されたアクションを開始します。
-* RPOポリシーを満たすために、厳選されたリカバリを適用します。BlueXPのランサムウェア対策は、BlueXPのバックアップとリカバリ（旧称Cloud Backup）やSnapCenterなどの複数のNetAppリカバリサービスを使用して、ランサムウェアインシデントからのリカバリをオーケストレーションします。
+* RPOポリシーを満たすために、厳選されたリカバリを適用します。BlueXPのランサムウェア対策は、BlueXPのバックアップとリカバリ（旧称Cloud Backup）などの複数のNetAppリカバリサービスを使用して、ランサムウェアインシデントからのリカバリをオーケストレーションします。
 
 
 
@@ -91,7 +91,7 @@ image:diagram-rp-architecture-preview3.png["BlueXPのランサムウェア対策
 
 | *識別*  a| 
 * BlueXPに接続されているオンプレミスのNAS（NFSマウント）データをすべて検出
-* ONTAPおよびSnapCenterサービスAPIから取得した顧客データを特定し、ワークロードに関連付けます。の詳細を確認してください https://docs.netapp.com/us-en/ontap-family/["ONTAP"^] および https://docs.netapp.com/us-en/snapcenter/index.html["SnapCenter ソフトウェア"^]。
+* ONTAPサービスAPIから顧客データを特定し、ワークロードに関連付けます。の詳細を確認してください https://docs.netapp.com/us-en/ontap-family/["ONTAP"^] および https://docs.netapp.com/us-en/snapcenter/index.html["SnapCenter ソフトウェア"^]。
 * 各ボリュームのNetApp Snapshotコピーとバックアップポリシーの現在の保護レベル、および組み込みの検出機能を検出します。その後、サービスは、BlueXPのバックアップとリカバリ、BlueXPデジタルアドバイザ、ONTAPサービスと、Autonomous Ransomware Protection、FPolicy、バックアップポリシー、SnapshotポリシーなどのNetAppテクノロジを使用して、この保護体制をワークロードに関連付けます。
 の詳細を確認してください https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自律的なランサムウェア防御"^] および https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXPのバックアップとリカバリ"^]、 https://docs.netapp.com/us-en/active-iq/index.html["BlueXP Digital Advisor"^]および https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy"^]。
 * 自動的に検出された保護レベルに基づいて各ワークロードにビジネス優先度を割り当て、ビジネス優先度に基づいてワークロードに保護ポリシーを推奨します。
@@ -101,28 +101,28 @@ image:diagram-rp-architecture-preview3.png["BlueXPのランサムウェア対策
 
 
 | *保護*  a| 
-* 特定された各ワークロードにポリシーを適用することで、ワークロードをアクティブに監視し、BlueXPのバックアップとリカバリ、SnapCenterサービス、ONTAP APIの使用をオーケストレーションします。
+* 特定された各ワークロードにポリシーを適用することで、ワークロードをアクティブに監視し、BlueXPのバックアップとリカバリとONTAP APIの使用をオーケストレーションします。
 
 
 
 
 | *検出*  a| 
-* 潜在的に異常な暗号化とアクティビティを検出する統合機械学習（ML）モデルを使用して、潜在的な攻撃を検出します。悪意のあるファイルの暗号化を検出する機械学習（ML）モデルであるNetAppの高度なランサムウェア検出機能を使用して、ランサムウェア対策テクノロジを適用します。
+* 潜在的に異常な暗号化とアクティビティを検出する統合機械学習（ML）モデルを使用して、潜在的な攻撃を検出します。
 * プライマリストレージにおけるランサムウェア攻撃の可能性を検出し、自動化されたSnapshotコピーを追加で作成して最も近いデータリストアポイントを作成することで、異常なアクティビティに対応することから始まる、デュアルレイヤの検出機能を提供します。このサービスは、プライマリワークロードのパフォーマンスに影響を与えることなく、潜在的な攻撃をより詳細に特定する機能を提供します。
-* ONTAP、自律型ランサムウェア対策、FPolicy、高度なランサムウェア検出機能を使用して、特定の疑わしいファイルを特定し、その攻撃を関連するワークロードにマッピングします。
+* ONTAP、自律型ランサムウェア対策、FPolicyの各テクノロジを使用して、特定の疑わしいファイルを特定し、その攻撃を関連するワークロードにマッピングします。
 
 
 
 
 | *応答*  a| 
 * ファイルアクティビティ、ユーザアクティビティ、エントロピーなどの関連データが表示され、攻撃に関するフォレンジックレビューを完了できます。
-* ONTAP、Autonomous Ransomware Protection、FPolicy、Advanced Ransomware ProtectionなどのNetAppテクノロジや製品を使用して、Snapshotコピーを迅速に作成します。
+* は、ONTAP、Autonomous Ransomware Protection、FPolicyなどのNetAppテクノロジや製品を使用して、Snapshotコピーを迅速に作成します。
 
 
 
 
 | *リカバリ*  a| 
-* BlueXPのバックアップとリカバリ、ONTAP、自律型ランサムウェア対策、FPolicy、高度なランサムウェア対策のテクノロジとサービスを使用して、最適なSnapshotまたはバックアップを特定し、実際のリカバリポイント（RPA）を推奨します。
+* BlueXPのバックアップとリカバリ、ONTAP、自律型ランサムウェア対策、FPolicyのテクノロジとサービスを使用して、最適なSnapshotまたはバックアップを特定し、実際のリカバリポイント（RPA）を推奨します。
 * アプリケーションと整合性のある状態で、VM、ファイル共有、データベースなどのワークロードのリカバリをオーケストレーションします。
 
 

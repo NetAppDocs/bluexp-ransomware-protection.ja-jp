@@ -23,20 +23,15 @@
   <block id="b06d1e4e0aac4390491efcd348fe1b69" category="summary">お客様の環境、ネットワークアクセス、ログイン、Webブラウザのサポート状況を確認して、BlueXPランサムウェア対策を開始しましょう。</block>
   <block id="1e4e512c953bb68c6492ac3e8c1ea138" category="doc">BlueXPのランサムウェア対策の前提条件</block>
   <block id="14bae19e71c925a784053d4c31411220" category="paragraph">運用環境、ログイン、ネットワークアクセス、Webブラウザの準備状況を確認して、BlueXPランサムウェア対策を始めましょう。</block>
-  <block id="9c419334983210e051ee2cf0145c087e" category="paragraph">BlueXPランサムウェア対策を使用するには、次の前提条件が必要です。</block>
-  <block id="312807b53081d16ad86b2481ad4a2bcd" category="list-text">プレビュー版では、バックアップターゲット用のNetApp StorageGRIDまたはAWS S3のアカウントとAWS権限セットが必要です。</block>
   <block id="2c1fee35a0bc194dc9b50ed9fc8a2c7f" category="inline-link">AWS権限リスト</block>
   <block id="77e430febc2d19c00e0afbb5c29f25a4" category="paragraph">を参照してください<block ref="26c1dddc0b8311217c923c501f6e8c4e" category="inline-link-rx"></block> を参照してください。</block>
   <block id="9e2e2cb4e7926eab3e7e74ddaf55d313" category="list-text">ONTAP 9.11.1以降</block>
   <block id="7226a116fcbbcf04521e1a358b285ccb" category="list-text">クラスタカンリシヤONTAPノケンケン</block>
   <block id="13572bbe68fe6ecbb17fb5a38d1313bb" category="inline-link">Autonomous Ransomware Protection Overview</block>
-  <block id="f57301a326bcd894a3dbbfdba7f4cf52" category="list-text">BlueXPランサムウェア対策で使用されるNetApp自律型ランサムウェア対策のライセンス。使用しているONTAPのバージョンに応じて、ONTAPインスタンスで使用されます。を参照してください<block ref="9a25fd5e356132f930267232d70ad02b" category="inline-link-rx"></block>。</block>
   <block id="7fc964519860ed011389afb142e2370e" category="list-text">BlueXPの場合：</block>
   <block id="617601bf744d089a872f17b09e5451b5" category="inline-link">コネクタを設定するためのBlueXPドキュメント</block>
-  <block id="5969fa4f26265009c72d9843b06abaaf" category="list-text">NetApp BlueXPでは、クラウド内またはオンプレミスリージョン内のリージョンごとにBlueXPコネクタを設定する必要があります。すべてのソース環境と作業環境が同じBlueXPアカウントに属している必要があります。を参照してください<block ref="1e8f43557ce3193941a1e47864603ca9" category="inline-link-rx"></block>。</block>
   <block id="00c15e6000f2ee7d33421ec117c11c12" category="admonition">BlueXPコネクタが複数ある場合は、BlueXP UIに現在表示されているコネクタ以外のすべてのコネクタのデータがスキャンされます。</block>
   <block id="c5c84330043d2e887d72c591baa2b9c1" category="list-text">作業環境でバックアップを有効にしたBlueXPのバックアップとリカバリサービス</block>
-  <block id="e674877356cdb2cee43ab26b58b3e4b2" category="list-text">オンプレミスストレージのNetApp NASを使用するBlueXP作業環境をセットアップする必要があります。</block>
   <block id="801e5ac526198ee67b36c61b75c65eab" category="inline-link">BlueXPの標準の要件</block>
   <block id="5b4e347dbf978618d47c067b87ad3fe2" category="list-text"><block ref="5b4e347dbf978618d47c067b87ad3fe2" category="inline-link-rx"></block></block>
   <block id="4d6682b21a77873fe9ae34d7fc255020" category="summary">NetApp BlueXPランサムウェア対策サービスは、数ステップで開始できます。</block>
@@ -148,7 +143,6 @@
   <block id="8e22c5498680469033ebfa929699936b" category="paragraph">BlueXPのランサムウェア対策サービスは、複数のNetAppテクノロジをフル活用して、ストレージ管理者、データセキュリティ管理者、セキュリティ運用エンジニアが次の目標を達成できるようにします。</block>
   <block id="9d853594c14418b8d0b52863e0a28def" category="list-text">* BlueXPのアカウント、ワークスペース、BlueXPコネクタにわたって、オンプレミスのNetApp NASとNFSの作業環境にある、アプリケーションベース、ファイル共有、VMwareが管理するワークロードをすべて特定*します。次に、データの優先順位を分類し、ランサムウェア対策の強化に関する推奨事項を提供します。</block>
   <block id="054bc259e9aa68fb8f3bfe542d228b0b" category="list-text">*データ上のバックアップやSnapshotコピーを有効にして、ワークロードを保護*します。</block>
-  <block id="6c11e8697d3ab5a813df854504294dee" category="list-text">*ランサムウェア攻撃につながる可能性のある異常を検出*します。</block>
   <block id="1ab12f307bedb7d5749a279e1a0934fb" category="list-text">* NetApp ONTAP Snapshotコピーを自動的に開始して、ランサムウェア攻撃の可能性に対応*します。</block>
   <block id="833da0c333e295aca4bc69596dd1dd5e" category="list-text">*複数のNetAppテクノロジーをオーケストレーションすることで、ワークロードのアップタイムを促進するワークロードをリカバリ*します。ボリューム、フォルダ、または特定のファイルのリカバリを選択できます。このサービスは、最適なオプションに関する推奨事項を提供します。</block>
   <block id="0939045244bbd868a8a6209521a2393b" category="inline-image-macro">BlueXPのランサムウェア対策戦略（特定、保護、検出、対応、リカバリ）を示す図</block>
@@ -162,7 +156,6 @@
   <block id="36b4276d015bcc4d4f2b814e00d505a3" category="list-text">MySQL、Oracle、VMwareデータストア、ファイル共有など、最上位のアプリケーションベースワークロードのデータを保護します。</block>
   <block id="c530e1fdcf59b6298208943bc8050282" category="list-text">AIテクノロジを活用して、プライマリストレージ上のデータに対するランサムウェア攻撃をリアルタイムで検出します。</block>
   <block id="667ae4a3ddaeba61dcd0dd502f839dd4" category="list-text">Snapshotコピーを作成し、異常なアクティビティに関するアラートを開始することで、検出された潜在的な攻撃に対応して自動化されたアクションを開始します。</block>
-  <block id="af90262378ae6a76b534572cdec3141a" category="list-text">RPOポリシーを満たすために、厳選されたリカバリを適用します。BlueXPのランサムウェア対策は、BlueXPのバックアップとリカバリ（旧称Cloud Backup）やSnapCenterなどの複数のNetAppリカバリサービスを使用して、ランサムウェアインシデントからのリカバリをオーケストレーションします。</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">コスト</block>
   <block id="c97a151b4a2a7746384f6169486f1c37" category="paragraph">プレビュー版のBlueXPランサムウェア対策を使用した場合、NetAppから料金が請求されることはありません。</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">ライセンス</block>
@@ -182,7 +175,6 @@
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="doc"></block>
   <block id="4171cc11dd4504077ddb2ccdaed2ec52" category="list-text">BlueXPに接続されているオンプレミスのNAS（NFSマウント）データをすべて検出</block>
   <block id="bbbbcb8f41827abddd8ec6151fdf9e99" category="inline-link">SnapCenter ソフトウェア</block>
-  <block id="0101be00694088a1944bea83a894d482" category="list-text">ONTAPおよびSnapCenterサービスAPIから取得した顧客データを特定し、ワークロードに関連付けます。の詳細を確認してください<block ref="a16fd9a0601d0464b4c9ce4f59c2454b" category="inline-link-rx"></block> および<block ref="d4e2312364a2363181c5807750f77d43" category="inline-link-rx"></block>。</block>
   <block id="533c17bbfdfb297420db9af0908070d6" category="inline-link">自律的なランサムウェア防御</block>
   <block id="ede1cce9f240fed5ecc4264bd699cee1" category="inline-link">BlueXPのバックアップとリカバリ</block>
   <block id="979c3c6b5244c20c75d5ab60dd8566cb" category="inline-link">BlueXP Digital Advisor</block>
@@ -192,16 +184,11 @@
   <block id="472b4a66f24a5029874468d609155979" category="list-text">自動的に検出された保護レベルに基づいて各ワークロードにビジネス優先度を割り当て、ビジネス優先度に基づいてワークロードに保護ポリシーを推奨します。</block>
   <block id="3b07a7551ed4aba9700a33a9931f3be8" category="list-text">ランサムウェア対策は、ポリシーの関連付けを学習し、類似するワークロードに対してカスタムポリシーを推奨します。</block>
   <block id="f23d5c00c473a2e87ffcd7a0eedb89b5" category="cell">*保護*</block>
-  <block id="94b9510644005c8e4758c739a98cc85f" category="list-text">特定された各ワークロードにポリシーを適用することで、ワークロードをアクティブに監視し、BlueXPのバックアップとリカバリ、SnapCenterサービス、ONTAP APIの使用をオーケストレーションします。</block>
   <block id="bd86dbcbafa7a7406429c16dcbb97e30" category="cell">*検出*</block>
-  <block id="d410b0774101ae8af3a5526e278c46bc" category="list-text">潜在的に異常な暗号化とアクティビティを検出する統合機械学習（ML）モデルを使用して、潜在的な攻撃を検出します。悪意のあるファイルの暗号化を検出する機械学習（ML）モデルであるNetAppの高度なランサムウェア検出機能を使用して、ランサムウェア対策テクノロジを適用します。</block>
   <block id="c69ab1786234ed8d66d89ba56a6b84ea" category="list-text">プライマリストレージにおけるランサムウェア攻撃の可能性を検出し、自動化されたSnapshotコピーを追加で作成して最も近いデータリストアポイントを作成することで、異常なアクティビティに対応することから始まる、デュアルレイヤの検出機能を提供します。このサービスは、プライマリワークロードのパフォーマンスに影響を与えることなく、潜在的な攻撃をより詳細に特定する機能を提供します。</block>
-  <block id="e9346d2ea694221ca6fabef56bb6e422" category="list-text">ONTAP、自律型ランサムウェア対策、FPolicy、高度なランサムウェア検出機能を使用して、特定の疑わしいファイルを特定し、その攻撃を関連するワークロードにマッピングします。</block>
   <block id="14b17e6824f78ccf342b387a603935dc" category="cell">*応答*</block>
   <block id="4dd88eaac510fe3eb4a3ed59e5f8d753" category="list-text">ファイルアクティビティ、ユーザアクティビティ、エントロピーなどの関連データが表示され、攻撃に関するフォレンジックレビューを完了できます。</block>
-  <block id="ebff656b384375005eb3bdca2929e162" category="list-text">ONTAP、Autonomous Ransomware Protection、FPolicy、Advanced Ransomware ProtectionなどのNetAppテクノロジや製品を使用して、Snapshotコピーを迅速に作成します。</block>
   <block id="5fefe6c4ada89d95390ae77eba79e7db" category="cell">*リカバリ*</block>
-  <block id="df6246c81b14098c7e912615a473f42b" category="list-text">BlueXPのバックアップとリカバリ、ONTAP、自律型ランサムウェア対策、FPolicy、高度なランサムウェア対策のテクノロジとサービスを使用して、最適なSnapshotまたはバックアップを特定し、実際のリカバリポイント（RPA）を推奨します。</block>
   <block id="f2ebc260c3bb5480d4c44df78fb6efb7" category="list-text">アプリケーションと整合性のある状態で、VM、ファイル共有、データベースなどのワークロードのリカバリをオーケストレーションします。</block>
   <block id="5148a3fb1af9478ff0f5eba22906cb56" category="section-title">サポートされるバックアップターゲット、作業環境、データソース</block>
   <block id="8e8e822d67678fb2aeb7e40ea6441d4d" category="paragraph">BlueXPランサムウェア対策のプレビューでは、次のタイプのバックアップターゲット、作業環境、データソースに対するサイバー攻撃に対するデータの耐障害性を確認できます。</block>
@@ -221,255 +208,9 @@
   <block id="77460e2b891748333455193aadd137d8" category="paragraph">ランサムウェア対策に関連する用語を理解しておくと便利です。</block>
   <block id="a2818baee9a41e8ce28144cd422f76b5" category="list-text">*保護*：BlueXPのランサムウェア対策の保護とは、保護ポリシーを使用して、Snapshotと変更不可のバックアップを別のセキュリティドメインに定期的に実行することを意味します。</block>
   <block id="772d9b937d45471f673b3d635c274f1c" category="list-text">*ワークロード*：BlueXPランサムウェア対策プレビューのワークロードには、MySQL、Oracleデータベース、VMwareデータストア、ファイル共有を含めることができます。</block>
-  <block id="b0cbe5efcc20aee32deb4fe58d0f62aa" category="summary">Ransomware Recover Dashboardには、ランサムウェアに感染した可能性のあるデータをリカバリするためのオプションが用意されています。これにより、システムを迅速にバックアップして稼働させることができます。</block>
   <block id="f8a7dc43864435cb9b522a28b586e556" category="doc">ランサムウェア攻撃からリカバリ</block>
-  <block id="1b017e95a6024c5c0b795599791855e2" category="paragraph">BlueXPランサムウェア対策のリカバリダッシュボードには、ランサムウェアに感染した可能性のあるデータをリカバリするためのオプションが用意されています。これにより、システムを迅速にバックアップして稼働させることができます。</block>
-  <block id="b4786072a496e07406b4ecf014a9b781" category="paragraph">BlueXPのランサムウェア対策ダッシュボードの[Ransomware Incidents]パネルで、ボリュームがランサムウェアに感染したことが示された場合は、*[Recover]*ボタンをクリックして問題 の解決を試みることができます。</block>
-  <block id="d85b2cd78eec6c9a32deb0f3cc5bd884" category="paragraph">現時点では、Ransomware Recover Dashboardを使用して、感染したボリュームをランサムウェアの影響を受けていないSnapshotコピーに置き換えることができます。</block>
-  <block id="3484aab75133e0a1df276eca70de4253" category="list-text">ランサムウェアに感染したボリュームの[Ransomware Incidents]パネルで*[Recover]*をクリックします。</block>
-  <block id="c6eef1a66436b8584344e9ce1a7643ba" category="paragraph">Ransomware Recover Dashboardにボリューム名が表示されます。</block>
-  <block id="e1593986f9bacc9fa8ab546cf33321af" category="inline-image-macro">BlueXPランサムウェア対策リカバリダッシュボードのスクリーンショット。</block>
-  <block id="3eb84558a744672908043710646329fa" category="paragraph"><block ref="3eb84558a744672908043710646329fa" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a247ece129c3bf68fcaf70d281165871" category="list-text">[ Snapshotの表示]*をクリックして、そのボリュームで使用可能なSnapshotコピーのリストを表示します。</block>
-  <block id="b3b0acb4492a6d8a5ee1602fadc07197" category="inline-image-macro">破損したボリュームのリカバリに使用できるSnapshotコピーのスクリーンショット。</block>
-  <block id="24d03173e97c9c58f079dfe7f4965b22" category="paragraph"><block ref="24d03173e97c9c58f079dfe7f4965b22" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3b243af5019c9310da206cc47c2771af" category="list-text">暗号化されたデータがないSnapshotを選択し、*[リカバリ]*をクリックします。</block>
-  <block id="483a967df2597da9a5c6ea857e875a9f" category="list-text">[Recover data from selected Snapshot]ダイアログで、*[Yes]*をクリックしてSnapshotからデータをリカバリします。</block>
-  <block id="cf42e98a3682dcec380bde2d96554b9d" category="paragraph">Snapshotのリカバリステータスを確認したり、Snapshotによって破損したボリュームがいつリストアされたかを確認したりできます。</block>
-  <block id="a0d21e115eb4ff2d2917d7b47ed4bd8a" category="inline-image-macro">Snapshotによって破損したボリュームがリカバリされたことを示すスクリーンショット。</block>
-  <block id="787e99d6ae61d7d5b2b454ddaddcb822" category="paragraph"><block ref="787e99d6ae61d7d5b2b454ddaddcb822" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
-  <block id="0ed34f9da17fe0982ec5857b2c044196" category="paragraph">破損したボリュームは、過去に作成されたSnapshotを使用してリカバリされています。</block>
-  <block id="f35deb8f629a463fa7eb5e392bea321e" category="paragraph">最新のSnapshot以外のSnapshotからリストア処理が実行された場合、リストア後に破損している可能性があるため、より新しいSnapshotコピーもすべてONTAPシステムから削除されます（上のスクリーンショットを参照）。</block>
-  <block id="7d868bd9240b323d4fa8434926d58091" category="summary">BlueXPランサムウェア対策ダッシュボードでは、BlueXPのすべての作業環境とその他のデータソースのサイバーレジリエンスの概要を確認できます。各領域にドリルダウンすると、詳細および考えられる対処方法を確認できます。</block>
-  <block id="4598db4be43bf3297366acd4930b0202" category="doc">データソースのサイバーセキュリティに関する推奨事項を管理</block>
-  <block id="3b854a67986961dfef3ff605a35936d9" category="paragraph">BlueXPランサムウェア対策ダッシュボードでは、BlueXP（旧Cloud Manager）のすべての作業環境とその他のデータソースのサイバーレジリエンスの概要を確認できます。各領域にドリルダウンすると、詳細および考えられる対処方法を確認できます。</block>
-  <block id="f06a4ba6ca79f996abe9514901c94a4d" category="paragraph">BlueXPの左側のナビゲーションメニューから、* Governance &gt; Ransomware Protection *を選択します。</block>
-  <block id="2f0abd37d1898da3b2bca11d4173d27b" category="inline-image-macro">BlueXPランサムウェア対策ダッシュボードのスクリーンショット。</block>
-  <block id="59dfd3892b109962d573e0c503f6fe0c" category="paragraph"><block ref="59dfd3892b109962d573e0c503f6fe0c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8e0f84364d9fe671a1c0230eed8bfcbe" category="section-title">ランサムウェア攻撃からの保護スコアと推奨アクション</block>
-  <block id="27b6d34af47e0f3ad6a43f524c09dca2" category="paragraph">ランサムウェア防御スコアパネルでは、データがランサムウェア攻撃に対する耐障害性を簡単に確認できます。これは、データ セキュリティ の姿勢とサイバーの耐障害性を向上させるために実行することを推奨するすべてのアクションを集約したものです。このパネルは、[推奨されるアクション]パネルと連動します。ランサムウェア防御スコアパネルには、次の2つの部分があります。</block>
-  <block id="b8bfbc1d1e44f9eeff0ccfdebda4b63b" category="list-text">データの全体的な保護スコア（0~100%保護）。</block>
-  <block id="a16aee88829b47a361ba9bbbbc934a75" category="paragraph">スコアは、考えられるすべての推奨事項の加重計算に基づいています。</block>
-  <block id="fa7008b023494ac1c569504beecfad64" category="list-text">推奨事項を実施する場合、保護を100%に引き上げるために推奨されるアクションの数。</block>
-  <block id="533bce3246d037e8420031d7f7887bdf" category="inline-link">サイバーセキュリティに関するNISTフレームワーク</block>
-  <block id="139c30b065cc71bd01be3875a6804604" category="paragraph">推奨される3種類の対処方法は、に従っています<block ref="991ce1a9b761ae9d095337b2ba7fca6c" category="inline-link-rx"></block>：</block>
-  <block id="97740c0c87b83b324e18993ba93f0617" category="list-text">保護</block>
-  <block id="233e33f8fdca7b4cc98503e42feac9cf" category="list-text">検出</block>
-  <block id="556b050ce914d18480d6ea30308c7790" category="list-text">リカバリ</block>
-  <block id="f578142a936c7c909b367d49e737c454" category="inline-image-macro">ランサムウェア防御スコアパネルと推奨アクションパネルを示すスクリーンショット。</block>
-  <block id="b833f6d330cc0bb97e4fed79128942b7" category="paragraph"><block ref="b833f6d330cc0bb97e4fed79128942b7" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e01ff11dd502e204ca3265cfab781ba5" category="paragraph">このページの例では、「保護」カテゴリに7つの推奨アクションがあります。最初の推奨事項は258ファイルに関連しています。</block>
-  <block id="816e47dfbe22fdd831e40afa2c827286" category="paragraph">このパネルでは、BlueXPに追加された作業環境とデータソースがサポートされます。</block>
-  <block id="4432bc47ae4bb8e25092e45a1f42f847" category="paragraph">推奨事項はデータソースごとに適用されます。そのため、3つのデータソースに同じ推奨事項が関連している場合は、3つの推奨事項としてカウントされます。</block>
-  <block id="0231cb971bb3375c29d3f87768ec4489" category="inline-image-macro">下矢印ボタン</block>
-  <block id="e39afe0291d2d021230633043b9cb6f5" category="paragraph">をクリックできます <block ref="68009ec8a10651d6de3d648624efb837" category="inline-image-macro-rx" type="image"></block> をクリックして、推奨されるそれぞれのアクションを展開します。</block>
-  <block id="a9e52a6c6443e176596ad03f788c58e2" category="inline-image-macro">推奨される操作パネルのスクリーンショットが展開され、データソースごとの合計操作数が表示されます。</block>
-  <block id="dd34c6cc8bbde7e5f0b662a3ff425fd3" category="paragraph"><block ref="dd34c6cc8bbde7e5f0b662a3ff425fd3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5f161672412dcc8584b11811d0d4f1b6" category="paragraph">推奨される対処方法があると特定されたデータの詳細なリストを表示するには、*[調査]*ボタンをクリックすると、BlueXPの分類に関する調査ページにリダイレクトされ、推奨される対処方法の条件を満たすすべてのファイルのリストが表示されます。</block>
-  <block id="577e4e7be985471f75ff9f32a823bd68" category="paragraph">その後、推奨される処理をすべてのファイルに適用するか、一部のファイルにのみ適用するかを決定できます。</block>
-  <block id="4ce3362ae9ec6eab6899148eb83ce0ad" category="paragraph">推奨される対処方法を修正すると、次回のランサムウェア防御スコアパネル（5分ごと）の更新でスコアの数値が調整されます。また、「再スキャン*」ボタンをクリックして、今すぐページを更新することもできます。</block>
-  <block id="aacc9e24b30418421773eaaf9a04dbe6" category="section-title">推奨される対処方法のリスト</block>
-  <block id="111d59c97464a4e15b2206467fc17f87" category="paragraph">これらは、現在追跡されている推奨処置および推奨される解決策です。</block>
-  <block id="edd3503e6acbd23a14e092fcc5663110" category="cell">推奨される対処方法</block>
-  <block id="2885150484bd032660e13db7ced8dfa9" category="cell">解決策 の可能性があります</block>
-  <block id="7ca78460fe96ebfa88a5cf50cd6e11de" category="cell">幅広い権限を持つXの機密項目の権限を減らします</block>
-  <block id="c494b69405aeaa632486c0b17ae21b66" category="cell">権限が開いている機密ファイルがBlueXPの分類によってデータソースで見つかりました。これには、「組織に対して開く」権限または「公開する」権限を持つ機密データ（個人データおよび機密性の高い個人データ）がすべて含まれます。</block>
-  <block id="6df137dfbbebdd6f8c29d7925a21fdae" category="cell">各データソースの*[調査]*ボタンをクリックすると、BlueXPの分類[Investigation]ページにリダイレクトされます。ここでは、リスクにさらされているすべての機密ファイルを確認し、リスクを軽減するための対策を講じることができます。これには、これらのファイルに対する幅広い権限を減らす方法も含まれます。</block>
-  <block id="91e64c82f9432551e95cf364c56ce8de" category="cell">Xの機密項目をYの保護されていないデータソースから安全な場所に移動します</block>
-  <block id="17b0d2cdd775227498f289eee8172525" category="cell">BlueXPの分類では、保護されていないデータソースに機密データが見つかりました。これらのデータソースでは、ランサムウェア対策ソフトウェアでデータを保護できません。通常、IT組織には、特定の企業の場所から機密データを制限するポリシーがあります。この推奨処置により、機密データを含むファイルを特定し、安全なデータソースに移動できます。ここで、センシティブ*を格納できます。</block>
-  <block id="9a139ea0efa1c20c6bd2e67ac0eaa8c7" category="inline-link">ソースファイルをNFS共有に移動します</block>
-  <block id="96ad57a83df01283af742d2827b75022" category="cell">BlueXPの分類を使用すると、これらのファイルをより保護されたデータソースにすばやく移動できます。BlueXPの分類機能を使用して<block ref="e2f07480b4351a3cce448e96761970d7" category="inline-link-rx"></block>。</block>
-  <block id="c776adbc3333e3970c8215d656e1eed1" category="cell">Yデータソース全体でXオープンCBEにパッチを適用します</block>
-  <block id="9bee38d399e255dd9bc649d4f82fb6ee" category="inline-link">製品のセキュリティページ</block>
-  <block id="1b3b76c148f43c2bc1a7014df6266faf" category="cell">パッチを適用していないCVE（Common Vulnerabilities and Exposures）は、オンプレミスのONTAP システムまたはCloud Volumes ONTAP システムで確認されています。これらの問題は、BlueXPデジタルアドバイザ製品（旧Active IQ デジタルアドバイザ）がストレージシステムに統合されている場合にのみ特定されます。これらは、CVEの解決に利用できる修正プログラムを備えたネットアップストレージシステム上の既知の脆弱性です。ネットアップのCSEはに記載されています<block ref="e28d65473617bfce242ef884688e92f6" category="inline-link-rx"></block>。</block>
-  <block id="8c0b6501ebe9ec1476fe9bca5edf9e3a" category="inline-link">「セキュリティの脆弱性」ページの詳細をご覧ください</block>
-  <block id="4b8c9c09f1daf7d518da8f396d834ccf" category="cell">各データソースの* Digital Advisor *ボタンをクリックすると、BlueXPデジタルアドバイザの_セキュリティの脆弱性_ページにリダイレクトされます。ここでは、未解決のCVEの詳細と、各CVEを解決するための推奨処置を確認できます。多くの場合、この問題を解決するには、システムのONTAP ソフトウェアをアップグレードします。<block ref="da94878c78936b613d98b2b798a070c8" category="inline-link-rx"></block>。</block>
-  <block id="bb5343a11d0642122707b5c075d09975" category="cell">ビジネスクリティカルなデータを設定</block>
-  <block id="7826d28bca92dc4a0b3f1b61d9c251ca" category="cell">ビジネスクリティカルなデータ設定ページでビジネスクリティカルなデータポリシーを定義していません。重要なのは、ランサムウェアによるデータの問題が深刻化する可能性を判断するために、ビジネスクリティカルなデータとして何を検討しているかを特定することです。</block>
-  <block id="316109cda0dba05546d59b042dfea400" category="inline-link-macro">ビジネスクリティカルなデータポリシーの設定と選択の詳細については、こちらをご覧ください</block>
-  <block id="9fe6fa684e5161b2c41ee67238cf1252" category="cell">をクリックします <block ref="68009ec8a10651d6de3d648624efb837" category="inline-image-macro-rx" type="image"></block> 推奨事項を展開し、リンクをクリックして、[Business Critical Data Configuration]ページを開きます。次に、ビジネスクリティカルなデータを定義するポリシーを選択できます。 <block ref="4895e16f799fc4e9d7a5e671ef62d80c" category="inline-link-macro-rx"></block>。</block>
-  <block id="c342dcf71335803685c4b14600d257f8" category="cell">YデータソースのX個のビジネスクリティカルなファイルをバックアップします</block>
-  <block id="1c25be1d1c90687e2e4957830573eccd" category="cell">BlueXPのバックアップとリカバリを使用して、最も重要なカテゴリのデータをどれだけ包括的にパブリッククラウドやプライベートクラウドにバックアップしているかを確認できます。推奨事項には、ビジネスクリティカルなデータを定義した場合にのみ推奨事項が表示されます。これは、ランサムウェア攻撃によってデータをリカバリする必要がある場合に重要です。この推奨事項では、オンプレミスのONTAP とCloud Volumes ONTAP の作業環境のみが示されています。</block>
-  <block id="f1dbc37910cfdadbc2a30140d8a0ab92" category="cell">をクリックします <block ref="68009ec8a10651d6de3d648624efb837" category="inline-image-macro-rx" type="image"></block> をクリックして推奨構成を展開し、各データソースの*[バックアップ]*ボタンをクリックすると、BlueXPバックアップおよびリカバリサービスにリダイレクトされます。そこで、必要なボリュームでバックアップを有効にすることができます。</block>
-  <block id="48077a683a79ae697902975fc435a0a5" category="cell">Xデータソースのサイバーストレージ構成をオンにします</block>
-  <block id="51422c9162882128c45907204085b268" category="paragraph">この推奨事項により、データの保護に役立つ6つのONTAP 機能が有効になっているか無効になっているかが特定されます。すべての項目を有効にする必要があります。項目は次のとおりです。</block>
-  <block id="d59048f21fd887ad520398ce677be586" category="inline-link">詳細はこちら。</block>
-  <block id="16a47fdd57b71de1b87f3cd58b00467d" category="list-text">Snapshot -必要に応じてボリュームデータをリストアできるように、ボリュームのSnapshotコピーを作成する必要があります。<block ref="650870d84c3b259483598b9956d718a1" category="inline-link-rx"></block>。</block>
-  <block id="6cb54d80b5723fc536102947187b0954" category="list-text">FPolicy -ファイルに変更を加えたユーザを特定する必要がある場合にファイル操作を監視できるように、データをキャプチャする必要があります。<block ref="aa8f39fd3d8335d2ba2c75725e5c2c16" category="inline-link-rx"></block>。</block>
-  <block id="686bf31368d052c224007c0375d5c01c" category="list-text">SnapMirror -必要に応じてボリュームデータをリストアできるように、セカンダリストレージにボリュームのコピーを作成する必要があります。<block ref="5d845c0504d99b49194d27b4106a579c" category="inline-link-rx"></block>。</block>
-  <block id="08c38ad5b85c05630edecb4877739f7e" category="list-text">MAV -複数管理者認証を有効にして、ボリュームの削除などの特定の操作を管理者からの承認後にのみ実行できるようにする必要があります。<block ref="90176c9d923b92f43123c71fa3a9ad45" category="inline-link-rx"></block>。</block>
-  <block id="3c66363f4ceef0d76ac5c23939f566b5" category="list-text">ARP -システムがランサムウェアの試みを検出して自動的に対応できるように、Autonomous Ransomware Protection（Onbox Anti-ransomware）を有効にする必要があります。<block ref="428972a0f7820af1d91d4d768dc5ca73" category="inline-link-rx"></block>。</block>
-  <block id="39858663dc11c8522d82608ee2895d0e" category="inline-link">オンプレミスのONTAP システム</block>
-  <block id="e0264a304819a3f8b186b83ad45f91c5" category="inline-link">Cloud Volumes ONTAP システム</block>
-  <block id="7bda34e86c4096cd2e289b214a79e7e8" category="list-text">バージョン-最高のパフォーマンスとセキュリティを得るには、ONTAP ソフトウェアの最新リリースを実行する必要があります。詳細については、をご覧ください<block ref="9fb00eb12434c2c155b0deadd8b48223" category="inline-link-rx"></block> およびのため<block ref="5c4ab4631514663c6f5829c763bf673d" category="inline-link-rx"></block>。</block>
-  <block id="e75d4cf71366f3f6d4c465acff47a430" category="cell">これら6つのONTAP 機能を有効にする方法の詳細については、前の列のリンクを参照してください。</block>
-  <block id="0548cb97d94f19991153f1d73928b898" category="section-title">サイバーレジリエンスマップ</block>
-  <block id="25386dd31b2de7fb09ac2a3667151f9f" category="paragraph">レジリエンス・マップは、ダッシュボードのメイン領域です。これにより、すべての作業環境とデータソースを視覚的に表示し、関連するサイバー復元情報を表示できます。</block>
-  <block id="80ab2a6ba92b0510ffdd8c2ef1cc198d" category="inline-image-macro">BlueXPランサムウェア対策ダッシュボードのサイバーレジリエンスマップのスクリーンショット。</block>
-  <block id="f0926af28e47b0e5cb83c777a0b66ab5" category="paragraph"><block ref="f0926af28e47b0e5cb83c777a0b66ab5" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5426730a36cdf51fea1c0eff90392a8d" category="paragraph">マップは 3 つの部分で構成されています。</block>
-  <block id="9128ea07aab4d047ea7db63895f59084" category="list-text">左パネル</block>
-  <block id="cfe88906c159ba2224259aff51093f2b" category="list-text">すべてのデータソースについてサービスが監視しているアラートのリストが表示されます。また、環境内でアクティブになっている個々のアラートの数も示します。アラートの種類を 1 つ多く設定することは、そのアラートを先に解決しようとするよい理由になります。</block>
-  <block id="c2e0a4d3f0930bc0f0b564b584030916" category="list-text">センターパネル</block>
-  <block id="d1f02ad72bb94fea17c368f0df9691c3" category="list-text">すべてのデータソース、サービス、および Active Directory がグラフ形式で表示されます。正常な環境では、緑のインジケータが表示され、アラートがある環境では赤色のインジケータが表示されます。</block>
-  <block id="d8e6245ab3afebc14b303772f1a70a65" category="list-text">右パネル</block>
-  <block id="965482269fd6830f57f8a78804eff608" category="list-text">赤のインジケータが表示されているデータソースをクリックすると、そのデータソースのアラートが表示され、アラートを解決するための推奨事項が提示されます。アラートはソートされて、最新のアラートが最初に表示されます。多くの推奨事項が、問題 を解決できる別のBlueXPサービスにつながります。</block>
-  <block id="74aded2ba2d54cc0a1010549762c6894" category="paragraph">これらは、現在追跡されているアラートおよび推奨される対処方法です。</block>
-  <block id="b92071d61c88498171928745ca53078b" category="cell">アラート</block>
-  <block id="282baca6aef56652f503adce6afa9f07" category="cell">修正</block>
-  <block id="b643ef329f114f3897ccc4e29b66a128" category="cell">高いデータ暗号化レートが検出されました</block>
-  <block id="cebd2a5b90846add1fd8575a57762d78" category="cell">データソースで暗号化ファイルまたは破損ファイルの割合が異常に増加しています。つまり、過去 7 日間の暗号化ファイルの割合が 20% を超えました。たとえば、ファイルの 50% が暗号化されている場合は、この値が 1 日後に 60% に増えてしまうと、このアラートが表示されます。</block>
-  <block id="93cf6a6fe0793fdaef68f82e6efcf787" category="inline-link">BlueXPの分類の[Investigation]ページを参照してください</block>
-  <block id="b24d103d7b88ab12c20065ee354d289a" category="cell">リンクをクリックしてを起動します<block ref="7dd0988c8f3af602ecae0cd47a950d39" category="inline-link-rx"></block>。ここでは、特定の _ 作業環境 _ および _ カテゴリ（暗号化および破損） _ のフィルタを選択して、すべての暗号化および破損したファイルのリストを表示できます。</block>
-  <block id="5d2ff422e39fd3e94e381ee143e990e1" category="cell">広範囲の権限を持つ機密データが見つかりました</block>
-  <block id="48f8c5115f15ad05b232939d1e419e4e" category="cell">機密データがファイルに見つかりました。データソースのアクセス権限レベルが高すぎます。</block>
-  <block id="56a94d8323cda12a347c15b9c1d87590" category="cell">リンクをクリックしてを起動します<block ref="68232eccb5fd9ab6f8a94af47ebce2bd" category="inline-link-rx"></block>。ここでは、特定の _ 作業環境 _ 、 _ 感度レベル（機密性の高い個人） _ 、 _ 許可 _ のフィルタを選択して、この問題 を持つファイルのリストを表示できます。</block>
-  <block id="42dbba5cb74b33c2a91281d8db12d018" category="cell">BlueXPのバックアップとリカバリを使用してバックアップされていないボリュームがあります</block>
-  <block id="de4e03f52cb5c16164b5de605bbd058d" category="cell">を使用して、作業環境内の一部のボリュームが保護されていません<block ref="238f65d8124d9fce2c3e9e1c7b70b0d8" category="inline-link-rx"></block>。</block>
-  <block id="43372692d27cde33f4f5cd2a25af2762" category="cell">リンクをクリックしてBlueXPのバックアップとリカバリを起動します。作業環境にバックアップされていないボリュームを特定し、それらのボリュームでバックアップを有効にするかどうかを決定します。</block>
-  <block id="e431651544241327362f0da6e8749444" category="cell">データソース内の1つ以上のリポジトリ（ボリューム、バケットなど）がBlueXPの分類でスキャンされていません</block>
-  <block id="4cc849f381058f76f6b72a1c4279393d" category="inline-link">BlueXPの分類</block>
-  <block id="15df2c2251be9f442cb04f57ae53b5bc" category="cell">データソースの一部のデータがを使用してスキャンされていません<block ref="9f1ec2087e0d1ce18384b513ed9384ac" category="inline-link-rx"></block> コンプライアンスやプライバシーに関する懸念を特定し、最適化の機会を見つける。</block>
-  <block id="2a21b0dc55841f9cfb616dd143b4cd17" category="cell">リンクをクリックしてBlueXP分類を起動し、スキャンされていない項目のスキャンとマッピングを有効にします。</block>
-  <block id="5592b65ac68ee08e7e4d72e1db4c8c57" category="cell">組み込みのランサムウェア対策は、ボリュームによってはアクティブにならない場合があります</block>
-  <block id="3e4cd8785a12dd4af37c0d4961022f96" category="inline-link">ネットアップのランサムウェア対策機能</block>
-  <block id="7aa34ccd4933956082a1db1a1dcb9386" category="cell">オンプレミスのONTAP システムにある一部のボリュームにはがありません<block ref="c430ca7dfd9bb0dbfe1053348a62639f" category="inline-link-rx"></block> 有効。</block>
-  <block id="f8aa88150742f7039dc7a7ef56fe7ecc" category="inline-xref">ONTAP 環境パネルを強化します</block>
-  <block id="fda1498fd18521d8c00ada8cf68c0f89" category="cell">リンクをクリックすると、にリダイレクトされます <block ref="e60df9b32c12ff1b69061e150f46f08e" category="inline-xref-macro-rx"></block> 問題 を使用して作業環境にアクセスできます。ここで、問題 の修正方法を調査できます。</block>
-  <block id="c13d5346bb8b2abfdcb9c4d94c922f1a" category="cell">ONTAP のバージョンが更新されていません</block>
-  <block id="9c7ce6244ca9eb3215d61dd69afa3325" category="inline-link">NetApp Security Hardening Guide for ONTAP Systems</block>
-  <block id="d001b5ead06b9ede8cbbf86a37adc3ec" category="cell">クラスタにインストールされているONTAP ソフトウェアのバージョンが、での推奨事項に従っていません<block ref="060f8a2b53a60ac49c67caafaf5b129f" category="inline-link-rx"></block>。</block>
-  <block id="0a7f54737c4406db7936c0b0bffb40ef" category="cell">一部のボリュームに対してSnapshotが設定されていません</block>
-  <block id="0bc3a3903adf836de2c855cd40611eab" category="cell">作業環境内の一部のボリュームは、ボリュームSnapshotを作成して保護されていません。</block>
-  <block id="c4839802587ac50cbe60ffdc49b98465" category="cell">すべてのSVMでファイル処理の監査が有効になっているわけではありません</block>
-  <block id="112dc676159587048198f85964d6516d" category="cell">作業環境内の一部のStorage VMでファイルシステムの監査が有効になっていません。ファイルに対するユーザのアクションを追跡できるようにすることをお勧めします。</block>
-  <block id="2a616a7e873712e5b6e2b2ace9afd42d" category="cell">リンクをクリックすると、にリダイレクトされます <block ref="e60df9b32c12ff1b69061e150f46f08e" category="inline-xref-macro-rx"></block> 問題 を使用して作業環境にアクセスできます。SVMでNASの監査を有効にする必要があるかどうかを調査できます。</block>
-  <block id="c28bb24720dd383d7a0b5ae4027369b4" category="section-title">ランサムウェアのインシデントがシステムで検出されまし</block>
-  <block id="f6e08eba5ce5d68574b355f5717a86dc" category="paragraph">管理対象システムで検出されたランサムウェアのインシデントは、_Ransomware incidents_panelでアラートとして表示されます。暗号化イベント、疑わしいファイルの拡張子、ランサムウェアのアクティビティ、悪意のあるアクティビティなどが該当します。このパネルには、インシデントのタイプと、問題 を解決するために実行された自動アクションが表示されます。たとえば、ボリュームのSnapshotコピーを生成してクラウドに送信できます。</block>
-  <block id="16135acbc32c7e8ab88519d9d0f56666" category="inline-image-macro">ランサムウェアインシデントパネルのスクリーンショット。</block>
-  <block id="7ad0aa30c7cf42540304daceefad2ef3" category="paragraph"><block ref="7ad0aa30c7cf42540304daceefad2ef3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9777bf21c9cc4bdea91c52481d6c026f" category="inline-link">ONTAP によるランサムウェア対策の詳細をご確認ください</block>
-  <block id="a090375f6841bf922c5f901506e012f5" category="paragraph">現在サポートされているのは、Autonomous Ransomware Protection（ARP；自律ランサムウェア保護）を実行しているオンプレミスのONTAP クラスタです。ARPでは、NAS（NFSおよびSMB）環境のワークロード分析を使用して、ランサムウェア攻撃を示す可能性のある異常なアクティビティをプロアクティブに検出し、警告します。<block ref="a2571d828e6659312db9b776c5b6d1cd" category="inline-link-rx"></block>。</block>
-  <block id="9c53a033c0bf8f0d387a7f9d9871b450" category="paragraph">をクリックできます <block ref="68009ec8a10651d6de3d648624efb837" category="inline-image-macro-rx" type="image"></block> インシデントを展開して、疑わしいボリュームで識別された暗号化ファイルの数、ファイル拡張子のタイプ、および攻撃が発生した時間を表示します。</block>
-  <block id="e7bcef4efd8d207a462e4d97fa8ee57f" category="inline-image-macro">ランサムウェアインシデントパネルの展開を示すスクリーンショットには、ボリュームに対する自動アクションが表示されています。</block>
-  <block id="e330f9a5f861c839db51e2754e041f2b" category="paragraph"><block ref="e330f9a5f861c839db51e2754e041f2b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5ea6fc016e134ec920ec233ec5f0c965" category="inline-link-macro">リカバリダッシュボードの使用方法を参照してください</block>
-  <block id="5cfdd5f8dd9846d9c9a17741619846f0" category="paragraph">ランサムウェア攻撃からのリカバリを試みる場合は、*[リカバリ]*ボタンをクリックします。これにより、BlueXPランサムウェア対策リカバリダッシュボードが表示され、ランサムウェアの影響を受けていない古いSnapshotコピーでボリュームを置き換えることができます。 <block ref="3575c069fe31befe2dd17f42114abd3e" category="inline-link-macro-rx"></block>。</block>
   <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="list-title">前提条件</block>
-  <block id="088d3d49032d6dd1afda5114a23e63c3" category="list-text">ONTAP 9.11以降を実行するオンプレミスのONTAP クラスタが必要です。</block>
-  <block id="46678f366c58742b82911dfe835f42e5" category="list-text">クラスタ内の少なくとも1つのノードに* Anti-Ransomware *ライセンス（ONTAP 9.11.1+）をインストールしておく必要があります。</block>
-  <block id="195f5c23d3e8617ca65758cb92ce66bf" category="inline-link">『How to enable Autonomous Ransomware Protection』をご覧ください</block>
-  <block id="8bcf1b06d33b6dc50f6128716379fb82" category="list-text">保護する各ボリュームでARPが有効になっている必要があります。<block ref="ecd3946e063b626ce89f43f27685faa1" category="inline-link-rx"></block>。</block>
-  <block id="e8ab5b08c57f3cea21505f46341cea1c" category="list-text">ネットアップのAutonomous RansProtection（ARP）は、最初の学習期間（「dry run」）を30日間有効にしてから「active mode」に切り替えて、ワークロードの特性を評価し、ランサムウェアによる攻撃の疑いを適切に報告するのに十分な時間を確保しておく必要があります。</block>
-  <block id="3df50df725ccc280a453b2a4c657ef23" category="section-title">暗号化されたファイル別にリストされたデータ</block>
-  <block id="103f4c38cb312b04a9ff1c216d60872d" category="paragraph">_encrypted Files_panel には ' 暗号化されたファイルの割合が時間の経過に伴う上位 4 つのデータ・ソースが表示されます通常、これらはパスワードで保護されている項目です。過去 7 日間の暗号化率を比較して、 20% を超える増加のデータソースを特定することで、この比較が行われます。この量が増えると、ランサムウェアがすでにシステムに攻撃されている可能性があります。</block>
-  <block id="0d66fa6e00b328e108a949c6921023f9" category="inline-image-macro">BlueXPランサムウェア対策ダッシュボードの暗号化ファイルチャートのスクリーンショット。</block>
-  <block id="4010a3068ef84c9bf52689166a411e35" category="paragraph"><block ref="4010a3068ef84c9bf52689166a411e35" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b5320519b3467f76bd85c91c6dfb707e" category="paragraph">いずれかのデータソースの行をクリックすると、でフィルタリングされた結果が表示されます<block ref="7dd0988c8f3af602ecae0cd47a950d39" category="inline-link-rx"></block> あなたがさらに調査することができるように。</block>
-  <block id="64ea11c681029425167cb44bfc5cba6b" category="section-title">データの感度が高い上位のデータリポジトリ</block>
-  <block id="dbf745aed831082f2f3dce55616bd43f" category="paragraph">_Top Data Repositories by Sensitivity Level_ パネルには、最も機密性の高い項目を含む上位 4 つのデータリポジトリ（作業環境およびデータソース）が表示されます。各作業環境の棒グラフは、次のように分割されています。</block>
-  <block id="c2587967478c7df25fe839d6f619f443" category="list-text">機密性のないデータ</block>
-  <block id="6370c5a9859b827de2be9d30ec4b997e" category="list-text">個人データ</block>
-  <block id="0f0be2946f647a34d438bb34323fd30e" category="list-text">機密性の高い個人データ</block>
-  <block id="e98ad18eb8f74609726096faa1de40ad" category="inline-image-macro">BlueXPのランサムウェア対策ダッシュボードのデータ感度チャートのスクリーンショット。</block>
-  <block id="a0e4271f594b77210f25ba31bd3d2b22" category="paragraph"><block ref="a0e4271f594b77210f25ba31bd3d2b22" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="43ec9a8f95b41a9a8648d4df5db2c7f1" category="paragraph">各セクションにカーソルを合わせると、各カテゴリの項目の総数を確認できます。</block>
-  <block id="99878dff25e4723fe73b171f746e9caf" category="paragraph">各領域をクリックすると、でフィルタリングされた結果が表示されます<block ref="7dd0988c8f3af602ecae0cd47a950d39" category="inline-link-rx"></block> あなたがさらに調査することができるように。</block>
-  <block id="96268b99d03fa48dc821023477953820" category="section-title">ドメイン管理グループ制御</block>
-  <block id="1484c0ae97e3321c4dc842fb559cbdb5" category="inline-link">グローバル Active Directory を統合</block>
-  <block id="494e8d6e97ae42b235b147bd64c6f8e7" category="paragraph">ドメイン管理グループコントロールパネルには、ドメイン管理者グループに追加された最新のユーザーが表示され、これらのグループですべてのユーザーを許可する必要があるかどうかを確認できます。が必要です<block ref="fe6c5b6fdc78bd658d3a5c2303c6140b" category="inline-link-rx"></block> このパネルをBlueXPに分類してアクティブにします。</block>
-  <block id="038ef1f7608498ff64e15856aaf186a9" category="inline-image-macro">BlueXPランサムウェア対策ダッシュボードにドメイン管理者として追加されたユーザのスクリーンショット。</block>
-  <block id="d2957d2c390a048b2051a0a1d1f0b352" category="paragraph"><block ref="d2957d2c390a048b2051a0a1d1f0b352" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="46419f697b5cb46833f440abb15226ec" category="paragraph">デフォルトの管理者グループには、「 Administrators 」、「 Domain Admins 」、「 Enterprise Admins 」、「 Enterprise Key Admins 」、および「 Key Admins 」があります。</block>
-  <block id="0a3ec7ebb525a806c10987f8845415f7" category="section-title">オープンアクセス権のタイプ別に一覧表示されるデータ</block>
-  <block id="5cee7495b9506e6951cf37dbad40ae2d" category="paragraph">[ アクセス権を開く ] パネルには ' スキャンするすべてのファイルに存在するアクセス権の種類ごとの割合が表示されますBlueXPの分類に基づいて作成されたグラフには、次のタイプの権限が表示されます。</block>
-  <block id="5eef11b580781f577a31fd66fb5e92bc" category="list-text">オープンアクセスがありません</block>
-  <block id="a1803d6c124292f91b3806ee4c46b406" category="list-text">組織に開く（ Open to Organization ）</block>
-  <block id="8c8bc01ad66acc46ad4db72461de09d9" category="list-text">[ パブリック ] に移動します</block>
-  <block id="77660481bdb77bcf47202315fe7e0d51" category="list-text">不明なアクセスです</block>
-  <block id="e1eddc163505b2d30660e9679f8c8ed9" category="paragraph"><block ref="e1eddc163505b2d30660e9679f8c8ed9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5971cfc235ee56ca96a8b0839861c16d" category="paragraph">各セクションにカーソルを合わせると、各カテゴリのファイルの割合と合計数を確認できます。</block>
-  <block id="405143bfaa110853e4d2f54d441dc966" category="section-title">ストレージシステムの脆弱性</block>
-  <block id="e5c60b32e2fca5363a7a4eb342da6368" category="paragraph">ストレージシステムの脆弱性_panelには、BlueXPデジタルアドバイザツールが各ONTAP クラスタで検出した、高、中、低のセキュリティの脆弱性の総数が表示されます。システムが攻撃を受けて開かないように、すぐに高脆弱性を確認する必要があります。</block>
-  <block id="9b09309c4227afb6699452bf8aa8aa8f" category="list-text">BlueXPコネクタは、クラウドプロバイダではなく、オンプレミスにインストールする必要があります。</block>
-  <block id="6396ca38c07f87379dfa3195454dace7" category="list-text">オンプレミスのONTAP クラスタが必要です</block>
-  <block id="73e74f8e7e54762e45b60846c0454d7e" category="list-text">クラスタはBlueXP Digital Advisorで設定されます</block>
-  <block id="904b69a69d0950ca3ba58c14c2b414f5" category="list-text">クラスタを表示してBlueXPデジタルアドバイザUIを表示するには、既存のNSSアカウントをBlueXPで登録しておく必要があります。</block>
-  <block id="97a7f67e3e6a4bda1454fb2a63d1993f" category="paragraph">BlueXPデジタルアドバイザは、BlueXPメニューから*[健全性]&gt;[デジタルアドバイザ]*を選択して直接表示できます。</block>
-  <block id="66da556f69b9ec778bf49ecfe334b601" category="inline-image-macro">ONTAP ストレージシステムのセキュリティの脆弱性の数を示すスクリーンショット。</block>
-  <block id="47909da8bb7b784e366ab80708be83e4" category="paragraph"><block ref="47909da8bb7b784e366ab80708be83e4" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4047eed73fb147faca2a60e49cd11bd3" category="inline-link">BlueXP Digital Advisorドキュメント</block>
-  <block id="696a3a074fd33780b57fa15bd55a9775" category="paragraph">いずれかのクラスタについて表示する脆弱性のタイプ（高、中、低）をクリックすると、BlueXPデジタルアドバイザの[セキュリティの脆弱性]ページにリダイレクトされます。（このページの詳細については、を参照してください<block ref="850100008bc0d8082c88771453e4bd35" category="inline-link-rx"></block>.） 脆弱性を確認し、推奨される対処方法に従って問題 を解決できます。解決策としては、ポイントリリースまたはフルリリースでONTAP ソフトウェアをアップグレードすることで、この脆弱性が解決される場合があります。</block>
-  <block id="ba82eec4834347b5a1b3d627cccfd0a2" category="section-title">ONTAP システムのセキュリティ設定のステータス</block>
-  <block id="3380ed6ae32f99410860532de07b57a7" category="inline-link">ONTAP ランサムウェア対策機能</block>
-  <block id="1fe51a36e3fc4df250213d0ceec52eb2" category="paragraph">ONTAP環境を強化_harden _panelには、ONTAPシステムの特定の設定のステータスが表示され、<block ref="060f8a2b53a60ac49c67caafaf5b129f" category="inline-link-rx"></block> およびを参照してください<block ref="0be7bd5b5f280e211653a4c6e05c11a6" category="inline-link-rx"></block> これにより、異常なアクティビティをプロアクティブに検出して警告します。</block>
-  <block id="d7e8b0e94bc7dcc93f421c7fc79dfffa" category="paragraph">推奨事項を確認し、潜在的な問題への対処方法を決定できます。次の手順に従って、クラスタの設定を変更したり、変更を別の時間に延期したり、推奨された設定を無視したりできます。</block>
-  <block id="bd44e2921ae1a42eb3a5dc08696e7b0e" category="paragraph">このパネルは、現時点で、NetApp ONTAP システム用のオンプレミスONTAP 、Cloud Volumes ONTAP 、Amazon FSXをサポートしています。</block>
-  <block id="3698e81f342e7d3114aeddccea477682" category="inline-image-macro">BlueXPランサムウェア対策ダッシュボードに表示される、ONTAP セキュリティ強化のステータスのスクリーンショット。</block>
-  <block id="56b574565aa3bbf910edde2c8ec317ba" category="paragraph"><block ref="56b574565aa3bbf910edde2c8ec317ba" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="bc6d33a925140a3460ad6681dc5242bc" category="paragraph">追跡される設定は次のとおりです。</block>
-  <block id="e9f0aaae56580f9096af03ba526b177c" category="cell">硬化目標（ Hardening Objective ）</block>
-  <block id="1cbf843c3a5a0832d8cf0cdcf1135a78" category="cell">ONTAP ランサムウェア対策</block>
-  <block id="668049b833f74a4da25e90299e223ec3" category="cell">組み込みのアンチランサムウェアがアクティブ化されているボリュームの割合。オンプレミスの ONTAP システムにのみ有効です。
-緑のステータスアイコンは、ボリュームの 85% 以上が有効であることを示しています。黄色は、 40 ～ 85% が有効であることを示します。赤は 40% 未満が有効であることを示します。</block>
-  <block id="5548081e3623b5964eda1074b3e71b59" category="inline-link">ボリュームでアンチランサムウェアを有効にする方法をご確認ください</block>
-  <block id="ad488d126384370795bd3187eef1e396" category="cell"><block ref="1a378d16128702117eeef84a905af055" category="inline-link-rx"></block> System Manager を使用</block>
-  <block id="e4a37f02d326b41feca29ff24384dfc1" category="cell">NAS監査</block>
-  <block id="26644e590b6e93e56b7eb402dd7184d7" category="cell">ファイルシステムの監査が有効になっているStorage VMの数。
-緑のステータスアイコンは、SVMの85%以上でNASファイルシステムの監査が有効になっていることを示しています。黄色は、 40 ～ 85% が有効であることを示します。赤は 40% 未満が有効であることを示します。</block>
-  <block id="c6310b0082711c2ecff8665c858d4349" category="inline-link">SVMでNASの監査を有効にする方法を参照してください</block>
-  <block id="4f1efe1bb089b60d7f12a798fbc657ac" category="cell"><block ref="5008c18083c6348e863173af351120f7" category="inline-link-rx"></block> CLIを使用する。</block>
-  <block id="e8467e9b509c4924668c01eb7ab2adde" category="cell">ONTAPバージョン</block>
-  <block id="31d81eb6324899c415d867559799335f" category="cell">クラスタにインストールされている ONTAP ソフトウェアのバージョン。
-緑のステータスアイコンは、バージョンが最新であることを示します。黄色のアイコンは、クラスタの更新元がオンプレミスシステムの場合は1つ、2つ、または1つのマイナーバージョンであることを示し、Cloud Volumes ONTAP の場合は1つのメジャーバージョンであることを示しています。赤のアイコンは、クラスタのパッチのバージョンが3つ、マイナーバージョンが2つ、オンプレミスシステムの場合は1つ、Cloud Volumes ONTAP の場合は2つのメジャーバージョンまでであることを示します。</block>
-  <block id="0798f817dc1443dc9f38ec02333f79aa" category="inline-link">オンプレミスクラスタをアップグレードする最善の方法をご確認ください</block>
-  <block id="bd049a4521e272ef2c19305d5ce4e5e1" category="inline-link">Cloud Volumes ONTAP システム</block>
-  <block id="f637bd8bc2ef36a18d73d69411ae6fc8" category="cell"><block ref="ebf13e67cf6307ed02967adbb6711cdb" category="inline-link-rx"></block> または<block ref="d68fd2176e290d1ac33538b7d1bdf353" category="inline-link-rx"></block>。</block>
-  <block id="92d0a1aef2134a70d5c0f0279dc22ec6" category="cell">Snapshot コピー</block>
-  <block id="57ff531d2a61c16a7a52e0f91d1b12a5" category="cell">データボリュームでアクティブ化されているSnapshot機能と、Snapshotコピーがあるボリュームの割合を示します。
-緑のステータスアイコンは、85%を超えるボリュームでSnapshotが有効になっていることを示します。黄色は、 40 ～ 85% が有効であることを示します。赤は 40% 未満が有効であることを示します。</block>
-  <block id="fcb0bd0c7d52a8e69bc675e26e703a23" category="inline-link">オンプレミスクラスタでボリュームSnapshotを有効にする方法をご覧ください</block>
-  <block id="fed5603b3da12b224d2c5a4744d84db6" category="inline-link">Cloud Volumes ONTAP システムで実行します</block>
-  <block id="b9de0627ae5b338bc6c5d66e26fd1ebc" category="inline-link">ONTAP システム用のFSX</block>
-  <block id="94837ff79f2d6a2c1041995a5e6e07b0" category="cell"><block ref="9217c403e6fe97a9a176c63ac6ba2b68" category="inline-link-rx"></block>または<block ref="db6763eaa5764093f19e9947737ec392" category="inline-link-rx"></block>または<block ref="3e0bc212eebdeeda4fcc1e02630af37a" category="inline-link-rx"></block>。</block>
-  <block id="4d18540b8dc5a99209517762449c6ad1" category="section-title">重要なビジネスデータに対する権限のステータス</block>
-  <block id="150d825d149394999d01bf367e452a9d" category="paragraph">ビジネスクリティカルなデータ権限分析パネルには、ビジネスにとって重要なデータの権限ステータスが表示されます。これにより、ビジネスクリティカルなデータの保護状況を迅速に評価できます。</block>
-  <block id="ff7ff58f8ddd4b973b2404a056c74f66" category="inline-image-macro">BlueXPランサムウェア対策ダッシュボードで管理しているデータの権限ステータスのスクリーンショット。</block>
-  <block id="09e8a2f44b9b7fbe1a65cce26be40b78" category="paragraph"><block ref="09e8a2f44b9b7fbe1a65cce26be40b78" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e9aa74cb71385313ae28d428e5c1bbc6" category="paragraph">このパネルには、[Business Critical Data Configuration]ページで選択したポリシーに基づいてデータが表示されます。ファイル総数が最も多い2つのビジネスクリティカルポリシーのデータが表示されます。リンクをクリックして、追加のポリシーを表示または定義します。 <block ref="4895e16f799fc4e9d7a5e671ef62d80c" category="inline-link-macro-rx"></block>。</block>
-  <block id="d7a430aef362e0674d0e4f46cc4e0826" category="paragraph">このグラフには、ポリシーの条件を満たすすべてのデータの権限分析が表示されます。次の項目の数が表示されます。</block>
-  <block id="b2741d0f10749744f08e2f78e0164ef6" category="list-text">パブリック権限に対してオープン- BlueXPの分類で公開済みとみなされる項目</block>
-  <block id="b8efe5fafe7027598a129195039dfb3f" category="list-text">組織に対してオープン権限- BlueXP分類で組織に対してオープンとみなされる項目</block>
-  <block id="1541a6d71a556d55396030e9656038a3" category="list-text">No open permissions - BlueXP分類で未完了の権限がないとみなされる項目</block>
-  <block id="707d21725d0bd2a7a64dfe777966165d" category="list-text">Unknown permissions - BlueXP分類で不明な権限とみなされる項目</block>
-  <block id="9c33255332fa0e9c519049d8b197716c" category="paragraph">グラフの各バーにカーソルを合わせると、各カテゴリの結果の数が表示されます。バーをクリックし、をクリックします<block ref="7dd0988c8f3af602ecae0cd47a950d39" category="inline-link-rx"></block> が表示され、オープンアクセス権が設定されている項目や、ファイルアクセス権を調整する必要があるかどうかを詳しく調べることができます。</block>
-  <block id="01238444606a763f352d68cd714ac7c9" category="section-title">重要なビジネスデータのバックアップステータス</block>
-  <block id="769daa032669f18f89fa37e853c76b9f" category="paragraph">[_Backup Status_]パネルには、BlueXPのバックアップとリカバリを使用して、さまざまなカテゴリのデータがどのように保護されているかが表示されます。これにより、ランサムウェア攻撃によってリカバリが必要になった場合に、最も重要なカテゴリのデータを包括的にバックアップする方法がわかります。このデータは、作業環境内の特定のカテゴリの項目数を視覚的に表したものです。</block>
-  <block id="4f01236e3d40b47dc703f96f5f3351d0" category="paragraph">このパネルには、オンプレミスのONTAP とCloud Volumes ONTAP の作業環境のうち、BlueXPのバックアップとrecovery_and_scannedを使用してすでにバックアップされているものだけが表示されます。</block>
-  <block id="95d9f520d501259ca6fd36cc60a4687e" category="inline-image-macro">BlueXPランサムウェア対策ダッシュボードで管理しているデータのバックアップステータスのスクリーンショット。</block>
-  <block id="5a768a87c71aba7a1b4abed7c99684dc" category="paragraph"><block ref="5a768a87c71aba7a1b4abed7c99684dc" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b0b5ccb4a195a07fd3eed14affb8695f" category="inline-link">カテゴリ</block>
-  <block id="41b4342a9c25a2a3d7221d15b5ec55f7" category="paragraph">最初に、このパネルには、選択したデフォルトのカテゴリに基づいたデータが表示されます。ただし、追跡するデータのカテゴリ（コードファイル、契約など）を選択することもできます。詳細については、のリストを参照してください<block ref="83b85bff4589071000609429b23b8ae8" category="inline-link-rx"></block> を参照してください。次に、最大4つのカテゴリを選択します。</block>
-  <block id="d6eb5dc1abeab0ff34111bbaa52c3db3" category="paragraph">データが入力されたら、グラフの各四角形の上にカーソルを置くと、作業環境内の同じカテゴリにあるすべてのファイルからバックアップされたファイルの数が表示されます。緑色の四角は、ファイルの85%以上がバックアップされていることを示します。黄色の四角は、ファイルの40%～85%がバックアップされていることを意味します。赤色の四角は、バックアップされるファイルが40%以下であることを意味します。</block>
-  <block id="285e3a37c50a37efb034410ea77af064" category="paragraph">行の最後にある*[バックアップ]*ボタンをクリックすると、BlueXPのバックアップとリカバリのインターフェイスに移動し、各作業環境のより多くのボリュームへのバックアップを有効にすることができます。</block>
-  <block id="9b152bad0a8266f91e1636404423e5a5" category="section-title">SnapLock を使用して保護しているボリューム内のデータ</block>
-  <block id="c91fef6cc2bc17dd968bbc0f0f5aa90d" category="inline-link">SnapLock の詳細については、こちらをご覧ください</block>
-  <block id="9a65b9af7cdd7140aa92badfb028d99d" category="paragraph">ONTAP ボリュームでNetApp SnapLock テクノロジを使用すると、規制やガバナンスに準拠するために変更不可能な状態でファイルを保管できます。ファイルやSnapshotコピーを「Write Once、Read Many」（WORM）ストレージにコミットし、WORM方式で保護されたデータの保持期間を設定できます。<block ref="dcc3f78a7e79522d0c4cab62e1e1a775" category="inline-link-rx"></block>。</block>
-  <block id="10f55e45fca2c3caee6aef471ec2cd59" category="paragraph">_Criticalデータの不変性_パネルは、ONTAP SnapLock テクノロジを使用してWORMストレージの変更および削除から保護されている作業環境内の項目数を示します。これにより、書き換え不可のコピーがどの程度あるかを確認できるため、ランサムウェアに対するバックアップとリカバリの計画をより詳しく把握できます。</block>
-  <block id="4b7bcdfe0ea5faa891175ac4493d96b6" category="list-text">クラスタ内の少なくとも1つのノードに* SnapLock *ライセンスがインストールされている必要があります</block>
-  <block id="363a44e83a69120726370926c1f5686b" category="inline-image-macro">ONTAP ストレージシステムの「重要なデータの不変性」パネルのスクリーンショット。</block>
-  <block id="427d38254d8a53ae40c65bd47f5787d8" category="paragraph"><block ref="427d38254d8a53ae40c65bd47f5787d8" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="996b1e78d578eb4baf09e78c07211158" category="paragraph">このパネルには、[Business Critical Data Configuration]ページで選択したポリシーに基づいてデータが表示されます。リンクをクリックして、追加のポリシーを表示または定義します。 <block ref="4895e16f799fc4e9d7a5e671ef62d80c" category="inline-link-macro-rx"></block>。</block>
-  <block id="4a064b3d929e36aa418be80020ee8639" category="paragraph">このパネルには、選択したポリシーに一致するデータに関する次の情報が表示されます。</block>
-  <block id="06d95d1e209921413752e4f0c6c94cd6" category="list-text">SnapLock を使用するように設定されている、スキャンされたすべての作業環境内のビジネスクリティカルファイルの数。</block>
-  <block id="ab81e10fb8e6c49c700a4403522284ec" category="list-text">スキャンされたすべての作業環境でのビジネスクリティカルファイルの数。ただし、SnapLock 用に設定されたファイルは除きます。これらのファイルには、SnapLock 以外のメカニズムを使用して保護できるものもあります。</block>
-  <block id="00517d33242a297e6f381beb2445c3e3" category="paragraph">次のフィルタを含むBlueXP分類ポリシーは、重要な検索領域が除外されているため、選択したポリシーのドロップダウンでは使用できません。</block>
-  <block id="e39236d23fb63bab78a9ca2abc0cc5e9" category="list-text">作業環境の名前</block>
-  <block id="6c63358fa61dbacebcb3b3cabf06b4f3" category="list-text">作業環境のタイプ</block>
-  <block id="8e1608d6951087912c426bcb53d12280" category="list-text">ストレージリポジトリ</block>
-  <block id="f7585dca02f941492ce2a56cecf7b71f" category="list-text">ファイルパス</block>
-  <block id="6bc0493d09cc429d2ec14f5a822b5e0a" category="paragraph">そのため、_Criticalデータの不変性_パネルで重要なビジネスデータを表示するポリシーを作成する場合は、この点を考慮してください。</block>
   <block id="8e0410229b2f2463922444e9482ea909" category="summary">BlueXPのランサムウェア対策は、調査中に、BlueXPのすべてのコネクタとアカウントにわたって、作業環境内のすべてのボリュームとファイルを分析します。</block>
   <block id="40ed4b70f990ecbd2b29cdd99fe63ea3" category="doc">BlueXPのランサムウェア対策でワークロードを検出</block>
   <block id="dd8c2f6ce83a7e8f073c2a0dc70477fb" category="paragraph">BlueXPのランサムウェア対策を使用するには、まずデータを検出する必要があります。BlueXPのランサムウェア対策は、調査の際に、アカウント内のすべてのBlueXPコネクタとワークスペースにわたって、作業環境内のすべてのボリュームとファイルを分析します。</block>
@@ -477,31 +218,6 @@
   <block id="c3eceaec7c4fe81904561526dfaeb25c" category="paragraph">このサービスは、現在のバックアップ保護、Snapshotコピー、NetApp Autonomous Ransomware Protectionのオプションなど、既存の保護レベルを評価します。評価に基づいて、サービスはランサムウェア対策を改善する方法を提案します。</block>
   <block id="6b4241f75c7b162e9914d322d5beb0f9" category="list-text">最初のランディングページで*[Discover workloads]*を選択します。</block>
   <block id="675a1549facd94d16faf6e60d17eac34" category="paragraph">サービスによってワークロードデータが検出され、ダッシュボードにデータ保護の健常性が表示されます。</block>
-  <block id="36b4fa89019f77badc5e8ab198a82a27" category="summary">ビジネスクリティカルなデータポリシーは、自社にとってビジネスクリティカルとみなすデータを特定します。これらのポリシーを定義し、BlueXPランサムウェア対策でアクティブ化すると、ダッシュボードやその他のランサムウェアパネルに、最も重要なデータに基づく潜在的な問題が反映されます。</block>
-  <block id="6dc69765f3b707f1f3537871859d2520" category="doc">ビジネスクリティカルなデータポリシーを管理</block>
-  <block id="d798e453fb090cd21448b50855516d55" category="paragraph">クリティカルと定義したポリシーを使用する他のパネルは、次のとおりです。</block>
-  <block id="7f765616fc0a4af4e7648559e3496e4b" category="list-text">推奨される対処方法</block>
-  <block id="83e1396d093cbc90cf4e26a276fb2594" category="list-text">ビジネスクリティカルなデータの不変性パネル</block>
-  <block id="c35c2efc4f5e47e1f5d3e3a4e0066867" category="list-text">ビジネスクリティカルなデータ権限分析パネル</block>
-  <block id="ce0d03b4173c0d22f228a2a883fc33f5" category="paragraph">ビジネスクリティカルデータポリシーページを表示するには、[*ビジネスクリティカルデータ*]タブをクリックします。このページは、上記の他のパネルのリンクからも表示できます。</block>
-  <block id="25c9247587929eea8076bdddb087457b" category="inline-image-macro">ビジネスクリティカルなデータページを示すスクリーンショット。1つのポリシーがビジネスクリティカルなものとして選択されています。</block>
-  <block id="c7adc720ffb97b7fd27780935a0da4de" category="paragraph"><block ref="c7adc720ffb97b7fd27780935a0da4de" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="111c83bf33030769e75d526f97ef42a0" category="inline-link">BlueXPの分類ポリシーの詳細については、こちらをご覧ください</block>
-  <block id="1763c9d67ca90e19bcb59f94f11f5873" category="paragraph">[ビジネスクリティカルなデータ]ページには、BlueXPの分類で定義されているすべてのポリシーが表示されます。これには、事前定義されたすべてのポリシーと、組織で作成したすべてのカスタムポリシーが含まれます。<block ref="f85d5b684a72fd7c990cd06d9e03d434" category="inline-link-rx"></block>。</block>
-  <block id="91ecdc4cf19ed755f973bc8ead0407c5" category="section-title">ビジネスクリティカルなデータを識別するポリシーを選択します</block>
-  <block id="273eb8209767120243ad236b6ab4f43d" category="paragraph">既存のポリシーのいずれかでビジネスに不可欠なデータを識別する結果が得られることがわかっている場合は、そのポリシーを選択できます。上の図の最後のポリシーに示すように、[重要]列のスライダを右に移動します。このアクションは、BlueXPランサムウェア対策サービスに対して、このポリシーから返されたデータを特定のランサムウェアパネルで使用するよう指示します。</block>
-  <block id="1566820aa9cf492d64f1f5b390b9ee9f" category="paragraph">スライダを「オフ」の位置に移動すると、「ビジネスクリティカル」とみなされるポリシーを削除できます。これでポリシーが削除されるわけではなく、BlueXPランサムウェア対策サービスで使用されないようにするだけです。</block>
-  <block id="78ed3bc80f78a464288576d8c404682a" category="paragraph">既存のBlueXP分類ポリシーで組織の重要なデータを特定する結果が返されるかどうか不明な場合は、* Investigate *ボタンをクリックしてデータの照会に使用されているフィルタを表示し、BlueXP分類の[Investigation]ページでポリシーの結果を確認できます。</block>
-  <block id="521fa9458bc5882697763b23180aa4db" category="paragraph">特定のポリシーを検索する場合や、特定のタイプのポリシーを検索する場合は、このページでソート、フィルタ、および検索を実行できます。</block>
-  <block id="e7326f303b8abf78625da7d8f22fa0b4" category="section-title">ポリシーを管理する</block>
-  <block id="9fadb6e2508d92e954b40d39c36e9687" category="inline-link">ポリシーの作成の詳細については、こちらをご覧ください</block>
-  <block id="489769324335be3f3b67b8d14ab6e2fc" category="paragraph">[ポリシーの作成]をクリックして、ビジネスクリティカルなデータを識別する新しいポリシーを作成します。この操作を実行すると、BlueXPの分類の[Investigation]ページが表示され、ポリシーを作成できます。<block ref="3dcd80fda2dcf611ebd34bad8e4c54ca" category="inline-link-rx"></block>。</block>
-  <block id="bd3c34b06546cc8c1888d6e1ebffa7a8" category="inline-image-macro">3つのドットボタン</block>
-  <block id="aa307c39c0fe3f9472b918d51da0222f" category="inline-link">ポリシーの編集の詳細については、こちらをご覧ください</block>
-  <block id="4de1291403014aaa23e5690c208ce8e2" category="paragraph">をクリックします <block ref="590ac92176740fa4d6680f17c9712c57" category="inline-image-macro-rx" type="image"></block>&gt;*既存のポリシーのクエリを編集*（ポリシーを編集する場合）。BlueXPの分類の[Investigation]ページが開き、ポリシーの追加のフィルタを使用して結果をカスタマイズできます。<block ref="59a793bdc5d6496dfa91a3a099a74cdb" category="inline-link-rx"></block>。</block>
-  <block id="d445457c6fba611ad58de2e0d6276134" category="inline-image-macro">ポリシーを作成および編集できるように、ポリシーの作成ボタンとポリシーの編集ボタンを示すスクリーンショット。</block>
-  <block id="039244c09f1273abb71827f58a18b01b" category="paragraph"><block ref="039244c09f1273abb71827f58a18b01b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="511f88f976febfb06eea567ff5c12117" category="paragraph">変更できるのはカスタムポリシーのみです。BlueXPの分類で提供される事前定義されたポリシーは編集できません。</block>
   <block id="8dcd51e6649f98a61593682647591540" category="summary">BlueXPのランサムウェア対策でワークロードにポリシーを割り当てることで、ランサムウェア攻撃からワークロードを保護できます。</block>
   <block id="64086e522631840f7f453586e2c9736d" category="doc">ランサムウェア攻撃からワークロードを保護</block>
   <block id="f5a35b7788e82cd729d1bcf30c5e3578" category="paragraph">BlueXPのランサムウェア対策を使用して次の操作を実行することで、ランサムウェア攻撃からワークロードを保護できます。</block>
@@ -648,8 +364,6 @@ BlueXPのランサムウェア対策で推奨されるデバイス解決方法�
   <block id="cf49c80b52a1cb095928d387f3ae47ed" category="section-title">他のサービスとのやり取り</block>
   <block id="59652c3e079176946d97681f24b440c9" category="paragraph">* BlueXPのランサムウェア対策はNetApp ONTAPで行われた保護設定を認識していますか？*
 はい。BlueXPのランサムウェア対策では、ONTAPで設定されたSnapshotスケジュールが検出されます。</block>
-  <block id="2b019985c293edbc6b01c54fc0f13d71" category="paragraph">* BlueXPランサムウェア対策を使用してポリシーを設定した場合、今後このサービスのみを変更する必要がありますか？*
-いいえ、どのサービスからでもポリシーを変更できます。</block>
   <block id="35084d885dea7b061e6894c1cf3036d9" category="section-title">ワークロード</block>
   <block id="a208b0f1b7e813a10eff529ef77de14f" category="paragraph">**ワークロードの構成要素**
 ワークロードには、単一のアプリケーションインスタンスで使用されるすべてのボリュームが含まれます。たとえば、ora3.host.comに導入されたOracle DBインスタンスのデータとログには、それぞれvol1とvol2を含めることができます。これらのボリュームを合わせて、Oracle DBインスタンスの特定のインスタンスのワークロードを構成します。</block>
@@ -918,16 +632,6 @@ BlueXPのランサムウェア対策で推奨されるデバイス解決方法�
   <block id="75174e635e94b33548188078b7b9c2a2" category="paragraph">ワークロード名を変更することで、ワークロードを管理できます。デフォルトの名前を使用することは、ランサムウェア攻撃のリスクです。</block>
   <block id="0c494aaba0bbfa24f1d3a7438930b616" category="list-text">ワークロードを選択し、*[操作]*を選択します。 アイコンをクリックし、*[ワークロード名の編集]*を選択します。</block>
   <block id="b7ac3f69f0c0ac25814be4d03ba11c24" category="list-text">新しいワークロード名を入力し、*[保存]*を選択します。</block>
-  <block id="c9932149b57d3790fb67d57d3f549d5a" category="summary">BlueXP通知センターでは、ランサムウェアアラートのステータスを表示できます。また、通知をEメールで送信するように設定することで、システムにログインしていないときでも重要なシステムアクティビティを通知することができます。</block>
-  <block id="a56c2b4aad371470b53b4f44c3d7eaa2" category="doc">ランサムウェアアラートのステータスを監視</block>
-  <block id="40da6f1400e45d080a97992a6a539894" category="inline-image-macro">通知ベル</block>
-  <block id="456d53eac33bb23ff00f9d4ca9ce9937" category="paragraph">通知センターでは、ランサムウェアのインシデントの進捗状況を追跡するため、インシデントが解決されたかどうかを確認できます。通知を表示するには、（<block ref="43f42c88e58852b6ee8c75c986a067e7" category="inline-image-macro-rx" type="image"></block>)を選択します。また、通知を電子メールでアラートとして送信するようにBlueXPを設定することもできます。</block>
-  <block id="a3f6a061298a9dbeb547d2e213763eee" category="paragraph">現時点では、Eメールアラートをトリガーするイベントは1つあります。</block>
-  <block id="4df68e0b98ba0691ff46f48eff2a2f3f" category="list-text">システムでランサムウェア攻撃の可能性が検出されました</block>
-  <block id="0be25f818a977f6de990876935286400" category="paragraph">既定では、BlueXPアカウント管理者は、すべての「重大」および「推奨」アラートに関する電子メールを受信します。他のすべてのユーザと受信者は、通知メールを受信しないようにデフォルトで設定されています。Eメールは、ネットアップクラウドアカウントを使用しているBlueXPユーザや、ランサムウェアからの保護に関するインシデントに対応する必要のあるその他の受信者に送信できます。</block>
-  <block id="6e34df01e14ed4e78f2a6c02fd308cf8" category="paragraph">BlueXPランサムウェア対策のEメールアラートを受け取るには、通知タイプ「Critical」を選択する必要があります。</block>
-  <block id="57b65c16b4e713b68f97572b861b02ad" category="inline-link">通知センターの詳細については、こちらをご覧ください</block>
-  <block id="44a0652f7592c52c1258c6b0eb475684" category="paragraph"><block ref="604bd89716d502e7808a2adc35f1d34b" category="inline-link-rx"></block> ランサムウェアからの保護インシデントに関するアラートEメールの送信方法もご確認ください。</block>
   <block id="ae52f4c452e65b726d08cf9ddc884b9d" category="summary">BlueXPランサムウェア対策サービスでは、バックアップ先など、いくつかのオプションを設定できます。</block>
   <block id="006f40c12cb6b543cd40a6cd5a750b98" category="doc">BlueXPのランサムウェア対策の設定</block>
   <block id="03ca4c02e4a654c59d1076826cbd68b9" category="paragraph">ダッシュボードで推奨事項を確認して、バックアップ先を設定できます。</block>
@@ -1086,4 +790,22 @@ BlueXPのランサムウェア対策で推奨されるデバイス解決方法�
   <block id="dbc3399491cf278353174a615694d8f2" category="sidebar">BlueXPランサムウェア対策ドキュメント</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリースノート</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識とサポート</block>
+  <block id="db9538daf4223bfc37b7351935f76d06" category="paragraph">* BlueXPランサムウェア対策を使用してポリシーを設定した場合、今後このサービスのみを変更する必要がありますか？*
+BlueXPランサムウェア対策サービスからポリシーを変更することをお勧めします。</block>
+  <block id="ff9f5559340f731afb5ba49547474182" category="list-text">*ランサムウェア攻撃の可能性がある異常を検出*します。</block>
+  <block id="d56049a7e3c6b1951c937c2db7aa2601" category="list-text">RPOポリシーを満たすために、厳選されたリカバリを適用します。BlueXPのランサムウェア対策は、BlueXPのバックアップとリカバリ（旧称Cloud Backup）などの複数のNetAppリカバリサービスを使用して、ランサムウェアインシデントからのリカバリをオーケストレーションします。</block>
+  <block id="557bbba3216e8793cf70557faa72054a" category="list-text">ONTAPサービスAPIから顧客データを特定し、ワークロードに関連付けます。の詳細を確認してください<block ref="a16fd9a0601d0464b4c9ce4f59c2454b" category="inline-link-rx"></block> および<block ref="d4e2312364a2363181c5807750f77d43" category="inline-link-rx"></block>。</block>
+  <block id="6307f01316a897401a5a49dfa1b98dd8" category="list-text">特定された各ワークロードにポリシーを適用することで、ワークロードをアクティブに監視し、BlueXPのバックアップとリカバリとONTAP APIの使用をオーケストレーションします。</block>
+  <block id="f90af1ae1e0fb166621b4480576b55ac" category="list-text">潜在的に異常な暗号化とアクティビティを検出する統合機械学習（ML）モデルを使用して、潜在的な攻撃を検出します。</block>
+  <block id="1cb5f4b5b1383db0b2bfabd8c3cafd79" category="list-text">ONTAP、自律型ランサムウェア対策、FPolicyの各テクノロジを使用して、特定の疑わしいファイルを特定し、その攻撃を関連するワークロードにマッピングします。</block>
+  <block id="7114c26cbae366caf9400a8157631c87" category="list-text">は、ONTAP、Autonomous Ransomware Protection、FPolicyなどのNetAppテクノロジや製品を使用して、Snapshotコピーを迅速に作成します。</block>
+  <block id="6256fa6f19d66d5dbcf39232799b384d" category="list-text">BlueXPのバックアップとリカバリ、ONTAP、自律型ランサムウェア対策、FPolicyのテクノロジとサービスを使用して、最適なSnapshotまたはバックアップを特定し、実際のリカバリポイント（RPA）を推奨します。</block>
+  <block id="1379a664ccbc825a76fb525d3449bdc7" category="paragraph">BlueXPランサムウェア対策プレビューバージョンを使用するには、次の前提条件が必要です。</block>
+  <block id="3f291b80755e043548b987a2749bb2bb" category="list-text">バックアップターゲットとアクセス権限が設定されたNetApp StorageGRIDまたはAWS S3のアカウント</block>
+  <block id="0d9cc4385f60a65b4ffd051eddbf122d" category="list-text">オンプレミスのONTAPインスタンスで有効にする、BlueXPランサムウェア対策で使用するNetApp自律型ランサムウェア対策のライセンス。使用しているONTAPのバージョンに応じて異なります。を参照してください<block ref="9a25fd5e356132f930267232d70ad02b" category="inline-link-rx"></block>。</block>
+  <block id="af63a2ecb3ca5627267870874e6c44a4" category="paragraph">ライセンスの詳細については、を参照してください。 <block ref="f86808e84e1b647abbc44adac84bc8a2" category="inline-link-macro-rx"></block>。</block>
+  <block id="935ac45ec053cbff86ec37813f64ea6e" category="list-text">BlueXPでは、各Virtual Private Cloud（VPC）またはオンプレミスのリージョンごとにBlueXPコネクタを設定する必要があります。を参照してください<block ref="1e8f43557ce3193941a1e47864603ca9" category="inline-link-rx"></block>。</block>
+  <block id="9583d75cd4c629fc5e8bc18b167335c7" category="list-text">オンプレミスストレージのNetApp NASを使用したBlueXPの作業環境</block>
+  <block id="8bea151378448834f662f674981096f7" category="list-text">オンプレミスのONTAPクラスタに接続するアクティブなコネクタが少なくとも1つあるBlueXPアカウント。すべてのソース環境と作業環境が同じBlueXPアカウントに属している必要があります。</block>
+  <block id="baea1fd040c528a3cf05517592d54383" category="list-text">リソースを検出するためのアカウント管理者権限を持つBlueXPユーザアカウント</block>
 </blocks>

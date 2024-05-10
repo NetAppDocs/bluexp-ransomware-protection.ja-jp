@@ -808,4 +808,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="9583d75cd4c629fc5e8bc18b167335c7" category="list-text">オンプレミスストレージのNetApp NASを使用したBlueXPの作業環境</block>
   <block id="8bea151378448834f662f674981096f7" category="list-text">オンプレミスのONTAPクラスタに接続するアクティブなコネクタが少なくとも1つあるBlueXPアカウント。すべてのソース環境と作業環境が同じBlueXPアカウントに属している必要があります。</block>
   <block id="baea1fd040c528a3cf05517592d54383" category="list-text">リソースを検出するためのアカウント管理者権限を持つBlueXPユーザアカウント</block>
+  <block id="1ad5d2b1df5750779a9e10432b0d7a7b" category="list-text">*重要*：Snapshotコピーは1時間に1つ以上作成されます（非常に積極的な保護スケジュール）。</block>
+  <block id="1adc4b459e7f50d96280424fb7e06709" category="list-text">*重要*：Snapshotコピーは1時間に1回未満、1日に1回以上作成されます。</block>
 </blocks>

@@ -23,6 +23,7 @@ link:rp-start-prerequisites.html["環境がこれらの要件を満たしてい�
 * link:rp-start-setup.html["バックアップ先としてのNetApp StorageGRIDまたはAmazon Web Servicesの準備"]。
 * link:rp-start-setup.html["BlueXPでのコネクタの設定"]。
 * link:rp-start-setup.html["バックアップデスティネーションの設定"]。
+* link:rp-start-setup.html["オプションで脅威検出を有効にする"]。
 * link:rp-start-discover.html["BlueXPでワークロードを検出"]。
 
 

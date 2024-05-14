@@ -27,9 +27,11 @@ sidebar:
       url: "/rp-start-setup.html"
     - title: BlueXPのランサムウェア対策にアクセス
       url: "/rp-start-login.html"
+    - title: ライセンスをセットアップする
+      url: "/rp-start-licenses.html"
     - title: ワークロードを検出
       url: "/rp-start-discover.html"
-    - title: バックアップデスティネーションの設定
+    - title: バックアップ先の設定と脅威検出の有効化
       url: "/rp-use-settings.html"
     - title: よく寄せられる質問
       url: "/rp-start-faq.html"
@@ -45,6 +47,8 @@ sidebar:
       url: "/rp-use-alert.html"
     - title: ランサムウェア攻撃からリカバリ
       url: "/rp-use-recover.html"
+    - title: レポートのダウンロード
+      url: "/rp-use-reports.html"
   - section: support
   - title: 法的通知
     url: "/legal-notices.html"

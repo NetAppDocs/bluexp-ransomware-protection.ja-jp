@@ -14,7 +14,7 @@ summary: お客様の環境、ネットワークアクセス、ログイン、We
 [role="lead"]
 運用環境、ログイン、ネットワークアクセス、Webブラウザの準備状況を確認して、BlueXPランサムウェア対策を始めましょう。
 
-BlueXPランサムウェア対策プレビューバージョンを使用するには、次の前提条件が必要です。
+BlueXPランサムウェア対策を使用するには、次の前提条件が必要です。
 
 * バックアップターゲットとアクセス権限が設定されたNetApp StorageGRIDまたはAWS S3のアカウント
 +
@@ -24,6 +24,10 @@ BlueXPランサムウェア対策プレビューバージョンを使用する�
 +
 ** クラスタカンリシヤONTAPノケンケン
 ** オンプレミスのONTAPインスタンスで有効にする、BlueXPランサムウェア対策で使用するNetApp自律型ランサムウェア対策のライセンス。使用しているONTAPのバージョンに応じて異なります。を参照してください https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["Autonomous Ransomware Protection Overview"^]。
++
+
+NOTE: BlueXPランサムウェア対策の一般リリースには、プレビューリリースとは異なり、NetApp自律型ランサムウェア対策テクノロジのライセンスが含まれています。を参照してください https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["Autonomous Ransomware Protection Overview"^] を参照してください。
+
 +
 ライセンスの詳細については、を参照してください。 link:concept-ransomware-protection.html["BlueXPランサムウェア対策の詳細をご確認ください"]。
 
@@ -37,7 +41,7 @@ BlueXPランサムウェア対策プレビューバージョンを使用する�
 NOTE: BlueXPコネクタが複数ある場合は、BlueXP UIに現在表示されているコネクタ以外のすべてのコネクタのデータがスキャンされます。
 
 ** 作業環境でバックアップを有効にしたBlueXPのバックアップとリカバリサービス
-** オンプレミスストレージのNetApp NASを使用したBlueXPの作業環境
+** NetAppオンプレミスストレージを使用するBlueXPの作業環境（NASまたはCIFSプロトコルを使用）
 ** オンプレミスのONTAPクラスタに接続するアクティブなコネクタが少なくとも1つあるBlueXPアカウント。すべてのソース環境と作業環境が同じBlueXPアカウントに属している必要があります。
 ** リソースを検出するためのアカウント管理者権限を持つBlueXPユーザアカウント
 ** https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["BlueXPの標準の要件"^]

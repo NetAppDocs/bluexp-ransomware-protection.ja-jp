@@ -4,7 +4,7 @@ permalink: concept-ransomware-protection.html
 keywords: artificial intelligence, personal data, personal information, sensitive, personal sensitive data, data sense, ransomware, ransomware protection, cyberstorage, cyber attack, cybersecurity 
 summary: ランサムウェア攻撃は、ビジネス時間、リソース、評判を低下させる可能性があります。BlueXPのランサムウェア対策サービスでは、サイバーセキュリティに関する関連情報を確認し、サイバー攻撃に対する組織の耐障害性を評価できます。また、データのセキュリティを強化するためのアラートと修正措置のリストも記載されています。 
 ---
-= BlueXPランサムウェア対策プレビューの詳細
+= BlueXPランサムウェア対策の詳細をご確認ください
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -16,10 +16,7 @@ summary: ランサムウェア攻撃は、ビジネス時間、リソース、�
 [role="lead"]
 ランサムウェア攻撃は、システムやデータへのアクセスをブロックし、データのリリースや復号と引き換えに身代金を要求する可能性があります。IDCによると、ランサムウェアの被害者が複数のランサムウェア攻撃を受けることは珍しくありません。攻撃によって、1日から数週間の間、データへのアクセスが中断される可能性があります。
 
-BlueXPランサムウェア対策は、ランサムウェアの保護、検出、リカバリのためのオーケストレーションサービスです。プレビュー版では、Oracle、MySQL、VMデータストアのアプリケーションベースのワークロードを保護し、 また、オンプレミスのNASストレージでのファイル共有や、Amazon Web ServicesのCloud Volumes ONTAP（NFSプロトコルを使用）をBlueXPアカウント間で共有し、Amazon Web ServicesのクラウドストレージまたはNetApp StorageGRIDにデータをバックアップできます。
-
-
-NOTE: このドキュメントはテクノロジプレビュー版です。  このプレビューサービスでは、NetAppは、一般提供前にサービスの詳細、内容、スケジュールを変更する権利を留保します。
+BlueXPランサムウェア対策は、ランサムウェアの保護、検出、リカバリのためのオーケストレーションサービスです。このサービスは、オンプレミスのNASストレージにあるOracle、MySQL、VMデータストア、ファイル共有のアプリケーションベースのワークロード（NFSプロトコルとCIFSプロトコルを使用）や、Amazon Web ServicesのCloud Volumes ONTAPをBlueXPアカウント全体で保護し、Amazon Web ServicesのクラウドストレージとNetApp StorageGRIDにデータをバックアップします。
 
 
 
@@ -27,12 +24,10 @@ NOTE: このドキュメントはテクノロジプレビュー版です。  こ
 
 BlueXPのランサムウェア対策サービスは、複数のNetAppテクノロジをフル活用して、ストレージ管理者、データセキュリティ管理者、セキュリティ運用エンジニアが次の目標を達成できるようにします。
 
-* * BlueXPのアカウント、ワークスペース、BlueXPコネクタにわたって、オンプレミスのNetApp NASとNFSの作業環境にある、アプリケーションベース、ファイル共有、VMwareが管理するワークロードをすべて特定*します。次に、データの優先順位を分類し、ランサムウェア対策の強化に関する推奨事項を提供します。
+* * BlueXPのアカウント、ワークスペース、BlueXPコネクタにわたって、NetAppオンプレミスNASとNFSまたはCIFSの作業環境にある、アプリケーションベース、ファイル共有、VMwareが管理するワークロードをすべて特定*します。次に、データの優先順位を分類し、ランサムウェア対策の強化に関する推奨事項を提供します。
 * *データ上のバックアップやSnapshotコピーを有効にして、ワークロードを保護*します。
 * *ランサムウェア攻撃の可能性がある異常を検出*します。
-
-
-* * NetApp ONTAP Snapshotコピーを自動的に開始して、ランサムウェア攻撃の可能性に対応*します。
+* *ランサムウェア攻撃の可能性がある場合は、誤ってまたは悪意を持ってコピーを削除しないように、ロックされた改ざん防止NetApp ONTAP Snapshotを自動的に開始して対応します。バックアップデータは改ざんされず、ソースとデスティネーションでのランサムウェア攻撃からエンドツーエンドで保護されます。
 * *複数のNetAppテクノロジーをオーケストレーションすることで、ワークロードのアップタイムを促進するワークロードをリカバリ*します。ボリューム、フォルダ、または特定のファイルのリカバリを選択できます。このサービスは、最適なオプションに関する推奨事項を提供します。
 
 
@@ -51,30 +46,27 @@ BlueXPのランサムウェア対策には、次のようなメリットがあ�
 * MySQL、Oracle、VMwareデータストア、ファイル共有など、最上位のアプリケーションベースワークロードのデータを保護します。
 * AIテクノロジを活用して、プライマリストレージ上のデータに対するランサムウェア攻撃をリアルタイムで検出します。
 * Snapshotコピーを作成し、異常なアクティビティに関するアラートを開始することで、検出された潜在的な攻撃に対応して自動化されたアクションを開始します。
-* RPOポリシーを満たすために、厳選されたリカバリを適用します。BlueXPのランサムウェア対策は、BlueXPのバックアップとリカバリ（旧称Cloud Backup）などの複数のNetAppリカバリサービスを使用して、ランサムウェアインシデントからのリカバリをオーケストレーションします。
+* RPOポリシーを満たすために、厳選されたリカバリを適用します。BlueXPのランサムウェア対策は、BlueXPのバックアップとリカバリ（旧称Cloud Backup）やSnapCenterなど、いくつかのNetAppリカバリサービスを使用して、ランサムウェアインシデントからのリカバリをオーケストレーションします。
 
 
 
 
 == コスト
 
-プレビュー版のBlueXPランサムウェア対策を使用した場合、NetAppから料金が請求されることはありません。
+BlueXPランサムウェア対策の試用版を使用した場合、NetAppは料金を請求しません。BlueXPランサムウェア対策のフルバージョンは、NetAppライセンスまたはAWSサブスクリプションで使用できます。
 
 
 
 == ライセンス
 
-BlueXPランサムウェア対策プレビュー自体に特別なライセンスは必要ありません。  すべてのプレビューライセンスは評価ライセンスです。
+BlueXPランサムウェア対策では、無償トライアル、従量課金制サブスクリプション、お客様所有のライセンスを使用するなど、さまざまなライセンスプランを使用できます。
+
+BlueXPのランサムウェア対策にはNetApp ONTAPライセンスが必要です。
 
 
-TIP: プレビュー版では、NetAppを使用して評価版と必要なライセンスを設定できます。
+NOTE: BlueXPランサムウェア対策の一般リリースには、プレビューリリースとは異なり、NetApp自律型ランサムウェア対策テクノロジのライセンスが含まれています。を参照してください https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["Autonomous Ransomware Protection Overview"^] を参照してください。
 
-BlueXPランサムウェア対策プレビューには、次のライセンスが必要です。
-
-* ONTAP
-* NetApp自律型ランサムウェア対策テクノロジ：を参照してください https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["Autonomous Ransomware Protection Overview"^] を参照してください。
-* BlueXPバックアップ/リカバリサービス
-
+詳細については、を参照してください link:rp-start-licenses.html["ライセンスをセットアップする"]。
 
 
 
@@ -90,8 +82,8 @@ image:diagram-rp-architecture-preview3.png["BlueXPのランサムウェア対策
 
 
 | *識別*  a| 
-* BlueXPに接続されているオンプレミスのNAS（NFSマウント）データをすべて検出
-* ONTAPサービスAPIから顧客データを特定し、ワークロードに関連付けます。の詳細を確認してください https://docs.netapp.com/us-en/ontap-family/["ONTAP"^] および https://docs.netapp.com/us-en/snapcenter/index.html["SnapCenter ソフトウェア"^]。
+* BlueXPに接続されているお客様のオンプレミスのNAS（NFSプロトコルとCIFSプロトコル）データをすべて検出
+* ONTAPおよびSnapCenterサービスAPIから取得した顧客データを特定し、ワークロードに関連付けます。の詳細を確認してください https://docs.netapp.com/us-en/ontap-family/["ONTAP"^] および https://docs.netapp.com/us-en/snapcenter/index.html["SnapCenter ソフトウェア"^]。
 * 各ボリュームのNetApp Snapshotコピーとバックアップポリシーの現在の保護レベル、および組み込みの検出機能を検出します。その後、サービスは、BlueXPのバックアップとリカバリ、BlueXPデジタルアドバイザ、ONTAPサービスと、Autonomous Ransomware Protection、FPolicy、バックアップポリシー、SnapshotポリシーなどのNetAppテクノロジを使用して、この保護体制をワークロードに関連付けます。
 の詳細を確認してください https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自律的なランサムウェア防御"^] および https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXPのバックアップとリカバリ"^]、 https://docs.netapp.com/us-en/active-iq/index.html["BlueXP Digital Advisor"^]および https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy"^]。
 * 自動的に検出された保護レベルに基づいて各ワークロードにビジネス優先度を割り当て、ビジネス優先度に基づいてワークロードに保護ポリシーを推奨します。
@@ -101,7 +93,7 @@ image:diagram-rp-architecture-preview3.png["BlueXPのランサムウェア対策
 
 
 | *保護*  a| 
-* 特定された各ワークロードにポリシーを適用することで、ワークロードをアクティブに監視し、BlueXPのバックアップとリカバリとONTAP APIの使用をオーケストレーションします。
+* 特定された各ワークロードにポリシーを適用することで、ワークロードをアクティブに監視し、BlueXPのバックアップとリカバリ、SnapCenter、ONTAP APIの使用をオーケストレーションします。
 
 
 
@@ -131,7 +123,7 @@ image:diagram-rp-architecture-preview3.png["BlueXPのランサムウェア対策
 
 == サポートされるバックアップターゲット、作業環境、データソース
 
-BlueXPランサムウェア対策のプレビューでは、次のタイプのバックアップターゲット、作業環境、データソースに対するサイバー攻撃に対するデータの耐障害性を確認できます。
+BlueXPのランサムウェア対策を使用すると、次のタイプのバックアップターゲット、作業環境、データソースに対するサイバー攻撃に対するデータの耐障害性を確認できます。
 
 *サポートされるバックアップターゲット*
 
@@ -141,18 +133,20 @@ BlueXPランサムウェア対策のプレビューでは、次のタイプの�
 
 *サポートされる作業環境*
 
-* オンプレミスのONTAP NAS（NFSプロトコルを使用）
-* ONTAP Select の場合
-* AWSのCloud Volumes ONTAP（NFSプロトコルを使用）
+* オンプレミスのONTAP NAS（NFSプロトコルとCIFSプロトコルを使用）
++
+FlexGroupはサポートされません。
+
+* AWSのCloud Volumes ONTAP（NFSプロトコルとCIFSプロトコルを使用）
 
 
 *データソース*
 
-プレビュー版では、次のアプリケーションベースのワークロードが保護されます。
+このサービスは、プライマリデータボリューム上で次のアプリケーションベースのワークロードを保護します。
 
 * NetAppファイル共有
 * VMware データストア
-* データベース（プレビューバージョンのOracleとMySQL用）
+* データベース（MySQL、Oracle）
 
 
 
@@ -162,5 +156,5 @@ BlueXPランサムウェア対策のプレビューでは、次のタイプの�
 ランサムウェア対策に関連する用語を理解しておくと便利です。
 
 * *保護*：BlueXPのランサムウェア対策の保護とは、保護ポリシーを使用して、Snapshotと変更不可のバックアップを別のセキュリティドメインに定期的に実行することを意味します。
-* *ワークロード*：BlueXPランサムウェア対策プレビューのワークロードには、MySQL、Oracleデータベース、VMwareデータストア、ファイル共有を含めることができます。
+* *ワークロード*：BlueXPのランサムウェア対策のワークロードには、MySQL、Oracleデータベース、VMwareデータストア、ファイル共有などを含めることができます。
 

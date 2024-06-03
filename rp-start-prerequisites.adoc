@@ -40,11 +40,13 @@ NOTE: BlueXPランサムウェア対策の一般リリースには、プレビ�
 
 NOTE: BlueXPコネクタが複数ある場合は、BlueXP UIに現在表示されているコネクタ以外のすべてのコネクタのデータがスキャンされます。
 
-** 作業環境でバックアップを有効にしたBlueXPのバックアップとリカバリサービス
-** NetAppオンプレミスストレージを使用するBlueXPの作業環境（NASまたはCIFSプロトコルを使用）
 ** オンプレミスのONTAPクラスタに接続するアクティブなコネクタが少なくとも1つあるBlueXPアカウント。すべてのソース環境と作業環境が同じBlueXPアカウントに属している必要があります。
 ** リソースを検出するためのアカウント管理者権限を持つBlueXPユーザアカウント
+** NetAppオンプレミスストレージを使用するBlueXPの作業環境（NASまたはCIFSプロトコルを使用）
 ** https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["BlueXPの標準の要件"^]
 
 
 
+
+
+NOTE: 作業環境でBlueXPのバックアップとリカバリサービスを有効にしておく必要はなくなりました。BlueXPランサムウェア対策サービスは、[Settings]オプションを使用してバックアップ先を設定するのに役立ちます。を参照してください link:rp-use-settings.html["セツテイノセツテイ"]。

@@ -29,7 +29,6 @@
   <block id="7fc964519860ed011389afb142e2370e" category="list-text">BlueXPの場合：</block>
   <block id="617601bf744d089a872f17b09e5451b5" category="inline-link">コネクタを設定するためのBlueXPドキュメント</block>
   <block id="00c15e6000f2ee7d33421ec117c11c12" category="admonition">BlueXPコネクタが複数ある場合は、BlueXP UIに現在表示されているコネクタ以外のすべてのコネクタのデータがスキャンされます。</block>
-  <block id="c5c84330043d2e887d72c591baa2b9c1" category="list-text">作業環境でバックアップを有効にしたBlueXPのバックアップとリカバリサービス</block>
   <block id="801e5ac526198ee67b36c61b75c65eab" category="inline-link">BlueXPの標準の要件</block>
   <block id="5b4e347dbf978618d47c067b87ad3fe2" category="list-text"><block ref="5b4e347dbf978618d47c067b87ad3fe2" category="inline-link-rx"></block></block>
   <block id="4d6682b21a77873fe9ae34d7fc255020" category="summary">NetApp BlueXPランサムウェア対策サービスは、数ステップで開始できます。</block>
@@ -1041,4 +1040,7 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="7c332d8c3498456553e971642a5142fc" category="paragraph">このサービスを試用または使用するには、NetApp営業担当者にお問い合わせください。その後、BlueXPコネクタを使用すると、ランサムウェア対策サービスに適した機能が含まれます。</block>
   <block id="077eb8dcf08a34370634fa284781fbf5" category="sidebar">BlueXPランサムウェア対策は、ランサムウェアの保護、検出、リカバリのためのオーケストレーションサービスです。Oracle、MySQL、VMデータストアなどのアプリケーションベースのワークロードを保護し、 また、オンプレミスのNASストレージでファイルを共有し、Amazon Web ServicesのCloud Volumes ONTAP（NFSプロトコルとCIFSプロトコルを使用）を各BlueXPアカウントで共有し、Amazon Web Services（AWS）クラウドストレージまたはNetApp StorageGRIDにデータをバックアップします。</block>
   <block id="03a0606ea5e305ef55dd39ee839003fd" category="sidebar">バックアップ先の設定と脅威検出の有効化</block>
+  <block id="fb197ee87a0f850dc3b7bb98fe408518" category="inline-link-macro">セツテイノセツテイ</block>
+  <block id="56ff02f12c9bfc12762be5191b6a6ce5" category="admonition">作業環境でBlueXPのバックアップとリカバリサービスを有効にしておく必要はなくなりました。BlueXPランサムウェア対策サービスは、[Settings]オプションを使用してバックアップ先を設定するのに役立ちます。を参照してください <block ref="522f9942d2238ef69c22ece6b9af5205" category="inline-link-macro-rx"></block>。</block>
+  <block id="8b003b58b4532bbf9f07c58827819319" category="list-text">* BlueXPのバックアップとリカバリ*：作業環境でBlueXPのバックアップとリカバリサービスを有効にしておく必要はなくなりました。を参照してください <block ref="7cc100a4e35b42109d34b0d1c6d432c9" category="inline-link-macro-rx"></block>。BlueXPランサムウェア対策サービスは、[Settings]オプションを使用してバックアップ先を設定するのに役立ちます。を参照してください <block ref="522f9942d2238ef69c22ece6b9af5205" category="inline-link-macro-rx"></block>。</block>
 </blocks>

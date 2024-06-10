@@ -26,6 +26,7 @@ BlueXPのランサムウェア対策なら、バックアップがまだない�
 
 * NetApp StorageGRID
 * Amazon Web Services （ AWS ）
+* Microsoft Azure
 
 
 ダッシュボードで推奨される対処方法に基づいてバックアップ先を追加できます。
@@ -42,8 +43,19 @@ BlueXPのランサムウェア対策なら、バックアップがまだない�
 +
 image:screen-dashboard.png["ダッシュボードページ"]
 
-. ダッシュボードで、[バックアップ先の設定]の推奨事項について*[確認と修正]*を選択します。
+. ダッシュボードで、「バックアップ先として<backup provider>を準備する」を推奨するために*[確認と修正]*を選択します。
 . バックアッププロバイダに応じて手順を続行します。
+
+
+
+
+=== メニューから[Settings]ページにアクセスする
+
+メニューから[設定]ページに簡単にアクセスできます。
+
+. BlueXPのランサムウェア対策メニューで、 image:button-actions-vertical.png["垂直的なアクション"]...オプションを右上に表示します。
+. メニューから*[設定]*を選択します。
+. バックアップ先を追加するには、*[追加]*を選択します。
 
 
 
@@ -55,7 +67,7 @@ NetApp StorageGRIDをバックアップ先として設定するには、次の�
 . [設定]>[バックアップデスティネーション]*ページで、*[追加]*を選択します。
 . バックアップ先の名前を入力します。
 +
-image:screen-settings-backup-destination-storagegrid.png["[バックアップデスティネーション]ページ"]
+image:screen-settings-backup-destination-azure.png["[バックアップデスティネーション]ページ"]
 
 . 「* StorageGRID *」を選択します。
 . 各設定の横にある下矢印を選択し、値を入力または選択します。
@@ -88,7 +100,7 @@ CAUTION: ここでバックアップロックの設定を行う場合は、バ�
 .結果
 新しいバックアップ先がバックアップ先のリストに追加されます。
 
-image:screen-settings-backup-destinations-list-storagegrid.png["[Backup destinations]ページの[Settings]オプション"]
+image:screen-settings-backup-destinations-list-azure.png["[Backup destinations]ページの[Settings]オプション"]
 
 
 
@@ -101,7 +113,7 @@ BlueXPでのAWSストレージの管理の詳細については、 https://docs.
 . [設定]>[バックアップデスティネーション]*ページで、*[追加]*を選択します。
 . バックアップ先の名前を入力します。
 +
-image:screen-settings-backup-destination-storagegrid.png["[バックアップデスティネーション]ページ"]
+image:screen-settings-backup-destination-azure.png["[バックアップデスティネーション]ページ"]
 
 . Amazon Web Servicesを選択します。
 . 各設定の横にある下矢印を選択し、値を入力または選択します。
@@ -146,7 +158,65 @@ CAUTION: ここでバックアップロックの設定を行う場合は、バ�
 .結果
 新しいバックアップ先がバックアップ先のリストに追加されます。
 
-image:screen-settings-backup-destinations-list-aws.png["[Backup destinations]ページの[Settings]オプション"]
+image:screen-settings-backup-destinations-list-azure.png["[Backup destinations]ページの[Settings]オプション"]
+
+
+
+=== バックアップ先としてMicrosoft Azureを追加
+
+Azureをバックアップ先として設定するには、次の情報を入力します。
+
+BlueXPでAzureクレデンシャルとマーケットプレイスサブスクリプションを管理する方法の詳細については、 https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-azure-accounts.html["Azureクレデンシャルとマーケットプレイスサブスクリプションを管理"^]。
+
+. [設定]>[バックアップデスティネーション]*ページで、*[追加]*を選択します。
+. バックアップ先の名前を入力します。
++
+image:screen-settings-backup-destination-azure.png["[バックアップデスティネーション]ページ"]
+
+. 「 * Azure * 」を選択します。
+. 各設定の横にある下矢印を選択し、値を入力または選択します。
++
+** *プロバイダ設定*：
++
+*** 新しいストレージアカウントを作成します。BlueXPにすでにストレージアカウントがある場合は既存のアカウントを選択するか、バックアップを保存する独自のストレージアカウントを使用します。
+*** Azureクレデンシャル用のAzureサブスクリプション、リージョン、リソースグループ
++
+https://docs.netapp.com/us-en/bluexp-blob-storage/task-add-blob-storage.html["独自のストレージアカウントを使用する場合は、「Azure BLOBストレージアカウントの追加」を参照してください。"^]。
+
+
+
+** *暗号化*：新しいストレージアカウントを作成する場合は、プロバイダから提供された暗号化キー情報を入力します。既存のアカウントを選択した場合は、暗号化情報がすでに使用可能です。
++
+デフォルトでは、アカウント内のデータはMicrosoftが管理するキーで暗号化されます。Microsoftが管理するキーを引き続き使用することも、独自のキーを使用してデータの暗号化を管理することもできます。
+
+** *ネットワーク*：IPspaceとプライベートエンドポイントを使用するかどうかを選択します。
++
+*** IPspaceは、バックアップするボリュームが配置されているクラスタです。この IPspace のクラスタ間 LIF には、アウトバウンドのインターネットアクセスが必要です。
+*** 必要に応じて、以前に設定したAzureプライベートエンドポイントを使用するかどうかを選択します。
++
+Azure PrivateLinkを使用する場合は、を参照してください。 https://azure.microsoft.com/en-us/products/private-link/["Azure PrivateLink"^]。
+
+
+
+** *バックアップロック*：バックアップが変更または削除されないようにサービスで保護するかどうかを選択します。このオプションは、NetApp DataLockテクノロジを使用します。各バックアップは、保持期間中（最低30日間）、および最大14日間のバッファ期間中にロックされます。
++
+
+CAUTION: ここでバックアップロックの設定を行う場合は、バックアップ先の設定後に設定を変更することはできません。
+
++
+*** *ロック解除*：特定のユーザは、保持期間中に保護されたファイルを上書きまたは削除できます。
+*** *ロック済み*：保存期間中は、保護されたバックアップファイルを上書きまたは削除することはできません。このオプションは、完全な規制コンプライアンスを満たします。
+
+
+
+
+. 「 * 追加」を選択します。
+
+
+.結果
+新しいバックアップ先がバックアップ先のリストに追加されます。
+
+image:screen-settings-backup-destinations-list-azure.png["[Backup destinations]ページの[Settings]オプション"]
 
 
 
@@ -155,21 +225,18 @@ image:screen-settings-backup-destinations-list-aws.png["[Backup destinations]ペ
 セキュリティおよびイベント管理システム（SIEM）にデータを自動的に送信して、脅威の分析と検出を行うことができます。
 
 . BlueXPの左側のナビゲーションで、*[保護]*>*[Ransomware protection]*を選択します。
-. ダッシュボードの推奨される操作ウィンドウを確認します。
-. ダッシュボードで、[Enable threat detection]の推奨事項として[Review and fix]*を選択します。
+. BlueXPのランサムウェア対策メニューで、 image:button-actions-vertical.png["垂直的なアクション"]...オプションを右上に表示します。
+. [設定]*を選択します。
 +
 [Settings]ページが表示されます。
 
 +
-image:screen-settings-threat-detection2.png["[Settings]ページ"]
+image:screen-settings-threat-detection3.png["[Settings]ページ"]
 
-. [設定]ページで、[脅威の検出]ペインで*[接続]*を選択します。
-+
-image:screen-settings-threat-detection-details.png["[Enable Threat Detection Details]ページ"]
-
+. [設定]ページで、SIEM接続ペインで*[接続]*を選択します。
 . 脅威検出をイネーブルにするには、SIEMサーバの詳細を入力します。
 . [ 有効 ] を選択します。
 +
-[Settings]ページの[Threat detection]ペインに「Connected」と表示されます。
+[設定]ページに[接続済み]と表示されます。
 
 

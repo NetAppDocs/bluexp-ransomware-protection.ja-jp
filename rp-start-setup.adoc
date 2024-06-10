@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: rp-start-setup.html 
-keywords: bluexp, ransomware protection, 
+keywords: bluexp, ransomware protection, aws, azure 
 summary: BlueXPランサムウェア対策を使用するには、いくつかの手順を実行してセットアップします。 
 ---
 = BlueXPランサムウェア対策のセットアップ
@@ -24,6 +24,7 @@ BlueXPランサムウェア対策を使用するには、いくつかの手順�
 
 * NetApp StorageGRID
 * Amazon Web Services の
+* Microsoft Azure
 
 
 バックアップ先自体でオプションを設定したら、あとでBlueXPランサムウェア対策サービスでバックアップ先として設定します。
@@ -43,6 +44,16 @@ StorageGRIDをバックアップ先として使用する場合は、を参照し
 
 
 BlueXPでのAWSストレージの管理の詳細については、 https://docs.netapp.com/us-en/bluexp-setup-admin/task-viewing-amazon-s3.html["Amazon S3バケットを管理します"^]。
+
+
+
+=== Azureをバックアップ先にするための準備
+
+* Azureでアカウントをセットアップします。
+* 設定 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["Azure権限"^] Azure の場合：
+
+
+BlueXPでのAzureストレージの管理の詳細については、 https://docs.netapp.com/us-en/bluexp-blob-storage/task-view-azure-blob-storage.html["Azureストレージアカウントの管理"^]。
 
 
 

@@ -12,13 +12,13 @@ summary: ライセンスを設定して、BlueXPランサムウェア対策を�
 
 
 [role="lead"]
-BlueXPランサムウェア対策では、無償トライアル、従量課金制サブスクリプション、お客様所有のライセンスを使用するなど、さまざまなライセンスプランを使用できます。
+BlueXPランサムウェア対策では、さまざまなライセンスプランを使用できます。
 
 次のライセンスタイプを使用できます。
 
 * 90日間の無償トライアルにサインアップしてください。
-* Amazon Web Services（AWS）Marketplaceで従量課金制（PAYGO）サブスクリプションを購入
-* お客様所有のライセンスを使用（BYOL）：NetApp営業担当から入手するNetAppライセンスファイル（NLF）です。ライセンスのシリアル番号を使用して、BlueXPデジタルウォレットでBYOLをアクティブ化できます。
+* Amazon Web Services（AWS）Marketplaceで従量課金制（PAYGO）サブスクリプションを購入  これはまもなく利用可能になります。
+* お客様所有のライセンスを使用（BYOL）：NetApp営業担当から入手するNetAppライセンスファイル（NLF）です。ライセンスのシリアル番号を使用して、BlueXPデジタルウォレットでBYOLをアクティブ化できます。これはまもなく利用可能になります。
 
 
 AWSでBYOLをセットアップするか、PAYGOサブスクリプションを購入すると、BlueXPデジタルウォレット*[Data service Licenses]*タブでライセンスを確認するか、BlueXPデジタルウォレット*[Subscriptions]*タブでアクティブなAWSサブスクリプションを確認できます。
@@ -57,8 +57,8 @@ image:screen-rp-landing.png["BlueXPランサムウェア対策のランディン
 +
 コネクタを追加するには、を参照してください。 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["コネクタについて説明します"^]。
 
-. コネクタのセットアップが完了すると、BlueXPランサムウェア対策ランディングページで、コネクタを追加するボタンが無償トライアルを開始するためのボタンに変わります。[Start free trial]*を選択します。
-. 無償トライアルの情報を確認し、* Let's go *を選択します。
+. コネクタのセットアップが完了すると、BlueXPランサムウェア対策ランディングページで、コネクタを追加するボタンがワークロードを検出するボタンに変わります。[最初にワークロードを検出する]*を選択します。
+. 無料トライアルの情報を確認するには、右上のドロップダウンオプションを選択します。
 
 
 *試用期間終了後、サブスクリプションまたはライセンスを取得*
@@ -80,7 +80,7 @@ image:screen-rp-landing.png["BlueXPランサムウェア対策のランディン
 ** 無料トライアルの有効期限が近づいているというメッセージが表示されます。メッセージで、*支払い方法を表示*を選択します。
 ** 右上の*無料トライアル*通知をクリックし、*支払い方法を表示*を選択します。
 +
-image:screen-license-payment-methods.png["BlueXPランサムウェア対策の[Payment Methods]ページ"]
+image:screen-license-payment-methods2.png["BlueXPランサムウェア対策の[Payment Methods]ページ"]
 
 
 
@@ -102,9 +102,61 @@ image:screen-license-dw-add-license.png["BlueXPデジタルウォレットの[Ad
 
 . BlueXPデジタルウォレットの[Add License]ページで、*[Enter Serial Number]*を選択し、Eメールに記載されていたシリアル番号を入力して*[Add License]*を選択します。
 . BlueXPデジタルウォレットでライセンスの詳細を表示するには、BlueXPの左側のナビゲーションで* Governance *>* Digital Wallet *を選択します。
-. サブスクリプション情報を表示するには、*[サブスクリプション]*を選択します。BYOLライセンスを確認するには、*[Data Services Licenses]*を選択します。
++
+** サブスクリプション情報を表示するには、*[サブスクリプション]*を選択します。
+** BYOLライセンスを確認するには、*[Data Services Licenses]*を選択します。
 +
 image:screen-dw-data-services-license.png["BlueXPデジタルウォレットデータサービスのライセンスページ"]
+
+
+
+. BlueXPランサムウェア対策に戻ります。BlueXPの左側のナビゲーションで、*[保護]*>*[Ransomware protection]*を選択します。
++
+ライセンスが追加されたことを示すメッセージが表示されます。
+
+
+
+
+
+== Microsoft Azure Marketplaceでサブスクライブ
+
+この手順では、Azure Marketplaceで直接サブスクライブする方法の概要を説明します。
+
+.手順
+. BlueXPのランサムウェア対策で、次のいずれかを実行します。
++
+** 無料トライアルの有効期限が近づいているというメッセージが表示されます。メッセージで、*支払い方法を表示*を選択します。
+** 右上の*無料トライアル*通知をクリックし、*支払い方法を表示*を選択します。
++
+image:screen-license-payment-methods2.png["BlueXPランサムウェア対策の[Payment Methods]ページ"]
+
+
+
+. [支払い方法]ページで、*[ Azure Marketplaceでサブスクライブ]*を選択します。
+. Azure Marketplaceで、*購入オプションを表示*を選択します。
+. Azure Marketplaceを使用して、BlueXPランサムウェア対策のサブスクリプションを登録します。
+. BlueXPランサムウェア対策に戻ると、登録したことを示すメッセージが表示されます。
++
+
+NOTE: BlueXPランサムウェア対策のシリアル番号と、BlueXPランサムウェア対策がAzure Marketplaceでサブスクライブされていることを示すEメールが送信されます。
+
+. BlueXPランサムウェア対策の支払い方法のページに戻ります。
+. [ライセンスをBlueXPに追加]*を選択して、ライセンスをBlueXPに追加します。
++
+BlueXPデジタルウォレットサービスには、[Add License]ページが表示されます。
+
++
+image:screen-license-dw-add-license.png["BlueXPデジタルウォレットの[Add License]ページ"]
+
+. BlueXPデジタルウォレットの[Add License]ページで、*[Enter Serial Number]*を選択し、Eメールに記載されていたシリアル番号を入力して*[Add License]*を選択します。
+. BlueXPデジタルウォレットでライセンスの詳細を表示するには、BlueXPの左側のナビゲーションで* Governance *>* Digital Wallet *を選択します。
++
+** サブスクリプション情報を表示するには、*[サブスクリプション]*を選択します。
+** BYOLライセンスを確認するには、*[Data Services Licenses]*を選択します。
++
+image:screen-dw-data-services-license.png["BlueXPデジタルウォレットデータサービスのライセンスページ"]
+
+
 
 . BlueXPランサムウェア対策に戻ります。BlueXPの左側のナビゲーションで、*[保護]*>*[Ransomware protection]*を選択します。
 +
@@ -181,28 +233,4 @@ TIP: このメッセージは、BlueXPのデジタルウォレットと https://
 .. [データサービスライセンス]*タブを選択し、更新するサービスシリアル番号の*[アクション...]*アイコンを選択して、*[ライセンスの更新]*を選択します。
 
 
-
-
-
-
-== 無償トライアルを終了する
-
-無料トライアルはいつでも停止することも、有効期限が切れるまで待つこともできます。
-
-.手順
-. BlueXPのランサムウェア対策で、右上の*無償トライアル-詳細を表示*を選択します。
-. ドロップダウンの詳細で*[End free trial]*を選択します。
-+
-image:screen-license-trial-end.png["無償トライアルの終了ページ"]
-
-. すべてのデータを削除する場合は、[無料トライアル終了後にデータを削除する]オプションをオンにします。
-+
-これにより、すべてのスケジュール、レプリケーションプラン、リソースグループ、vCenter、およびサイトが削除されます。監査データ、処理ログ、およびジョブ履歴は、製品の寿命が終わるまで保持されます。
-
-+
-
-NOTE: データの削除を求められずに無償トライアルを終了し、ライセンスやサブスクリプションを購入していない場合、無償トライアルの終了から60日後にBlueXPランサムウェア対策によってすべてのデータが削除されます。
-
-. テキストボックスに「end trial」と入力します。
-. [終了]*を選択します。
 

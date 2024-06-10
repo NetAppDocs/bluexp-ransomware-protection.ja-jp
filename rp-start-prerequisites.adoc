@@ -35,6 +35,7 @@ NOTE: BlueXPランサムウェア対策の一般リリースには、プレビ�
 
 * BlueXPの場合：
 +
+** NetAppオンプレミスストレージを使用するBlueXPの作業環境（NASまたはCIFSプロトコルを使用）
 ** BlueXPでは、各Virtual Private Cloud（VPC）またはオンプレミスのリージョンごとにBlueXPコネクタを設定する必要があります。を参照してください https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["コネクタを設定するためのBlueXPドキュメント"^]。
 +
 

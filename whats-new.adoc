@@ -18,20 +18,45 @@ BlueXPランサムウェア対策の新機能をご紹介します。
 
 
 
+== 2024年6月10日
+
+このリリースのBlueXPランサムウェア対策には、次の更新が含まれています。
+
+* *プライマリストレージでのSnapshotコピーロック*：このオプションを有効にすると、プライマリストレージでSnapshotコピーがロックされます。これにより、ランサムウェア攻撃がバックアップストレージのデスティネーションに侵入しても、一定期間変更や削除ができないようになります。
++
+link:rp-use-protect.html["ランサムウェア対策戦略におけるワークロードの保護とバックアップロックの有効化の詳細"]。
+
+* *このリリースでは、Cloud Volumes ONTAP for AWSとオンプレミスのONTAP NASに加え、作業環境としてCloud Volumes ONTAP for Microsoft Azure *がサポートされます。
++
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-getting-started-azure.html["Azure での Cloud Volumes ONTAP のクイックスタート"^]
+
++
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-protection.html["BlueXPランサムウェア対策の詳細をご確認ください"]。
+
+
+
+* *バックアップ先としてMicrosoft Azureが追加されました*。AWSおよびNetApp StorageGRIDとともに、バックアップ先としてMicrosoft Azureを追加できるようになりました。
++
+link:rp-use-settings.html["「保護の設定」を参照してください。"]。
+
+
+
+
+
 == 2024年5月14日
 
 このリリースは、BlueXPランサムウェア対策の一般提供リリースです。次の更新が含まれています。
 
-* *ライセンスの更新*: 90日間の無償トライアルにサインアップするか、Amazon Web Services Marketplaceで1年、2年、3年の従量課金制サブスクリプションを購入するか、お客様所有のNetAppライセンスを使用できます。
+* *ライセンスの更新*: 90日間の無償トライアルにサインアップできます。まもなく、Amazon Web Services Marketplaceで従量課金制サブスクリプションを購入するか、お客様所有のNetAppライセンスを使用できるようになります。
 +
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html["ライセンスの設定に関する詳細情報"]。
 
 * * CIFSプロトコル*：NFSプロトコルとCIFSプロトコルの両方を使用して、AWSの作業環境でオンプレミスのONTAPとCloud Volumes ONTAPがサポートされるようになりました。以前のリリースでは、NFSプロトコルのみがサポートされていました。
-* *ワークロードの詳細*：このリリースでは、ワークロード保護の評価を改善するために、[保護]ページのワークロード情報に詳細が表示されるようになりました。ワークロードの詳細から、ワークロード名の変更、ワークロードの重要度の変更、現在割り当てられているポリシーの確認、設定されているバックアップデスティネーションの確認を行うことができます。
+* *ワークロードの詳細*：このリリースでは、[保護]および[その他]ページのワークロード情報に詳細が表示されるようになり、ワークロード保護の評価が向上しました。ワークロードの詳細から、現在割り当てられているポリシーと設定されているバックアップ先を確認できます。
 +
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["[保護]ページでのワークロードの詳細の表示に関する詳細を確認する"]。
 
-* *アプリケーションと整合性のある保護とリカバリ*：NetApp SnapCenterソフトウェアを使用してアプリケーションと整合性のある保護を実行し、SnapCenter Plug-in for VMware vSphereを使用してVMと整合性のある保護を実行できるようになりました。休止状態と整合性のある状態を実現して、リカバリが必要になった場合のデータ損失を回避できます。リカバリが必要な場合は、アプリケーションまたはVMを以前の状態および最後のトランザクションにリストアできます。
+* *アプリケーションと整合性のある保護とリカバリ*：NetApp SnapCenterソフトウェアを使用してアプリケーションと整合性のある保護を実行し、SnapCenter Plug-in for VMware vSphereを使用してVMと整合性のある保護を実行できるようになりました。休止状態と整合性のある状態を実現して、リカバリが必要になった場合のデータ損失を回避できます。リカバリが必要な場合は、アプリケーションまたはVMを以前の状態にリストアできます。
 +
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["ワークロードの保護に関する詳細情報"]。
 
@@ -53,7 +78,7 @@ https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html[
 +
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["ワークロードの保護と保護ステータスの表示に関する詳細情報"]。
 
-* *[Dashboard]、[Protection]、[Alerts]、[Recovery]の各ページからCSVファイル*をダウンロードします。
+* *[Protection]、[Alerts]、[Recovery]の各ページからCSVファイル*をダウンロードします。
 +
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-reports.html["ダッシュボードおよびその他のページからのCSVファイルのダウンロードに関する詳細情報"]。
 

@@ -67,7 +67,7 @@ NetApp StorageGRIDをバックアップ先として設定するには、次の�
 . [設定]>[バックアップデスティネーション]*ページで、*[追加]*を選択します。
 . バックアップ先の名前を入力します。
 +
-image:screen-settings-backup-destination-azure.png["[バックアップデスティネーション]ページ"]
+image:screen-settings-backup-destination.png["[バックアップデスティネーション]ページ"]
 
 . 「* StorageGRID *」を選択します。
 . 各設定の横にある下矢印を選択し、値を入力または選択します。
@@ -113,7 +113,7 @@ BlueXPでのAWSストレージの管理の詳細については、 https://docs.
 . [設定]>[バックアップデスティネーション]*ページで、*[追加]*を選択します。
 . バックアップ先の名前を入力します。
 +
-image:screen-settings-backup-destination-azure.png["[バックアップデスティネーション]ページ"]
+image:screen-settings-backup-destination.png["[バックアップデスティネーション]ページ"]
 
 . Amazon Web Servicesを選択します。
 . 各設定の横にある下矢印を選択し、値を入力または選択します。
@@ -171,7 +171,7 @@ BlueXPでAzureクレデンシャルとマーケットプレイスサブスクリ
 . [設定]>[バックアップデスティネーション]*ページで、*[追加]*を選択します。
 . バックアップ先の名前を入力します。
 +
-image:screen-settings-backup-destination-azure.png["[バックアップデスティネーション]ページ"]
+image:screen-settings-backup-destination.png["[バックアップデスティネーション]ページ"]
 
 . 「 * Azure * 」を選択します。
 . 各設定の横にある下矢印を選択し、値を入力または選択します。

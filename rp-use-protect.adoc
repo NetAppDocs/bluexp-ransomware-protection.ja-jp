@@ -18,6 +18,7 @@ BlueXPのランサムウェア対策を使用して次の操作を実行する�
 * SnapCenterソフトウェアまたはSnapCenter Plug-in for VMware vSphereと連携して、ワークロードと整合性のある保護を実現します。
 * Snapshot、バックアップ、ランサムウェア検出用に作成するポリシーなど、ランサムウェア対策戦略を作成または管理します。
 * ストラテジーをインポートして調整します。
+* 保護戦略を削除する。
 
 
 
@@ -160,7 +161,7 @@ image:screen-protection-sc-columns2.png["[Protection]ページ"]
 
 
 
-NOTE: SnapCenterまたはBlueXPのバックアップおよびリカバリサービスですでに保護ポリシーが設定されているワークロードについては、保護を編集することはできません。これらのワークロードに対して、BlueXPランサムウェアは自律型ランサムウェア対策やFPolicy保護（他のサービスですでにアクティブ化されている場合）を有効にします。の詳細を確認してください https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自律的なランサムウェア防御"^] および https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXPのバックアップとリカバリ"^]および https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy"^]。
+NOTE: SnapCenterまたはBlueXPのバックアップおよびリカバリサービスですでに保護ポリシーが設定されているワークロードについては、保護を編集することはできません。これらのワークロードに対して、BlueXPランサムウェアは自律型ランサムウェア対策やFPolicy保護（他のサービスですでにアクティブ化されている場合）を有効にします。、およびの詳細については、を参照して https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自律的なランサムウェア防御"^] https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXPのバックアップとリカバリ"^] https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy"^]ください。
 
 
 
@@ -177,8 +178,6 @@ image:screen-protection-details3.png["[Protection]ページでのワークロー
 +
 ワークロードの詳細ページでは、ワークロードへのポリシーの割り当て、アラートの表示、バックアップ先の表示、リカバリ情報の表示を行うことができます。
 
-
-
 . ワークロードに関連付けられているポリシーを表示するには、[ワークロードの詳細]ページの[保護]ペインで*[ポリシーの表示]*をクリックします。
 . ワークロードのバックアップ先を表示するには、[ワークロードの詳細]ページの[保護]ペインで*[バックアップ先を表示]*をクリックします。
 +
@@ -193,39 +192,28 @@ image:screen-protection-details3.png["[Protection]ページでのワークロー
 
 アプリケーションまたはVMと整合性のある保護を有効にすると、アプリケーションまたはVMワークロードを一貫した方法で保護し、休止状態と整合性のある状態を実現して、リカバリが必要になった場合のデータ損失を回避できます。
 
-このプロセスでは、アプリケーション用のSnapCenterソフトウェアまたはVM用のSnapCenter Plug-in for VMware vSphereのインストールが開始されます。
+このプロセスでは、BlueXPのバックアップとリカバリを使用して、アプリケーション用のSnapCenterソフトウェアサーバまたはSnapCenter Plug-in for VMware vSphere for VMの登録が開始されます。
 
 ワークロードと整合性のある保護を有効にしたら、BlueXPのランサムウェア対策で保護戦略を管理できます。保護戦略には、他の場所で管理されるSnapshotポリシーとバックアップポリシー、BlueXPのランサムウェア対策で管理されるランサムウェア検出ポリシーが含まれます。
 
-SnapCenterの詳細については、次の情報を参照してください。
+BlueXPのバックアップとリカバリを使用してSnapCenterまたはSnapCenter Plug-in for VMware vSphereを登録する方法については、次の情報を参照してください。
 
-* https://docs.netapp.com/us-en/snapcenter/index.html["SnapCenter ソフトウェア"^]
-* https://docs.netapp.com/us-en/sc-plugin-vmware-vsphere/index.html["SnapCenter Plug-in for VMware vSphere"^]
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/task-register-snapcenter-server.html["SnapCenterサーバソフトウェアの登録"^]
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/task-register-snapCenter-plug-in-for-vmware-vsphere.html["SnapCenter Plug-in for VMware vSphereの登録"^]
 
 
 .手順
-. BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
-. [Protection]ページで、ワークロードを選択します。
+. BlueXPのランサムウェア対策メニューから、*[ダッシュボード]*を選択します。
+. [Recommendations]ペインで、次のいずれかの推奨事項を探し、*[Review and fix]*を選択します。
 +
-image:screen-protection-sc-columns.png["[Protection]ページ"]
-
-. [保護]ページで、*[操作]* image:screenshot_horizontal_more_button.gif["[アクション]ボタン"] オプションを選択し、ドロップダウンメニューで*[ワークロードと整合性のある保護を有効にする]*を選択してSnapCenterを有効にします。
-+
-
-TIP: VMベースのワークロードを選択した場合は、[Install SnapCenter ]の代わりにSnapCenter Plug-in for VMware vSphereをインストールするリンクが表示されます。
-
-+
-image:screen-protection-enable-sc.png["[Enable Workload-Consistent Protection]ページ"]
-
-. [ワークロードの場所]フィールドで*[コピー]*を選択して、ワークロードの場所をクリップボードにコピーし、SnapCenterインストールで使用します。下にスクロールして、ワークロードの残りの詳細を確認します。
-. SnapCenterのインストール*を選択します。
-+
-** アプリケーションベースのワークロードを選択した場合は、SnapCenterソフトウェアの情報が表示されます。
-** VMベースのワークロードを選択した場合は、SnapCenter Plug-in for VMware vSphereの情報が表示されます。
+** 利用可能なSnapCenterサーバをBlueXPに登録
+** 使用可能なSnapCenter Plug-in for VMware vSphere（SCV）をBlueXPに登録
 
 
-. 情報に従ってSnapCenterをインストールします。
-. BlueXPランサムウェア対策に戻ります。[保護]*を選択して[保護]ページを表示します。
+. 表示された情報に従って、BlueXPのバックアップとリカバリを使用してSnapCenterまたはSnapCenter Plug-in for VMware vSphereホストを登録します。
+. BlueXPランサムウェア対策に戻ります。
+. BlueXPのランサムウェア対策から、ダッシュボードに移動して検出プロセスを再度開始します。
+. BlueXPのランサムウェア対策で、* Protection *を選択してProtectionページを表示します。
 . [保護]ページの[Snapshotポリシーとバックアップポリシー]列の詳細で、別の場所でポリシーが管理されていることを確認します。
 
 
@@ -242,14 +230,14 @@ image:screen-protection-enable-sc.png["[Enable Workload-Consistent Protection]�
 
 .ランサムウェア対策戦略の策定手順
 . BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
+. [保護]ページで、*[保護戦略の管理]*を選択します。
 +
-image:screen-protection-sc-columns.png["[Protection]ページ"]
-
-. [Protection]ページで、*[Manage ransomware protection strategies]*を選択します。
-+
-image:screen-protection-strategy-manage2.png["[Manage strategy]ページ"]
+image:screen-protection-strategy-manage3.png["[Manage strategy]ページ"]
 
 . [Ransomware protection strategory]ページで、*[Add]*を選択します。
++
+image:screen-protection-strategy-add.png["[Snapshot]セクションを示す[Add strategy]ページ"]
+
 . 新しいストラテジー名を入力するか、既存の名前を入力してコピーします。既存の名前を入力した場合は、コピーする名前を選択して*コピー*を選択します。
 +
 
@@ -269,7 +257,7 @@ NOTE: 既存のストラテジーをコピーして変更する場合は、元�
 
 ** * Snapshotポリシー*：
 +
-*** * Snapshotポリシー名*：Snapshotポリシーの名前を入力します。
+*** * Snapshotポリシーのベース名*：ポリシーを選択するか、*[作成]*を選択してSnapshotポリシーの名前を入力します。
 *** * Snapshotロック*：このオプションを有効にすると、プライマリストレージ上のSnapshotコピーがロックされ、ランサムウェア攻撃を受けてバックアップ先にたどり着いた場合でも、Snapshotコピーの変更や削除が一定期間行われないようになります。これは_不変ストレージ_とも呼ばれます。これにより、リストア時間が短縮されます。
 +
 Snapshotがロックされている場合、ボリュームの有効期限はSnapshotコピーの有効期限に設定されます。
@@ -282,12 +270,15 @@ Snapshotコピーロックは、ONTAP 9.12.1以降で使用できます。SnapLo
 
 ** *バックアップポリシー*：
 +
-*** *バックアップポリシー名*：新しい名前または既存の名前を入力します。
-*** *バックアップロック*：セカンダリストレージ上のバックアップが一定期間変更または削除されないようにする場合に選択します。これは_不変ストレージ_とも呼ばれます。
+*** *バックアップポリシーのベース名*：新しい名前を入力するか、既存の名前を選択します。
 *** *バックアップスケジュール*:セカンダリストレージのスケジュールオプションを選択し、スケジュールを有効にします。
 
 
 
+
++
+
+TIP: セカンダリストレージでバックアップロックを有効にするには、*[設定]*オプションを使用してバックアップ先を設定します。詳細については、を参照してください link:rp-use-settings.html["セツテイノセツテイ"]。
 
 . 「 * 追加」を選択します。
 
@@ -308,7 +299,7 @@ BlueXPのバックアップとリカバリやSnapCenterなどの他のサービ�
 .手順
 . BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
 +
-image:screen-protection-sc-columns.png["[Protection]ページ"]
+image:screen-protection-strategy-manage3.png["[Manage strategy]ページ"]
 
 . [保護]ページで、ワークロードを選択し、*[保護]*を選択します。
 +
@@ -344,4 +335,17 @@ image:screen-protect-br-policies.png["BlueXPのバックアップとリカバリ
 . [Policies]ページで、割り当てるポリシーの下矢印をクリックして詳細を確認します。
 . 割り当てるポリシーを選択します。
 . [保護]*を選択して変更を終了します。
+
+
+
+
+=== ランサムウェア対策戦略を削除
+
+現在どのワークロードにも関連付けられていない保護戦略を削除できます。
+
+.手順
+. BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
+. [Protection]ページで、*[Manage ransomware strategies]*を選択します。
+. [ストラテジーの管理]ページで、削除するストラテジーの*[アクション]*オプションを選択し image:screenshot_horizontal_more_button.gif["[アクション]ボタン"] ます。
+. [アクション]メニューから*[ストラテジーの削除]*を選択します。
 

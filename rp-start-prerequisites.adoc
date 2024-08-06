@@ -14,16 +14,34 @@ summary: お客様の環境、ネットワークアクセス、ログイン、We
 [role="lead"]
 運用環境、ログイン、ネットワークアクセス、Webブラウザの準備状況を確認して、BlueXPランサムウェア対策を始めましょう。
 
-BlueXPランサムウェア対策を使用するには、次の前提条件が必要です。
+BlueXP  ランサムウェア対策を使用するには、次の前提条件が必要です。
 
-* バックアップターゲットとアクセス権限が設定されたNetApp StorageGRIDまたはAWS S3のアカウント
-+
-を参照してください https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["AWS権限リスト"^] を参照してください。
 
-* ONTAP 9.11.1以降
+
+== BlueXP  の場合
+
+* リソースを検出するためのAccount Admin Privilegesを持つBlueXP  ユーザアカウント。
+* オンプレミスのONTAPクラスタに接続する、またはAWSまたはAzureのCloud Volumes ONTAPに接続する、アクティブなBlueXP  Connectorが少なくとも1つあるBlueXP  アカウント。
+* オンプレミスのNetApp ONTAPクラスタまたはAWSまたはAzureのCloud Volume ONTAP（NASまたはCIFSプロトコルを使用）を含む少なくとも1つのBlueXP  作業環境。
 +
-** クラスタカンリシヤONTAPノケンケン
-** オンプレミスのONTAPインスタンスで有効にする、BlueXPランサムウェア対策で使用するNetApp自律型ランサムウェア対策のライセンス。使用しているONTAPのバージョンに応じて異なります。を参照してください https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["Autonomous Ransomware Protection Overview"^]。
+** ONTAP OSバージョン9.11.1以降のONTAPまたはCloud Volume ONTAPクラスタがサポートされます。
+** オンプレミスのONTAPクラスタまたはAWSまたはAzureクラウドのCloud Volume ONTAPがBlueXP  にまだオンボードされていない場合は、BlueXP  Connectorが必要です。
++
+およびを参照してください https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["BlueXP  Connectorの設定方法"] https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["BlueXPの標準の要件"^]。
+
++
+
+NOTE: 1つのBlueXP  アカウントに複数のBlueXP  コネクタがある場合、BlueXP  ランサムウェア対策サービスは、BlueXP  UIで現在選択されているコネクタ以外のすべてのコネクタのONTAPリソースをスキャンします。
+
+
+
+
+
+
+
+== ONTAP 9.11.1以降
+
+* オンプレミスのONTAPインスタンスで有効にする、BlueXPランサムウェア対策で使用するNetApp自律型ランサムウェア対策のライセンス。使用しているONTAPのバージョンに応じて異なります。を参照してください https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["Autonomous Ransomware Protection Overview"^]。
 +
 
 NOTE: BlueXPランサムウェア対策の一般リリースには、プレビューリリースとは異なり、NetApp自律型ランサムウェア対策テクノロジのライセンスが含まれています。を参照してください https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["Autonomous Ransomware Protection Overview"^] を参照してください。
@@ -31,23 +49,45 @@ NOTE: BlueXPランサムウェア対策の一般リリースには、プレビ�
 +
 ライセンスの詳細については、を参照してください。 link:concept-ransomware-protection.html["BlueXPランサムウェア対策の詳細をご確認ください"]。
 
+* 保護設定を適用するには（自律型ランサムウェア対策などの有効化）、BlueXP  ランサムウェア対策には、ONTAPクラスタに対する管理者権限が必要です。ONTAPクラスタのオンボードには、ONTAPクラスタ管理者のユーザクレデンシャルのみを使用する必要があります。
+* ONTAPクラスタが管理者以外のユーザクレデンシャルを使用してBlueXP  にすでにオンボードされている場合は、このページで説明するONTAPクラスタにログインして、管理者以外のユーザの権限を必要な権限で更新する必要があります。
 
 
-* BlueXPの場合：
+
+
+== テエタハツクアツフ
+
+* バックアップターゲットおよびアクセス権限セット用のNetApp StorageGRID、AWS S3、またはAzure Blobのアカウント。
 +
-** NetAppオンプレミスストレージを使用するBlueXPの作業環境（NASまたはCIFSプロトコルを使用）
-** BlueXPでは、各Virtual Private Cloud（VPC）またはオンプレミスのリージョンごとにBlueXPコネクタを設定する必要があります。を参照してください https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["コネクタを設定するためのBlueXPドキュメント"^]。
+詳細については、を参照して https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["AWS、Azure、S3の権限リスト"^] ください。
+
+* 作業環境でBlueXP  バックアップおよびリカバリサービスを有効にする必要はありません。
 +
-
-NOTE: BlueXPコネクタが複数ある場合は、BlueXP UIに現在表示されているコネクタ以外のすべてのコネクタのデータがスキャンされます。
-
-** オンプレミスのONTAPクラスタに接続するアクティブなコネクタが少なくとも1つあるBlueXPアカウント。すべてのソース環境と作業環境が同じBlueXPアカウントに属している必要があります。
-** リソースを検出するためのアカウント管理者権限を持つBlueXPユーザアカウント
-** NetAppオンプレミスストレージを使用するBlueXPの作業環境（NASまたはCIFSプロトコルを使用）
-** https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["BlueXPの標準の要件"^]
+BlueXPランサムウェア対策サービスは、[Settings]オプションを使用してバックアップ先を設定するのに役立ちます。を参照して link:rp-use-settings.html["セツテイノセツテイ"]
 
 
 
 
 
-NOTE: 作業環境でBlueXPのバックアップとリカバリサービスを有効にしておく必要はなくなりました。BlueXPランサムウェア対策サービスは、[Settings]オプションを使用してバックアップ先を設定するのに役立ちます。を参照してください link:rp-use-settings.html["セツテイノセツテイ"]。
+== ONTAP作業環境での管理者以外のユーザ権限の更新
+
+特定の作業環境で管理者以外のユーザ権限を更新する必要がある場合は、次の手順を実行します。
+
+. BlueXP  アカウントにログインし、ONTAPユーザ権限を更新する必要がある作業環境を探します。
+. 作業環境をダブルクリックして詳細を表示します。
+. ユーザ名を表示する*[追加情報を表示]*をクリックします。
+. 管理者ユーザを使用してONTAPクラスタCLIにログインします。
+. そのユーザの既存のロールを表示します。入力：
++
+[listing]
+----
+security login show -user-or-group-name <username>
+----
+. ユーザのロールを変更します。入力：
++
+[listing]
+----
+security login modify -user-or-group-name <username> -application console|http|ontapi|ssh|telnet -authentication-method password -role admin
+----
+. BlueXP  ランサムウェア対策UIに戻って使用します。
+

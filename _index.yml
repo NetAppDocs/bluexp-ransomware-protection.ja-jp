@@ -20,10 +20,6 @@ indexpage:
       url: "/rp-start-prerequisites.html"
     - title: クイックスタート
       url: "/rp-start-quick-start.html"
-    - title: BlueXPランサムウェア対策のセットアップ
-      url: "/rp-start-setup.html"
-    - title: BlueXPのランサムウェア対策にアクセス
-      url: "/rp-start-login.html"
     - title: バックアップ先の設定と脅威検出の有効化
       url: "/rp-use-settings.html"
     - title: よく寄せられる質問

@@ -12,9 +12,25 @@ summary: BlueXPランサムウェア対策サービスでは、バックアッ�
 
 
 [role="lead"]
-ダッシュボードで推奨事項を確認して、バックアップ先を設定したり、脅威の検出を有効にしたりできます。
+バックアップ先を設定したり、脅威の検出を有効にしたりするには、ダッシュボードで推奨事項を確認するか、*[設定]*オプションにアクセスします。
 
-脅威検出を有効にすると、セキュリティおよびイベント管理システム（SIEM）にデータが自動的に送信され、脅威の分析と検出が行われます。
+脅威検出を有効にすると、脅威分析のためにセキュリティおよびイベント管理システム（SIEM）にデータが自動的に送信されます。
+
+
+
+== [Settings]ページに直接アクセスする
+
+[設定]ページには、トップメニューの近くにある[アクション]オプションから簡単にアクセスできます。
+
+. BlueXPのランサムウェア対策メニューで、 image:button-actions-vertical.png["垂直的なアクション"]...オプションを右上に表示します。
+. ドロップダウンメニューから*[設定]*を選択します。
+. [Settings]ページでは、次の操作を実行できます。
++
+** バックアップ先を追加します。
+** セキュリティおよびイベント管理システム（SIEM）を接続して、脅威の分析と検出を行います。
+
+
+
 
 
 
@@ -49,12 +65,12 @@ image:screen-dashboard.png["ダッシュボードページ"]
 
 
 
-=== メニューから[Settings]ページにアクセスする
+=== [Actions]ドロップダウンメニューから[Backup Destination]オプションにアクセスします。
 
-メニューから[設定]ページに簡単にアクセスできます。
+[設定]ページには、トップメニューの近くにある[アクション]オプションから簡単にアクセスできます。
 
 . BlueXPのランサムウェア対策メニューで、 image:button-actions-vertical.png["垂直的なアクション"]...オプションを右上に表示します。
-. メニューから*[設定]*を選択します。
+. ドロップダウンメニューから*[設定]*を選択します。
 . バックアップ先を追加するには、*[追加]*を選択します。
 
 
@@ -203,9 +219,83 @@ image:screen-settings-backup-destinations-list-azure.png["[Backup destinations]�
 
 == 脅威検出を有効にする
 
-セキュリティおよびイベント管理システム（SIEM）にデータを自動的に送信して、脅威の分析と検出を行うことができます。
+セキュリティおよびイベント管理システム（SIEM）にデータを自動的に送信して、脅威の分析と検出を行うことができます。AWS Security HubまたはSplunk CloudをSIEMとして選択できます。
 
-. BlueXPの左側のナビゲーションで、*[保護]*>*[Ransomware protection]*を選択します。
+BlueXP  ランサムウェア対策でSIEMを有効にする前に、AWSセキュリティハブまたはSplunkクラウドを構成する必要があります。
+
+
+
+=== 脅威検出のためのAWS Security Hubの設定
+
+BlueXP  ランサムウェア対策でAWSセキュリティハブを有効にする前に、AWSセキュリティハブで次の手順を実行する必要があります。
+
+* AWS Security Hubで権限を設定します。
+* AWS Security Hubで認証アクセスキーとシークレットキーを設定します。（これらの手順はここでは説明しません）。
+
+
+.AWS Security Hubで権限を設定する手順
+. AWS IAMコンソール*に移動します。
+. [ポリシー]*を選択します。
+. JSON形式の次のコードを使用してポリシーを作成します。
++
+[listing]
+----
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "NetAppSecurityHubFindings",
+      "Effect": "Allow",
+      "Action": [
+        "securityhub:BatchImportFindings",
+        "securityhub:BatchUpdateFindings"
+      ],
+      "Resource": [
+        "arn:aws:securityhub:*:*:product/*/default",
+        "arn:aws:securityhub:*:*:hub/default"
+      ]
+    }
+  ]
+}
+----
+
+
+
+
+=== 脅威検出のためのSplunk Cloudの設定
+
+BlueXP  ランサムウェア対策でSplunk Cloudを有効にする前に、Splunk Enterpriseで次の手順を実行する必要があります。
+
+* Splunk CloudのHTTPイベントコレクタがBlueXP  からHTTPまたはHTTPS経由でイベントデータを受信できるようにします。
+* Splunk Cloudでイベントコレクタトークンを作成します。
+
+
+.SplunkでHTTPイベントコレクタを有効にする手順
+. Splunk Cloudに移動します。
+. [設定]*>*[データ入力]*を選択します。
+. [HTTP Event Collector]*>*[Global Settings]*を選択します。
+. [すべてのトークン]トグルで、*[有効]*を選択します。
+. イベントコレクタがHTTPではなくHTTPSで待ち受けて通信するようにするには、* SSLを有効にする*を選択します。
+. HTTP Event Collectorのポートを* HTTP Port Number *に入力します。
+
+
+.Splunkでイベントコレクタトークンを作成する手順
+. Splunk Cloudに移動します。
+. [設定]*>*[データの追加]*を選択します。
+. * Monitor *>* HTTP Event Collector *を選択します。
+. トークンの名前を入力し、* Next *を選択します。
+. イベントがプッシュされる*デフォルトインデックス*を選択し、*レビュー*を選択します。
+. エンドポイントの設定がすべて正しいことを確認し、*[送信]*を選択します。
+. トークンをコピーして別のドキュメントに貼り付け、認証手順の準備をします。
+
+
+
+
+=== SIEMをBlueXP  ランサムウェア対策に接続
+
+SIEMを有効にすると、BlueXP  ランサムウェア対策からSIEMサーバにデータが送信され、脅威の分析とレポートが作成されます。
+
+. BlueXP  メニューから、* Protection *>* Ransomware protection *を選択します。
 . BlueXPのランサムウェア対策メニューで、 image:button-actions-vertical.png["垂直的なアクション"]...オプションを右上に表示します。
 . [設定]*を選択します。
 +
@@ -215,9 +305,27 @@ image:screen-settings-backup-destinations-list-azure.png["[Backup destinations]�
 image:screen-settings-threat-detection3.png["[Settings]ページ"]
 
 . [設定]ページで、SIEM接続ペインで*[接続]*を選択します。
-. 脅威検出をイネーブルにするには、SIEMサーバの詳細を入力します。
+. AWS Security HubまたはSplunk Cloudで設定したトークンと認証の詳細を入力します。
++
+
+NOTE: 入力する情報は、選択したSIEMによって異なります。
+
 . [ 有効 ] を選択します。
 +
 [設定]ページに[接続済み]と表示されます。
 
+
+
+
+
+=== SIEMの接続解除
+
+SIEMを切断すると、サービスからSIEMサーバへのデータ送信が停止します。
+
+.手順
+. BlueXP  メニューから、* Protection *>* Ransomware protection *を選択します。
+. BlueXPのランサムウェア対策メニューで、 image:button-actions-vertical.png["垂直的なアクション"]...オプションを右上に表示します。
+. [設定]*を選択します。
+. SIEM接続ペインで、*切断*を選択します。
+. 確認ページで、*[切断]*を選択します。
 

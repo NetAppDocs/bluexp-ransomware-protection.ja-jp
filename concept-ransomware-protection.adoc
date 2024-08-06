@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept-ransomware-protection.html 
-keywords: artificial intelligence, personal data, personal information, sensitive, personal sensitive data, data sense, ransomware, ransomware protection, cyberstorage, cyber attack, cybersecurity 
+keywords: artificial intelligence, personal data, personal information, sensitive, personal sensitive data, data sense, ransomware, ransomware protection, cyberstorage, cyber attack, cybersecurity, protection, bluexp, netapp 
 summary: ランサムウェア攻撃は、ビジネス時間、リソース、評判を低下させる可能性があります。BlueXPのランサムウェア対策サービスでは、サイバーセキュリティに関する関連情報を確認し、サイバー攻撃に対する組織の耐障害性を評価できます。また、データのセキュリティを強化するためのアラートと修正措置のリストも記載されています。 
 ---
 = BlueXPランサムウェア対策の詳細をご確認ください
@@ -56,6 +56,12 @@ BlueXPのランサムウェア対策には、次のようなメリットがあ�
 
 BlueXPランサムウェア対策の試用版を使用した場合、NetAppは料金を請求しません。
 
+BlueXP  のバックアップとリカバリとBlueXP  のランサムウェア対策の両方がある場合、両方の製品で保護される共通データには、BlueXP  のランサムウェア対策のみが課金されます。
+
+ライセンスまたはPAYGOサブスクリプションの購入後、ランサムウェア検出ポリシー（Autonomous Ransomware Protection）が有効になっている（BlueXP  ランサムウェア対策で検出または設定されている）ワークロード BlueXP  ランサムウェア対策では、スナップショットまたはバックアップポリシーが少なくとも1つは「保護されている」と分類され、購入済み容量や従量課金制サブスクリプションにカウントされます。バックアップポリシーやSnapshotポリシーが設定されていても検出ポリシー（ARP）が設定されていないワークロードが検出されると、「リスクあり」に分類され、購入済み容量に対してdoes_not_countが行われます。
+
+保護されているワークロードは、90日間の試用期間が終了すると、購入した容量またはサブスクリプションにカウントされます。BlueXP  ランサムウェア対策は、効率化前に保護されたワークロードに関連するデータに対してGB単位で課金されます。
+
 
 
 == ライセンス
@@ -64,6 +70,8 @@ BlueXPランサムウェア対策なら、無償トライアル、従量課金�
 
 BlueXPランサムウェア対策サービスにはNetApp ONTAPライセンスが必要です。
 
+BlueXP  ランサムウェア対策ライセンスには、追加のNetApp製品は含まれていません。BlueXP  ランサムウェア対策では、ライセンスがなくてもBlueXP  のバックアップとリカバリを使用できます。
+
 詳細については、を参照してください link:rp-start-licenses.html["ライセンスをセットアップする"]。
 
 
@@ -71,6 +79,8 @@ BlueXPランサムウェア対策サービスにはNetApp ONTAPライセンス�
 == BlueXPのランサムウェア対策の仕組み
 
 BlueXPのランサムウェア対策は、大まかに言ってこのように機能します。
+
+BlueXP  ランサムウェア対策では、BlueXP  のバックアップとリカバリを使用してファイル共有ワークロードのSnapshotポリシーとバックアップポリシーを検出および設定し、SnapCenterまたはSnapCenter for VMwareを使用してアプリケーションとVMワークロードのSnapshotとバックアップポリシーを検出および設定します。さらに、BlueXP  ランサムウェア対策では、BlueXP  のバックアップとリカバリとSnapCenter / SnapCenter for VMwareを使用して、ファイルとワークロードの整合性のあるリカバリを実行します。
 
 image:diagram-rp-architecture-preview3.png["BlueXPのランサムウェア対策アーキテクチャを示す図"]
 
@@ -84,7 +94,7 @@ image:diagram-rp-architecture-preview3.png["BlueXPのランサムウェア対策
 * ONTAPおよびSnapCenterサービスAPIから取得した顧客データを特定し、ワークロードに関連付けます。の詳細を確認してください https://docs.netapp.com/us-en/ontap-family/["ONTAP"^] および https://docs.netapp.com/us-en/snapcenter/index.html["SnapCenter ソフトウェア"^]。
 * 各ボリュームのNetApp Snapshotコピーとバックアップポリシーの現在の保護レベル、および組み込みの検出機能を検出します。次に、BlueXPのバックアップとリカバリ、ONTAPサービス、NetAppテクノロジ（Autonomous Ransomware Protection、FPolicy、バックアップポリシー、Snapshotポリシーなど）を使用して、この保護体制をワークロードに関連付けます。
 の詳細を確認してください https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自律的なランサムウェア防御"^] および https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXPのバックアップとリカバリ"^]および https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy"^]。
-* 自動的に検出された保護レベルに基づいて各ワークロードにビジネス優先度を割り当て、ビジネス優先度に基づいてワークロードに保護ポリシーを推奨します。
+* 自動的に検出された保護レベルに基づいて各ワークロードにビジネス優先度を割り当て、ビジネス優先度に基づいてワークロードに保護ポリシーを推奨します。ワークロードの優先順位は、ワークロードに関連付けられた各ボリュームにすでに適用されているSnapshotの頻度に基づいて決まります。
 
 
 
@@ -125,9 +135,9 @@ image:diagram-rp-architecture-preview3.png["BlueXPのランサムウェア対策
 |===
 
 
-== サポートされるバックアップターゲット、作業環境、データソース
+== サポートされるバックアップターゲット、作業環境、ワークロードのデータソース
 
-BlueXPのランサムウェア対策を使用すると、次のタイプのバックアップターゲット、作業環境、データソースに対するサイバー攻撃に対するデータの耐障害性を確認できます。
+BlueXP  ランサムウェア対策を使用して、次のタイプのバックアップターゲット、作業環境、ワークロードデータソースに対するサイバー攻撃に対するデータの耐障害性を確認します。
 
 *サポートされるバックアップターゲット*
 
@@ -144,9 +154,9 @@ BlueXPのランサムウェア対策を使用すると、次のタイプのバ�
 
 
 
-NOTE: サポートされないボリュームは、FlexGroup、9.11.1より前のONTAPバージョン、iSCSIボリューム、データ保護（DP）ボリュームです。
+NOTE: サポートされないボリュームは次のとおりです。FlexGroup、9.11.1より前のバージョンのONTAP、iSCSIボリューム、マウントポイントボリューム、マウントパスボリューム、オフラインボリューム、 およびデータ保護（DP）ボリュームが含まれます。
 
-*サポートされるデータソース*
+*サポートされるワークロードデータソース*
 
 このサービスは、プライマリデータボリューム上で次のアプリケーションベースのワークロードを保護します。
 
@@ -155,6 +165,8 @@ NOTE: サポートされないボリュームは、FlexGroup、9.11.1より前�
 * データベース（MySQL、Oracle）
 * 詳細は近日公開予定
 
+
+さらに、SnapCenterまたはSnapCenter for VMwareを使用している場合、それらの製品でサポートされるすべてのワークロードもBlueXP  ランサムウェア対策の対象となります。BlueXP  ランサムウェア対策は、ワークロードと整合性のある方法でこれらを保護、リカバリできます。
 
 
 

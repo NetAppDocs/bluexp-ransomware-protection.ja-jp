@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: rp-start-disable.html 
+keywords: bluexp, ransomware protection, netapp, disable protection 
+summary: BlueXP  ランサムウェア対策サービスの使用が不要になった場合は、ライセンスの有効期限を有効期限にすることができます。 
+---
+= BlueXP  ランサムウェア対策を無効にする
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media
+
+
+[role="lead"]
+BlueXP  ランサムウェア対策サービスの使用が不要になった場合は、ライセンスの有効期限を有効期限にすることができます。不要になったポリシーを無効にすることもできます。
+
+
+
+== BlueXP  ランサムウェア対策サービスを無効にする
+
+サブスクリプションまたはライセンスが期限切れになると、サービスはサブスクリプションまたはライセンスを必要とする機能を自動的に無効にします。
+
+ライセンスの有効期限が切れた後も引き続き実行できるアクションの詳細については、を参照してください link:rp-start-licenses.html["BlueXP  ランサムウェア対策のライセンスを設定"]。
+
+
+
+== 保護ポリシーを無効にする
+
+ワークロードに適用されている保護ポリシーの使用を停止する場合は、System Manager、API呼び出し、またはCLIを使用して無効にすることができます。
+
+BlueXP  ランサムウェア対策でFPolicyポリシーとバックアップポリシーを無効にするには、それらのポリシーを含まない別のポリシーを適用します。保護ポリシーの設定手順については、を参照してください link:rp-use-protect.html["ランサムウェア攻撃からワークロードを保護"]。
+
+
+TIP: Snapshotポリシーは無効にしないことを推奨します。

@@ -24,7 +24,7 @@ BlueXPランサムウェア対策の新機能をご紹介します。
 
 * * Splunk Cloudによる脅威の検出*：セキュリティおよびイベント管理システム（SIEM）にデータを自動的に送信し、脅威の分析と検出を行うことができます。以前のリリースでは、SIEMとしてAWS Security Hubのみを選択できました。このリリースでは、AWS Security HubまたはSplunk CloudをSIEMとして選択できます。
 +
-詳細については、を参照してください link:rp-use-settings.html["BlueXPのランサムウェア対策の設定"]。
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["BlueXP  ランサムウェア対策の設定の詳細"]です。
 
 
 

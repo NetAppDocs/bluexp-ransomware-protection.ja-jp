@@ -1269,5 +1269,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="dd6b8bf5a56c8beb81b173991906c83e" category="section-title">2024 年 8 月 5 日</block>
   <block id="3660cbb805c1bf63e1967ed1339a3bbd" category="paragraph">このリリースのBlueXP  ランサムウェア対策には、次の更新が含まれています。</block>
   <block id="11f5c2b9557e3c8b41afc65159260e17" category="list-text">* Splunk Cloudによる脅威の検出*：セキュリティおよびイベント管理システム（SIEM）にデータを自動的に送信し、脅威の分析と検出を行うことができます。以前のリリースでは、SIEMとしてAWS Security Hubのみを選択できました。このリリースでは、AWS Security HubまたはSplunk CloudをSIEMとして選択できます。</block>
-  <block id="3a7cd5901f60d9fe1ad078b90ed19aa9" category="paragraph">詳細については、を参照してください <block ref="5870fcfbb57d837071c2ed4a31f53401" category="inline-link-macro-rx"></block>。</block>
+  <block id="0d0fda3a15e7f6f6406a0dde3997c91f" category="inline-link">BlueXP  ランサムウェア対策の設定の詳細</block>
+  <block id="5b0f75e0c31233c18e6f9318b8569cf7" category="paragraph"><block ref="25291e882ba76639fccc7a13f1838641" category="inline-link-rx"></block>です。</block>
 </blocks>

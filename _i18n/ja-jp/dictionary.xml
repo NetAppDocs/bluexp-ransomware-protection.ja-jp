@@ -1240,7 +1240,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="bf6953a41efa897b0862fca0fe547641" category="list-text">[ポリシー]*を選択します。</block>
   <block id="2228b7980f61d80481608141744ecee0" category="list-text">JSON形式の次のコードを使用してポリシーを作成します。</block>
   <block id="9ccf45c8190b08c78e0be70f31ab71c4" category="section-title">脅威検出のためのSplunk Cloudの設定</block>
-  <block id="e215e0c1eb10681907a819d2fd1344c9" category="paragraph">BlueXP  ランサムウェア対策でSplunk Cloudを有効にする前に、Splunk Enterpriseで次の手順を実行する必要があります。</block>
   <block id="2023b8ec64adfca5ffadf54679575f52" category="list-text">Splunk CloudのHTTPイベントコレクタがBlueXP  からHTTPまたはHTTPS経由でイベントデータを受信できるようにします。</block>
   <block id="a0df7816503d32b52e0b8eaf94868e56" category="list-text">Splunk Cloudでイベントコレクタトークンを作成します。</block>
   <block id="2c65d4e0cdac9c48880857277c1bc9e3" category="list-title">SplunkでHTTPイベントコレクタを有効にする手順</block>
@@ -1271,4 +1270,5 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="11f5c2b9557e3c8b41afc65159260e17" category="list-text">* Splunk Cloudによる脅威の検出*：セキュリティおよびイベント管理システム（SIEM）にデータを自動的に送信し、脅威の分析と検出を行うことができます。以前のリリースでは、SIEMとしてAWS Security Hubのみを選択できました。このリリースでは、AWS Security HubまたはSplunk CloudをSIEMとして選択できます。</block>
   <block id="0d0fda3a15e7f6f6406a0dde3997c91f" category="inline-link">BlueXP  ランサムウェア対策の設定の詳細</block>
   <block id="5b0f75e0c31233c18e6f9318b8569cf7" category="paragraph"><block ref="25291e882ba76639fccc7a13f1838641" category="inline-link-rx"></block>です。</block>
+  <block id="38f076b49309ac077a903c6521bcf590" category="paragraph">BlueXP  ランサムウェア対策でSplunk Cloudを有効にする前に、Splunk Cloudで次の手順を実行する必要があります。</block>
 </blocks>

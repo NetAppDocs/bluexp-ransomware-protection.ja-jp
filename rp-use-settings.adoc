@@ -264,7 +264,7 @@ BlueXP  ランサムウェア対策でAWSセキュリティハブを有効に�
 
 === 脅威検出のためのSplunk Cloudの設定
 
-BlueXP  ランサムウェア対策でSplunk Cloudを有効にする前に、Splunk Enterpriseで次の手順を実行する必要があります。
+BlueXP  ランサムウェア対策でSplunk Cloudを有効にする前に、Splunk Cloudで次の手順を実行する必要があります。
 
 * Splunk CloudのHTTPイベントコレクタがBlueXP  からHTTPまたはHTTPS経由でイベントデータを受信できるようにします。
 * Splunk Cloudでイベントコレクタトークンを作成します。

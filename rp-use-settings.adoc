@@ -42,6 +42,7 @@ BlueXPのランサムウェア対策なら、バックアップがまだない�
 
 * NetApp StorageGRID
 * Amazon Web Services （ AWS ）
+* Google Cloud Platform
 * Microsoft Azure
 
 
@@ -107,7 +108,7 @@ image:screen-settings-backup-destination.png["[バックアップデスティネ
 .結果
 新しいバックアップ先がバックアップ先のリストに追加されます。
 
-image:screen-settings-backup-destinations-list-azure.png["[Backup destinations]ページの[Settings]オプション"]
+image:screen-settings-backup-destinations-list2.png["[Backup destinations]ページの[Settings]オプション"]
 
 
 
@@ -165,7 +166,47 @@ CAUTION: ここでバックアップロックの設定を行う場合は、バ�
 .結果
 新しいバックアップ先がバックアップ先のリストに追加されます。
 
-image:screen-settings-backup-destinations-list-azure.png["[Backup destinations]ページの[Settings]オプション"]
+image:screen-settings-backup-destinations-list2.png["[Backup destinations]ページの[Settings]オプション"]
+
+
+
+=== バックアップ先としてGoogle Cloud Platformを追加
+
+バックアップ先としてGoogle Cloud Platform（GCP）を設定するには、次の情報を入力します。
+
+BlueXP  でのGCPストレージの管理の詳細については、を参照してください https://docs.netapp.com/us-en/bluexp-setup-admin/concept-install-options-google.html["Google Cloudでのコネクタのインストールオプション"^]。
+
+. [設定]>[バックアップデスティネーション]*ページで、*[追加]*を選択します。
+. バックアップ先の名前を入力します。
++
+image:screen-settings-backup-destination-gcp.png["[バックアップデスティネーション]ページ"]
+
+. [* Google Cloud Platform*]を選択します。
+. 各設定の横にある下矢印を選択し、値を入力または選択します。
++
+** *プロバイダ設定*：
++
+*** 新しいバケットを作成します。アクセスキーとシークレットキーを入力します。
+*** Google Cloud Platformのプロジェクトとリージョンを入力または選択します。
+
+
+** *暗号化*：新しいバケットを作成する場合は、プロバイダから提供された暗号化キー情報を入力します。既存のバケットを選択した場合は、暗号化情報がすでに表示されています。
++
+バケット内のデータは、デフォルトでGoogleが管理するキーで暗号化されます。Googleで管理されているキーを引き続き使用できます。
+
+** *ネットワーク*：IPspaceとプライベートエンドポイントを使用するかどうかを選択します。
++
+*** IPspaceは、バックアップするボリュームが配置されているクラスタです。この IPspace のクラスタ間 LIF には、アウトバウンドのインターネットアクセスが必要です。
+*** 必要に応じて、以前に設定したGCPプライベートエンドポイント（PrivateLink）を使用するかどうかを選択します。
+
+
+
+
+. 「 * 追加」を選択します。
+
+
+.結果
+新しいバックアップ先がバックアップ先のリストに追加されます。
 
 
 
@@ -213,7 +254,7 @@ Azure PrivateLinkを使用する場合は、を参照してください。 https
 .結果
 新しいバックアップ先がバックアップ先のリストに追加されます。
 
-image:screen-settings-backup-destinations-list-azure.png["[Backup destinations]ページの[Settings]オプション"]
+image:screen-settings-backup-destinations-list2.png["[Backup destinations]ページの[Settings]オプション"]
 
 
 

@@ -50,6 +50,10 @@ sidebar:
     - title: レポートのダウンロード
       url: "/rp-use-reports.html"
   - section: support
+  - title: 参考文献
+    entries:
+    - title: ロールベースアクセス制御Privileges
+      url: "/rp-reference-roles.html"
   - title: 法的通知
     url: "/legal-notices.html"
 product-family:

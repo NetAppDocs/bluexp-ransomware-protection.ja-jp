@@ -18,6 +18,30 @@ BlueXPランサムウェア対策の新機能をご紹介します。
 
 
 
+== 2024年9月2日
+
+このリリースのBlueXP  ランサムウェア対策には、次の更新が含まれています。
+
+* *デジタルアドバイザによるセキュリティリスク評価*：BlueXP  ランサムウェア対策は、NetAppデジタルアドバイザからクラスタに関連する高リスクおよび重大なセキュリティリスクに関する情報を収集するようになりました。リスクが検出された場合、BlueXP  ランサムウェア対策により、ダッシュボードの[推奨される操作]ペインに「クラスタ<name>の既知のセキュリティの脆弱性を修正する」という推奨事項が表示されます。ダッシュボードの推奨事項で、*[確認と修正]*をクリックすると、Digital AdvisorとCommon Vulnerability & Exposure（CVE）の記事を確認してセキュリティリスクを解決するよう提案されます。複数のセキュリティリスクがある場合は、Digital Advisorで情報を確認します。
++
+を参照してください https://docs.netapp.com/us-en/active-iq/index.html["Digital Advisorのドキュメント"^]。
+
+* * Google Cloud Platformにバックアップ*：このリリースでは、Google Cloud Platformバケットにバックアップ先を設定できます。以前は、バックアップ先を追加できるのはNetApp StorageGRID、Amazon Web Services、Microsoft Azureのみでした。
++
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["BlueXP  ランサムウェア対策の設定の詳細"]です。
+
+* * Google Cloud Platformのサポート*：このサービスでは、ストレージ保護のためにCloud Volumes ONTAP for Google Cloud Platformがサポートされるようになりました。以前は、Amazon Web ServicesとMicrosoft AzureのCloud Volumes ONTAPとオンプレミスのNASのみがサポートされていました。
++
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-protection.html["BlueXP  ランサムウェア対策、サポート対象のデータソース、バックアップ先、作業環境について説明します。"]です。
+
+* *ロールベースアクセス制御*：ロールベースアクセス制御（RBAC）を使用して、特定のアクティビティへのアクセスを制限できるようになりました。BlueXP  ランサムウェア対策では、BlueXP  の2つのロール、BlueXP  アカウント管理者と非アカウント管理者（ビューア）を使用します。
++
+各ロールで実行できるアクションの詳細については、を参照してください https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-reference-roles.html["ロールベースアクセス制御Privileges"]。
+
+
+
+
+
 == 2024 年 8 月 5 日
 
 このリリースのBlueXP  ランサムウェア対策には、次の更新が含まれています。

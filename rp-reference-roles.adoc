@@ -1,0 +1,225 @@
+---
+sidebar: sidebar 
+permalink: rp-reference-roles.html 
+keywords: ransomware protection, protect against ransomware attacks, anti-ransomware, role-based access control, rbac, role, permission, access rights 
+summary: BlueXPランサムウェア対策サービスでは、バックアップ先など、いくつかのオプションを設定できます。 
+---
+= BlueXP  ランサムウェア対策ロールベースアクセス制御Privileges
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media
+
+
+[role="lead"]
+BlueXP  ランサムウェア対策では、Role-Based Access Control（RBAC；ロールベースアクセス制御）を使用して、特定の機能やアクションに対する各ユーザのアクセスを制御します。このサービスでは、アカウント管理者およびビューア（非アカウント管理者0）のコアBlueXP  ロールが使用されます。
+
+次の表に、各ロールで実行できるアクションを示します。
+
+[cols="40,20a,20a"]
+|===
+| 特徴とアクション | BlueXP  アカウント管理者 | 管理者以外（ビューア） 
+
+
+| 無償トライアルを開始  a| 
+Y
+ a| 
+n
+
+
+
+| ダッシュボードを表示  a| 
+Y
+ a| 
+Y
+
+
+
+| [View Protection]タブ  a| 
+Y
+ a| 
+Y
+
+
+
+| [View Alerts]タブ  a| 
+Y
+ a| 
+Y
+
+
+
+| [View Recover]タブ  a| 
+Y
+ a| 
+Y
+
+
+
+| [View Reports]タブ  a| 
+Y
+ a| 
+Y
+
+
+
+| [View Settings]タブ  a| 
+Y
+ a| 
+Y
+
+
+
+| ワークロードの検出を開始  a| 
+Y
+ a| 
+n
+
+
+
+| 保護：ポリシーの変更または削除  a| 
+Y
+ a| 
+n
+
+
+
+| 保護：ポリシーの追加  a| 
+Y
+ a| 
+n
+
+
+
+| 保護：ワークロードの保護  a| 
+Y
+ a| 
+n
+
+
+
+| 保護：機密データを特定  a| 
+Y
+ a| 
+n
+
+
+
+| 保護：ワークロード保護の編集  a| 
+Y
+ a| 
+n
+
+
+
+| 保護：ワークロードの詳細を表示  a| 
+Y
+ a| 
+Y
+
+
+
+| 保護：データのダウンロード  a| 
+Y
+ a| 
+Y
+
+
+
+| アラート：アラートの詳細の表示  a| 
+Y
+ a| 
+Y
+
+
+
+| アラート：インシデントステータスの編集  a| 
+Y
+ a| 
+n
+
+
+
+| アラート：インシデントの詳細の表示  a| 
+Y
+ a| 
+Y
+
+
+
+| アラート：影響を受けるファイルの完全なリストを取得  a| 
+Y
+ a| 
+n
+
+
+
+| アラート:アラートデータのダウンロード  a| 
+Y
+ a| 
+Y
+
+
+
+| リカバリ：影響を受けるファイルのダウンロード  a| 
+Y
+ a| 
+n
+
+
+
+| リカバリ：ワークロードのリストア  a| 
+Y
+ a| 
+n
+
+
+
+| リカバリ：リカバリデータのダウンロード  a| 
+Y
+ a| 
+Y
+
+
+
+| リカバリ:レポートのダウンロード  a| 
+Y
+ a| 
+Y
+
+
+
+| 設定：バックアップターゲットの追加または変更  a| 
+Y
+ a| 
+n
+
+
+
+| 設定:SIEMターゲットの追加または変更  a| 
+Y
+ a| 
+n
+
+
+
+| レポート:レポートのダウンロード  a| 
+Y
+ a| 
+Y
+
+
+
+| ドキュメント：製品に関するドキュメントの表示  a| 
+Y
+ a| 
+Y
+
+
+
+| ドキュメント：製品の新機能に関するドキュメントの表示  a| 
+Y
+ a| 
+Y
+
+|===

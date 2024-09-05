@@ -997,7 +997,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="da9b0b803342ecbbfeed5ada41b8ed48" category="list-text">次のいずれかのオプションを選択します。</block>
   <block id="9cd2fdc543bd545d0901aa3a644323f5" category="list-text">*新機能*現在または以前のリリースの機能に関する情報をリリースノートに表示します。</block>
   <block id="641b2727bf35132b14f4d7d15dbcc36e" category="list-text">*ドキュメント*：BlueXPランサムウェア対策に関するドキュメントのホームページとこのドキュメントを参照してください。</block>
-  <block id="d90ac49acd1ad23fcb68b1306e400fb2" category="list-text">保護戦略を削除する。</block>
   <block id="126bd3757ebb93ac0d390d13f9b73284" category="admonition">SnapCenterまたはBlueXPのバックアップおよびリカバリサービスですでに保護ポリシーが設定されているワークロードについては、保護を編集することはできません。これらのワークロードに対して、BlueXPランサムウェアは自律型ランサムウェア対策やFPolicy保護（他のサービスですでにアクティブ化されている場合）を有効にします。、およびの詳細については、を参照して<block ref="f30128629f1afb4b75b9a7fc6de548bc" category="inline-link-rx"></block><block ref="eb41fa8ef2a588e65533beee945728a7" category="inline-link-rx"></block><block ref="591ebe16737e602cc342b68e859c040e" category="inline-link-rx"></block>ください。</block>
   <block id="e3d677577c431440029c2189661b7337" category="paragraph">このプロセスでは、BlueXPのバックアップとリカバリを使用して、アプリケーション用のSnapCenterソフトウェアサーバまたはSnapCenter Plug-in for VMware vSphere for VMの登録が開始されます。</block>
   <block id="01744c5f4e5131b7e42034d08b8839ab" category="paragraph">BlueXPのバックアップとリカバリを使用してSnapCenterまたはSnapCenter Plug-in for VMware vSphereを登録する方法については、次の情報を参照してください。</block>
@@ -1296,7 +1295,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">Digital Advisorのドキュメント</block>
   <block id="c422252635de9cce46903202ef695202" category="cell">NetAppデジタルアドバイザですべてのセキュリティリスクをレビューします。を参照してください<block ref="5d1aa2fae9958ef5ced45eec5d13d250" category="inline-link-rx"></block>。</block>
   <block id="569cb6f4f9666a29ec02382988684778" category="list-text">Snapshot、バックアップ、ランサムウェア検出のために作成するポリシーなど、ランサムウェア対策戦略を作成または管理します。</block>
-  <block id="e4eeb193640db0be3236081d76f52e99" category="list-text">保護戦略を編集します。</block>
   <block id="fce50e2060d77397ad723b03afeed2c1" category="paragraph">変更可能な保護ポリシーに関する情報や保護戦略に含まれるポリシーのタイプを確認すると役立つことがあります。</block>
   <block id="e38a78b6f8fec891a76f3e95f74a807d" category="paragraph">*どの保護ポリシーを変更できますか？*</block>
   <block id="683e243f289e56afa9f8815dcba452b6" category="list-text">SnapCenter、SnapCenter for VMware、またはBlueXP  のバックアップとリカバリでSnapshotポリシーやバックアップポリシーを管理している場合は、それらのアプリケーションで引き続き管理されます。BlueXP  ランサムウェア対策を使用すると、これらのワークロードにランサムウェア検出ポリシーを適用することもできます。</block>
@@ -1312,41 +1310,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="0ee473db21133faa7ce270707728209c" category="section-title">ワークロードの詳細の変更</block>
   <block id="fe661c5d6ba0af0ece684143c7da827e" category="paragraph">ワークロードと整合性のある保護を有効にしたら、BlueXPのランサムウェア対策で保護戦略を管理できます。保護戦略には、他の場所で管理されるSnapshotポリシーとバックアップポリシー、およびBlueXP  ランサムウェア対策で管理されるランサムウェア検出ポリシーが含まれます。</block>
   <block id="cebfa4409b0603554b2d559a348328f3" category="list-text">[Protection]ページの[snapshot policies]列で詳細を確認して、別の場所でポリシーが管理されていることを確認します。</block>
-  <block id="8d90cde420a05a39d1329a149e642633" category="section-title">BlueXP  分類を使用して、個人を特定できる情報をスキャンする</block>
-  <block id="372d7b38ffd58ebd707f5eed3daebfe5" category="paragraph">BlueXP  ランサムウェア対策サービスでは、BlueXP  ファミリーのコアコンポーネントであるBlueXP  Classificationを使用して、ファイル共有ワークロード上のデータをスキャンして分類できます。データを分類することで、データに個人情報が含まれているかどうかを特定し、セキュリティリスクを高めることができます。</block>
-  <block id="076729a2004741ee7d92b63f5cb3fe9a" category="section-title">BlueXP  分類を有効にする</block>
-  <block id="a43036419058d2ad4ca5da0ce6b97873" category="paragraph">BlueXP  ランサムウェア対策サービスでBlueXP  分類を使用する前に、BlueXP  分類を有効にしてデータをスキャンする必要があります。</block>
-  <block id="22da148f02a4f9df3c95fa55ebe1f0e4" category="list-text">[保護]ページの[ワークロード]列でファイル共有のワークロードを探します。</block>
-  <block id="684ef7f908cedf00c137942b202a9317" category="inline-image-macro">[プライバシーの露出]列が表示された[保護]画面</block>
-  <block id="22e9a3250bd97b0a01c929300bb3e061" category="paragraph"><block ref="22e9a3250bd97b0a01c929300bb3e061" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="74e6620dc48af7264e35e6e1bd38a478" category="list-text">[プライバシーエクスポージャー]列で、*[エクスポージャーの識別]*を選択します。</block>
-  <block id="04c2fdcb53dc660f7267061f2996a772" category="inline-image-macro">機密データの識別画面</block>
-  <block id="64af7ad3ab046769c51f4f24a86b7cf4" category="paragraph"><block ref="64af7ad3ab046769c51f4f24a86b7cf4" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="969f986150648403974cc122eae60ccf" category="list-text">BlueXP  分類に関する情報を確認します。</block>
-  <block id="858cc0364fb5e649249551c7ef4f979a" category="list-text">[Identify]*を選択します。</block>
-  <block id="a61cb1d59ee37f20eafadff116934f64" category="paragraph">BlueXP  分類は、リモートからワークロードデータに接続し、NetAppクラウドでスキャンします。特定されたインサイトと指標のみがNetAppクラウドに残ります。データには残りません。</block>
-  <block id="e38116370a2dc507f80d013a938914d9" category="paragraph">[Protection]ページには、BlueXP  分類によってファイルが識別されていることが表示され、スキャン中のファイル数が示されます。</block>
-  <block id="70f91b9311063ebb918671e1632eea94" category="section-title">プライバシーの露出を確認する</block>
-  <block id="69fb8dfc3b2247a2a33825a8a26cde0a" category="paragraph">BlueXP  分類が個人識別情報（PII）をスキャンした後、PIIデータリスクを確認できます。</block>
-  <block id="2eb84b98ed1ebf3d3faf114be4d6d3ce" category="paragraph">PIIデータには、次のいずれかのリスクステータスがあります。</block>
-  <block id="9e16f8babacd7fca3112d8f50f34e9e8" category="list-text">* High *：PIIを含むxnumber以上のファイル</block>
-  <block id="c0b4f8f5822fb08738949c94e80794cc" category="list-text">*低*：</block>
-  <block id="743c833ae848226cd938cbcdec4813e8" category="list-text">[Protection]ページで、[Workload]列でファイル共有のワークロードを見つけます。このワークロードには、[Privacy exposure]列にステータスが表示されます。</block>
-  <block id="648eb89d24fbd412ac4e5191ba6b3cfc" category="list-text">[ワークロード]列でワークロードのリンクを選択して、ワークロードの詳細を確認します。</block>
-  <block id="fbb3a837089f0da9e0cebd46602a970a" category="inline-image-macro">[プライバシーエクスポージャー]ペインを示す[ワークロードの詳細]画面</block>
-  <block id="49c64cfb6f35d57ce67294767ff57c01" category="paragraph"><block ref="49c64cfb6f35d57ce67294767ff57c01" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="409501ac122ff644e6764e778fb7dbd8" category="list-text">[Workload details]ページで、[Privacy exposure]ペインの情報を確認します。</block>
-  <block id="eab784efeec8f5c6a6edd9d398ba81ff" category="list-text">BlueXP  分類で照射を調査するには、*[Investigate（調査）]*を選択します。</block>
-  <block id="02805e7a9841e159c892f77027e36b42" category="list-text">何が起こるの? 今分類に行きますか？ギヤオプションは何に使用されますか？</block>
-  <block id="15e674d84786450a9efe801faaf91922" category="paragraph">BlueXP  分類の詳細については、次のBlueXP  分類のトピックを参照してください。</block>
-  <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="inline-link">BlueXPの分類について説明します</block>
-  <block id="799ed37205c29a076a84d3694d53c585" category="list-text"><block ref="799ed37205c29a076a84d3694d53c585" category="inline-link-rx"></block></block>
-  <block id="93f515959ce6187b986c42fa6959168b" category="inline-link">プライベートデータのカテゴリ</block>
-  <block id="d66481d703fafde739dabfd3c44d96bc" category="list-text"><block ref="d66481d703fafde739dabfd3c44d96bc" category="inline-link-rx"></block></block>
-  <block id="499dd7659f4fa7b600ca3796c449e41b" category="inline-link">組織に保存されているデータを調査します</block>
-  <block id="08e880effe206106422b9043908d11e9" category="list-text"><block ref="08e880effe206106422b9043908d11e9" category="inline-link-rx"></block></block>
-  <block id="79358c298db0eacc977af41b070c4abe" category="section-title">機密性データに基づくワークロード優先度の変更の表示</block>
-  <block id="d4908b1e39cc61772e5d74e5fb77d241" category="paragraph">未定</block>
   <block id="cf077fd7afe54e3a0c2d1f4f171b9592" category="section-title">ランサムウェア対策戦略を追加</block>
   <block id="54bdf309cd573298347b047ca6b07740" category="paragraph">ワークロードにランサムウェア対策戦略を追加できます。この方法は、Snapshotポリシーとバックアップポリシーがすでに存在するかどうかによって異なります。</block>
   <block id="4a3696472e41e77b4b20caa5facc276d" category="list-text">*スナップショットポリシーやバックアップポリシーがない場合は、ランサムウェア対策戦略を作成*。ワークロードにSnapshotポリシーやバックアップポリシーがない場合は、ランサムウェア対策戦略を作成できます。この戦略には、BlueXP  ランサムウェア対策で作成する次のポリシーを含めることができます。</block>
@@ -1415,4 +1378,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="c7038711405bbbe2f0f37c53c5eb81ad" category="inline-link">ロールベースアクセス制御Privileges</block>
   <block id="edf15150f2ed24145a29e67792372ecc" category="paragraph">各ロールで実行できるアクションの詳細については、を参照してください<block ref="03cd1069228e8895d221bed8eef34f69" category="inline-link-rx"></block>。</block>
   <block id="63d5049791d9d79d86e9a108b0a999ca" category="sidebar">参考文献</block>
+  <block id="35d7231cd1e70d9d7e80f676960dadc7" category="list-text">ランサムウェア対策戦略を編集</block>
+  <block id="f408bca27d184a4c16751c8a466fdbd5" category="list-text">ランサムウェア対策戦略を削除</block>
 </blocks>

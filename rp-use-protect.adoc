@@ -17,8 +17,8 @@ BlueXPのランサムウェア対策を使用して次の操作を実行する�
 * SnapCenterソフトウェアまたはSnapCenter Plug-in for VMware vSphereと連携して、ワークロードと整合性のある保護を実現します。
 * Snapshot、バックアップ、ランサムウェア検出のために作成するポリシーなど、ランサムウェア対策戦略を作成または管理します。
 * ストラテジーをインポートして調整します。
-* 保護戦略を編集します。
-* 保護戦略を削除する。
+* ランサムウェア対策戦略を編集
+* ランサムウェア対策戦略を削除
 
 
 
@@ -253,77 +253,6 @@ BlueXPのバックアップとリカバリを使用してSnapCenterまたはSnap
 . BlueXPのランサムウェア対策で、* Protection *を選択してProtectionページを表示します。
 . [Protection]ページの[snapshot policies]列で詳細を確認して、別の場所でポリシーが管理されていることを確認します。
 
-
-
-
-== BlueXP  分類を使用して、個人を特定できる情報をスキャンする
-
-BlueXP  ランサムウェア対策サービスでは、BlueXP  ファミリーのコアコンポーネントであるBlueXP  Classificationを使用して、ファイル共有ワークロード上のデータをスキャンして分類できます。データを分類することで、データに個人情報が含まれているかどうかを特定し、セキュリティリスクを高めることができます。
-
-
-
-=== BlueXP  分類を有効にする
-
-BlueXP  ランサムウェア対策サービスでBlueXP  分類を使用する前に、BlueXP  分類を有効にしてデータをスキャンする必要があります。
-
-.手順
-. BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
-. [保護]ページの[ワークロード]列でファイル共有のワークロードを探します。
-+
-image:screen-protection-exposure-link.png["[プライバシーの露出]列が表示された[保護]画面"]
-
-. [プライバシーエクスポージャー]列で、*[エクスポージャーの識別]*を選択します。
-+
-image:screen-protection-sensitive-data.png["機密データの識別画面"]
-
-. BlueXP  分類に関する情報を確認します。
-. [Identify]*を選択します。
-
-
-.結果
-BlueXP  分類は、リモートからワークロードデータに接続し、NetAppクラウドでスキャンします。特定されたインサイトと指標のみがNetAppクラウドに残ります。データには残りません。
-
-[Protection]ページには、BlueXP  分類によってファイルが識別されていることが表示され、スキャン中のファイル数が示されます。
-
-
-
-=== プライバシーの露出を確認する
-
-BlueXP  分類が個人識別情報（PII）をスキャンした後、PIIデータリスクを確認できます。
-
-PIIデータには、次のいずれかのリスクステータスがあります。
-
-* * High *：PIIを含むxnumber以上のファイル
-* *低*：
-
-
-.手順
-. BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
-. [Protection]ページで、[Workload]列でファイル共有のワークロードを見つけます。このワークロードには、[Privacy exposure]列にステータスが表示されます。
-+
-image:screen-protection-exposure-link.png["[プライバシーの露出]列が表示された[保護]画面"]
-
-. [ワークロード]列でワークロードのリンクを選択して、ワークロードの詳細を確認します。
-+
-image:screen-protection-workload-details-privacy-exposure.png["[プライバシーエクスポージャー]ペインを示す[ワークロードの詳細]画面"]
-
-. [Workload details]ページで、[Privacy exposure]ペインの情報を確認します。
-. BlueXP  分類で照射を調査するには、*[Investigate（調査）]*を選択します。
-. 何が起こるの? 今分類に行きますか？ギヤオプションは何に使用されますか？
-
-
-BlueXP  分類の詳細については、次のBlueXP  分類のトピックを参照してください。
-
-* https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXPの分類について説明します"^]
-* https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html["プライベートデータのカテゴリ"^]
-* https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html["組織に保存されているデータを調査します"^]
-
-
-
-
-=== 機密性データに基づくワークロード優先度の変更の表示
-
-未定
 
 
 

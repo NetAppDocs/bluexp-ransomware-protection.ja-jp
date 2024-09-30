@@ -262,7 +262,7 @@ image:screen-settings-backup-destinations-list2.png["[Backup destinations]ペー
 
 セキュリティおよびイベント管理システム（SIEM）にデータを自動的に送信して、脅威の分析と検出を行うことができます。AWS Security HubまたはSplunk CloudをSIEMとして選択できます。
 
-BlueXP  ランサムウェア対策でSIEMを有効にする前に、AWSセキュリティハブまたはSplunkクラウドを構成する必要があります。
+BlueXP  ランサムウェア対策でSIEMを有効にする前に、SIEMシステムを設定する必要があります。
 
 
 
@@ -346,6 +346,7 @@ SIEMを有効にすると、BlueXP  ランサムウェア対策からSIEMサー
 image:screen-settings-threat-detection3.png["[Settings]ページ"]
 
 . [設定]ページで、SIEM接続ペインで*[接続]*を選択します。
+. SIEMシステムのいずれかを選択します。
 . AWS Security HubまたはSplunk Cloudで設定したトークンと認証の詳細を入力します。
 +
 

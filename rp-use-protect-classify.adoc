@@ -1,0 +1,134 @@
+---
+sidebar: sidebar 
+permalink: rp-use-protect-classify.html 
+keywords: ransomware protection, protect against ransomware attacks, anti-ransomware policies, cds, sensitive, pii, classification 
+summary: BlueXP  ランサムウェア対策サービスでは、BlueXP  ファミリーのコアコンポーネントであるBlueXP  Classificationを使用して、ファイル共有ワークロード上のデータをスキャンして分類できます。データを分類することで、データに個人情報が含まれているかどうかを特定し、セキュリティリスクを高めることができます。 
+---
+= BlueXP  分類を使用して、個人を特定できる機密データをスキャン
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media
+
+
+[role="lead"]
+BlueXP  ランサムウェア対策サービスでは、BlueXP  ファミリーのコアコンポーネントであるBlueXP  Classificationを使用して、ファイル共有ワークロード上のデータをスキャンして分類できます。データを分類することで、データに個人情報が含まれているかどうかを特定し、セキュリティリスクを高めることができます。
+
+
+
+=== BlueXP  分類を有効にする
+
+BlueXP  ランサムウェア対策サービスでBlueXP  分類を使用する前に、BlueXP  分類を有効にしてデータをスキャンする必要があります。
+
+サービスの使用を開始する前に、BlueXP  の分類に関する詳細を確認しておくと便利です。
+
+* https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXPの分類について説明します"^]
+* https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html["プライベートデータのカテゴリ"^]
+* https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html["組織に保存されているデータを調査します"^]
+
+
+.手順
+. BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
+. [保護]ページの[ワークロード]列でファイル共有のワークロードを探します。
++
+image:screen-protection3.png["[Protection]ページ"]
+
+. BlueXP  クラシフィケーションでデータをスキャンして機密データを検出できるようにするには、[プライバシーエクスポージャー]列で*[エクスポージャーの識別]*を選択します。
++
+image:screen-protection-sensitive-data.png["機密データの識別画面"]
+
+. BlueXP  分類に関する情報を確認します。
+. [Identify]*を選択します。
+
+
+.結果
+BlueXP  分類は、BlueXP  Connectorをインストールし、ワークロードデータにリモートで接続し、NetAppクラウドのデータをスキャンします。特定されたインサイトと指標のみがNetAppクラウドに残ります。データには残りません。
+
+
+NOTE: データの量によっては、スキャンに数分かかることがあります。[Protection]ページには、BlueXP  分類によってファイルが識別されていることが表示され、スキャン中のファイル数が示されます。
+
+スキャンが完了すると、[プライバシー露光]列に露光レベル（[高]など）が表示されます。
+
+
+
+=== プライバシーの露出を確認する
+
+BlueXP  分類が個人識別情報（PII）をスキャンした後、PIIデータリスクを確認できます。
+
+PIIデータには、次のいずれかのプライバシーエクスポージャーリスクステータスがあります。
+
+* *高*: 70%を超えるファイルにPIIが含まれている
+* *中*:ファイルの30%以上70%未満にPIIがある
+* *低*: 0より大きく、ファイルの30%未満にPIIがある
+
+
+.手順
+. BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
+. [Protection]ページで、[Workload]列でファイル共有のワークロードを見つけます。このワークロードには、[Privacy exposure]列にステータスが表示されます。
++
+image:screen-protection3.png["[プライバシーの露出]列が表示された[保護]画面"]
+
+. [ワークロード]列でワークロードのリンクを選択して、ワークロードの詳細を確認します。
++
+image:screen-protection-workload-details-privacy-exposure.png["[プライバシーエクスポージャー]ペインを示す[ワークロードの詳細]画面"]
+
+. [Workload details]ページで、[Privacy exposure]ペインの情報を確認します。
+
+
+
+
+=== プライバシー侵害がワークロードの重要性に与える影響
+
+プライバシーの危険性の変化は、ワークロードの重要性に影響を与える
+
+[cols="15,20a,20,20"]
+|===
+| プライバシーエクスポージャーの場合： | このプライバシーへの露出から | このプライバシーへの暴露には | 次に、ワークロードの重要性について説明します。 
+
+
+| *減少*  a| 
+高、中、または低
+| [中]、[低]、または[なし] | 変わらない 
+
+
+.3+| *増加*  a| 
+なし
+| 低 | 標準のまま 
+
+
+| 低  a| 
+中
+| 標準から重要への変更 
+
+
+| 低または中  a| 
+高
+| 「標準」または「重要」から「重要」への変更 
+|===
+
+
+== BlueXP  分類で機密データを直接調査
+
+.手順
+. BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
+. [Protection]ページで、[Workload]列でファイル共有のワークロードを見つけます。このワークロードには、[Privacy exposure]列にステータスが表示されます。
++
+image:screen-protection3.png["[プライバシーの露出]列が表示された[保護]画面"]
+
+. [ワークロード]列でワークロードを選択して詳細を表示します。
++
+image:screen-protection-workload-details-privacy-exposure.png["[プライバシーエクスポージャー]ペインを示す[ワークロードの詳細]画面"]
+
+. [Workload details]ページで、[Privacy exposure]ペインの情報を確認します。
+. BlueXP  分類で照射を調査するには、*[Investigate（調査）]*を選択します。
++
+BlueXP  分類サービスが開き、[Investigate]タブが表示されます。
+
+
+
+BlueXP  分類の詳細については、次のBlueXP  分類のトピックを参照してください。
+
+* https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXPの分類について説明します"^]
+* https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html["プライベートデータのカテゴリ"^]
+* https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html["組織に保存されているデータを調査します"^]
+

@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: rp-use-protect.html 
-keywords: ransomware protection, protect against ransomware attacks, anti-ransomware policies 
+keywords: ransomware protection, protect against ransomware attacks, anti-ransomware policies, protect, malware, attack 
 summary: BlueXPのランサムウェア対策でワークロードにポリシーを割り当てることで、ランサムウェア攻撃からワークロードを保護できます。 
 ---
-= ランサムウェア攻撃からワークロードを保護
+= ランサムウェア戦略でワークロードを保護
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -15,10 +15,17 @@ summary: BlueXPのランサムウェア対策でワークロードにポリシ�
 BlueXPのランサムウェア対策を使用して次の操作を実行することで、ランサムウェア攻撃からワークロードを保護できます。
 
 * SnapCenterソフトウェアまたはSnapCenter Plug-in for VMware vSphereと連携して、ワークロードと整合性のある保護を実現します。
-* Snapshot、バックアップ、ランサムウェア検出のために作成するポリシーなど、ランサムウェア対策戦略を作成または管理します。
+* ランサムウェア対策戦略を作成または管理します。この戦略には、Snapshot、バックアップ、ランサムウェア対策用に作成するポリシー（_detection policies_）が含まれます。
 * ストラテジーをインポートして調整します。
-* ランサムウェア対策戦略を編集
+* ファイル共有をグループ化すると、ワークロードを個別に保護するのではなく、簡単に保護できます。
 * ランサムウェア対策戦略を削除
+
+
+*保護にはどのサービスが使用されていますか？*保護ポリシーの管理には次のサービスを使用できます。これらのサービスからの保護情報は、BlueXP  ransomware protectionに表示されます。
+
+* ファイル共有、VMファイル共有のBlueXP  バックアップとリカバリ
+* VMデータストア用のVMware SnapCenter
+* OracleおよびMySQL向けSnapCenter
 
 
 
@@ -52,7 +59,35 @@ BlueXP  ランサムウェア対策戦略ではバックアップポリシー�
 
 
 
-== [Protection]ページでの保護の詳細
+== ワークロードに対するランサムウェア対策を表示する
+
+ワークロードを保護するための最初の手順の1つは、現在のワークロードとその保護ステータスを確認することです。次のタイプのワークロードが表示されます。
+
+* アプリケーションワークロード
+* VMワークロード
+* ファイル共有のワークロード
+
+
+.手順
+. BlueXPの左側のナビゲーションで、*[保護]*>*[Ransomware protection]*を選択します。
+. 次のいずれかを実行します。
++
+** ダッシュボードの[データ保護]ペインで、*[すべて表示]*を選択します。
+** メニューから*[保護]*を選択します。
++
+image:screen-protection3.png["[Protection]ページ"]
+
+
+
+. このページでは、ワークロードの保護の詳細を表示および変更できます。
+
+
+
+NOTE: SnapCenterまたはBlueXPのバックアップおよびリカバリサービスですでに保護ポリシーが設定されているワークロードについては、保護を編集することはできません。これらのワークロードに対して、BlueXPランサムウェアは自律型ランサムウェア対策やFPolicy保護（他のサービスですでにアクティブ化されている場合）を有効にします。、およびの詳細については、を参照して https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自律的なランサムウェア防御"^] https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXPのバックアップとリカバリ"^] https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy"^]ください。
+
+
+
+=== [Protection]ページでの保護の詳細
 
 [Protection]ページには、ワークロードの保護に関する次の情報が表示されます。
 
@@ -166,65 +201,6 @@ BlueXPのランサムウェア対策では、各ワークロードの分析に�
 |===
 
 
-== ワークロードに対するランサムウェア対策を表示する
-
-ワークロードを保護するための最初の手順の1つは、現在のワークロードとその保護ステータスを確認することです。次のタイプのワークロードが表示されます。
-
-* アプリケーションワークロード
-* VMワークロード
-* ファイル共有のワークロード
-
-
-.手順
-. BlueXPの左側のナビゲーションで、*[保護]*>*[Ransomware protection]*を選択します。
-. 次のいずれかを実行します。
-+
-** ダッシュボードの[データ保護]ペインで、*[すべて表示]*を選択します。
-** メニューから*[保護]*を選択します。
-+
-image:screen-protection-sc-columns2.png["[Protection]ページ"]
-
-
-
-. このページでは、ワークロードの保護の詳細を表示および変更できます。
-
-
-
-NOTE: SnapCenterまたはBlueXPのバックアップおよびリカバリサービスですでに保護ポリシーが設定されているワークロードについては、保護を編集することはできません。これらのワークロードに対して、BlueXPランサムウェアは自律型ランサムウェア対策やFPolicy保護（他のサービスですでにアクティブ化されている場合）を有効にします。、およびの詳細については、を参照して https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自律的なランサムウェア防御"^] https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXPのバックアップとリカバリ"^] https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy"^]ください。
-
-
-
-== ワークロードの詳細の変更
-
-ワークロードの名前、保護ポリシー、ストレージ情報など、ワークロードの詳細を確認できます。
-
-ワークロードがSnapCenterまたはBlueXP  のバックアップ/リカバリで管理されていない場合は、ワークロードの名前を変更できます。
-
-.[Protection]ページでの手順
-. BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
-. [保護]ページで、更新するワークロードの*[操作]*オプションを選択します image:screenshot_horizontal_more_button.gif["[アクション]ボタン"] 。
-. [操作]メニューから*[ワークロード名の編集]*を選択します。
-. 新しいワークロード名を入力します。
-. [ 保存（ Save ） ] を選択します。
-
-
-.ワアクロオトノシヨウサイヘエシテシユン
-. BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
-. [Protection]ページで、ワークロードを選択します。
-+
-image:screen-protection-details3.png["[Protection]ページでのワークロードの詳細"]
-
-. ワークロードの名前を変更するには、ワークロード名の横にある*鉛筆*アイコンをクリックし image:button_pencil.png["鉛筆"] 、名前を変更します。
-. ワークロードに関連付けられているポリシーを表示するには、[ワークロードの詳細]ページの[保護]ペインで*[ポリシーの表示]*をクリックします。
-. ワークロードのバックアップ先を表示するには、[ワークロードの詳細]ページの[保護]ペインで*[バックアップ先を表示]*をクリックします。
-+
-設定されているバックアップ先のリストが表示されます。
-詳細については、を参照してください link:rp-use-settings.html["保護の設定"]。
-
-
-
-
-
 == SnapCenterでアプリケーションまたはVMと整合性のある保護を実現
 
 アプリケーションまたはVMと整合性のある保護を有効にすると、アプリケーションまたはVMワークロードを一貫した方法で保護し、休止状態と整合性のある状態を実現して、リカバリが必要になった場合のデータ損失を回避できます。
@@ -283,9 +259,12 @@ BlueXPのバックアップとリカバリを使用してSnapCenterまたはSnap
 
 .ランサムウェア対策戦略の策定手順
 . BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
++
+image:screen-protection3.png["[Manage strategy]ページ"]
+
 . [保護]ページで、*[保護戦略の管理]*を選択します。
 +
-image:screen-protection-strategy-manage3.png["[Manage strategy]ページ"]
+image:screen-protection-strategy.png["戦略の管理"]
 
 . [Ransomware protection strategory]ページで、*[Add]*を選択します。
 +
@@ -352,7 +331,7 @@ BlueXPのバックアップとリカバリやSnapCenterなどの他のサービ�
 .手順
 . BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
 +
-image:screen-protection-strategy-manage3.png["[Manage strategy]ページ"]
+image:screen-protection3.png["[Manage strategy]ページ"]
 
 . [保護]ページで、ワークロードを選択し、*[保護]*を選択します。
 +
@@ -378,7 +357,7 @@ image:screen-protect-br-policies.png["BlueXPのバックアップとリカバリ
 
 
 
-== 別のポリシーを割り当てる
+=== 別のポリシーを割り当てる
 
 現在の保護ポリシーを置き換える別の保護ポリシーを割り当てることができます。
 
@@ -392,70 +371,160 @@ image:screen-protect-br-policies.png["BlueXPのバックアップとリカバリ
 
 
 
+== グループファイル共有による保護の強化
+
+ファイル共有をグループ化すると、データ資産の保護が容易になります。このサービスでは、各ボリュームを個別に保護するのではなく、グループ内のすべてのボリュームを同時に保護できます。
+
+.手順
+. BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
++
+image:screen-protection3.png["[Manage strategy]ページ"]
+
+. [保護]ページで、*[保護グループ]*タブを選択します。
++
+image:screen-protection-groups.png["[Protection Groups]ページ"]
+
+. 「 * 追加」を選択します。
++
+image:screen-protection-groups-add.png["[保護グループの追加]ページ"]
+
+. 保護グループの名前を入力します。
+. 次のいずれかの手順を実行します。
++
+.. 保護ポリシーがすでに設定されている場合は、次のいずれかでワークロードが管理されているかどうかに基づいてワークロードをグループ化するかどうかを選択します。
++
+*** BlueXPのランサムウェア対策
+*** SnapCenterまたはBlueXP  のバックアップとリカバリ
+
+
+.. 保護ポリシーがまだ設定されていない場合は、設定済みのランサムウェア対策戦略がページに表示されます。
++
+... 1つを選択してグループを保護し、*次へ*を選択します。
+... 選択したワークロードに複数の作業環境にボリュームが含まれている場合は、複数の作業環境のバックアップ先を選択してクラウドにバックアップできるようにします。
+
+
+
+
+. グループに追加するワークロードを選択します。
++
+
+TIP: ワークロードの詳細を確認するには、右にスクロールします。
+
+. 「 * 次へ * 」を選択します。
++
+image:screen-protection-groups-policy.png["[Add protection group]-[Policy]ページ"]
+
+. このグループの保護を制御するポリシーを選択します。
+. 「 * 次へ * 」を選択します。
+. 保護グループの選択内容を確認します。
+. 「 * 追加」を選択します。
+
+
+
+
+=== グループにワークロードを追加する
+
+あとで既存のグループにワークロードを追加しなければならない場合があります。
+
+BlueXP  ランサムウェア対策のみで管理されるワークロードがグループに含まれている場合（SnapCenterやBlueXP  のバックアップとリカバリでは管理されない）、BlueXP  ランサムウェア対策のみで管理されるワークロードには別 々 のグループを使用し、他のサービスで管理されるワークロードには別 々 のグループを使用する
+
+.手順
+. BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
+. [保護]ページで、*[保護グループ]*タブを選択します。
++
+image:screen-protection-groups.png["[Protection Groups]ページ"]
+
+. ワークロードを追加するグループを選択します。
++
+image:screen-protection-groups-more-workloads.png["[保護グループの詳細]ページ"]
+
+. [選択した保護グループ]ページで、*[追加]*を選択します。
++
+BlueXP  ランサムウェア対策では、グループに含まれていないワークロードのうち、Snapshotポリシーとバックアップポリシーがグループと同じであるワークロードだけが表示されます。
+
++
+
+TIP: ページの上部には、スナップショット、バックアップ、および検出のポリシーを保持しているサービスが表示されます。
+
+. グループに追加するワークロードを選択します。
+. [ 保存（ Save ） ] を選択します。
+
+
+
+
+=== グループ保護の編集
+
+既存のグループの検出ポリシーを変更できます。検出ポリシーがこのグループにまだ追加されていない場合は、ここで追加できます。
+
+.手順
+. BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
+. [保護]ページで、*[保護グループ]*タブを選択します。
++
+image:screen-protection-groups-edit.png["編集オプションが表示された保護グループページ"]
+
+. [保護]ペインで、*[保護の編集]*を選択します。
+. このグループに検出ポリシーを選択または追加します。
+
+
+
+
+=== グループからワークロードを削除する
+
+あとで既存のグループからワークロードを削除しなければならない場合があります。
+
+.手順
+. BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
+. [保護]ページで、*[保護グループ]*タブを選択します。
+. ワークロードを削除するグループを選択します。
++
+image:screen-protection-groups-more-workloads.png["[保護グループの詳細]ページ"]
+
+. [選択した保護グループ]ページで、グループから削除するワークロードを選択し、*[アクション]*オプションを選択しimage:screenshot_horizontal_more_button.gif["[アクション]ボタン"]ます。
+. [操作]メニューから*[ワークロードの削除]*を選択します。
+. ワークロードを削除することを確認し、*[削除]*を選択します。
+
+
+
+
+=== 保護グループの削除
+
+保護グループを削除すると、グループとその保護は削除されますが、個 々 のワークロードは削除されません。
+
+.手順
+. BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
+. [保護]ページで、*[保護グループ]*タブを選択します。
+. ワークロードを削除するグループを選択します。
++
+image:screen-protection-groups-more-workloads.png["[保護グループの詳細]ページ"]
+
+. [選択した保護グループ]ページの右上にある*[保護グループの削除]*を選択します。
+. グループを削除することを確認し、*[削除]*を選択します。
+
+
+
+
 == ランサムウェア対策戦略の管理
 
-ランサムウェア対策を編集または削除できます。
+ランサムウェア対策は削除できます。
 
 
 
 === ランサムウェア対策戦略で保護されているワークロードを表示する
 
-ランサムウェア対策戦略を編集または削除する前に、その戦略で保護されているワークロードを確認することができます。
+ランサムウェア対策戦略を削除する前に、その戦略で保護されているワークロードを確認することができます。
 
 ワークロードは、戦略のリストから表示するか、特定の戦略を編集するときに表示できます。
 
 .ストラテジーのリストを表示する際の手順
 . BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
-. [Protection]ページで、*[Manage ransomware protection strategies]*を選択します。
+. [保護]ページで、*[保護戦略の管理]*を選択します。
 +
 [Ransomware protection strategory]ページには、戦略のリストが表示されます。
 
 +
 image:screen-protection-strategy-list.png["戦略のリストが表示されたランサムウェア対策戦略画面"]
 
-. [Ransomware protection strategory]ページの[Protected workloads]列で、保護されているワークロード数の横にある*[View]*をクリックします。
-
-
-.ストラテジー編集時のステップ
-. BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
-. [Protection]ページで、*[Manage ransomware protection strategies]*を選択します。
-+
-image:screen-protection-strategy-list-edit.png["[Actions]メニューを示す[Ransomware protection strategies]画面"]
-
-. [ストラテジーの管理]ページで、image:screenshot_horizontal_more_button.gif["[アクション]ボタン"]変更するストラテジーの*[アクション]*オプションを選択します。
-. アクションメニューから * 編集 * を選択します。
-+
-image:screen-protection-strategy-edit.png["ランサムウェア対策戦略の編集ページ"]
-
-. ページ上部のワークロード数の横にある*[表示]*を選択して、この戦略で保護されているワークロードを表示します。
-
-
-
-
-=== ランサムウェア対策戦略を編集
-
-保護戦略を編集するには、設定済みの別の検出ポリシー戦略を選択するか、別のポリシーを選択するか、新しいバックアップポリシーを追加します。
-
-.手順
-. BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
-. [Protection]ページで、*[Manage ransomware protection strategies]*を選択します。
-+
-image:screen-protection-strategy-list-edit.png["[Actions]メニューを示す[Ransomware protection strategies]画面"]
-
-. [ストラテジーの管理]ページで、image:screenshot_horizontal_more_button.gif["[アクション]ボタン"]変更するストラテジーの*[アクション]*オプションを選択します。
-. アクションメニューから * 編集 * を選択します。
-+
-image:screen-protection-strategy-edit.png["ランサムウェア対策戦略の編集ページ"]
-
-. 次のいずれかを実行します。
-+
-** 既存のストラテジーからコピーします。
-** 別のSnapshotまたはバックアップポリシーを選択してください。
-** 新しいSnapshotまたはバックアップポリシーを追加します。
-
-
-. 詳細を変更します。
-. [保存]*を選択して変更を終了します。
+. [Ransomware protection strategory]ページの[Protected workloads]列で、行の最後にある下矢印をクリックします。
 
 
 
@@ -466,7 +535,7 @@ image:screen-protection-strategy-edit.png["ランサムウェア対策戦略の�
 
 .手順
 . BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
-. [Protection]ページで、*[Manage ransomware protection strategies]*を選択します。
+. [保護]ページで、*[保護戦略の管理]*を選択します。
 . [ストラテジーの管理]ページで、削除するストラテジーの*[アクション]*オプションを選択し image:screenshot_horizontal_more_button.gif["[アクション]ボタン"] ます。
-. [アクション]メニューから*[ストラテジーの削除]*を選択します。
+. [操作]メニューから*[ポリシーの削除]*を選択します。
 

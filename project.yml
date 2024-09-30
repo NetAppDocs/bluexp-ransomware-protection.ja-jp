@@ -42,7 +42,9 @@ sidebar:
     - title: ダッシュボードを使用したワークロードの健全性の表示
       url: "/rp-use-dashboard.html"
     - title: ワークロードを保護
-      url: "/rp-use-protect.html"
+      entries:
+      - title: ランサムウェア対策戦略でワークロードを保護
+        url: "/rp-use-protect.html"
     - title: 検出されたアラートへの対応
       url: "/rp-use-alert.html"
     - title: ランサムウェア攻撃からリカバリ

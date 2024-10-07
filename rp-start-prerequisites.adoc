@@ -20,8 +20,8 @@ BlueXP  ランサムウェア対策を使用するには、次の前提条件�
 
 == BlueXP  の場合
 
-* リソースを検出するためのAccount Admin Privilegesを持つBlueXP  ユーザアカウント。
-* オンプレミスのONTAPクラスタに接続する、またはAWSまたはAzureのCloud Volumes ONTAPに接続する、アクティブなBlueXP  Connectorが少なくとも1つあるBlueXP  アカウント。
+* リソースを検出するための組織管理者Privilegesを持つBlueXP  ユーザアカウント。
+* オンプレミスのONTAPクラスタに接続する、またはAWSまたはAzureのCloud Volumes ONTAPに接続する、アクティブなBlueXP  Connectorが少なくとも1つあるBlueXP  組織。
 * オンプレミスのNetApp ONTAPクラスタまたはAWSまたはAzureのCloud Volume ONTAP（NASまたはCIFSプロトコルを使用）を含む少なくとも1つのBlueXP  作業環境。
 +
 ** ONTAP OSバージョン9.11.1以降のONTAPまたはCloud Volume ONTAPクラスタがサポートされます。
@@ -31,7 +31,7 @@ BlueXP  ランサムウェア対策を使用するには、次の前提条件�
 
 +
 
-NOTE: 1つのBlueXP  アカウントに複数のBlueXP  コネクタがある場合、BlueXP  ランサムウェア対策サービスは、BlueXP  UIで現在選択されているコネクタ以外のすべてのコネクタのONTAPリソースをスキャンします。
+NOTE: 1つのBlueXP  組織に複数のBlueXP  コネクタがある場合、BlueXP  ランサムウェア対策サービスは、BlueXP  UIで現在選択されているコネクタ以外のすべてのコネクタのONTAPリソースをスキャンします。
 
 
 
@@ -73,7 +73,7 @@ BlueXPランサムウェア対策サービスは、[Settings]オプションを�
 
 特定の作業環境で管理者以外のユーザ権限を更新する必要がある場合は、次の手順を実行します。
 
-. BlueXP  アカウントにログインし、ONTAPユーザ権限を更新する必要がある作業環境を探します。
+. BlueXP  にログインし、ONTAPユーザ権限を更新する必要がある作業環境を探します。
 . 作業環境をダブルクリックして詳細を表示します。
 . ユーザ名を表示する*[追加情報を表示]*をクリックします。
 . 管理者ユーザを使用してONTAPクラスタCLIにログインします。

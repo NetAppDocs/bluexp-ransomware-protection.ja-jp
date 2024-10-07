@@ -154,7 +154,6 @@
   <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="list-title">前提条件</block>
   <block id="8e0410229b2f2463922444e9482ea909" category="summary">BlueXPのランサムウェア対策は、調査中に、BlueXPのすべてのコネクタとアカウントにわたって、作業環境内のすべてのボリュームとファイルを分析します。</block>
   <block id="40ed4b70f990ecbd2b29cdd99fe63ea3" category="doc">BlueXPのランサムウェア対策でワークロードを検出</block>
-  <block id="dd8c2f6ce83a7e8f073c2a0dc70477fb" category="paragraph">BlueXPのランサムウェア対策を使用するには、まずデータを検出する必要があります。BlueXPのランサムウェア対策は、調査の際に、アカウント内のすべてのBlueXPコネクタとワークスペースにわたって、作業環境内のすべてのボリュームとファイルを分析します。</block>
   <block id="c3eceaec7c4fe81904561526dfaeb25c" category="paragraph">このサービスは、現在のバックアップ保護、Snapshotコピー、NetApp Autonomous Ransomware Protectionのオプションなど、既存の保護レベルを評価します。評価に基づいて、サービスはランサムウェア対策を改善する方法を提案します。</block>
   <block id="675a1549facd94d16faf6e60d17eac34" category="paragraph">サービスによってワークロードデータが検出され、ダッシュボードにデータ保護の健常性が表示されます。</block>
   <block id="8dcd51e6649f98a61593682647591540" category="summary">BlueXPのランサムウェア対策でワークロードにポリシーを割り当てることで、ランサムウェア攻撃からワークロードを保護できます。</block>
@@ -230,23 +229,18 @@ BlueXPのランサムウェア対策を有効にする必要はありません�
   <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">サポート登録の概要</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">サポート資格を有効にする登録には、次の2つの形式があります。</block>
-  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">BlueXPアカウントIDサポートサブスクリプションの登録(BlueXPの[サポートリソース]ページにある20桁の960xxxxxxxxxシリアル番号)。</block>
   <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">これは、BlueXP内のすべてのサービスのシングルサポートサブスクリプションIDとして機能します。各BlueXPアカウントレベルのサポート契約が登録されている必要があります。</block>
   <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">クラウドプロバイダのマーケットプレイスでのサブスクリプションに関連付けられているCloud Volumes ONTAP のシリアル番号を登録している（909201xxxxxxxxのシリアル番号）。</block>
   <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">これらのシリアル番号は、通常PAY_GOシリアル番号と呼ばれ、Cloud Volumes ONTAP の導入時にBlueXPによって生成されます。</block>
   <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">両方のタイプのシリアル番号を登録することで、サポートチケットのオープンやケースの自動生成などの機能を利用できます。登録を完了するには、以下の手順でNetApp Support Site（NSS）アカウントをBlueXPに追加してください。</block>
-  <block id="5a19febf1dcb23c10e8dcfde64ba764c" category="section-title">NetAppサポートにBlueXPアカウントを登録します</block>
-  <block id="6bbc2ba432f59ab65ee3d8ac5a58336e" category="paragraph">サポートに登録してサポート利用資格をアクティブ化するには、BlueXPアカウントの1人のユーザがNetApp Support SiteアカウントをBlueXPログインに関連付ける必要があります。ネットアップサポートへの登録方法は、NetApp Support Site （NSS）アカウントがあるかどうかによって異なります。</block>
   <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSSアカウントをお持ちの既存のお客様</block>
   <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">NSSアカウントをお持ちのネットアップのお客様は、BlueXPからサポートに登録するだけで済みます。</block>
   <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">BlueXPコンソールの右上で、[設定]アイコンを選択し、*[クレデンシャル]*を選択します。</block>
   <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">[ユーザクレデンシャル]*を選択します。</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">[NSSクレデンシャルの追加]*を選択し、NetApp Support Site（NSS）認証プロンプトに従います。</block>
   <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">登録プロセスが正常に完了したことを確認するには、[ヘルプ]アイコンを選択し、*[サポート]*を選択します。</block>
-  <block id="8add4eb0d3f6ce61d374f3df3ee4eadf" category="paragraph">[リソース]ページに、アカウントがサポートに登録されていることが表示されます。</block>
   <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">アカウントのシリアル番号、緑のチェックボックス、サポート登録済みのテキストを示すスクリーンショット。</block>
   <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d9a01bdcfab6f0a10fc126999b4d5988" category="paragraph">他のBlueXPユーザにNetApp Support Siteアカウントが関連付けられていない場合、このサポート登録ステータスは表示されません。ただし、BlueXPアカウントがサポートに登録されていないわけではありません。アカウント内の1人のユーザーがこれらの手順を実行している限り、アカウントは登録されています。</block>
   <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">NSSアカウントを持たない既存のお客様</block>
   <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">NetAppの既存のお客様で、ライセンスとシリアル番号は_NO_NSSアカウントしかお持ちでない場合は、NSSアカウントを作成してBlueXPログインに関連付ける必要があります。</block>
   <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Support Site ユーザー登録フォーム</block>
@@ -269,19 +263,15 @@ BlueXPのランサムウェア対策を有効にする必要はありません�
   <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">この安全なトランザクションを完了するために、メールボックスに電子メールがすぐに送信されます。確認メールが数分で届かない場合は、必ずスパムフォルダを確認してください。</block>
   <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Eメールからアクションを確認します。</block>
   <block id="201080500e946070a2e4873042507c77" category="paragraph">確認ではネットアップにリクエストが送信され、NetApp Support Site アカウントを作成することを推奨します。</block>
-  <block id="cc8b0535948da368f832027c19b7f853" category="list-text">シリアル番号フィールドには、上記のアカウントのシリアル番号（960xxxx）を必ずコピーしてください。これにより、アカウント処理が高速化されます。</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完了後</block>
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">このプロセスについては、ネットアップからご連絡ください。これは、新規ユーザ向けの1回限りのオンボーディング演習です。</block>
   <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">NetApp Support Siteアカウントを作成したら、の手順を実行してアカウントをBlueXPログインに関連付けます <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
   <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">Cloud Volumes ONTAPサポートのためにNSSクレデンシャルを関連付けます</block>
-  <block id="d8f0da67cbab6e43f6d266bdab68cdc8" category="paragraph">NetApp Support Siteで次の主要なワークフローを有効にするには、BlueXPアカウントにクレデンシャルを関連付ける必要がCloud Volumes ONTAPあります。</block>
   <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">従量課金制のCloud Volumes ONTAPシステムのサポートを登録しています</block>
   <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">お使いのシステムのサポートを有効にし、ネットアップのテクニカルサポートリソースにアクセスするには、 NSS アカウントを用意する必要があります。</block>
   <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">お客様所有のライセンスを使用（BYOL）する場合のCloud Volumes ONTAP の導入</block>
   <block id="2ebfeabed40c2270d9fa8325080a4b3e" category="paragraph">ライセンスキーをBlueXPでアップロードし、購入した契約期間のサブスクリプションを有効にするには、NSSアカウントを提供する必要があります。これには、期間の更新の自動更新も含まれます。</block>
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Cloud Volumes ONTAP ソフトウェアを最新リリースにアップグレードしています</block>
-  <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">NSSクレデンシャルをBlueXPアカウントに関連付ける方法は、BlueXPユーザログインに関連付けられたNSSアカウントとは異なります。</block>
-  <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">これらのNSSクレデンシャルは、特定のBlueXPアカウントIDに関連付けられています。BlueXPアカウントに属するユーザは、*[サポート]&gt;[NSS管理]*からこれらのクレデンシャルにアクセスできます。</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">お客様レベルのアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することもできます。</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">パートナーアカウントまたはリセラーアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することはできますが、お客様レベルのアカウントと一緒に追加することはできません。</block>
   <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">[NSS Management]&gt;[Add NSS Account]*を選択します。</block>
@@ -359,7 +349,6 @@ BlueXPのランサムウェア対策を有効にする必要はありません�
   <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">[ケースの作成]*を選択して、NetAppサポートスペシャリストとのチケットをオープンします。</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Service*:問題 が関連付けられているサービスを選択します。たとえば、サービス内のワークフローまたは機能を備えたテクニカルサポート問題 に固有のBlueXPなどです。</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*作業環境*：ストレージに該当する場合は、* Cloud Volumes ONTAP *または*オンプレミス*を選択し、関連する作業環境を選択します。</block>
-  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">作業環境のリストは、サービスの上部バナーで選択したBlueXPアカウント、ワークスペース、コネクタの範囲内にあります。</block>
   <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*ケース優先度*：ケースの優先度を選択します。優先度は、[低]、[中]、[高]、[クリティカル]のいずれかになります。</block>
   <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">これらの優先度の詳細を確認するには、フィールド名の横にある情報アイコンの上にマウスポインタを合わせます。</block>
   <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*事象の説明 *：実行したエラーメッセージやトラブルシューティング手順など、問題の詳細な概要 を入力します。</block>
@@ -421,7 +410,6 @@ BlueXPのランサムウェア対策を有効にする必要はありません�
   <block id="41e5a42a8cc2023ceb0f8dd06cce7a27" category="paragraph"><block ref="5a80707c96309e25f4c73aee7d2327b1" category="inline-link-rx"></block>。</block>
   <block id="69483d973a063c873a5a66f6edcc241c" category="section-title">2023年10月6日</block>
   <block id="ae98c30c78f5642e201d040b9e0b468c" category="paragraph">BlueXPランサムウェア対策サービスは、データの保護、潜在的な攻撃の検出、ランサムウェア攻撃からのデータのリカバリを行うSaaS解決策です。</block>
-  <block id="4c77961875ba555ef50d5063c1b6fad0" category="paragraph">プレビュー版では、オンプレミスのNASストレージ上のOracle、MySQL、VMデータストア、ファイル共有のアプリケーションベースのワークロードと、BlueXPアカウント全体のCloud Volumes ONTAP on AWS（NFSプロトコルを使用）のアプリケーションベースのワークロードを個別に保護し、Amazon Web Servicesクラウドストレージにデータをバックアップします。</block>
   <block id="75b67029f102f7aa5f52d85fbaeb59b1" category="paragraph">BlueXPのランサムウェア対策サービスでは、複数のNetAppテクノロジをフルに活用できるため、データセキュリティ管理者やセキュリティ運用エンジニアは次の目標を達成できます。</block>
   <block id="c97c8c1adb5529a50db916535c46fa2b" category="list-text">すべてのワークロードに対するランサムウェア対策を一目で確認できます。</block>
   <block id="b6f8dc0dd7c16df94c4c9e61ea4c4dcf" category="list-text">ランサムウェア対策に関する推奨事項を分析</block>
@@ -454,7 +442,6 @@ BlueXPのランサムウェア対策を有効にする必要はありません�
   <block id="ccaaa0b1fdb9afd84865d38039f74d41" category="section-title">BlueXPでコネクタを作成します</block>
   <block id="780faaa43a4865ecb4711d9dd7329a52" category="inline-link">BlueXPコネクタの作成方法</block>
   <block id="41c2dbad4db714d9e8ccd5fdc1897747" category="paragraph">サービスを使用する前にBlueXPでコネクタを作成する方法については、該当するBlueXPのドキュメントを参照してください<block ref="32b465f89042a610ea5ceeabf276817a" category="inline-link-rx"></block>。</block>
-  <block id="779fc20b12e9e1861a89e1cfc6e249e7" category="admonition">BlueXPコネクタが複数ある場合は、BlueXP UIに現在表示されているコネクタ以外のすべてのコネクタのデータがスキャンされます。このサービスは、このアカウントに関連付けられているすべてのワークスペースとすべてのコネクタを検出します。</block>
   <block id="e3f610327d2879ec3e402da38d102535" category="summary">デフォルトの名前（リスクの高い名前）を使用するのではなく、ワークロード名を変更してワークロードを管理できます。</block>
   <block id="6f2a93bfea2a7a4f5489fce0d0a7a2e2" category="doc">ワークロードの管理</block>
   <block id="75174e635e94b33548188078b7b9c2a2" category="paragraph">ワークロード名を変更することで、ワークロードを管理できます。デフォルトの名前を使用することは、ランサムウェア攻撃のリスクです。</block>
@@ -604,7 +591,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="1ad5d2b1df5750779a9e10432b0d7a7b" category="list-text">*重要*：Snapshotコピーは1時間に1つ以上作成されます（非常に積極的な保護スケジュール）。</block>
   <block id="423d6f72a058a73e0111323e01e91fbb" category="list-text">[ワークロードを検出]*オプションを選択します（まだ選択していない場合）。</block>
   <block id="effd67b82c5e86ef069736c6f439328e" category="paragraph">を参照してください <block ref="ab9e6aa8cb0ccab44206b8872f1470c4" category="inline-link-macro-rx"></block>。</block>
-  <block id="e40c6195bfb20b1926d79708fe600d95" category="list-text">* BlueXPのアカウント、ワークスペース、BlueXPコネクタにわたって、NetAppオンプレミスNASとNFSまたはCIFSの作業環境にある、アプリケーションベース、ファイル共有、VMwareが管理するワークロードをすべて特定*します。次に、データの優先順位を分類し、ランサムウェア対策の強化に関する推奨事項を提供します。</block>
   <block id="8715608a29a66307d518df37ac1aa548" category="list-text">*ランサムウェア攻撃の可能性がある場合は、誤ってまたは悪意を持ってコピーを削除しないように、ロックされた改ざん防止NetApp ONTAP Snapshotを自動的に開始して対応します。バックアップデータは改ざんされず、ソースとデスティネーションでのランサムウェア攻撃からエンドツーエンドで保護されます。</block>
   <block id="a0ffd27aaf0c391fcaf18565cfdcff5c" category="list-text">RPOポリシーを満たすために、厳選されたリカバリを適用します。BlueXPのランサムウェア対策は、BlueXPのバックアップとリカバリ（旧称Cloud Backup）やSnapCenterなど、いくつかのNetAppリカバリサービスを使用して、ランサムウェアインシデントからのリカバリをオーケストレーションします。</block>
   <block id="d0694d7f380a94bab7aae320f005b7a8" category="admonition">BlueXPランサムウェア対策の一般リリースには、プレビューリリースとは異なり、NetApp自律型ランサムウェア対策テクノロジのライセンスが含まれています。を参照してください<block ref="9a25fd5e356132f930267232d70ad02b" category="inline-link-rx"></block> を参照してください。</block>
@@ -746,7 +732,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="feaff2de8b00885a4b2350b990a32d40" category="list-text">ワークロードやポリシーなどのリソースを削除します。</block>
   <block id="1594f78ebbb281f7b5359eb6d2b89912" category="list-text">試用期間中またはライセンスの下で作成されたすべてのスケジュール済み操作を実行します。</block>
   <block id="d687b9bb1fc0385150b07b1a9aaae7d3" category="section-title">90日間の無償トライアルでお試しください</block>
-  <block id="bc022ca8d62ad7e7578fb992618c0546" category="paragraph">BlueXPのランサムウェア対策は、90日間の無償トライアルで試すことができます。無料トライアルを開始するには、アカウント管理者である必要があります。</block>
   <block id="88c474e49a0cbbc7ef17d052040cd008" category="admonition">試用期間中は容量制限は適用されません。</block>
   <block id="f37d436fdc8600ce24709a8f4435ec79" category="paragraph">試用期間中は、すべての機能を利用できます。</block>
   <block id="39c87728ab108f5ab751a40319f03bc8" category="list-text">にアクセスします<block ref="4d9841a08a6f1c082f5ba73c5d87fcc1" category="inline-link-rx"></block>。</block>
@@ -784,11 +769,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="cd429827b8589ab6bed0e5855dbbfb4d" category="paragraph">*ライセンスファイルをBlueXPデジタルウォレットに追加*</block>
   <block id="3d18eb613f1cc0e78f71cdb65f05af00" category="paragraph">NetApp営業担当からBlueXPランサムウェア対策ライセンスを購入したら、BlueXPランサムウェア対策のシリアル番号とNetApp Support Site（NSS）アカウント情報を入力してライセンスをアクティブ化します。</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">作業を開始する前に</block>
-  <block id="e3286b69a705d4ed944e904722ab7c8f" category="paragraph">開始する前に、次の情報が必要です。</block>
-  <block id="577048713d78842fa9a5be2124ec22a6" category="list-text">BlueXPランサムウェア対策のシリアル番号</block>
-  <block id="079aeecf06b109e4316b0a68ea943f2b" category="paragraph">この番号は、SOから確認するか、アカウントチームにお問い合わせください。</block>
-  <block id="bcbbd9a155e07caa8b31001adc835c79" category="list-text">BlueXPアカウントID</block>
-  <block id="19a9d224e357593876fd44c3faede4ab" category="paragraph">BlueXPアカウントIDを確認するには、BlueXPの上部にある*[アカウント]*ドロップダウンを選択し、アカウントの横にある*[アカウントの管理]*を選択します。アカウント ID は、 [ 概要 ] タブにあります。</block>
   <block id="514aa14459d7637de1827492db5bfa9a" category="list-text">ライセンスを取得したら、BlueXPランサムウェア対策に戻ります。右上の*支払い方法を表示*オプションを選択します。または、無料トライアルの有効期限が近づいているというメッセージで、*[ライセンスの登録または購入]*を選択します。</block>
   <block id="adb29c497bad7d9605dc8b9d069648c2" category="list-text">[ライセンスをBlueXPに追加]*を選択します。</block>
   <block id="6a72f286dc86a0c2122b1086a858405a" category="paragraph">BlueXPのデジタルウォレットが表示されます。</block>
@@ -817,7 +797,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="1f60c8769abcb4f9589fae4ad1831a19" category="inline-link-macro">ワークロードの優先順位または重要性</block>
   <block id="581ad716354744440ad65ff13c86ca1e" category="paragraph"><block ref="1ba24f606c1b9584a2674b4003d5830a" category="inline-link-macro-rx"></block>。</block>
   <block id="7c332d8c3498456553e971642a5142fc" category="paragraph">このサービスを試用または使用するには、NetApp営業担当者にお問い合わせください。その後、BlueXPコネクタを使用すると、ランサムウェア対策サービスに適した機能が含まれます。</block>
-  <block id="077eb8dcf08a34370634fa284781fbf5" category="sidebar">BlueXPランサムウェア対策は、ランサムウェアの保護、検出、リカバリのためのオーケストレーションサービスです。Oracle、MySQL、VMデータストアなどのアプリケーションベースのワークロードを保護し、 また、オンプレミスのNASストレージでファイルを共有し、Amazon Web ServicesのCloud Volumes ONTAP（NFSプロトコルとCIFSプロトコルを使用）を各BlueXPアカウントで共有し、Amazon Web Services（AWS）クラウドストレージまたはNetApp StorageGRIDにデータをバックアップします。</block>
   <block id="03a0606ea5e305ef55dd39ee839003fd" category="sidebar">バックアップ先の設定と脅威検出の有効化</block>
   <block id="fb197ee87a0f850dc3b7bb98fe408518" category="inline-link-macro">セツテイノセツテイ</block>
   <block id="8b003b58b4532bbf9f07c58827819319" category="list-text">* BlueXPのバックアップとリカバリ*：作業環境でBlueXPのバックアップとリカバリサービスを有効にしておく必要はなくなりました。を参照してください <block ref="7cc100a4e35b42109d34b0d1c6d432c9" category="inline-link-macro-rx"></block>。BlueXPランサムウェア対策サービスは、[Settings]オプションを使用してバックアップ先を設定するのに役立ちます。を参照してください <block ref="522f9942d2238ef69c22ece6b9af5205" category="inline-link-macro-rx"></block>。</block>
@@ -1081,7 +1060,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="ea355214fd4bc7c57f471bd92918879b" category="section-title">導入</block>
   <block id="72346e3829df980ee84f3586c08e1c73" category="paragraph">BlueXP  ランサムウェア対策を開始するには、最初のランディングページで[Start discovering workloads]をクリックします。</block>
   <block id="c425c2d1d56441ad45546778fd3b1859" category="paragraph">* BlueXP  ランサムウェア対策は、標準モード、制限モード、プライベートモードで利用できますか？*現時点では、BlueXPのランサムウェア対策は標準モードでのみ利用できます。今後もご期待ください。</block>
-  <block id="a220e5524e88ca4eb7adfba0df35e51f" category="paragraph">*アクセス権限はどのように処理されますか？*サービスを開始してワークロードを検出できるのはアカウント管理者だけです（リソースの使用をコミットする必要があるため）。その後の対話は、任意の役割で行うことができます。</block>
   <block id="e8841ae1773b27a52c2f1f101474d8f0" category="paragraph">*どのデバイス解像度が最適ですか？*BlueXPのランサムウェア対策で推奨されるデバイス解決方法は、1920 x 1080以上です。</block>
   <block id="3462920d936c74204339015d2f24872a" category="paragraph">*どのブラウザを使用すればよいですか？*最新のブラウザは機能します。</block>
   <block id="cce2d0a4d9c9fd08fb80c75428dfd612" category="paragraph">* BlueXP  ランサムウェア対策は、BlueXP  のバックアップ/リカバリおよびSnapCenterとどのように連携しますか？*</block>
@@ -1127,14 +1105,11 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="11227f8fef8f27540c3c439b9bdc197d" category="paragraph"><block ref="eed70f716809a92cb07d13e4e8249b92" category="inline-xref-macro-rx"></block> <block ref="6c4a5bded5527a87f7d2259882488db9" category="inline-xref-macro-rx"></block> <block ref="a7d4f4192837622a5e792bb08a0fc11c" category="inline-xref-macro-rx"></block></block>
   <block id="15ac9f54f9fb2140c2336e6aa6dfc7c0" category="paragraph">BlueXP  ランサムウェア対策を使用するには、次の前提条件が必要です。</block>
   <block id="a83f1ed3639378d8a5c8766fc08ab842" category="section-title">BlueXP  の場合</block>
-  <block id="e79e38ccfbb74e0d961ff972979ed635" category="list-text">リソースを検出するためのAccount Admin Privilegesを持つBlueXP  ユーザアカウント。</block>
-  <block id="6f0eed74827975e8f80db47d9a50f8c2" category="list-text">オンプレミスのONTAPクラスタに接続する、またはAWSまたはAzureのCloud Volumes ONTAPに接続する、アクティブなBlueXP  Connectorが少なくとも1つあるBlueXP  アカウント。</block>
   <block id="d373cf4cd1bda4abc274d13ad2831391" category="list-text">オンプレミスのNetApp ONTAPクラスタまたはAWSまたはAzureのCloud Volume ONTAP（NASまたはCIFSプロトコルを使用）を含む少なくとも1つのBlueXP  作業環境。</block>
   <block id="437052b46bb04e16e3617994a6dc3e3b" category="list-text">ONTAP OSバージョン9.11.1以降のONTAPまたはCloud Volume ONTAPクラスタがサポートされます。</block>
   <block id="1c65e968a7f40931fc801e74436f80f4" category="list-text">オンプレミスのONTAPクラスタまたはAWSまたはAzureクラウドのCloud Volume ONTAPがBlueXP  にまだオンボードされていない場合は、BlueXP  Connectorが必要です。</block>
   <block id="2859350d666beccb5f7f3adcb55da72a" category="inline-link">BlueXP  Connectorの設定方法</block>
   <block id="d6533074153f439dd193d8acd5343357" category="paragraph">およびを参照してください<block ref="56433f466b3d2b557361e0cd67da19f4" category="inline-link-rx"></block><block ref="2954ccba2c34ed9319cfb7bdfb096d90" category="inline-link-rx"></block>。</block>
-  <block id="e5015cacadd79769df9bbde6dbe92f70" category="admonition">1つのBlueXP  アカウントに複数のBlueXP  コネクタがある場合、BlueXP  ランサムウェア対策サービスは、BlueXP  UIで現在選択されているコネクタ以外のすべてのコネクタのONTAPリソースをスキャンします。</block>
   <block id="2501cbb4187a9a6c7f42f035596578a4" category="section-title">ONTAP 9.11.1以降</block>
   <block id="0c62671cec4cc1d20210f98a3f9fc05f" category="list-text">保護設定を適用するには（自律型ランサムウェア対策などの有効化）、BlueXP  ランサムウェア対策には、ONTAPクラスタに対する管理者権限が必要です。ONTAPクラスタのオンボードには、ONTAPクラスタ管理者のユーザクレデンシャルのみを使用する必要があります。</block>
   <block id="1af62e464c9d7b123ffec7775c4c5385" category="list-text">ONTAPクラスタが管理者以外のユーザクレデンシャルを使用してBlueXP  にすでにオンボードされている場合は、このページで説明するONTAPクラスタにログインして、管理者以外のユーザの権限を必要な権限で更新する必要があります。</block>
@@ -1146,7 +1121,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="d5c0c9e742bf6d635bc3574f0d00ffe7" category="paragraph">BlueXPランサムウェア対策サービスは、[Settings]オプションを使用してバックアップ先を設定するのに役立ちます。を参照して <block ref="522f9942d2238ef69c22ece6b9af5205" category="inline-link-macro-rx"></block></block>
   <block id="f41322f9f14cdcdf41a427fbee652476" category="section-title">ONTAP作業環境での管理者以外のユーザ権限の更新</block>
   <block id="8297305d42008c5892a2f344fb12572c" category="paragraph">特定の作業環境で管理者以外のユーザ権限を更新する必要がある場合は、次の手順を実行します。</block>
-  <block id="0e861400d2c472d780e513defaec7463" category="list-text">BlueXP  アカウントにログインし、ONTAPユーザ権限を更新する必要がある作業環境を探します。</block>
   <block id="64e55ed1c9910b83fdba604d01c14d94" category="list-text">作業環境をダブルクリックして詳細を表示します。</block>
   <block id="fd9987b033d105239454a8b09bbfc1d7" category="list-text">ユーザ名を表示する*[追加情報を表示]*をクリックします。</block>
   <block id="9fe71dce626bd006ff641fd38ed29790" category="list-text">管理者ユーザを使用してONTAPクラスタCLIにログインします。</block>
@@ -1214,7 +1188,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="0d0fda3a15e7f6f6406a0dde3997c91f" category="inline-link">BlueXP  ランサムウェア対策の設定の詳細</block>
   <block id="5b0f75e0c31233c18e6f9318b8569cf7" category="paragraph"><block ref="25291e882ba76639fccc7a13f1838641" category="inline-link-rx"></block>です。</block>
   <block id="38f076b49309ac077a903c6521bcf590" category="paragraph">BlueXP  ランサムウェア対策でSplunk Cloudを有効にする前に、Splunk Cloudで次の手順を実行する必要があります。</block>
-  <block id="23399b80812af3201eee57d7b21730dd" category="paragraph">BlueXPランサムウェア対策は、ランサムウェアからデータを保護するためのサービスです。このサービスは、オンプレミスのNASストレージ上にあるOracle、MySQL、VMデータストア、ファイル共有のアプリケーションベースのワークロード（NFSプロトコルとCIFSプロトコルを使用）に加え、BlueXP  for Amazon Web Services、Cloud Volumes ONTAP for Google Cloud Platform、Cloud Volumes ONTAP for Microsoft AzureのCloud Volumes ONTAPアカウント全体を保護します。このサービスは、Amazon Web Services、Google Cloud Platform、Microsoft Azureクラウドストレージ、NetApp StorageGRIDにデータをバックアップします。</block>
   <block id="c7eac6d9cd86eb05300d52e52a13413f" category="section-title">データレイヤでのランサムウェア対策</block>
   <block id="1b5ac7659c93361ff5fa00f9dc0878ff" category="paragraph">通常、セキュリティ体制には、さまざまなサイバー脅威から保護するために複数の防御レイヤが含まれます。</block>
   <block id="e1e21525512158b10d87c17fe3eb8be1" category="list-text">*最外層*：ファイアウォール、侵入検知システム、および仮想プライベートネットワークを使用してネットワーク境界を保護する最初の防御線です。</block>
@@ -1462,4 +1435,27 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="a1c75029051cebc5ca5ea85a84cfc065" category="inline-link">ランサムウェア対策戦略におけるファイル共有ワークロードのグループ化の詳細</block>
   <block id="1784b8aa983497f6e69069b3b862287f" category="list-text">*ファイル共有ワークロードのカスタムグループ化*：このリリースでは、ファイル共有をグループにグループ化して、データ資産を簡単に保護できるようになりました。グループ内のすべてのボリュームを同時に保護できます。以前は、各ボリュームを個別に保護する必要がありました。<block ref="8790005620a6e0339d9d5a6985b6f062" category="inline-link-rx"></block>です。</block>
   <block id="d67482bbf82ef9c339e44809ea9873b1" category="sidebar">ランサムウェア対策戦略でワークロードを保護</block>
+  <block id="8f438477df4db40c8b526acbcdce5937" category="paragraph">BlueXPランサムウェア対策は、ランサムウェアからデータを保護するためのサービスです。このサービスは、オンプレミスのNASストレージにあるOracle、MySQL、VMデータストア、ファイル共有のアプリケーションベースのワークロード（NFSプロトコルとCIFSプロトコルを使用）に加え、BlueXP  for Amazon Web Services、Cloud Volumes ONTAP for Google Cloud、Cloud Volumes ONTAP for Microsoft AzureのアプリケーションベースのワークロードをCloud Volumes ONTAP組織全体で保護します。このサービスは、Amazon Web Services、Google Cloud、Microsoft Azureクラウドストレージ、NetApp StorageGRIDにデータをバックアップします。</block>
+  <block id="7d491636abfe1c22299d387cd25b5297" category="list-text">* BlueXP  のNFSまたはCIFS作業環境を使用するオンプレミスのNetApp NASで、BlueXP  の組織、プロジェクト、BlueXP  コネクタにわたって、アプリケーションベース、ファイル共有、またはVMwareが管理するすべてのワークロードを特定します。次に、データの優先順位を分類し、ランサムウェア対策の強化に関する推奨事項を提供します。</block>
+  <block id="28017f63775595195f8bc7296bf383df" category="paragraph">BlueXPのランサムウェア対策を使用するには、まずデータを検出する必要があります。調査中に、BlueXP  ランサムウェア対策は、組織内のすべてのBlueXP  コネクタとプロジェクトにわたって、作業環境内のすべてのボリュームとファイルを分析します。</block>
+  <block id="6b95918551f87e6ece870e17dd0bb85f" category="paragraph">*アクセス権限はどのように処理されますか？*サービスを開始してワークロードを検出できるのは、組織の管理者だけです（これにはリソースの使用をコミットする必要があるため）。その後の対話は、任意の役割で行うことができます。</block>
+  <block id="deb3fe36dfe08c28dddf280186cdd385" category="paragraph">BlueXPのランサムウェア対策は、90日間の無償トライアルで試すことができます。無償トライアルを開始するには、BlueXP  組織の管理者である必要があります。</block>
+  <block id="581365c1705cc0acc9951fa2431b194f" category="paragraph">BlueXP  ランサムウェア対策のシリアル番号が必要です。この番号は、SOから確認するか、アカウントチームにお問い合わせください。</block>
+  <block id="03449b1d058ce8c279f7011c479deb0b" category="list-text">リソースを検出するための組織管理者Privilegesを持つBlueXP  ユーザアカウント。</block>
+  <block id="6674b495a5c26c68ef2278fe3c1da714" category="list-text">オンプレミスのONTAPクラスタに接続する、またはAWSまたはAzureのCloud Volumes ONTAPに接続する、アクティブなBlueXP  Connectorが少なくとも1つあるBlueXP  組織。</block>
+  <block id="ca455f87aae9ad05b9b56c1b2323a2c0" category="admonition">1つのBlueXP  組織に複数のBlueXP  コネクタがある場合、BlueXP  ランサムウェア対策サービスは、BlueXP  UIで現在選択されているコネクタ以外のすべてのコネクタのONTAPリソースをスキャンします。</block>
+  <block id="a2522bc84ab4c15eaa356f762fb3afc8" category="list-text">BlueXP  にログインし、ONTAPユーザ権限を更新する必要がある作業環境を探します。</block>
+  <block id="157728f4599cc3ddabf4c2d8076aa8c0" category="admonition">BlueXPコネクタが複数ある場合は、BlueXP UIに現在表示されているコネクタ以外のすべてのコネクタのデータがスキャンされます。このサービスは、この組織に関連付けられているすべてのプロジェクトとすべてのコネクタを検出します。</block>
+  <block id="98d90e398fc56688ddc647e5f49075ec" category="paragraph">作業環境のリストは、サービスの上部バナーで選択したBlueXP  組織（またはアカウント）、プロジェクト（またはワークスペース）、コネクタの範囲内にあります。</block>
+  <block id="29360bfcdbc91d3f1514c372b4585965" category="list-text">BlueXP  アカウントのシリアル番号（BlueXP  のサポートリソースページに記載されている20桁の960xxxxxxxxxシリアル番号）を登録します。</block>
+  <block id="444b74bc81e823cc1c4c704219ad8ed3" category="section-title">NetAppサポートのためのBlueXP  の登録</block>
+  <block id="b3bf31f8a918c712f26cdf493a908825" category="paragraph">サポートに登録してサポート利用資格をアクティブ化するには、BlueXP  組織（またはアカウント）の1人のユーザがNetAppサポートサイトのアカウントをBlueXP  ログインに関連付ける必要があります。ネットアップサポートへの登録方法は、NetApp Support Site （NSS）アカウントがあるかどうかによって異なります。</block>
+  <block id="2ba7f9eae7a02f9c3ac0fc07517d1c48" category="paragraph">[リソース]ページに、BlueXP  組織がサポートに登録されていることが表示されます。</block>
+  <block id="c05e530d1466e986d570cfe3f92656c3" category="paragraph">他のBlueXPユーザにNetApp Support Siteアカウントが関連付けられていない場合、このサポート登録ステータスは表示されません。ただし、BlueXP  組織がサポートに登録されていないわけではありません。組織内の1人のユーザーがこれらの手順を実行している限り、組織は登録されています。</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">シリアル番号フィールドには、上記のアカウントのシリアル番号（960xxxx）を必ずコピーしてください。これにより処理が高速化されます。</block>
+  <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">Cloud Volumes ONTAPで次の主要なワークフローを有効にするには、NetAppサポートサイトのクレデンシャルをBlueXP  組織に関連付ける必要があります。</block>
+  <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">NSSクレデンシャルとBlueXP  組織の関連付けは、BlueXP  ユーザログインに関連付けられたNSSアカウントとは異なります。</block>
+  <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">これらのNSSクレデンシャルは、特定のBlueXP  組織IDに関連付けられています。BlueXP  組織に属するユーザは、*[サポート]&gt;[NSS管理]*からこれらのクレデンシャルにアクセスできます。</block>
+  <block id="978aa39e867fbe7badda46cb2834d11f" category="paragraph">プレビュー版では、オンプレミスのNASストレージ上のOracle、MySQL、VMデータストア、ファイル共有、およびCloud Volumes ONTAP on AWS（NFSプロトコルを使用）のアプリケーションベースのワークロードをBlueXP  組織全体で個別に保護し、Amazon Web Servicesクラウドストレージにデータをバックアップします。</block>
+  <block id="72066c262bc44f1ada77598ec3915f18" category="sidebar">BlueXPランサムウェア対策は、ランサムウェアの保護、検出、リカバリのためのオーケストレーションサービスです。このサービスは、オンプレミスのNASストレージ上のOracle、MySQL、VMデータストア、ファイル共有のアプリケーションベースのワークロードや、Amazon Web ServicesのCloud Volumes ONTAP（NFSプロトコルとCIFSプロトコルを使用）をBlueXP  組織全体で保護し、Amazon Web Services（AWS）クラウドストレージまたはNetApp StorageGRIDにデータをバックアップします。</block>
 </blocks>

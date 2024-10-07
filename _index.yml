@@ -1,13 +1,13 @@
 ---
 indexpage:
   title: BlueXPランサムウェア対策ドキュメント
-  summary: BlueXPランサムウェア対策は、ランサムウェアの保護、検出、リカバリのためのオーケストレーションサービスです。Oracle、MySQL、VMデータストアなどのアプリケーションベースのワークロードを保護し、
-    また、オンプレミスのNASストレージでファイルを共有し、Amazon Web ServicesのCloud Volumes ONTAP（NFSプロトコルとCIFSプロトコルを使用）を各BlueXPアカウントで共有し、Amazon
+  summary: BlueXPランサムウェア対策は、ランサムウェアの保護、検出、リカバリのためのオーケストレーションサービスです。このサービスは、オンプレミスのNASストレージ上のOracle、MySQL、VMデータストア、ファイル共有のアプリケーションベースのワークロードや、Amazon
+    Web ServicesのCloud Volumes ONTAP（NFSプロトコルとCIFSプロトコルを使用）をBlueXP  組織全体で保護し、Amazon
     Web Services（AWS）クラウドストレージまたはNetApp StorageGRIDにデータをバックアップします。
   keywords: bluexp, ransomware, anti-ransomware, cyber attack, netapp, ontap, amazon
     web services, aws, storagegrid
-  lead: BlueXPランサムウェア対策は、ランサムウェアの保護、検出、リカバリのためのオーケストレーションサービスです。Oracle、MySQL、VMデータストアなどのアプリケーションベースのワークロードを保護し、
-    また、オンプレミスのNASストレージでファイルを共有し、Amazon Web ServicesのCloud Volumes ONTAP（NFSプロトコルとCIFSプロトコルを使用）を各BlueXPアカウントで共有し、Amazon
+  lead: BlueXPランサムウェア対策は、ランサムウェアの保護、検出、リカバリのためのオーケストレーションサービスです。このサービスは、オンプレミスのNASストレージ上のOracle、MySQL、VMデータストア、ファイル共有のアプリケーションベースのワークロードや、Amazon
+    Web ServicesのCloud Volumes ONTAP（NFSプロトコルとCIFSプロトコルを使用）をBlueXP  組織全体で保護し、Amazon
     Web Services（AWS）クラウドストレージまたはNetApp StorageGRIDにデータをバックアップします。
   tiles:
   - title: はじめに

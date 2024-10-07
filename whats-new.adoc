@@ -188,7 +188,7 @@ https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-pr
 
 BlueXPランサムウェア対策サービスは、データの保護、潜在的な攻撃の検出、ランサムウェア攻撃からのデータのリカバリを行うSaaS解決策です。
 
-プレビュー版では、オンプレミスのNASストレージ上のOracle、MySQL、VMデータストア、ファイル共有のアプリケーションベースのワークロードと、BlueXPアカウント全体のCloud Volumes ONTAP on AWS（NFSプロトコルを使用）のアプリケーションベースのワークロードを個別に保護し、Amazon Web Servicesクラウドストレージにデータをバックアップします。
+プレビュー版では、オンプレミスのNASストレージ上のOracle、MySQL、VMデータストア、ファイル共有、およびCloud Volumes ONTAP on AWS（NFSプロトコルを使用）のアプリケーションベースのワークロードをBlueXP  組織全体で個別に保護し、Amazon Web Servicesクラウドストレージにデータをバックアップします。
 
 BlueXPのランサムウェア対策サービスでは、複数のNetAppテクノロジをフルに活用できるため、データセキュリティ管理者やセキュリティ運用エンジニアは次の目標を達成できます。
 

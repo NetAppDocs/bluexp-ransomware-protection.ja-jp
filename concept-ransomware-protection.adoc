@@ -16,7 +16,7 @@ summary: ランサムウェア攻撃は、ビジネス時間、リソース、�
 [role="lead"]
 ランサムウェア攻撃はデータへのアクセスをブロックし、攻撃者はデータのリリースや復号と引き換えに身代金を要求する可能性があります。IDCによると、ランサムウェアの被害者が複数のランサムウェア攻撃を受けることは珍しくありません。攻撃によって、1日から数週間の間、データへのアクセスが中断される可能性があります。
 
-BlueXPランサムウェア対策は、ランサムウェアからデータを保護するためのサービスです。このサービスは、オンプレミスのNASストレージ上にあるOracle、MySQL、VMデータストア、ファイル共有のアプリケーションベースのワークロード（NFSプロトコルとCIFSプロトコルを使用）に加え、BlueXP  for Amazon Web Services、Cloud Volumes ONTAP for Google Cloud Platform、Cloud Volumes ONTAP for Microsoft AzureのCloud Volumes ONTAPアカウント全体を保護します。このサービスは、Amazon Web Services、Google Cloud Platform、Microsoft Azureクラウドストレージ、NetApp StorageGRIDにデータをバックアップします。
+BlueXPランサムウェア対策は、ランサムウェアからデータを保護するためのサービスです。このサービスは、オンプレミスのNASストレージにあるOracle、MySQL、VMデータストア、ファイル共有のアプリケーションベースのワークロード（NFSプロトコルとCIFSプロトコルを使用）に加え、BlueXP  for Amazon Web Services、Cloud Volumes ONTAP for Google Cloud、Cloud Volumes ONTAP for Microsoft AzureのアプリケーションベースのワークロードをCloud Volumes ONTAP組織全体で保護します。このサービスは、Amazon Web Services、Google Cloud、Microsoft Azureクラウドストレージ、NetApp StorageGRIDにデータをバックアップします。
 
 
 
@@ -39,7 +39,7 @@ image:concept-security-layer-diagram.png["セキュリティレイヤの図"]
 
 BlueXPのランサムウェア対策サービスは、複数のNetAppテクノロジをフル活用して、ストレージ管理者、データセキュリティ管理者、セキュリティ運用エンジニアが次の目標を達成できるようにします。
 
-* * BlueXPのアカウント、ワークスペース、BlueXPコネクタにわたって、NetAppオンプレミスNASとNFSまたはCIFSの作業環境にある、アプリケーションベース、ファイル共有、VMwareが管理するワークロードをすべて特定*します。次に、データの優先順位を分類し、ランサムウェア対策の強化に関する推奨事項を提供します。
+* * BlueXP  のNFSまたはCIFS作業環境を使用するオンプレミスのNetApp NASで、BlueXP  の組織、プロジェクト、BlueXP  コネクタにわたって、アプリケーションベース、ファイル共有、またはVMwareが管理するすべてのワークロードを特定します。次に、データの優先順位を分類し、ランサムウェア対策の強化に関する推奨事項を提供します。
 * *データのバックアップ、Snapshotコピー、ランサムウェア対策戦略を有効にして、ワークロードを保護*します。
 * *ランサムウェア攻撃の可能性がある異常を検出*。脚注：[ランサムウェアの検出や防御システムは、ランサムウェア攻撃からの安全性を完全に保証できません。攻撃が検出されない可能性はありますが、NetAppテクノロジーは重要な追加防御層として機能します。]
 * *ランサムウェア攻撃の可能性がある場合は、誤ってまたは悪意を持ってコピーを削除しないように、ロックされた改ざん防止NetApp ONTAP Snapshotを自動的に開始して対応します。バックアップデータは改ざんされず、ソースとデスティネーションでのランサムウェア攻撃からエンドツーエンドで保護されます。

@@ -1524,7 +1524,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="1355ef6342e870ff08b7ae39b0126c7c" category="list-text">キーを入力します。</block>
   <block id="70c1d1656e0180e79913295ab5c3c06a" category="list-text">[表示]*を選択します。</block>
   <block id="bf43cf14a72445401d6804bee094443e" category="doc">BlueXP  ランサムウェア対策の新機能</block>
-  <block id="07c8845dbdef949b860ebfc99bd558ac" category="section-title">2024年11月6日</block>
   <block id="7d02192f3436d747f16f0854f54cd837" category="list-text">*データ分類を有効にし、個人識別情報（PII）をスキャンする*：このリリースでは、BlueXP  ファミリのコアコンポーネントであるBlueXP  分類を有効にして、ファイル共有ワークロードのデータをスキャンおよび分類することができます。データを分類することで、データに個人情報が含まれているかどうかを特定し、セキュリティリスクを高めることができます。このプロセスは、ワークロードの重要性にも影響し、適切なレベルの保護でワークロードを保護するのに役立ちます。</block>
   <block id="f3da95789fee3d76f39c270803b7c7df" category="paragraph">BlueXP  ランサムウェア対策でのPIIデータのスキャンは、BlueX分類を導入したお客様が一般的に利用できます。BlueXP  の分類は、BlueXP  プラットフォームの一部として追加料金なしで利用でき、オンプレミスまたはお客様のクラウドに導入できます。</block>
   <block id="c2cb37c5316be80c5de2706c50799610" category="paragraph">BlueXP  分類は、テクノロジプレビューの一部としてSaaSモデルとして導入することもできます。プレビュー機能を有効にするには、BlueXP  ransomware protection * Settings *オプションを使用します。[Preview]を有効にすると、[Protection]ページの[* Privacy exposure]列の横に、他の場所とともに[Preview]ラベルが表示されます。</block>
@@ -1536,4 +1535,5 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="9d163bfc4f18cfe82e5ab58246fe3e03" category="list-text">*今すぐ無償トライアル*：このリリースでは、BlueXP  ランサムウェア対策の新規導入に30日間の無償トライアルが提供されるようになりました。以前は、BlueXP  ランサムウェア対策は90日間の無償トライアルを提供していました。すでに90日間の無償トライアルを利用している場合は、90日間継続されます。</block>
   <block id="2f5cba8ef7e3d3ce9ca484acfa021d1e" category="list-text">* Podmanのファイルレベルでアプリケーションワークロードをリストアする*：アプリケーションワークロードをファイルレベルでリストアする前に、攻撃の影響を受けた可能性のあるファイルのリストを表示し、リストアするファイルを特定できるようになりました。以前は、組織（以前はアカウント）のBlueXP  コネクタがPodmanを使用していた場合、この機能は無効になっていました。これでPodmanで有効になりました。BlueXPランサムウェア対策でリストアするファイルを選択したり、アラートの影響を受けたすべてのファイルを記載したCSVファイルをアップロードしたり、リストアするファイルを手動で特定したりできます。</block>
   <block id="4b55af6e5a9948a11e84a0809a34edfb" category="sidebar">個人を特定できるデータのスキャン</block>
+  <block id="21e938043b4ef6be41f16e95f7f5aaaa" category="section-title">2024年11月7日</block>
 </blocks>

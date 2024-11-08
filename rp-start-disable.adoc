@@ -8,7 +8,7 @@ summary: BlueXP  ランサムウェア対策サービスの使用が不要に�
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
-:imagesdir: ./media
+:imagesdir: ./media/
 
 
 [role="lead"]

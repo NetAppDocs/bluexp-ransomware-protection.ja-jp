@@ -8,7 +8,7 @@ summary: 攻撃を受けたあと、BlueXPのランサムウェア対策は、�
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
-:imagesdir: ./media
+:imagesdir: ./media/
 
 
 [role="lead"]

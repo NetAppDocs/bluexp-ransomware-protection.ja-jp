@@ -8,7 +8,7 @@ summary: BlueXPランサムウェア対策を使用するには、いくつか�
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
-:imagesdir: /media/
+:imagesdir: ./media/
 
 
 [role="lead"]
@@ -24,10 +24,11 @@ BlueXPランサムウェア対策を使用するには、いくつかの手順�
 
 * NetApp StorageGRID
 * Amazon Web Services の
+* Google Cloud Platform
 * Microsoft Azure
 
 
-バックアップ先自体でオプションを設定したら、あとでBlueXPランサムウェア対策サービスでバックアップ先として設定します。
+バックアップ先自体でオプションを設定したら、あとでBlueXPランサムウェア対策サービスでバックアップ先として設定します。BlueXP  ランサムウェア対策でバックアップ先を設定する方法の詳細については、を参照してくださいlink:rp-use-settings.html["バックアップデスティネーションの設定"]。
 
 
 

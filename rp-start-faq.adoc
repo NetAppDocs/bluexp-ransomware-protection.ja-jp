@@ -22,9 +22,9 @@ summary: この FAQ は、質問に対する簡単な回答を探している場
 
 次のライセンスタイプを使用できます。
 
-* 90日間の無償トライアルにサインアップしてください。
-* まもなく、Amazon Web Services（AWS）Marketplaceで従量課金制（PAYGO）サブスクリプションを購入できるようになります。
-* まもなく、お客様所有のライセンスを使用（BYOL）できるようになります。BYOLは、NetApp営業担当から入手するNetAppライセンスファイル（NLF）です。ライセンスのシリアル番号を使用して、BlueXPデジタルウォレットでBYOLをアクティブ化できます。
+* 30日間の無償トライアルにサインアップしてください。
+* Amazon Web Services（AWS）Marketplace、Google Cloud Marketplace、Microsoft Azure Marketplace（近日提供予定）で従量課金制（PAYGO）サブスクリプションを購入
+* お客様所有のライセンスを使用（BYOL）：NetApp営業担当から入手するNetAppライセンスファイル（NLF）です。ライセンスのシリアル番号を使用して、BlueXPデジタルウォレットでBYOLをアクティブ化できます。
 
 
 * BlueXPのランサムウェア対策を有効にするには、どうすればよいですか？*
@@ -42,8 +42,7 @@ BlueXP  ランサムウェア対策を開始するには、最初のランデ�
 
 == にアクセスします
 
-* BlueXPランサムウェア対策URLとは？*
-URLの場合は、ブラウザで次のように入力します。 https://console.bluexp.netapp.com/["https://console.bluexp.netapp.com/"^] をクリックしてBlueXPコンソールにアクセスします。
+* BlueXPランサムウェア対策URLとは？*BlueXP  コンソールにアクセスするには、ブラウザで次のように入力します。 https://console.bluexp.netapp.com/["https://console.bluexp.netapp.com/ransomware-protection"^]
 
 *アクセス権限はどのように処理されますか？*サービスを開始してワークロードを検出できるのは、組織の管理者だけです（これにはリソースの使用をコミットする必要があるため）。その後の対話は、任意の役割で行うことができます。
 

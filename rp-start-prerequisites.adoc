@@ -20,8 +20,9 @@ BlueXP  ランサムウェア対策を使用するには、次の前提条件�
 
 == BlueXP  の場合
 
-* リソースを検出するための組織管理者Privilegesを持つBlueXP  ユーザアカウント。
+* リソースを検出するためのOrganization Admin Privilegesを持つBlueXP  ユーザアカウント。
 * オンプレミスのONTAPクラスタに接続する、またはAWSまたはAzureのCloud Volumes ONTAPに接続する、アクティブなBlueXP  Connectorが少なくとも1つあるBlueXP  組織。
+* BlueXP  Connectorは、コンテナがアクティブな状態である必要があります `cloudmanager-ransomware-protection`。
 * オンプレミスのNetApp ONTAPクラスタまたはAWSまたはAzureのCloud Volume ONTAP（NASまたはCIFSプロトコルを使用）を含む少なくとも1つのBlueXP  作業環境。
 +
 ** ONTAP OSバージョン9.11.1以降のONTAPまたはCloud Volume ONTAPクラスタがサポートされます。
@@ -41,6 +42,7 @@ NOTE: 1つのBlueXP  組織に複数のBlueXP  コネクタがある場合、B
 
 == ONTAP 9.11.1以降
 
+* オンプレミスのONTAPインスタンスでONTAP Oneライセンスが有効になっている。
 * オンプレミスのONTAPインスタンスで有効にする、BlueXPランサムウェア対策で使用するNetApp自律型ランサムウェア対策のライセンス。使用しているONTAPのバージョンに応じて異なります。を参照してください https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["Autonomous Ransomware Protection Overview"^]。
 +
 

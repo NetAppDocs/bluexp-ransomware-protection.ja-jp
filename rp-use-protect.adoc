@@ -8,7 +8,7 @@ summary: BlueXPのランサムウェア対策でワークロードにポリシ�
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
-:imagesdir: ./media
+:imagesdir: ./media/
 
 
 [role="lead"]
@@ -75,7 +75,7 @@ BlueXP  ランサムウェア対策戦略ではバックアップポリシー�
 ** ダッシュボードの[データ保護]ペインで、*[すべて表示]*を選択します。
 ** メニューから*[保護]*を選択します。
 +
-image:screen-protection3.png["[Protection]ページ"]
+image:screen-protection.png["[Protection]ページ"]
 
 
 
@@ -260,7 +260,7 @@ BlueXPのバックアップとリカバリを使用してSnapCenterまたはSnap
 .ランサムウェア対策戦略の策定手順
 . BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
 +
-image:screen-protection3.png["[Manage strategy]ページ"]
+image:screen-protection.png["[Manage strategy]ページ"]
 
 . [保護]ページで、*[保護戦略の管理]*を選択します。
 +
@@ -331,7 +331,7 @@ BlueXPのバックアップとリカバリやSnapCenterなどの他のサービ�
 .手順
 . BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
 +
-image:screen-protection3.png["[Manage strategy]ページ"]
+image:screen-protection.png["[Manage strategy]ページ"]
 
 . [保護]ページで、ワークロードを選択し、*[保護]*を選択します。
 +
@@ -378,7 +378,7 @@ image:screen-protect-br-policies.png["BlueXPのバックアップとリカバリ
 .手順
 . BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
 +
-image:screen-protection3.png["[Manage strategy]ページ"]
+image:screen-protection.png["[Manage strategy]ページ"]
 
 . [保護]ページで、*[保護グループ]*タブを選択します。
 +
@@ -418,52 +418,6 @@ image:screen-protection-groups-policy.png["[Add protection group]-[Policy]ペー
 . 「 * 次へ * 」を選択します。
 . 保護グループの選択内容を確認します。
 . 「 * 追加」を選択します。
-
-
-
-
-=== グループにワークロードを追加する
-
-あとで既存のグループにワークロードを追加しなければならない場合があります。
-
-BlueXP  ランサムウェア対策のみで管理されるワークロードがグループに含まれている場合（SnapCenterやBlueXP  のバックアップとリカバリでは管理されない）、BlueXP  ランサムウェア対策のみで管理されるワークロードには別 々 のグループを使用し、他のサービスで管理されるワークロードには別 々 のグループを使用する
-
-.手順
-. BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
-. [保護]ページで、*[保護グループ]*タブを選択します。
-+
-image:screen-protection-groups.png["[Protection Groups]ページ"]
-
-. ワークロードを追加するグループを選択します。
-+
-image:screen-protection-groups-more-workloads.png["[保護グループの詳細]ページ"]
-
-. [選択した保護グループ]ページで、*[追加]*を選択します。
-+
-BlueXP  ランサムウェア対策では、グループに含まれていないワークロードのうち、Snapshotポリシーとバックアップポリシーがグループと同じであるワークロードだけが表示されます。
-
-+
-
-TIP: ページの上部には、スナップショット、バックアップ、および検出のポリシーを保持しているサービスが表示されます。
-
-. グループに追加するワークロードを選択します。
-. [ 保存（ Save ） ] を選択します。
-
-
-
-
-=== グループ保護の編集
-
-既存のグループの検出ポリシーを変更できます。検出ポリシーがこのグループにまだ追加されていない場合は、ここで追加できます。
-
-.手順
-. BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
-. [保護]ページで、*[保護グループ]*タブを選択します。
-+
-image:screen-protection-groups-edit.png["編集オプションが表示された保護グループページ"]
-
-. [保護]ペインで、*[保護の編集]*を選択します。
-. このグループに検出ポリシーを選択または追加します。
 
 
 

@@ -8,7 +8,7 @@ summary: NetApp BlueXPランサムウェア対策サービスは、数ステッ�
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
-:imagesdir: ./media
+:imagesdir: ./media/
 
 
 [role="lead"]

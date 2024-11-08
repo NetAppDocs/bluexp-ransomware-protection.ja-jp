@@ -8,7 +8,7 @@ summary: ライセンスを設定して、BlueXPランサムウェア対策を�
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
-:imagesdir: ./media
+:imagesdir: ./media/
 
 
 [role="lead"]
@@ -16,8 +16,8 @@ BlueXPランサムウェア対策では、さまざまなライセンスプラ�
 
 次のライセンスタイプを使用できます。
 
-* 90日間の無償トライアルにサインアップしてください。
-* Amazon Web Services（AWS）MarketplaceまたはAzure Marketplace（近日提供予定）で従量課金制（PAYGO）サブスクリプションを購入
+* 30日間の無償トライアルにサインアップしてください。
+* Amazon Web Services（AWS）Marketplace、Google Cloud Marketplace、Azure Marketplace（近日提供予定）で従量課金制（PAYGO）サブスクリプションを購入
 * お客様所有のライセンスを使用（BYOL）：NetApp営業担当から入手するNetAppライセンスファイル（NLF）です。ライセンスのシリアル番号を使用して、BlueXPデジタルウォレットでBYOLをアクティブ化できます。
 
 
@@ -31,20 +31,22 @@ BYOLをセットアップするか、PAYGOサブスクリプションを購入�
 無料トライアルが終了した後、またはライセンスまたはサブスクリプションの有効期限が切れた後も、サービスで次のことを行うことができます。
 
 * ワークロードとワークロードの健全性を表示します。
-* ワークロードやポリシーなどのリソースを削除します。
+* ポリシーなどのリソースを削除します。
 * 試用期間中またはライセンスの下で作成されたすべてのスケジュール済み操作を実行します。
 
 
 
 
-== 90日間の無償トライアルでお試しください
+== 30日間の無償トライアルでお試しください
 
-BlueXPのランサムウェア対策は、90日間の無償トライアルで試すことができます。無償トライアルを開始するには、BlueXP  組織の管理者である必要があります。
+BlueXPのランサムウェア対策は、30日間の無償トライアルで試すことができます。無償トライアルを開始するには、BlueXP  組織の管理者である必要があります。
 
 
-NOTE: 試用期間中は容量制限は適用されません。
+NOTE: 2024年10月のリリースでは、BlueXP  ランサムウェア対策の新規導入に30日間の無償トライアルが提供されるようになりました。以前は、BlueXP  ランサムウェア対策は90日間の無償トライアルを提供していました。すでに90日間の無償トライアルを利用している場合は、90日間継続されます。
 
-ライセンスを取得するか、いつでもサブスクライブすることができ、90日間の試用期間が終了するまで請求されることはありません。90日間の試用期間の終了後も継続するには、BYOLライセンスまたはPAYGOサブスクリプションを購入する必要があります。
+試用期間中は容量制限は適用されません。
+
+ライセンスを取得するか、いつでもサブスクライブすることができ、30日間の試用期間が終了するまで請求されることはありません。30日間の試用期間の終了後も継続するには、BYOLライセンスまたはPAYGOサブスクリプションを購入する必要があります。
 
 試用期間中は、すべての機能を利用できます。
 
@@ -68,9 +70,9 @@ image:screen-rp-landing.png["BlueXPランサムウェア対策のランディン
 
 *試用期間終了後、サブスクリプションまたはライセンスを取得*
 
-無償トライアルの終了後は、AWS Marketplaceでサブスクライブするか、NetAppからライセンスを購入できます。
+無料トライアルが終了したら、マーケットプレイスのいずれかを介してサブスクライブするか、NetAppからライセンスを購入できます。
 
-<<AWS Marketplaceでサブスクライブ>> <<Microsoft Azure Marketplaceでサブスクライブ>> <<お客様所有のライセンスを使用（BYOL）>>
+<<AWS Marketplaceでサブスクライブ>> <<Microsoft Azure Marketplaceでサブスクライブ>> <<Google Cloud Marketplaceでサブスクライブ>> <<お客様所有のライセンスを使用（BYOL）>>
 
 
 
@@ -143,6 +145,54 @@ image:screen-license-payment-methods2.png["BlueXPランサムウェア対策の[
 +
 
 NOTE: BlueXPランサムウェア対策のシリアル番号と、BlueXPランサムウェア対策がAzure Marketplaceでサブスクライブされていることを示すEメールが送信されます。
+
+. BlueXPランサムウェア対策の支払い方法のページに戻ります。
+. [ライセンスをBlueXPに追加]*を選択して、ライセンスをBlueXPに追加します。
++
+BlueXPデジタルウォレットサービスには、[Add License]ページが表示されます。
+
++
+image:screen-license-dw-add-license.png["BlueXPデジタルウォレットの[Add License]ページ"]
+
+. BlueXPデジタルウォレットの[Add License]ページで、*[Enter Serial Number]*を選択し、Eメールに記載されていたシリアル番号を入力して*[Add License]*を選択します。
+. BlueXPデジタルウォレットでライセンスの詳細を表示するには、BlueXPの左側のナビゲーションで* Governance *>* Digital Wallet *を選択します。
++
+** サブスクリプション情報を表示するには、*[サブスクリプション]*を選択します。
+** BYOLライセンスを確認するには、*[Data Services Licenses]*を選択します。
++
+image:screen-dw-data-services-license.png["BlueXPデジタルウォレットデータサービスのライセンスページ"]
+
+
+
+. BlueXPランサムウェア対策に戻ります。BlueXPの左側のナビゲーションで、*[保護]*>*[Ransomware protection]*を選択します。
++
+ライセンスが追加されたことを示すメッセージが表示されます。
+
+
+
+
+
+== Google Cloud Marketplaceでサブスクライブ
+
+ここでは、Google Cloud Marketplaceで直接サブスクライブする方法の概要を説明します。
+
+.手順
+. BlueXPのランサムウェア対策で、次のいずれかを実行します。
++
+** 無料トライアルの有効期限が近づいているというメッセージが表示されます。メッセージで、*支払い方法を表示*を選択します。
+** 右上の*無料トライアル*通知をクリックし、*支払い方法を表示*を選択します。
++
+image:screen-license-payment-methods3-gcp.png["BlueXPランサムウェア対策の[Payment Methods]ページ"]
+
+
+
+. [支払い方法]ページで、*[ Google Cloud Marketplaceでサブスクライブ]*を選択します。
+. Google Cloud Marketplaceで、*[サブスクライブ]*を選択します。
+. Google Cloud Marketplaceを使用して、BlueXP  ランサムウェア対策をサブスクライブします。image:screen-license-payments-gcp.png["Google Cloud Marketplaceのサブスクリプションページ"]
+. BlueXPランサムウェア対策に戻ると、登録したことを示すメッセージが表示されます。
++
+
+NOTE: BlueXP  ランサムウェア対策のシリアル番号と、BlueXP  ランサムウェア対策がGoogle Cloud Marketplaceでサブスクライブされていることを通知するEメールが送信されます。
 
 . BlueXPランサムウェア対策の支払い方法のページに戻ります。
 . [ライセンスをBlueXPに追加]*を選択して、ライセンスをBlueXPに追加します。

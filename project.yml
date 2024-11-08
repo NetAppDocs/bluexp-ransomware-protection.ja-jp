@@ -8,13 +8,15 @@ settings:
     pdf_enabled: true
     harmony_enabled: false
   rss_page: whats-new.html
-  langs: ja-jp,us-en,de-de,es-es,fr-fr,it-it,pt-br,ko-kr,zh-cn,zh-tw
+  langs: ja-jp,us-en,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
   - title: BlueXPランサムウェア対策ドキュメント
     url: "/index.html"
   - title: リリースノート
-    url: "/whats-new.html"
+    entries:
+    - title: BlueXPランサムウェア対策の新機能
+      url: "/whats-new.html"
   - title: はじめに
     entries:
     - title: BlueXPランサムウェア対策の詳細をご確認ください
@@ -45,6 +47,8 @@ sidebar:
       entries:
       - title: ランサムウェア対策戦略でワークロードを保護
         url: "/rp-use-protect.html"
+      - title: 個人を特定できるデータのスキャン
+        url: "/rp-use-protect-classify.html"
     - title: 検出されたアラートへの対応
       url: "/rp-use-alert.html"
     - title: ランサムウェア攻撃からリカバリ

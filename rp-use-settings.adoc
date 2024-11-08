@@ -8,11 +8,11 @@ summary: BlueXPランサムウェア対策サービスでは、バックアッ�
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
-:imagesdir: ./media
+:imagesdir: ./media/
 
 
 [role="lead"]
-バックアップ先を設定したり、脅威の検出を有効にしたりするには、ダッシュボードで推奨事項を確認するか、*[設定]*オプションにアクセスします。
+バックアップ先を設定したり、脅威の検出を有効にしたりするには、ダッシュボードで推奨事項を確認するか、*[設定]*オプションにアクセスします。将来のプレビュー機能を表示することもできます。
 
 脅威検出を有効にすると、脅威分析のためにセキュリティおよびイベント管理システム（SIEM）にデータが自動的に送信されます。
 
@@ -28,6 +28,7 @@ summary: BlueXPランサムウェア対策サービスでは、バックアッ�
 +
 ** バックアップ先を追加します。
 ** セキュリティおよびイベント管理システム（SIEM）を接続して、脅威の分析と検出を行います。
+** 今後のプレビュー機能を表示します。
 
 
 
@@ -70,6 +71,7 @@ image:screen-dashboard.png["ダッシュボードページ"]
 
 [設定]ページには、トップメニューの近くにある[アクション]オプションから簡単にアクセスできます。
 
+.手順
 . BlueXPのランサムウェア対策メニューで、 image:button-actions-vertical.png["垂直的なアクション"]...オプションを右上に表示します。
 . ドロップダウンメニューから*[設定]*を選択します。
 . バックアップ先を追加するには、*[追加]*を選択します。
@@ -81,6 +83,7 @@ image:screen-dashboard.png["ダッシュボードページ"]
 
 NetApp StorageGRIDをバックアップ先として設定するには、次の情報を入力します。
 
+.手順
 . [設定]>[バックアップデスティネーション]*ページで、*[追加]*を選択します。
 . バックアップ先の名前を入力します。
 +
@@ -118,6 +121,7 @@ image:screen-settings-backup-destinations-list2.png["[Backup destinations]ペー
 
 BlueXPでのAWSストレージの管理の詳細については、 https://docs.netapp.com/us-en/bluexp-setup-admin/task-viewing-amazon-s3.html["Amazon S3バケットを管理します"^]。
 
+.手順
 . [設定]>[バックアップデスティネーション]*ページで、*[追加]*を選択します。
 . バックアップ先の名前を入力します。
 +
@@ -176,6 +180,7 @@ image:screen-settings-backup-destinations-list2.png["[Backup destinations]ペー
 
 BlueXP  でのGCPストレージの管理の詳細については、を参照してください https://docs.netapp.com/us-en/bluexp-setup-admin/concept-install-options-google.html["Google Cloudでのコネクタのインストールオプション"^]。
 
+.手順
 . [設定]>[バックアップデスティネーション]*ページで、*[追加]*を選択します。
 . バックアップ先の名前を入力します。
 +
@@ -216,6 +221,7 @@ Azureをバックアップ先として設定するには、次の情報を入力
 
 BlueXPでAzureクレデンシャルとマーケットプレイスサブスクリプションを管理する方法の詳細については、 https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-azure-accounts.html["Azureクレデンシャルとマーケットプレイスサブスクリプションを管理"^]。
 
+.手順
 . [設定]>[バックアップデスティネーション]*ページで、*[追加]*を選択します。
 . バックアップ先の名前を入力します。
 +
@@ -260,7 +266,7 @@ image:screen-settings-backup-destinations-list2.png["[Backup destinations]ペー
 
 == 脅威検出を有効にする
 
-セキュリティおよびイベント管理システム（SIEM）にデータを自動的に送信して、脅威の分析と検出を行うことができます。AWS Security HubまたはSplunk CloudをSIEMとして選択できます。
+セキュリティおよびイベント管理システム（SIEM）にデータを自動的に送信して、脅威の分析と検出を行うことができます。SIEMとして、AWS Security Hub、Microsoft Sentinel、Splunk Cloudを選択できます。
 
 BlueXP  ランサムウェア対策でSIEMを有効にする前に、SIEMシステムを設定する必要があります。
 
@@ -303,6 +309,117 @@ BlueXP  ランサムウェア対策でAWSセキュリティハブを有効に�
 
 
 
+=== 脅威検出のためのMicrosoft Sentinelの設定
+
+BlueXP  ランサムウェア対策でMicrosoft Sentinelを有効にする前に、Microsoft Sentinelで次の大まかな手順を実行する必要があります。
+
+* * 前提条件 *
++
+** Microsoft Sentinelを有効にします。
+** Microsoft Sentinelでカスタムロールを作成します。
+
+
+* *登録*
++
+** BlueXP  ランサムウェア対策を登録して、Microsoft Sentinelからイベントを受信します。
+** 登録用のシークレットを作成します。
+
+
+* *権限*：アプリケーションに権限を割り当てます。
+* *認証*：アプリケーションの認証クレデンシャルを入力します。
+
+
+.Microsoft Sentinelを有効にする手順
+. Microsoft Sentinelにアクセスします。
+. ログ分析ワークスペース*を作成します。
+. 作成したLog AnalyticsワークスペースをMicrosoft Sentinelで使用できるようにします。
+
+
+.Microsoft Sentinelでカスタムロールを作成する手順
+. Microsoft Sentinelにアクセスします。
+. [サブスクリプション]*>*[アクセス制御（IAM）]*を選択します。
+. カスタムロール名を入力します。BlueXP  Ransomware Protection Sentinel Configurator *という名前を使用します。
+. 以下のJSONをコピーして* JSON *タブに貼り付けます。
++
+[listing]
+----
+{
+  "roleName": "BlueXP Ransomware Protection Sentinel Configurator",
+  "description": "",
+  "assignableScopes":["/subscriptions/{subscription_id}"],
+  "permissions": [
+
+  ]
+}
+----
+. 設定を確認して保存します。
+
+
+.BlueXP  ランサムウェア対策を登録してMicrosoft Sentinelからイベントを受信する手順
+. Microsoft Sentinelにアクセスします。
+. * Entra ID *>* Applications *>* App registrations *を選択します。
+. アプリケーションの*表示名*に「* BlueXP  ransomware protection *」と入力します。
+. [サポートされているアカウントタイプ]フィールドで、*[この組織ディレクトリ内のアカウントのみ]*を選択します。
+. イベントがプッシュされる*デフォルトインデックス*を選択します。
+. [* Review （レビュー） ] を選択します
+. [登録]*を選択して設定を保存します。
++
+登録後、Microsoft Entra管理センターにアプリケーションの[概要]ペインが表示されます。
+
+
+
+.登録用のシークレットを作成する手順
+. Microsoft Sentinelにアクセスします。
+. *証明書とシークレット*>*クライアントシークレット*>*新しいクライアントシークレット*を選択します。
+. アプリケーションシークレットの説明を追加します。
+. シークレットの*有効期限*を選択するか、カスタムの有効期限を指定します。
++
+
+TIP: クライアントシークレットのライフタイムは2年（24か月）以下に制限されています。Microsoftでは、有効期限の値を12か月未満に設定することを推奨しています。
+
+. [追加]*を選択してシークレットを作成します。
+. 認証ステップで使用するシークレットを記録します。このページから移動すると、シークレットは再び表示されなくなります。
+
+
+.アプリケーションに権限を割り当てる手順
+. Microsoft Sentinelにアクセスします。
+. [サブスクリプション]*>*[アクセス制御（IAM）]*を選択します。
+. [追加]*>*[ロール割り当ての追加]*を選択します。
+. [権限を持つ管理者のロール]*フィールドで、*[ BlueXP  Ransomware Protection Sentinel Configurator]*を選択します。
++
+
+TIP: これは、前の手順で作成したカスタムロールです。
+
+. 「 * 次へ * 」を選択します。
+. [アクセスの割り当て先]フィールドで、*[ユーザー、グループ、またはサービスプリンシパル]*を選択します。
+. [メンバーの選択]*を選択します。次に、* BlueXP  Ransomware Protection Sentinel Configurator *を選択します。
+. 「 * 次へ * 」を選択します。
+. [ユーザが実行できる操作]*[フェルド]で、*[ユーザに権限のある管理者ロールを除くすべてのロールの割り当てを許可する][所有者、UAA、RBAC（推奨）]*を選択します。
+. 「 * 次へ * 」を選択します。
+. [確認して割り当て]*を選択して権限を割り当てます。
+
+
+.アプリケーションの認証クレデンシャルを入力する手順
+. Microsoft Sentinelにアクセスします。
+. クレデンシャルを入力します。
++
+.. テナントID、クライアントアプリケーションID、およびクライアントアプリケーションシークレットを入力します。
+.. [* Authenticate] をクリックします。
++
+
+NOTE: 認証に成功すると、「authenticated」メッセージが表示されます。
+
+
+
+. アプリケーションのLog Analyticsワークスペースの詳細を入力します。
++
+.. サブスクリプションID、リソースグループ、およびLog Analyticsワークスペースを選択します。
+
+
+
+
+
+
 === 脅威検出のためのSplunk Cloudの設定
 
 BlueXP  ランサムウェア対策でSplunk Cloudを有効にする前に、Splunk Cloudで次の手順を実行する必要があります。
@@ -336,6 +453,7 @@ BlueXP  ランサムウェア対策でSplunk Cloudを有効にする前に、Sp
 
 SIEMを有効にすると、BlueXP  ランサムウェア対策からSIEMサーバにデータが送信され、脅威の分析とレポートが作成されます。
 
+.手順
 . BlueXP  メニューから、* Protection *>* Ransomware protection *を選択します。
 . BlueXPのランサムウェア対策メニューで、 image:button-actions-vertical.png["垂直的なアクション"]...オプションを右上に表示します。
 . [設定]*を選択します。
@@ -343,9 +461,12 @@ SIEMを有効にすると、BlueXP  ランサムウェア対策からSIEMサー
 [Settings]ページが表示されます。
 
 +
-image:screen-settings-threat-detection3.png["[Settings]ページ"]
+image:screen-settings2.png["[Settings]ページ"]
 
-. [設定]ページで、SIEM接続ペインで*[接続]*を選択します。
+. [設定]ページで、SIEM接続タイルの*[接続]*を選択します。
++
+image:screen-settings-threat-detection-3options.png["[Enable Threat Detection Details]ページ"]
+
 . SIEMシステムのいずれかを選択します。
 . AWS Security HubまたはSplunk Cloudで設定したトークンと認証の詳細を入力します。
 +
@@ -360,14 +481,20 @@ NOTE: 入力する情報は、選択したSIEMによって異なります。
 
 
 
-=== SIEMの接続解除
+== プレビュー機能を表示
 
-SIEMを切断すると、サービスからSIEMサーバへのデータ送信が停止します。
+リリース前に「プレビュー」というラベルの付いた今後の機能を試すことができます。これらの機能は、UIに「Preview」ラベルで表示されます。
+
+.作業を開始する前に
+プレビュー機能を表示するには、BlueXP  ランサムウェア対策製品チームのキーが必要です。キーを入手するには、mailto：ng-rps-key@ NetApp .comにEメールを送信してください。
 
 .手順
-. BlueXP  メニューから、* Protection *>* Ransomware protection *を選択します。
 . BlueXPのランサムウェア対策メニューで、 image:button-actions-vertical.png["垂直的なアクション"]...オプションを右上に表示します。
 . [設定]*を選択します。
-. SIEM接続ペインで、*切断*を選択します。
-. 確認ページで、*[切断]*を選択します。
++
+image:screen-settings2.png["[Settings]ページ"]
+
+. [フィーチャーのプレビュー（Preview features）]タイルで、[表示（Show）]*を選択します。
+. キーを入力します。
+. [表示]*を選択します。
 

@@ -394,14 +394,10 @@ BlueXPのランサムウェア対策を有効にする必要はありません�
   <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4cab5dc38edd4eb434559fa769c1d9ec" category="summary">BlueXPランサムウェア対策の新機能をご紹介します。</block>
   <block id="592997dde366d5775e7e052816854f74" category="section-title">2024年3月5日</block>
-  <block id="5a62a1aba4b0b7df087f145049f2b71f" category="paragraph">今回のBlueXPランサムウェア対策プレビューリリースには、次の更新が含まれています。</block>
   <block id="cf69a03aa5287886f0e8d3de1a6334cc" category="inline-link">ポリシーの管理の詳細</block>
   <block id="ac623dda99022aa586562b6804c2f1b8" category="inline-link">保護ポリシーの作成に関する詳細情報</block>
-  <block id="0fd4c934346a4b20a9b03012b080912b" category="list-text">*セカンダリストレージの変更不可（DataLock）*：オブジェクトストアのNetApp DataLockテクノロジを使用して、セカンダリストレージのバックアップを変更不可にできるようになりました。<block ref="a216e61ae0b0740b7be8287c615fa066" category="inline-link-rx"></block>。</block>
   <block id="732b7b17a4dd9ae4a4359cee4b9b391d" category="inline-link">バックアップ先の設定に関する詳細情報</block>
-  <block id="6baf05b01e83bd3d4b8a2024f16a20f6" category="list-text">* NetApp StorageGRIDへの自動バックアップ*：AWSを使用するだけでなく、バックアップ先としてStorageGRIDを選択できるようになりました。<block ref="563323d59981c5d050897f7686a7f9d8" category="inline-link-rx"></block>。</block>
   <block id="9e599e81fbf58f35a4e8ea8d4d14b0f6" category="inline-link">ランサムウェアのアラートが検出された場合の対応の詳細</block>
-  <block id="e3647ee6d2bf29ee74ee9f4e9ff4e201" category="list-text">*潜在的な攻撃を調査するための追加機能*:検出された潜在的な攻撃を調査するために、より多くのフォレンジックの詳細を表示できるようになりました。<block ref="707fb9c7332f6aa933e8445c28830d7a" category="inline-link-rx"></block>。</block>
   <block id="bda01efb679b0ca92bc4e76a23294328" category="inline-link">ランサムウェア攻撃からのリカバリの詳細（インシデントの中和後）</block>
   <block id="8aea370efa0da7f8c985a03488d3b9a7" category="inline-link">BlueXPランサムウェア対策の詳細をご確認ください</block>
   <block id="41e5a42a8cc2023ceb0f8dd06cce7a27" category="paragraph"><block ref="5a80707c96309e25f4c73aee7d2327b1" category="inline-link-rx"></block>。</block>
@@ -688,20 +684,15 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="bb5447070c795a6e8d29fa9cd98a5127" category="list-text">割り当てるポリシーを選択します。</block>
   <block id="427a5dfbb09ab1cc6737506e06431570" category="list-text">[保護]*を選択して変更を終了します。</block>
   <block id="5e76a23879d0e6f7325f31678e623972" category="section-title">2024年5月14日</block>
-  <block id="8607002d4574854ad87d556bd31731f4" category="paragraph">このリリースは、BlueXPランサムウェア対策の一般提供リリースです。次の更新が含まれています。</block>
   <block id="a0f248fceae83613cf99c651e3c24be5" category="inline-link">ライセンスの設定に関する詳細情報</block>
   <block id="17f6ba003825118fb67d19c8c26be794" category="paragraph"><block ref="36f38233d2460bc4dacb6b4bd4fd46ab" category="inline-link-rx"></block>。</block>
-  <block id="66d53b21a4f1cbecf308bbb38b047ea6" category="list-text">* CIFSプロトコル*：NFSプロトコルとCIFSプロトコルの両方を使用して、AWSの作業環境でオンプレミスのONTAPとCloud Volumes ONTAPがサポートされるようになりました。以前のリリースでは、NFSプロトコルのみがサポートされていました。</block>
   <block id="e959f6b23824b1ea02ac36779938412d" category="inline-link">[保護]ページでのワークロードの詳細の表示に関する詳細を確認する</block>
   <block id="f51a97d186491b354b8046c13692a070" category="paragraph"><block ref="59ecb8b9925d0039512c75c461b0b86c" category="inline-link-rx"></block>。</block>
   <block id="ee689c35077ba98079c7b0a4f05a6dc5" category="inline-link">ワークロードの保護に関する詳細情報</block>
   <block id="928fea0953d8c6c88422d673f9e9c5e3" category="paragraph"><block ref="140488255a280124a6e845e64767d54f" category="inline-link-rx"></block>。</block>
-  <block id="d041207e4dcdfed1283b155492e91f0e" category="list-text">*ランサムウェア対策戦略*：ワークロードにSnapshotポリシーまたはバックアップポリシーがない場合は、ランサムウェア対策戦略を作成できます。この戦略には、このサービスで作成する次のポリシーを含めることができます。</block>
   <block id="bdadcbba411cf56b92967e5b0248cc77" category="list-text">検出ポリシー</block>
-  <block id="f536bb08e409e96a3949c3f12e8e392b" category="list-text">*脅威検出を有効にする*は、サードパーティのセキュリティおよびイベント管理（SIEM）システムを使用して利用できるようになりました。ダッシュボードに「脅威検出を有効にする」という新しい推奨事項が表示されるようになりました。これは、[設定]ページで設定できます。</block>
   <block id="10bc4591a9635a8100fbcf18a580cc29" category="inline-link">設定オプションの設定の詳細</block>
   <block id="119863034bfc7ae6b0e2d324ec3da549" category="paragraph"><block ref="fa172403ab7c635a07324b1168d8ce19" category="inline-link-rx"></block>。</block>
-  <block id="81a40dc02620f19a1a34a9edcd87f471" category="list-text">*新しい検出ステータス*が[Protection]ページに表示され、ワークロードに適用されたランサムウェアの検出ステータスが示されます。</block>
   <block id="af255af71067c5961f87ea2321b69295" category="inline-link">ワークロードの保護と保護ステータスの表示に関する詳細情報</block>
   <block id="df142910ec0f256cf3fe94834edd616c" category="paragraph"><block ref="2db9e604787e93c0ca53ebeb4c1a3e79" category="inline-link-rx"></block>。</block>
   <block id="ca8c09727e8b36d15981c9455d697516" category="inline-link">ダッシュボードおよびその他のページからのCSVファイルのダウンロードに関する詳細情報</block>
@@ -790,7 +781,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="7c332d8c3498456553e971642a5142fc" category="paragraph">このサービスを試用または使用するには、NetApp営業担当者にお問い合わせください。その後、BlueXPコネクタを使用すると、ランサムウェア対策サービスに適した機能が含まれます。</block>
   <block id="03a0606ea5e305ef55dd39ee839003fd" category="sidebar">バックアップ先の設定と脅威検出の有効化</block>
   <block id="fb197ee87a0f850dc3b7bb98fe408518" category="inline-link-macro">セツテイノセツテイ</block>
-  <block id="8b003b58b4532bbf9f07c58827819319" category="list-text">* BlueXPのバックアップとリカバリ*：作業環境でBlueXPのバックアップとリカバリサービスを有効にしておく必要はなくなりました。を参照してください <block ref="7cc100a4e35b42109d34b0d1c6d432c9" category="inline-link-macro-rx"></block>。BlueXPランサムウェア対策サービスは、[Settings]オプションを使用してバックアップ先を設定するのに役立ちます。を参照してください <block ref="522f9942d2238ef69c22ece6b9af5205" category="inline-link-macro-rx"></block>。</block>
   <block id="1668ca1bd914c1d847f23b491319ac91" category="list-text">Microsoft Azure</block>
   <block id="81f9a9a695bd7ffbb88f9bd9cfd7d836" category="list-text">ダッシュボードで、「バックアップ先として&lt;backup provider&gt;を準備する」を推奨するために*[確認と修正]*を選択します。</block>
   <block id="12138171b6ceeb4bdc45d66e55bebe1c" category="inline-image-macro">垂直的なアクション</block>
@@ -855,16 +845,8 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="e54f696c13e53f1f1c0731dbdadf9344" category="inline-link">Azureストレージアカウントの管理</block>
   <block id="b89959c3c57acfa9560338ecc2692433" category="paragraph">BlueXPでのAzureストレージの管理の詳細については、<block ref="d5fb5f2072dcbae3b3a252726c6e52ee" category="inline-link-rx"></block>。</block>
   <block id="8009eebf05fd33b87750f8b4048986f7" category="section-title">2024年6月10日</block>
-  <block id="4c57408166809e028adf9be27b861c0a" category="paragraph">このリリースのBlueXPランサムウェア対策には、次の更新が含まれています。</block>
-  <block id="a88e0dc5892d64e5e1293fb97d10e870" category="list-text">*プライマリストレージでのSnapshotコピーロック*：このオプションを有効にすると、プライマリストレージでSnapshotコピーがロックされます。これにより、ランサムウェア攻撃がバックアップストレージのデスティネーションに侵入しても、一定期間変更や削除ができないようになります。</block>
-  <block id="1c73f6fee4ed4d02eabef99de35666d2" category="list-text">*このリリースでは、Cloud Volumes ONTAP for AWSとオンプレミスのONTAP NASに加え、作業環境としてCloud Volumes ONTAP for Microsoft Azure *がサポートされます。</block>
   <block id="6b9ec885733dcee16db8c4d8dde6312a" category="inline-link">Azure での Cloud Volumes ONTAP のクイックスタート</block>
   <block id="17223b00f9d3a714622f5df95956564b" category="paragraph"><block ref="17223b00f9d3a714622f5df95956564b" category="inline-link-rx"></block></block>
-  <block id="2803032e22b35c4bdcf58b92d42735f5" category="list-text">*バックアップ先としてMicrosoft Azureが追加されました*。AWSおよびNetApp StorageGRIDとともに、バックアップ先としてMicrosoft Azureを追加できるようになりました。</block>
-  <block id="17b97e69da6dd47e7550f1c8138bab17" category="list-text">*ライセンスの更新*: 90日間の無償トライアルにサインアップできます。まもなく、Amazon Web Services Marketplaceで従量課金制サブスクリプションを購入するか、お客様所有のNetAppライセンスを使用できるようになります。</block>
-  <block id="8bd256649eef4e917975b7d21e407eee" category="list-text">*ワークロードの詳細*：このリリースでは、[保護]および[その他]ページのワークロード情報に詳細が表示されるようになり、ワークロード保護の評価が向上しました。ワークロードの詳細から、現在割り当てられているポリシーと設定されているバックアップ先を確認できます。</block>
-  <block id="3c52b5fdb588d57160ac52c4248fa3c0" category="list-text">*アプリケーションと整合性のある保護とリカバリ*：NetApp SnapCenterソフトウェアを使用してアプリケーションと整合性のある保護を実行し、SnapCenter Plug-in for VMware vSphereを使用してVMと整合性のある保護を実行できるようになりました。休止状態と整合性のある状態を実現して、リカバリが必要になった場合のデータ損失を回避できます。リカバリが必要な場合は、アプリケーションまたはVMを以前の状態にリストアできます。</block>
-  <block id="b40d9759dcac80d0440a4f4b7e2d3f1a" category="list-text">*[Protection]、[Alerts]、[Recovery]の各ページからCSVファイル*をダウンロードします。</block>
   <block id="fe3f4461c233a8ac4062f3d5f2af86f7" category="paragraph"><block ref="fe3f4461c233a8ac4062f3d5f2af86f7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="42af6072d9f6b15575af87c244abaa0a" category="section-title">ファイル共有またはデータストアのリストア</block>
   <block id="1dd6a4919bb3486348521d221ec659ba" category="list-text">リストアするファイル共有またはデータストアを選択したら、[リストア]ページの[リストア対象]で*[ボリューム別]*を選択します。</block>
@@ -877,9 +859,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="d9e97b4dacf8789a452df06f4739d3b7" category="paragraph"><block ref="691f168695c0ebf6c9e1bf6093933aac" category="inline-link-rx"></block>。</block>
   <block id="8e84b1daf78912b246a0f51f49a81be6" category="inline-link">保護設定の構成方法の詳細</block>
   <block id="a5074ce00bd12388aded816f7d17bc0b" category="paragraph"><block ref="8490e5084c846c3f615579ffada71b2e" category="inline-link-rx"></block>。</block>
-  <block id="9863ce048fc9f300b1fbc248aa66783e" category="list-text">*ドキュメントを表示*リンクがUIに含まれるようになりました。このドキュメントには、ダッシュボードの垂直方向*アクション*からアクセスできます。 <block ref="03b376f37073f981f38dc4d6f450c046" category="inline-image-macro-rx" type="image"></block> オプション「What's new」*を選択して詳細をリリースノートに表示するか、*「Documentation」*を選択してBlueXPランサムウェア対策ドキュメントのホームページを表示します。</block>
-  <block id="56b38de12238825d4032ca408bf71807" category="list-text">*保護ポリシーの管理*：事前定義されたポリシーの使用に加えて、ポリシーを作成できるようになりました。<block ref="b9442a8e5462552f8e91e8150e2b9935" category="inline-link-rx"></block>。</block>
-  <block id="bdf0c88a77cd9c31482e0fe8ce0cfb56" category="list-text">*リカバリプロセス*。回復プロセスが強化されました。ワークロードのボリューム単位またはすべてのボリュームをリカバリできるようになりました。<block ref="a36a14eacaa464cdf2747d859c29de55" category="inline-link-rx"></block>。</block>
   <block id="bb492c0cc0bbb54e0a73ab4e5dfcd476" category="list-text">*ランサムウェア攻撃の可能性がある異常を検出*。脚注：[ランサムウェアの検出や防御システムは、ランサムウェア攻撃からの安全性を完全に保証できません。攻撃が検出されない可能性はありますが、NetAppテクノロジーは重要な追加防御層として機能します。]</block>
   <block id="25e8dea7aabddf32a7ff28410bb492f4" category="paragraph">BlueXPランサムウェア対策なら、無償トライアル、従量課金制サブスクリプション、お客様所有のライセンスを使用するなど、さまざまなライセンスプランを利用できます。</block>
   <block id="5f35d0b4a7930f14f1022ee1f942ee64" category="list-text">オンプレミスのONTAP NAS（NFSプロトコルとCIFSプロトコルを使用）とONTAPバージョン9.11.1以降</block>
@@ -1006,21 +985,15 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="df7d398faf1de90a0c101fbc7640a2fe" category="paragraph">次のいずれかのメインメニューオプションからファイルをダウンロードできます。</block>
   <block id="a36d9f25fe7ecafe45db2fd45823c6e7" category="list-text">*レポート*:任意のページからデータをエクスポートし、ファイルをダウンロードできます。</block>
   <block id="16ec862fdbc31bf15f7d944ad60dd33f" category="section-title">2024年7月1日</block>
-  <block id="fdb1f5ab91dd63ebda3ff72247aa7b2b" category="list-text">*お客様所有のライセンスを使用（BYOL）*：このリリースでは、NetApp営業担当から取得するNetAppライセンスファイル（NLF）であるBYOLライセンスを使用できます。</block>
-  <block id="0c379e4399020bc48ac7da5510998e1a" category="list-text">*アプリケーションワークロードをファイルレベルでリストアする*：アプリケーションワークロードをファイルレベルでリストアする前に、攻撃の影響を受けた可能性のあるファイルのリストを表示し、リストアするファイルを特定できるようになりました。BlueXPランサムウェア対策でリストアするファイルを選択したり、アラートの影響を受けたすべてのファイルを記載したCSVファイルをアップロードしたり、リストアするファイルを手動で特定したりできます。</block>
   <block id="f117dfa6c0387d743ec4a20f0d5de0bc" category="admonition">このリリースでは、アカウント内のすべてのBlueXPコネクタがPodmanを使用していない場合、単一ファイルのリストア機能が有効になります。それ以外の場合、そのアカウントでは無効になります。</block>
   <block id="f013b90a0fd96db59795b7cb0b9d2d1b" category="inline-link">ランサムウェア攻撃からのリカバリの詳細</block>
   <block id="48e006c40a370e7b0dcc3f4f1e42eda7" category="paragraph"><block ref="17c138513bf5a78d755bed4038999b20" category="inline-link-rx"></block>です。</block>
-  <block id="47882b8bc0a2b23d26218cd1691e4099" category="list-text">*ファイル・レベルでアプリケーション・ワークロードをリストアする前に、影響を受けるファイルのリスト*をダウンロードしてください。[Alerts]ページにアクセスして影響を受けるファイルのリストをCSVファイルにダウンロードし、[Recovery]ページを使用してCSVファイルをアップロードできるようになりました。</block>
   <block id="eb7455ff51d7f3745fb801aa3ad0fb2a" category="inline-link">アプリケーションをリストアする前に影響を受けるファイルをダウンロードする方法の詳細</block>
   <block id="2b133b12308ff6cab26bdc5342a3372d" category="paragraph"><block ref="008791716c908b75ddd12a1a3f620fa8" category="inline-link-rx"></block>です。</block>
-  <block id="1acc112f7ac5f0e2374f0e20883a6c5a" category="list-text">*保護計画の削除*：このリリースでは、ランサムウェア対策戦略を削除できるようになりました。</block>
   <block id="5bc0cd3e3204e2ab72bd03661373648f" category="inline-link">ワークロードの保護とランサムウェア対策戦略の管理の詳細</block>
   <block id="20eb1918e9de308789133c5a0b0cc2c4" category="paragraph"><block ref="88ddee768f79e382777baf84277fe57c" category="inline-link-rx"></block>です。</block>
-  <block id="c51b576406612c0f56215101f8705f83" category="list-text">* false positiveアラートを却下する*：[Alerts]タブから、false positiveを却下したり、データをすぐに回復することができるようになりました。</block>
   <block id="b439d3ca10048f7d11cd05477ca961a7" category="inline-link">ランサムウェアのアラートへの対応の詳細</block>
   <block id="e7e38bb442294e991be246059534377b" category="paragraph"><block ref="b68da660865dc415a1fefb8516e82d73" category="inline-link-rx"></block>です。</block>
-  <block id="ea8652a0fce10e4424e5611e6298f09b" category="list-text">*設定オプション*：BlueXPランサムウェア対策設定でバックアップ先を設定できるようになりました。</block>
   <block id="16ea8ec4227c8499ec40700bab8662a0" category="paragraph">BlueXP  のバックアップとリカバリとBlueXP  のランサムウェア対策の両方がある場合、両方の製品で保護される共通データには、BlueXP  のランサムウェア対策のみが課金されます。</block>
   <block id="ab7e350836ab3f3789bee6b5603f0b58" category="paragraph">ライセンスまたはPAYGOサブスクリプションの購入後、ランサムウェア検出ポリシー（Autonomous Ransomware Protection）が有効になっている（BlueXP  ランサムウェア対策で検出または設定されている）ワークロード BlueXP  ランサムウェア対策では、スナップショットまたはバックアップポリシーが少なくとも1つは「保護されている」と分類され、購入済み容量や従量課金制サブスクリプションにカウントされます。バックアップポリシーやSnapshotポリシーが設定されていても検出ポリシー（ARP）が設定されていないワークロードが検出されると、「リスクあり」に分類され、購入済み容量に対してdoes_not_countが行われます。</block>
   <block id="fcf48eb5c1148885f8ad102e707baa07" category="paragraph">保護されているワークロードは、90日間の試用期間が終了すると、購入した容量またはサブスクリプションにカウントされます。BlueXP  ランサムウェア対策は、効率化前に保護されたワークロードに関連するデータに対してGB単位で課金されます。</block>
@@ -1159,8 +1132,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="530a14e5d66c979129b8b96f40e39621" category="list-text">BlueXP  メニューから、* Protection *&gt;* Ransomware protection *を選択します。</block>
   <block id="4cb0caa7f0c97dd44ed525e6237432d2" category="admonition">入力する情報は、選択したSIEMによって異なります。</block>
   <block id="dd6b8bf5a56c8beb81b173991906c83e" category="section-title">2024 年 8 月 5 日</block>
-  <block id="3660cbb805c1bf63e1967ed1339a3bbd" category="paragraph">このリリースのBlueXP  ランサムウェア対策には、次の更新が含まれています。</block>
-  <block id="11f5c2b9557e3c8b41afc65159260e17" category="list-text">* Splunk Cloudによる脅威の検出*：セキュリティおよびイベント管理システム（SIEM）にデータを自動的に送信し、脅威の分析と検出を行うことができます。以前のリリースでは、SIEMとしてAWS Security Hubのみを選択できました。このリリースでは、AWS Security HubまたはSplunk CloudをSIEMとして選択できます。</block>
   <block id="0d0fda3a15e7f6f6406a0dde3997c91f" category="inline-link">BlueXP  ランサムウェア対策の設定の詳細</block>
   <block id="5b0f75e0c31233c18e6f9318b8569cf7" category="paragraph"><block ref="25291e882ba76639fccc7a13f1838641" category="inline-link-rx"></block>です。</block>
   <block id="38f076b49309ac077a903c6521bcf590" category="paragraph">BlueXP  ランサムウェア対策でSplunk Cloudを有効にする前に、Splunk Cloudで次の手順を実行する必要があります。</block>
@@ -1269,14 +1240,9 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="f01a112fe29fe81372d14171703671ce" category="paragraph">バケット内のデータは、デフォルトでGoogleが管理するキーで暗号化されます。Googleで管理されているキーを引き続き使用できます。</block>
   <block id="f378325fc971c8e4253dd4f1662dec3b" category="list-text">必要に応じて、以前に設定したGCPプライベートエンドポイント（PrivateLink）を使用するかどうかを選択します。</block>
   <block id="28dc8814bfe656bc8e29052d1508b999" category="section-title">2024年9月2日</block>
-  <block id="dddaa1ce44a2d4bbebf20d3f4563c0a4" category="paragraph">このリリースのBlueXP  ランサムウェア対策には、次の更新が含まれています。</block>
-  <block id="8817c21accd9fdcb9207397834af08f6" category="list-text">*デジタルアドバイザによるセキュリティリスク評価*：BlueXP  ランサムウェア対策は、NetAppデジタルアドバイザからクラスタに関連する高リスクおよび重大なセキュリティリスクに関する情報を収集するようになりました。リスクが検出された場合、BlueXP  ランサムウェア対策により、ダッシュボードの[推奨される操作]ペインに「クラスタ&lt;name&gt;の既知のセキュリティの脆弱性を修正する」という推奨事項が表示されます。ダッシュボードの推奨事項で、*[確認と修正]*をクリックすると、Digital AdvisorとCommon Vulnerability &amp; Exposure（CVE）の記事を確認してセキュリティリスクを解決するよう提案されます。複数のセキュリティリスクがある場合は、Digital Advisorで情報を確認します。</block>
   <block id="9a42efab941e78c35ff03d2f3de7f294" category="paragraph">を参照してください<block ref="5d1aa2fae9958ef5ced45eec5d13d250" category="inline-link-rx"></block>。</block>
-  <block id="db99b952c4a66f69627f5f328e20f9d1" category="list-text">* Google Cloud Platformにバックアップ*：このリリースでは、Google Cloud Platformバケットにバックアップ先を設定できます。以前は、バックアップ先を追加できるのはNetApp StorageGRID、Amazon Web Services、Microsoft Azureのみでした。</block>
-  <block id="6296ba9154f4dc4d4403121335c812c9" category="list-text">* Google Cloud Platformのサポート*：このサービスでは、ストレージ保護のためにCloud Volumes ONTAP for Google Cloud Platformがサポートされるようになりました。以前は、Amazon Web ServicesとMicrosoft AzureのCloud Volumes ONTAPとオンプレミスのNASのみがサポートされていました。</block>
   <block id="571e1080641fe631491306478d4572a1" category="inline-link">BlueXP  ランサムウェア対策、サポート対象のデータソース、バックアップ先、作業環境について説明します。</block>
   <block id="5c6a145c454aef23e256b2459f8c4c75" category="paragraph"><block ref="e1153028bb0f55bf33080551a5d7f6f3" category="inline-link-rx"></block>です。</block>
-  <block id="98f1cb1ebd09ccf6e678d5bae1920213" category="list-text">*ロールベースアクセス制御*：ロールベースアクセス制御（RBAC）を使用して、特定のアクティビティへのアクセスを制限できるようになりました。BlueXP  ランサムウェア対策では、BlueXP  の2つのロール、BlueXP  アカウント管理者と非アカウント管理者（ビューア）を使用します。</block>
   <block id="c7038711405bbbe2f0f37c53c5eb81ad" category="inline-link">ロールベースアクセス制御Privileges</block>
   <block id="edf15150f2ed24145a29e67792372ecc" category="paragraph">各ロールで実行できるアクションの詳細については、を参照してください<block ref="03cd1069228e8895d221bed8eef34f69" category="inline-link-rx"></block>。</block>
   <block id="63d5049791d9d79d86e9a108b0a999ca" category="sidebar">参考文献</block>
@@ -1380,7 +1346,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="8b2302df496c7e3838b65f0dfaee3ab4" category="list-text">AWS Security HubまたはSplunk Cloudで設定したトークンと認証の詳細を入力します。</block>
   <block id="964635dcf6206ebb279b58d13cf69a92" category="section-title">2024年9月30日</block>
   <block id="a1c75029051cebc5ca5ea85a84cfc065" category="inline-link">ランサムウェア対策戦略におけるファイル共有ワークロードのグループ化の詳細</block>
-  <block id="1784b8aa983497f6e69069b3b862287f" category="list-text">*ファイル共有ワークロードのカスタムグループ化*：このリリースでは、ファイル共有をグループにグループ化して、データ資産を簡単に保護できるようになりました。グループ内のすべてのボリュームを同時に保護できます。以前は、各ボリュームを個別に保護する必要がありました。<block ref="8790005620a6e0339d9d5a6985b6f062" category="inline-link-rx"></block>です。</block>
   <block id="d67482bbf82ef9c339e44809ea9873b1" category="sidebar">ランサムウェア対策戦略でワークロードを保護</block>
   <block id="8f438477df4db40c8b526acbcdce5937" category="paragraph">BlueXPランサムウェア対策は、ランサムウェアからデータを保護するためのサービスです。このサービスは、オンプレミスのNASストレージにあるOracle、MySQL、VMデータストア、ファイル共有のアプリケーションベースのワークロード（NFSプロトコルとCIFSプロトコルを使用）に加え、BlueXP  for Amazon Web Services、Cloud Volumes ONTAP for Google Cloud、Cloud Volumes ONTAP for Microsoft AzureのアプリケーションベースのワークロードをCloud Volumes ONTAP組織全体で保護します。このサービスは、Amazon Web Services、Google Cloud、Microsoft Azureクラウドストレージ、NetApp StorageGRIDにデータをバックアップします。</block>
   <block id="7d491636abfe1c22299d387cd25b5297" category="list-text">* BlueXP  のNFSまたはCIFS作業環境を使用するオンプレミスのNetApp NASで、BlueXP  の組織、プロジェクト、BlueXP  コネクタにわたって、アプリケーションベース、ファイル共有、またはVMwareが管理するすべてのワークロードを特定します。次に、データの優先順位を分類し、ランサムウェア対策の強化に関する推奨事項を提供します。</block>
@@ -1524,16 +1489,80 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="1355ef6342e870ff08b7ae39b0126c7c" category="list-text">キーを入力します。</block>
   <block id="70c1d1656e0180e79913295ab5c3c06a" category="list-text">[表示]*を選択します。</block>
   <block id="bf43cf14a72445401d6804bee094443e" category="doc">BlueXP  ランサムウェア対策の新機能</block>
-  <block id="7d02192f3436d747f16f0854f54cd837" category="list-text">*データ分類を有効にし、個人識別情報（PII）をスキャンする*：このリリースでは、BlueXP  ファミリのコアコンポーネントであるBlueXP  分類を有効にして、ファイル共有ワークロードのデータをスキャンおよび分類することができます。データを分類することで、データに個人情報が含まれているかどうかを特定し、セキュリティリスクを高めることができます。このプロセスは、ワークロードの重要性にも影響し、適切なレベルの保護でワークロードを保護するのに役立ちます。</block>
   <block id="f3da95789fee3d76f39c270803b7c7df" category="paragraph">BlueXP  ランサムウェア対策でのPIIデータのスキャンは、BlueX分類を導入したお客様が一般的に利用できます。BlueXP  の分類は、BlueXP  プラットフォームの一部として追加料金なしで利用でき、オンプレミスまたはお客様のクラウドに導入できます。</block>
   <block id="c2cb37c5316be80c5de2706c50799610" category="paragraph">BlueXP  分類は、テクノロジプレビューの一部としてSaaSモデルとして導入することもできます。プレビュー機能を有効にするには、BlueXP  ransomware protection * Settings *オプションを使用します。[Preview]を有効にすると、[Protection]ページの[* Privacy exposure]列の横に、他の場所とともに[Preview]ラベルが表示されます。</block>
   <block id="14712989ac072dc4b44e9acf1def5f1f" category="paragraph">を参照してください<block ref="a5026777e609bf5c1f12922a89f75f5b" category="inline-link-rx"></block>。</block>
   <block id="dc2ee5afb67051a37353df40cc16729a" category="paragraph">スキャンを開始するには、[Protection]ページで、[Privacy exposure]列の*[Identify exposure]*をクリックします。</block>
   <block id="4dc0491313939f9597e6bce367054443" category="paragraph"><block ref="0e7ea879583dcbdf58a2050df8592221" category="inline-link-rx"></block>です。</block>
-  <block id="41e1ecfc5a85ff11563226784ee15ba6" category="list-text">*次のプレビュー機能をリリース前に試す*：「プレビュー」というラベルの付いた機能をリリース前に試すことができるようになりました。これを行うには、*設定*オプションを使用して、「プレビュー」ラベルでタグ付けされたこれらの機能を表示します。</block>
-  <block id="7a5ad35792efc88c3a5c05a313202699" category="list-text">* SIEMとMicrosoft Sentinelの統合*：Microsoft Sentinelを使用して脅威の分析と検出のために、セキュリティおよびイベント管理システム（SIEM）にデータを送信できるようになりました。以前は、AWS Security HubまたはSplunk CloudをSIEMとして選択できました。</block>
-  <block id="9d163bfc4f18cfe82e5ab58246fe3e03" category="list-text">*今すぐ無償トライアル*：このリリースでは、BlueXP  ランサムウェア対策の新規導入に30日間の無償トライアルが提供されるようになりました。以前は、BlueXP  ランサムウェア対策は90日間の無償トライアルを提供していました。すでに90日間の無償トライアルを利用している場合は、90日間継続されます。</block>
-  <block id="2f5cba8ef7e3d3ce9ca484acfa021d1e" category="list-text">* Podmanのファイルレベルでアプリケーションワークロードをリストアする*：アプリケーションワークロードをファイルレベルでリストアする前に、攻撃の影響を受けた可能性のあるファイルのリストを表示し、リストアするファイルを特定できるようになりました。以前は、組織（以前はアカウント）のBlueXP  コネクタがPodmanを使用していた場合、この機能は無効になっていました。これでPodmanで有効になりました。BlueXPランサムウェア対策でリストアするファイルを選択したり、アラートの影響を受けたすべてのファイルを記載したCSVファイルをアップロードしたり、リストアするファイルを手動で特定したりできます。</block>
   <block id="4b55af6e5a9948a11e84a0809a34edfb" category="sidebar">個人を特定できるデータのスキャン</block>
   <block id="21e938043b4ef6be41f16e95f7f5aaaa" category="section-title">2024年11月7日</block>
+  <block id="997bcd377ced78770953e6e3775b8ef8" category="doc">Digital Advisorによるセキュリティリスク評価</block>
+  <block id="ca38b24749c1b379aa526166d650709c" category="paragraph">BlueXP  ランサムウェア対策では、クラスタに関連する高リスクと重大なセキュリティリスクに関する情報がNetAppデジタルアドバイザから収集されるようになりました。リスクが検出された場合、BlueXP  ランサムウェア対策により、ダッシュボードの[推奨される操作]ペインに「クラスタ&lt;name&gt;の既知のセキュリティの脆弱性を修正する」という推奨事項が表示されます。ダッシュボードの推奨事項で、*[確認と修正]*をクリックすると、Digital AdvisorとCommon Vulnerability &amp; Exposure（CVE）の記事を確認してセキュリティリスクを解決するよう提案されます。複数のセキュリティリスクがある場合は、Digital Advisorで情報を確認します。</block>
+  <block id="d6e1df3f33358ae7e917c338cf462ca0" category="section-title">Google Cloud Platformにバックアップ</block>
+  <block id="a789dfb53f35524e96878624b0f44be1" category="paragraph">このリリースでは、バックアップ先をGoogle Cloud Platformバケットに設定できます。以前は、バックアップ先を追加できるのはNetApp StorageGRID、Amazon Web Services、Microsoft Azureのみでした。</block>
+  <block id="be2bdfb658850d167c76f763879faa2f" category="section-title">Google Cloud Platformのサポート</block>
+  <block id="1a5bbf622fa944b888ced1dd36e43b20" category="paragraph">このサービスでは、ストレージ保護のためにCloud Volumes ONTAP for Google Cloud Platformがサポートされるようになりました。以前は、Amazon Web ServicesとMicrosoft AzureのCloud Volumes ONTAPとオンプレミスのNASのみがサポートされていました。</block>
+  <block id="01ab8fe0565c01eb93456b579d969d66" category="section-title">ロールベースアクセス制御</block>
+  <block id="1431c64521322df79808c76466af3b70" category="paragraph">Role-Based Access Control（RBAC；ロールベースアクセス制御）を使用して、特定のアクティビティにアクセスを制限できるようになりました。BlueXP  ランサムウェア対策では、BlueXP  の2つのロール、BlueXP  アカウント管理者と非アカウント管理者（ビューア）を使用します。</block>
+  <block id="4d330e714e6183f0c61932d7c00a8ff3" category="doc">ファイル共有ワークロードのカスタムグループ化</block>
+  <block id="52a2bb712de6112a9a5d29a047f3a073" category="paragraph">このリリースでは、ファイル共有をグループにグループ化して、データ資産を簡単に保護できるようになりました。グループ内のすべてのボリュームを同時に保護できます。以前は、各ボリュームを個別に保護する必要がありました。</block>
+  <block id="9a2ed93898be76fbc237cf9fca13d650" category="paragraph"><block ref="8790005620a6e0339d9d5a6985b6f062" category="inline-link-rx"></block>です。</block>
+  <block id="86510b95a05ce4c22c6d48d2fd9228a9" category="doc">データの分類を有効にし、個人識別情報（PII）をスキャンする</block>
+  <block id="d599e3d1b6a5137e404ea89f314a22e4" category="paragraph">このリリースでは、BlueXP  ファミリーのコアコンポーネントであるBlueXP  分類を有効にして、ファイル共有ワークロードのデータをスキャンして分類することができます。データを分類することで、データに個人情報が含まれているかどうかを特定し、セキュリティリスクを高めることができます。このプロセスは、ワークロードの重要性にも影響し、適切なレベルの保護でワークロードを保護するのに役立ちます。</block>
+  <block id="4d4b17a43409a8c299995a21ddaef39b" category="section-title">リリース前に次のプレビュー機能を試す</block>
+  <block id="c86f9a52cdb00d7109bfa8ee10b48074" category="paragraph">これで、リリース前に「プレビュー」というラベルの付いたいくつかの機能を試すことができます。これを行うには、*設定*オプションを使用して、「プレビュー」ラベルでタグ付けされたこれらの機能を表示します。</block>
+  <block id="a2c442ceb4053f2fbfe23023529b9acb" category="section-title">SIEMとMicrosoft Sentinelの統合</block>
+  <block id="5148a0988dead45b54188f22121bb178" category="paragraph">Microsoft Sentinelを使用して脅威の分析と検出のために、セキュリティおよびイベント管理システム(SIEM)にデータを送信できるようになりました。以前は、AWS Security HubまたはSplunk CloudをSIEMとして選択できました。</block>
+  <block id="178324624f63d3f322bedd1a0cf9e6fc" category="section-title">30日間の無償トライアル</block>
+  <block id="31e5266d7eefb6e39e445571b556a4b6" category="paragraph">このリリースでは、BlueXP  ランサムウェア対策の新規導入に30日間の無償トライアルが提供されるようになりました。以前は、BlueXP  ランサムウェア対策は90日間の無償トライアルを提供していました。すでに90日間の無償トライアルを利用している場合は、90日間継続されます。</block>
+  <block id="131dcf966228f0c4a90e6e64618c8def" category="section-title">Podmanのアプリケーションワークロードをファイルレベルでリストア</block>
+  <block id="b4a1818e2de3da83b0e71c710c96525c" category="paragraph">アプリケーションワークロードをファイルレベルでリストアする前に、攻撃の影響を受けた可能性があるファイルのリストを表示し、リストアするファイルを特定できるようになりました。以前は、組織（以前はアカウント）のBlueXP  コネクタがPodmanを使用していた場合、この機能は無効になっていました。これでPodmanで有効になりました。BlueXPランサムウェア対策でリストアするファイルを選択したり、アラートの影響を受けたすべてのファイルを記載したCSVファイルをアップロードしたり、リストアするファイルを手動で特定したりできます。</block>
+  <block id="d87d7ee64c0c4e6b9769c640d8889cd0" category="section-title">Splunk Cloudによる脅威の検出</block>
+  <block id="40c15e54846f2454a459bb0ef7ba9faa" category="paragraph">セキュリティおよびイベント管理システム（SIEM）にデータを自動的に送信して、脅威の分析と検出を行うことができます。以前のリリースでは、SIEMとしてAWS Security Hubのみを選択できました。このリリースでは、AWS Security HubまたはSplunk CloudをSIEMとして選択できます。</block>
+  <block id="3ad6a80bb44b13a7ad34ad835b0166d5" category="paragraph">このリリースでは、BYOLライセンスを使用できます。BYOLライセンスは、NetApp営業担当から取得したNetAppライセンスファイル（NLF）です。</block>
+  <block id="731d998f19bf5dc5e302b024a5e269ae" category="section-title">アプリケーションワークロードをファイルレベルでリストア</block>
+  <block id="3ca66b2ea6d0090926c6ed42102cd321" category="paragraph">アプリケーションワークロードをファイルレベルでリストアする前に、攻撃の影響を受けた可能性があるファイルのリストを表示し、リストアするファイルを特定できるようになりました。BlueXPランサムウェア対策でリストアするファイルを選択したり、アラートの影響を受けたすべてのファイルを記載したCSVファイルをアップロードしたり、リストアするファイルを手動で特定したりできます。</block>
+  <block id="a73c37f93df66de7bad711d109e97dec" category="section-title">影響を受けるファイルのリストをダウンロードする</block>
+  <block id="2054cf1c5fa9dc941ee8bea29d93f66c" category="paragraph">アプリケーションワークロードをファイルレベルでリストアする前に、[アラート]ページにアクセスして影響を受けたファイルのリストをCSVファイルにダウンロードし、[リカバリ]ページを使用してCSVファイルをアップロードできるようになりました。</block>
+  <block id="16a3ef0c0012d6ecafe00aeaff08d20c" category="section-title">保護プランの削除</block>
+  <block id="0e7f928ba1ebfe3d5652a71f58c576d8" category="paragraph">このリリースでは、ランサムウェア対策戦略を削除できるようになりました。</block>
+  <block id="c9b85bdf743e168e0a60d3d8ceade783" category="section-title">プライマリストレージでのSnapshotコピーロック</block>
+  <block id="c5e12132648bd299cac195c7b86022e1" category="paragraph">これを有効にすると、プライマリストレージ上のSnapshotコピーがロックされ、ランサムウェア攻撃を受けてバックアップ先にたどり着いた場合でも、一定期間変更や削除ができないようになります。</block>
+  <block id="4b5a2b3b60f0e79d9138e24b2d5f4f01" category="section-title">Cloud Volumes ONTAP for Microsoft Azureのサポート</block>
+  <block id="d968f99b0c3335ed1e6f49c728b452af" category="paragraph">このリリースでは、Cloud Volumes ONTAP for AWSとオンプレミスのONTAP NASに加え、作業環境としてCloud Volumes ONTAP for Microsoft Azureがサポートされます。</block>
+  <block id="24fe52a2365d38c875f0bcf11a7463c6" category="section-title">バックアップ先としてMicrosoft Azureを追加</block>
+  <block id="cd9970a99d092fa49bfe0f1cf5ee4b7c" category="paragraph">AWSおよびNetApp StorageGRIDとともに、バックアップ先としてMicrosoft Azureを追加できるようになりました。</block>
+  <block id="c03b667390566320b1f84fd433ac2cb0" category="section-title">ライセンスの更新</block>
+  <block id="fd480049706571e64359cf4351f9fcbc" category="paragraph">90日間の無償トライアルにサインアップできます。まもなく、Amazon Web Services Marketplaceで従量課金制サブスクリプションを購入するか、お客様所有のNetAppライセンスを使用できるようになります。</block>
+  <block id="4216ad1e709a7634134e14c2170d7512" category="section-title">CIFSプロトコル</block>
+  <block id="408367cea8a278c3888a17e2d554228a" category="paragraph">AWSの作業環境で、NFSプロトコルとCIFSプロトコルの両方を使用したオンプレミスのONTAPとCloud Volumes ONTAPがサポートされるようになりました。以前のリリースでは、NFSプロトコルのみがサポートされていました。</block>
+  <block id="0b1d09e292577ba6653f7e9933b4bc18" category="section-title">ワークロードの詳細</block>
+  <block id="ea68074e88ed0ee034f46a22da4207e3" category="paragraph">このリリースでは、ワークロード保護の評価を改善するために、[保護]ページと[その他]ページのワークロード情報に詳細が表示されるようになりました。ワークロードの詳細から、現在割り当てられているポリシーと設定されているバックアップ先を確認できます。</block>
+  <block id="8d99eb044387ccaf47ae81f4bc0e655c" category="section-title">アプリケーションと整合性のある保護とリカバリ、VMと整合性のある保護とリカバリ</block>
+  <block id="2d27a1cb1cddcea603af3821a038c473" category="paragraph">NetApp SnapCenterソフトウェアを使用したアプリケーションと整合性のある保護と、SnapCenter Plug-in for VMware vSphereを使用したVMと整合性のある保護を実行できるようになりました。休止状態と整合性のある状態を実現して、リカバリが必要になった場合のデータ損失を回避できます。リカバリが必要な場合は、アプリケーションまたはVMを以前の状態にリストアできます。</block>
+  <block id="2ffdf2b6c5684e4c6c9a1519e96a8cdd" category="section-title">ランサムウェア対策戦略</block>
+  <block id="3c774805756c6bcbb7246614c16ac783" category="paragraph">ワークロードにSnapshotポリシーまたはバックアップポリシーがない場合は、ランサムウェア対策戦略を作成できます。この戦略には、このサービスで作成する次のポリシーを含めることができます。</block>
+  <block id="a25458513b834667ae92c65418ac8918" category="section-title">脅威の検出</block>
+  <block id="6f39a651bab312935acf07a9f7b3905c" category="paragraph">サードパーティのセキュリティおよびイベント管理（SIEM）システムを使用して、脅威検出を有効にすることができるようになりました。ダッシュボードに「脅威検出を有効にする」という新しい推奨事項が表示されるようになりました。これは、[設定]ページで設定できます。</block>
+  <block id="f5e987cac9511e003e20769dfebfed7c" category="section-title">誤検出アラートを却下する</block>
+  <block id="6131af6894f63b64bad9d4dabbbfd577" category="paragraph">[Alerts]タブで、誤検出を却下したり、データをすぐにリカバリしたりできるようになりました。</block>
+  <block id="91d938cdf573e3f658140e8b3c5ee2c3" category="section-title">検出ステータス</block>
+  <block id="a45430437759fefd9c1fc57f741d6de7" category="paragraph">[Protection]ページに、ワークロードに適用されたランサムウェアの検出ステータスを示す新しい検出ステータスが表示されます。</block>
+  <block id="fce32b147d3fc1e111905c3a3bf6fd69" category="section-title">CSVファイルのダウンロード</block>
+  <block id="d614bc77098be49e16d933a345b13c92" category="paragraph">CSVファイル*は、[保護]、[アラート]、[リカバリ]の各ページからダウンロードできます。</block>
+  <block id="6758a0bf77df1c4e4729d20133a2e170" category="section-title">ドキュメントへのリンク</block>
+  <block id="ca0357e519e49764e6ebe9d52a39e2cd" category="paragraph">UIに[View Documentation]リンクが追加されました。このドキュメントには、[ダッシュボード][垂直]*[アクション]*オプションからアクセスできます <block ref="03b376f37073f981f38dc4d6f450c046" category="inline-image-macro-rx" type="image"></block> 。「What's new」*を選択して詳細をリリースノートに表示するか、*「Documentation」*を選択してBlueXPランサムウェア対策ドキュメントのホームページを表示します。</block>
+  <block id="2cc8041b51d1809f75f8d4cf6355ae01" category="paragraph">作業環境でBlueXPのバックアップとリカバリサービスを有効にしておく必要はなくなりました。を参照して <block ref="7cc100a4e35b42109d34b0d1c6d432c9" category="inline-link-macro-rx"></block>BlueXPランサムウェア対策サービスは、[Settings]オプションを使用してバックアップ先を設定するのに役立ちます。を参照して <block ref="522f9942d2238ef69c22ece6b9af5205" category="inline-link-macro-rx"></block></block>
+  <block id="609943abdcf36e6b01b6e1bd91561708" category="section-title">設定オプション</block>
+  <block id="dca5a35d56928cb7458a60a545581862" category="paragraph">BlueXP  ランサムウェア対策設定でバックアップ先を設定できるようになりました。</block>
+  <block id="43ce8197249a120a136331aaa3e00c1d" category="section-title">保護ポリシーの管理</block>
+  <block id="8e8468693b168546acf5c9462495f83d" category="paragraph">事前定義されたポリシーの使用に加えて、ポリシーを作成できるようになりました。<block ref="b9442a8e5462552f8e91e8150e2b9935" category="inline-link-rx"></block>です。</block>
+  <block id="e10d5c21c44525f1b19a48dfb4a89445" category="section-title">セカンダリストレージの変更不可（DataLock）</block>
+  <block id="54621bce5c5edbad82ad98711766da7e" category="paragraph">オブジェクトストアでNetApp DataLockテクノロジを使用して、セカンダリストレージ内のバックアップを変更不可にできるようになりました。<block ref="a216e61ae0b0740b7be8287c615fa066" category="inline-link-rx"></block>です。</block>
+  <block id="643b17dc026d0c0147a8a815056a5f49" category="section-title">NetApp StorageGRIDへの自動バックアップ</block>
+  <block id="523d7f963aa74548c8ce926b15835e7d" category="paragraph">AWSを使用するだけでなく、バックアップ先としてStorageGRIDを選択できるようになりました。<block ref="563323d59981c5d050897f7686a7f9d8" category="inline-link-rx"></block>です。</block>
+  <block id="62214a27f426a0d88db3ab38949106b2" category="section-title">攻撃の可能性を調査するための追加機能</block>
+  <block id="f6d0e776adfe1ac52ce17e76a4f5e7a4" category="paragraph">さらにフォレンジックの詳細を表示して、検出された攻撃の可能性を調査できるようになりました。<block ref="707fb9c7332f6aa933e8445c28830d7a" category="inline-link-rx"></block>です。</block>
+  <block id="1308d0f084fdb39839541aaf971b23ff" category="section-title">リカバリプロセス</block>
+  <block id="44d292cf2891eaa1e67cfa3d9504b58b" category="paragraph">回復プロセスが強化されました。ワークロードのボリューム単位またはすべてのボリュームをリカバリできるようになりました。<block ref="a36a14eacaa464cdf2747d859c29de55" category="inline-link-rx"></block>です。</block>
 </blocks>

@@ -8,23 +8,13 @@
 
 このリリースでは、BlueXP  ファミリーのコアコンポーネントであるBlueXP  分類を有効にして、ファイル共有ワークロードのデータをスキャンして分類することができます。データを分類することで、データに個人情報が含まれているかどうかを特定し、セキュリティリスクを高めることができます。このプロセスは、ワークロードの重要性にも影響し、適切なレベルの保護でワークロードを保護するのに役立ちます。
 
-BlueXP  ランサムウェア対策でのPIIデータのスキャンは、BlueX分類を導入したお客様が一般的に利用できます。BlueXP  の分類は、BlueXP  プラットフォームの一部として追加料金なしで利用でき、オンプレミスまたはお客様のクラウドに導入できます。
-
-BlueXP  分類は、テクノロジプレビューの一部としてSaaSモデルとして導入することもできます。プレビュー機能を有効にするには、BlueXP  ransomware protection * Settings *オプションを使用します。[Preview]を有効にすると、[Protection]ページの[* Privacy exposure]列の横に、他の場所とともに[Preview]ラベルが表示されます。
+BlueXP  ランサムウェア対策でのPIIデータのスキャンは、BlueXP  分類を導入したお客様が一般に利用できます。BlueXP  の分類は、BlueXP  プラットフォームの一部として追加料金なしで利用でき、オンプレミスまたはお客様のクラウドに導入できます。
 
 を参照してください https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["BlueXPのランサムウェア対策の設定"]。
 
 スキャンを開始するには、[Protection]ページで、[Privacy exposure]列の*[Identify exposure]*をクリックします。
 
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect-classify.html["BlueXP  分類を使用して、個人を特定できる機密データをスキャン"]です。
-
-
-
-=== リリース前に次のプレビュー機能を試す
-
-これで、リリース前に「プレビュー」というラベルの付いたいくつかの機能を試すことができます。これを行うには、*設定*オプションを使用して、「プレビュー」ラベルでタグ付けされたこれらの機能を表示します。
-
-https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["BlueXP  ランサムウェア対策の設定の詳細"]です。
 
 
 

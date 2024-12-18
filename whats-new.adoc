@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, ransomware protection, bluexp, anti-ransomware, cyber attack, ransomware, protection, detection, ARP' 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, ransomware protection, bluexp, anti-ransomware, cyber attack, ransomware, protection, detection, ARP, netapp' 
 summary: BlueXPランサムウェア対策の新機能をご紹介します。 
 ---
 = BlueXP  ランサムウェア対策の新機能
@@ -15,6 +15,35 @@ summary: BlueXPランサムウェア対策の新機能をご紹介します。
 
 [role="lead"]
 BlueXPランサムウェア対策の新機能をご紹介します。
+
+
+
+== 2024年12月16日
+
+
+
+=== Data Infrastructure Insights Storage Workload Securityを使用してユーザの異常な行動を検出
+
+このリリースでは、Data Infrastructure Insights Storage Workload Securityを使用して、ストレージワークロードの異常なユーザ行動を検出できます。この機能を使用すると、潜在的なセキュリティ脅威を特定し、悪意のあるユーザをブロックしてデータを保護できます。
+
+詳細については、を参照してください link://rp-use-alert.html["検出されたランサムウェアに関するアラートに対応"]。
+
+Data Infrastructure Insights Storage Workload Securityを使用して異常なユーザ行動を検出するには、事前にBlueXP  ransomware protection * Settings *オプションを使用してオプションを設定する必要があります。
+
+を参照してください link://rp-use-settings-html["BlueXPのランサムウェア対策の設定"]。
+
+
+
+=== 検出して保護するワークロードを選択
+
+このリリースでは、次の操作を実行できます。
+
+* 各コネクタで、ワークロードを検出する作業環境を選択します。この機能は、環境内の特定のワークロードを保護し、他のワークロードを保護する必要がない場合に役立ちます。
+* ワークロードの検出時に、コネクタごとにワークロードの自動検出を有効にすることができます。保護するワークロードを選択できます。
+* 以前に選択した作業環境用に新しく作成されたワークロードを検出します。
+
+
+を参照してください link://rp-start-discover-html["ワークロードを検出"]。
 
 
 

@@ -1522,15 +1522,12 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="8dc6cf962cd8b6b9d4c2ec1c25942b36" category="cell">このプライバシーエクスポージャーへの影響：</block>
   <block id="e6ecd439699f8fefa13e20f9536a72a6" category="doc">Data Infrastructure Insights Storage Workload Securityを使用してユーザの異常な行動を検出</block>
   <block id="4b9b02f7da7210970cff1fcbe2d8369e" category="paragraph">このリリースでは、Data Infrastructure Insights Storage Workload Securityを使用して、ストレージワークロードの異常なユーザ行動を検出できます。この機能を使用すると、潜在的なセキュリティ脅威を特定し、悪意のあるユーザをブロックしてデータを保護できます。</block>
-  <block id="f95023611244a13b93dbe02a38838885" category="paragraph">詳細については、を参照してください <block ref="6530a738c0275d57755f32143a89eb32" category="inline-link-macro-rx"></block>。</block>
   <block id="f06819927bc06d4d2a9a3e3e868f76de" category="paragraph">Data Infrastructure Insights Storage Workload Securityを使用して異常なユーザ行動を検出するには、事前にBlueXP  ransomware protection * Settings *オプションを使用してオプションを設定する必要があります。</block>
-  <block id="24a6d729a8d1aa0927fb5447da199fd2" category="paragraph">を参照してください <block ref="71b7fcd43dad68a28f1c1ae3bbb6f526" category="inline-link-macro-rx"></block>。</block>
   <block id="ae65c0d044427130470e493bcfa5e9a3" category="section-title">検出して保護するワークロードを選択</block>
   <block id="df7afd566315c6467b9ae3e88d9f948d" category="paragraph">このリリースでは、次の操作を実行できます。</block>
   <block id="8865ff9ead0ee9de28506714448478d3" category="list-text">各コネクタで、ワークロードを検出する作業環境を選択します。この機能は、環境内の特定のワークロードを保護し、他のワークロードを保護する必要がない場合に役立ちます。</block>
   <block id="b26d0bf0b9d2f848756ba4fcb103860d" category="list-text">ワークロードの検出時に、コネクタごとにワークロードの自動検出を有効にすることができます。保護するワークロードを選択できます。</block>
   <block id="c6ac79f6ec82abd57b723ae67e39d12b" category="list-text">以前に選択した作業環境用に新しく作成されたワークロードを検出します。</block>
-  <block id="2a4b59673cf47f4cb519a01ea261799b" category="paragraph">を参照してください <block ref="1da0570eec00a4d5dabdb7f59b574d39" category="inline-link-macro-rx"></block>。</block>
   <block id="2260f3efb7f7ff8d7a4a295911d64e87" category="list-text">*検出*ランサムウェア攻撃の可能性がある異常を検出します。脚注：[攻撃が検出されない可能性はありますが、ネットアップの調査によると、NetAppテクノロジによって特定のファイル暗号化ベースのランサムウェア攻撃が高度に検出されていることがわかっています。]</block>
   <block id="1c2afeca94eb9c399bfa2c175f98ac90" category="paragraph">BlueXP  ランサムウェア対策では、ユーザの異常な行動を検出するために、ONTAP内の機械学習（ML）モデルであるNetApp Autonomous Ransomware Protectionを使用して、悪意のあるファイルアクティビティを検出します。このモデルは、BlueXP  ランサムウェア対策ライセンスに含まれています。また、Data Infrastructure Insights（旧Cloud Insights）ワークロードセキュリティ（ライセンスが必要）を使用して、ユーザの行動を調査し、特定のユーザがそれ以降のアクティビティを行わないようにブロックすることもできます。</block>
   <block id="9c5ddfb123b6c64ea81793c4ce56b957" category="list-text">ONTAP、Autonomous Ransomware Protection、Data Infrastructure Insights（旧Cloud Insights）ワークロードセキュリティ、FPolicyの各テクノロジを使用して、特定の疑わしいファイルを特定し、関連するワークロードに攻撃をマップします。</block>
@@ -1630,4 +1627,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="7b8dea3ad80826211495f59e062f08d1" category="list-text">ワークロードのセキュリティへのアクセスを提供するAPIアクセストークンを入力します。</block>
   <block id="4ec94f814f491d45c196584c149a7d3e" category="paragraph">ダッシュボードまたはメニューの[Settings]オプションにアクセスして、推奨される対処方法に基づいてバックアップ先を追加できます。</block>
   <block id="c33f35ab44944cc0d09e5bb702125592" category="section-title">2024年12月16日</block>
+  <block id="51713ddd834a60df7d06db728cf08e05" category="paragraph">詳細については、を参照してください<block ref="7a6c0b2db283aa3c348e6e1a2f1f32b0" category="inline-link-rx"></block>。</block>
+  <block id="9ac7153dab130e828e160c247e5ccb61" category="paragraph">を参照してください<block ref="24a34ebfc2a0852de6406d8f5a18bd02" category="inline-link-rx"></block>。</block>
 </blocks>

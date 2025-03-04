@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: rp-use-alert.html 
 keywords: ransomware protection alert, ransomware protection attack, detect ransomware alert 
-summary: 'BlueXPのランサムウェア対策で攻撃の可能性が検出されると、BlueXPのランサムウェア対策ダッシュボードにランサムウェア攻撃の可能性を示すアラートが表示されます。また、サービスはすぐにSnapshotコピーの作成を開始します。この時点で、BlueXPランサムウェア対策の[Alerts]タブで潜在的なリスクを確認する必要があります。' 
+summary: 'BlueXP  ランサムウェア対策が攻撃の可能性を検出すると、BlueXP  ランサムウェア対策ダッシュボードに攻撃の可能性を示すアラートが表示されます。また、サービスはすぐにSnapshotコピーの作成を開始します。この時点で、BlueXPランサムウェア対策の[Alerts]タブで潜在的なリスクを確認する必要があります。' 
 ---
 = 検出されたランサムウェアに関するアラートに対応
 :hardbreaks:
@@ -79,7 +79,7 @@ image:screen-alerts.png["[Alerts]ページ"]
 
 . 次へ：
 +
-** <<Detect anomalous user behavior>>です。
+** <<悪意のあるアクティビティや異常なユーザ行動を検出>>です。
 ** <<ランサムウェアのインシデントをリカバリ準備完了としてマーク（インシデントが無力化された後）>>です。
 ** <<攻撃の可能性がないインシデントを却下する>>です。
 

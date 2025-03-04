@@ -521,7 +521,6 @@ BlueXPのランサムウェア対策を有効にする必要はありません�
   <block id="1ac10a835f53c6060811d5cfb8fbff70" category="paragraph">推奨事項がTo Doリストからクリアされ、却下されたリストに表示されます。</block>
   <block id="d546413031876c1e4d267a59f45f1a37" category="admonition">却下された項目は、後でTo Do項目に変更できます。アイテムを完了としてマークするか、却下されたアイテムをTo Doアクションに変更すると、合計アクションが1ずつ増加します。</block>
   <block id="91ac2d2291b1ce27106b795a77ccc0f3" category="list-text">推奨事項に対処する方法に関する情報を確認するには、* INFORMATION *アイコンを選択します。</block>
-  <block id="4f8bbc1e1bfabe0de65bf89f703d9f6c" category="summary">BlueXPのランサムウェア対策で攻撃の可能性が検出されると、BlueXPのランサムウェア対策ダッシュボードにランサムウェア攻撃の可能性を示すアラートが表示されます。また、サービスはすぐにSnapshotコピーの作成を開始します。この時点で、BlueXPランサムウェア対策の[Alerts]タブで潜在的なリスクを確認する必要があります。</block>
   <block id="a8fd9e3988acb841854762788963d815" category="paragraph">データのリカバリを開始するには、ストレージ管理者がリカバリプロセスを開始できるように、アラートをリカバリ準備完了としてマークします。</block>
   <block id="bba950bac873be0f9671b852bd7790e8" category="paragraph">各アラートには、ステータスが異なるボリューム上に複数のインシデントが存在する可能性があるため、すべてのインシデントを確認してください。</block>
   <block id="fae160f7262e5c6f08478e6435238dc7" category="paragraph">このサービスは、アラートが発行された原因に関する_evidence_という情報を提供します。これには、次のような情報が含まれます。</block>
@@ -1565,7 +1564,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="31565cee794bb7c0060f825cf5913e0b" category="paragraph">アラートには、BlueXP  ランサムウェア対策ダッシュボードまたは*アラート*タブからアクセスできます。</block>
   <block id="6f619b1b7d17720e868f27a6a00e82c3" category="list-text">いずれかのステータスの*[すべて表示]*を選択します。</block>
   <block id="1b02c89819a9f8ec9b1164be1da7b688" category="paragraph"><block ref="1b02c89819a9f8ec9b1164be1da7b688" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="803f5091a12e3e35b6d3d6140feba229" category="list-text"><block ref="19af54988de342a4a41b6206c0236ba4" category="inline-xref-macro-rx"></block>です。</block>
   <block id="be962bd392a7a1672125ea27465c8bd8" category="section-title">悪意のあるアクティビティや異常なユーザ行動を検出</block>
   <block id="0e7cf92e4233591a071d880a54dd482a" category="paragraph">[Alerts]タブでは、悪意のあるアクティビティがあるかどうかを確認できます。表示される詳細は、アラートがトリガーされた方法によって異なります。</block>
   <block id="bb74e4460d1a07bd08ea60f0fbde3d0d" category="list-text">ONTAPの自律型ランサムウェア対策機能によってトリガーされる。これにより、ボリューム内のファイルの動作に基づいて悪意のあるアクティビティが検出されます。</block>
@@ -1629,4 +1627,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="c33f35ab44944cc0d09e5bb702125592" category="section-title">2024年12月16日</block>
   <block id="51713ddd834a60df7d06db728cf08e05" category="paragraph">詳細については、を参照してください<block ref="7a6c0b2db283aa3c348e6e1a2f1f32b0" category="inline-link-rx"></block>。</block>
   <block id="9ac7153dab130e828e160c247e5ccb61" category="paragraph">を参照してください<block ref="24a34ebfc2a0852de6406d8f5a18bd02" category="inline-link-rx"></block>。</block>
+  <block id="22ce28643829ddd0f15a1b23febaeee6" category="summary">BlueXP  ランサムウェア対策が攻撃の可能性を検出すると、BlueXP  ランサムウェア対策ダッシュボードに攻撃の可能性を示すアラートが表示されます。また、サービスはすぐにSnapshotコピーの作成を開始します。この時点で、BlueXPランサムウェア対策の[Alerts]タブで潜在的なリスクを確認する必要があります。</block>
+  <block id="16bb8d2d09aea22c9fad5f111efb3676" category="list-text"><block ref="d322145e637b6e2be162f7cd827e67de" category="inline-xref-macro-rx"></block>です。</block>
 </blocks>

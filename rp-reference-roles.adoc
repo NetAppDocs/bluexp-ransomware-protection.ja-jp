@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: rp-reference-roles.html 
 keywords: ransomware protection, protect against ransomware attacks, anti-ransomware, role-based access control, rbac, role, permission, access rights, organization,project,account 
-summary: BlueXP  ランサムウェア対策では、Role-Based Access Control（RBAC；ロールベースアクセス制御）を使用して、特定の機能やアクションに対する各ユーザのアクセスを制御します。このサービスでは、Organization AdminとViewer（非Organization Admin）のコアBlueXP  ロールが使用されます。 
+summary: BlueXP  ランサムウェア対策では、Role-Based Access Control（RBAC；ロールベースアクセス制御）を使用して、特定の機能やアクションに対する各ユーザのアクセスを制御します。このサービスでは、BlueXP  ランサムウェア対策（RPS）に固有のロールを使用する。 
 ---
-= BlueXP  ランサムウェア対策ロールベースアクセス制御Privileges
+= BlueXP  ランサムウェア対策機能へのロールベースアクセス
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -12,13 +12,19 @@ summary: BlueXP  ランサムウェア対策では、Role-Based Access Control�
 
 
 [role="lead"]
-BlueXP  ランサムウェア対策では、Role-Based Access Control（RBAC；ロールベースアクセス制御）を使用して、特定の機能やアクションに対する各ユーザのアクセスを制御します。このサービスでは、Organization AdminとViewer（非Organization Admin）のコアBlueXP  ロールが使用されます。
+BlueXP  ランサムウェア対策では、特定の機能やアクションに対する各ユーザのアクセス権をロールで管理します。
 
-次の表に、各ロールで実行できるアクションを示します。
+BlueXP  ランサムウェア対策では、次のロールが使用されます。
+
+* 組織管理者
+* ビューア（組織管理者以外）
+
+
+次の表に、各BlueXP  ランサムウェア対策ロールで実行できるアクションを示します。
 
 [cols="40,20a,20a"]
 |===
-| 特徴とアクション | BlueXP  組織管理者 | 管理者以外（ビューア） 
+| 特徴とアクション | 組織管理者 | ビューアー 
 
 
 | 無償トライアルを開始  a| 

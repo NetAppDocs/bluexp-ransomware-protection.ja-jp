@@ -33,7 +33,9 @@ sidebar:
       url: "/rp-start-licenses.html"
     - title: ワークロードを検出
       url: "/rp-start-discover.html"
-    - title: バックアップ先の設定と脅威検出の有効化
+    - title: ランサムウェア攻撃をシミュレート
+      url: "/rp-start-simulate.html"
+    - title: "[Settings]でバックアップ、脅威検出、および攻撃シミュレーションを構成します。"
       url: "/rp-use-settings.html"
     - title: よく寄せられる質問
       url: "/rp-start-faq.html"

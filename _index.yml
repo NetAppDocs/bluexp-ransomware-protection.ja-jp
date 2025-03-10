@@ -22,8 +22,8 @@ indexpage:
       url: "/rp-start-quick-start.html"
     - title: バックアップ先の設定と脅威検出の有効化
       url: "/rp-use-settings.html"
-    - title: よく寄せられる質問
-      url: "/rp-start-faq.html"
+    - title: ランサムウェア攻撃をシミュレート
+      url: "/rp-start-simulate.html"
   - title: BlueXPのランサムウェア対策を活用
     links:
     - title: BlueXPのランサムウェア対策の概要を活用

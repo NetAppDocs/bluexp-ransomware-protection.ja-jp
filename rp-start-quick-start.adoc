@@ -22,9 +22,11 @@ link:rp-start-prerequisites.html["環境がこれらの要件を満たしてい�
 [role="quick-margin-list"]
 * link:rp-start-setup.html["バックアップ先としてNetApp StorageGRID、Amazon Web Services、Microsoft Azureを準備"]。
 * link:rp-start-setup.html["BlueXPでのコネクタの設定"]。
+* link:rp-start-licenses.html["ライセンスをセットアップする"]です。
+* link:rp-start-discover.html["BlueXPでワークロードを検出"]。
 * link:rp-start-setup.html["バックアップデスティネーションの設定"]。
 * link:rp-start-setup.html["オプションで脅威検出を有効にする"]。
-* link:rp-start-discover.html["BlueXPでワークロードを検出"]。
+* link:rp-start-simulate.html["必要に応じて、ランサムウェア攻撃への備えのドリルダウンを実施"]です。
 
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["3つ"] 次の手順

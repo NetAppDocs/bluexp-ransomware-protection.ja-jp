@@ -28,6 +28,7 @@ TIP: アラートを却下すると、サービスはこの動作を学習して
 * ファイル拡張子が作成または変更された場合
 * ファイルの作成が発生し、表示された割合で増加しました。
 * ファイル削除が発生し、表示された割合で増加した
+* 暗号化が高く、ファイル拡張子が変更されない場合
 
 
 アラートは、次のタイプの動作に基づいています。
@@ -93,12 +94,12 @@ image:screen-alerts.png["[Alerts]ページ"]
 [Alerts]タブでは、悪意のあるアクティビティがあるかどうかを確認できます。表示される詳細は、アラートがトリガーされた方法によって異なります。
 
 * ONTAPの自律型ランサムウェア対策機能によってトリガーされる。これにより、ボリューム内のファイルの動作に基づいて悪意のあるアクティビティが検出されます。
-* データインフラの分析情報ワークロードのセキュリティがトリガーこれには、Data Infrastructure Insights Workload Securityのライセンスが必要であり、BlueXP  ランサムウェア対策で有効にする必要があります。この機能を使用すると、ストレージワークロードの異常なユーザ動作を検出し、そのユーザによる以降のアクセスをブロックできます。
+* データインフラの分析情報ワークロードのセキュリティによってトリガーされます。これには、Data Infrastructure Insights Workloadセキュリティのライセンスが必要であり、BlueXP  ランサムウェア対策で有効にする必要があります。この機能を使用すると、ストレージワークロードの異常なユーザ動作を検出し、そのユーザによる以降のアクセスをブロックできます。
 +
 BlueXP  ランサムウェア対策でワークロードセキュリティを有効にするには、*[設定]*ページに移動し、*[ワークロードセキュリティ接続]*オプションを選択します。
 
 +
-Data Infrastucture Insights Workload Securityの概要については、 https://docs.netapp.com/us-en/data-infrastructure-insights/cs_intro.html["ワークロードセキュリティについて"^]
+Data Infrastucture Insightsワークロードのセキュリティの概要については、を参照してください https://docs.netapp.com/us-en/data-infrastructure-insights/cs_intro.html["ワークロードセキュリティについて"^]。
 
 
 
@@ -117,6 +118,7 @@ BlueXP  ランサムウェア対策でAutonomous Ransomware Protectionがアラ
 * 検出された割合と比較した新しいファイルの予想作成率
 * 検出された割合と比較したファイルの予想削除率
 * ファイルの予期される名前変更速度と検出された速度の比較
+* 影響を受けるファイルとディレクトリ
 
 
 .手順
@@ -127,14 +129,11 @@ BlueXP  ランサムウェア対策でAutonomous Ransomware Protectionがアラ
 image:screen-alerts-incidents3.png["アラートインシデントページ"]
 
 . インシデントを選択して、インシデントの詳細を確認します。
-+
-image:screen-alerts-incidents-details-arp.png["インシデントの詳細ページ"]
 
 
 
 
-
-=== Data Infrastructure Insights Workload Securityでユーザの異常な行動を確認
+=== データインフラの分析情報ワークロードのセキュリティでユーザの異常な行動を確認
 
 データインフラのインサイトワークロードセキュリティがBlueXP  ランサムウェア対策でアラートをトリガーすると、データインフラのインサイトワークロードセキュリティで、疑わしいユーザの表示、ユーザのブロック、ユーザアクティビティの調査を直接行うことができます。
 
@@ -142,9 +141,9 @@ image:screen-alerts-incidents-details-arp.png["インシデントの詳細ペー
 TIP: これらの機能は、Autonomous Ransomware Protectionの詳細情報に加えて提供されています。
 
 .作業を開始する前に
-このオプションを選択するには、Data Infrastructure Insights Workload Securityのライセンスが必要であり、BlueXP  ランサムウェア対策で有効にする必要があります。
+このオプションを選択するには、Data Infrastructure Insightsワークロードセキュリティのライセンスが必要であり、BlueXP  ランサムウェア対策で有効にする必要があります。
 
-BlueXP  ランサムウェア対策でワークロードセキュリティを有効にするには、次の手順を実行します。
+BlueXP  ランサムウェア対策でワークロードのセキュリティを有効にするには、次の手順を実行します。
 
 . [設定]ページに移動します。
 . [ワークロードセキュリティ接続]*オプションを選択します。
@@ -163,11 +162,8 @@ image:screen-alerts-incidents-diiws.png["ワークロードセキュリティの
 . BlueXP  によって監視されている環境で、疑わしいユーザがそれ以上アクセスできないようにするには、*[ユーザをブロック]*リンクを選択します。
 . アラートまたはアラート内のインシデントを調査します。
 +
-.. [Data Infrastructure Insights Workload Security]でアラートをさらに調査するには、[Investigate in Workload Security]リンクを選択します。
+.. [Data Infrastructure Insights Workload security]でアラートをさらに調査するには、*[Investigate in Workload security]*リンクを選択します。
 .. インシデントを選択して、インシデントの詳細を確認します。
-+
-image:screen-alerts-incidents-details-arp-diiws.png["ワークロードセキュリティの詳細が表示されたインシデントの詳細ページ"]
-
 +
 [Data Infrastructure Insights Workload Security]が新しいタブで開きます。
 
@@ -222,7 +218,7 @@ image:screen-alerts.png["[Alerts]ページ"]
 
 . [アラート]ページで、アラートを選択します。
 +
-image:screen-alerts-incidents2.png["アラートインシデントページ"]
+image:screen-alerts-incidents3.png["アラートインシデントページ"]
 
 . 1つ以上のインシデントを選択します。または、テーブルの左上にある[インシデントID]ボックスを選択して、すべてのインシデントを選択します。
 . インシデントが脅威ではないと判断した場合は、誤検出として却下します。

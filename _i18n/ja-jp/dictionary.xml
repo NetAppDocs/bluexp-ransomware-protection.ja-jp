@@ -1649,7 +1649,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="fbb94dad4d4b0b642b9e4bcfccb31a40" category="paragraph"><block ref="fbb94dad4d4b0b642b9e4bcfccb31a40" category="inline-image-macro-rx" type="image"></block></block>
   <block id="648815687f26cfff9af80401c05502e1" category="list-text">[準備ドリルテスト環境の構成]*を選択します。</block>
   <block id="2e80fabefee51d121eee410fb4a3be19" category="list-text">前のセクションの手順に進み、[設定]オプションでドリルテスト環境を設定します。</block>
-  <block id="8c5a9997ae160f52e3c8ede0e2590504" category="admonition">ドリルの開始後は、準備ドリルの構成を編集できません。代わりにそれを停止することができます。</block>
   <block id="1e4a43fb392ed69a6d5a047ba0d88826" category="section-title">準備状況ドリルアラートへの対応</block>
   <block id="6128067a6b325891717a7cfc23e60bae" category="paragraph">準備状況ドリルアラートに応答して、準備状況をテストします。</block>
   <block id="bfb2eabf2e2f3750c3b857a9c0072bfa" category="inline-image-macro">準備状況のドリルアラートを示す[Alerts]ページ</block>
@@ -1687,11 +1686,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="e0a30b860c06e610cadc21ebf64426da" category="list-text">Dismissed：アクティビティがランサムウェア攻撃ではないと疑われる場合は、ステータスをDismissedに変更します。</block>
   <block id="ff8d215b189dca41bf900d6545392594" category="admonition">攻撃を却下した後、それを元に戻すことはできません。ワークロードを却下すると、ランサムウェア攻撃の可能性に応じて自動的に作成されたすべてのSnapshotコピーが完全に削除されます。アラートを却下すると、準備ドリルは完了したと見なされます。</block>
   <block id="36b45588cbfa3653d0bdeb91883b49f4" category="list-text">解決済み：インシデントが軽減されました。</block>
-  <block id="1be5568d0c3f299b7d0fa2b810d4b90d" category="section-title">準備状況のドリルに関するレポートを確認する</block>
-  <block id="1618fcb06831249fd4142102d83577f5" category="paragraph">準備ドリルが完了したら、ドリルのレポートを確認して保存することができます。</block>
-  <block id="50ca22b8d354f001a742f726d3cf2be9" category="inline-image-macro">準備状況ドリルレポートが表示された[Reports]ページ</block>
-  <block id="179e5ea4317177f519c688d15ef67987" category="paragraph"><block ref="179e5ea4317177f519c688d15ef67987" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e462715e9b155f4f9638da4f314c8aff" category="list-text">[準備ドリル]*および[ダウンロード]*を選択して、準備ドリルレポートをダウンロードします。</block>
   <block id="7491606097f73ec9ee4cd8649e24e37b" category="list-text">暗号化が高く、ファイル拡張子が変更されない場合</block>
   <block id="0152e4b08d769def55f114d835660cb2" category="list-text">データインフラの分析情報ワークロードのセキュリティによってトリガーされます。これには、Data Infrastructure Insights Workloadセキュリティのライセンスが必要であり、BlueXP  ランサムウェア対策で有効にする必要があります。この機能を使用すると、ストレージワークロードの異常なユーザ動作を検出し、そのユーザによる以降のアクセスをブロックできます。</block>
   <block id="900224a7eb4d4424692600ce3e4b5262" category="paragraph">BlueXP  ランサムウェア対策でワークロードセキュリティを有効にするには、*[設定]*ページに移動し、*[ワークロードセキュリティ接続]*オプションを選択します。</block>
@@ -1739,4 +1733,5 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="8094150588327954ce01d91cf529ccfc" category="list-text">アラートインシデントを選択します。</block>
   <block id="b0e402efbf054d8b9cab93c3c4e53922" category="paragraph"><block ref="b0e402efbf054d8b9cab93c3c4e53922" category="inline-image-macro-rx" type="image"></block></block>
   <block id="001b6bed17667ada4d5dad085e5729b3" category="list-text">「Readiness drill」とマークされた、リストアするテストワークロードを選択します。</block>
+  <block id="241197791593ba6fe12006bc7c44e045" category="admonition">ドリルの開始後は、準備ドリルの構成を編集できません。再起動するようにリセットできます。</block>
 </blocks>

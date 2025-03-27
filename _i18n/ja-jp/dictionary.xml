@@ -1646,8 +1646,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="fd9f53769c15c2cf878c35f4cbc5a081" category="paragraph"><block ref="fd9f53769c15c2cf878c35f4cbc5a081" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bf6725ca3f9665491e02c1818a34d256" category="inline-image-macro">準備状況ドリルアラートが表示されたインシデントページ</block>
   <block id="dba36383db70a071d84d9ad78273ce43" category="paragraph">注目すべき点は次のとおりです。</block>
-  <block id="b780e790d05aeda37075d8fd4a6d9b89" category="list-text">潜在的な攻撃タイプを確認します。タイプがユーザーが悪意のあるアクティビティの疑いがあることを示している場合は、ユーザー名を確認します。</block>
-  <block id="989cf4fcfe1664c1f40afc7abd89c986" category="list-text">[Data Infrastructure Insights Workload Security]で[Investigate in Workload Security]を選択して、ユーザを詳しく調査することもできます。</block>
   <block id="c7243cc109c65ad504b84c3e805c784c" category="list-text">ファイルのアクティビティと疑わしいプロセスを確認します。</block>
   <block id="fdb29353d86a86580fc253dc319e3e0b" category="list-text">予想されるデータと比較して、受信した検出データを確認します。</block>
   <block id="929c013ec98095ed1024dac131501e30" category="list-text">予想される割合と比較して、検出されたファイルの作成率を確認します。</block>
@@ -1672,7 +1670,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="37eb9cec5c575b48f279378f147d9523" category="section-title">準備のドリル後にアラートステータスを変更する</block>
   <block id="c5e154a9c9a68a0fdd2cda956aafb0e1" category="paragraph">準備状況ドリルアラートを確認してワークロードをリストアしたら、アラートのステータスを変更することができます。</block>
   <block id="b707d985234424bd425b96580911950e" category="list-text">アラートをもう一度選択します。</block>
-  <block id="162c9c11fab2a0b1844f31cfa4184c72" category="list-text">[編集（Edit）]*を選択してステータスを指定し、ステータスを次のいずれかに変更します。</block>
   <block id="e0a30b860c06e610cadc21ebf64426da" category="list-text">Dismissed：アクティビティがランサムウェア攻撃ではないと疑われる場合は、ステータスをDismissedに変更します。</block>
   <block id="ff8d215b189dca41bf900d6545392594" category="admonition">攻撃を却下した後、それを元に戻すことはできません。ワークロードを却下すると、ランサムウェア攻撃の可能性に応じて自動的に作成されたすべてのSnapshotコピーが完全に削除されます。アラートを却下すると、準備ドリルは完了したと見なされます。</block>
   <block id="36b45588cbfa3653d0bdeb91883b49f4" category="list-text">解決済み：インシデントが軽減されました。</block>
@@ -1718,7 +1715,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="8d2bd4422410271303c0633a19aefea9" category="list-text">または、[設定]ページの[準備]ドリルカードで、*[開始]*を選択します。</block>
   <block id="f54a2552361ef76d1d69e95fc2f63e90" category="list-text">準備ドリルをすでに構成している場合は、* Start *を選択した後、準備ドリルが開始されます。</block>
   <block id="3764eabaa6dd82955df6528cd4a5a9b7" category="paragraph">[Alerts] ページが表示されます。[Alert ID]列で、IDの横に「Readiness drill」と表示されます。</block>
-  <block id="a699ac7dcfe917f4ef6bfe5b42313497" category="list-text">「Readiness drill（準備ドリル）」と表示されたアラートを選択します。インシデントアラートのリストが表示されます。</block>
   <block id="c7173a995c95a8992913692d7f8b29a3" category="list-text">アラートインシデントを確認します。</block>
   <block id="8094150588327954ce01d91cf529ccfc" category="list-text">アラートインシデントを選択します。</block>
   <block id="b0e402efbf054d8b9cab93c3c4e53922" category="paragraph"><block ref="b0e402efbf054d8b9cab93c3c4e53922" category="inline-image-macro-rx" type="image"></block></block>
@@ -1727,4 +1723,21 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="65314129adf0c0a55f929809a17904c9" category="section-title">新しい作業環境の発見</block>
   <block id="2826595d22ba9331559905631772b32d" category="paragraph">作業環境がすでに検出されている場合は、新しく作成した作業環境または以前の検出プロセスで選択しなかった作業環境を検出できます。</block>
   <block id="5f214ff0fb35d9a440af52567382d505" category="admonition">このプロセスには、処理中のロードアイコンが表示されるため、数分かかることがあります。</block>
+  <block id="e5c9ae1c3da88c26e9ef5e7a52710eef" category="doc">BlueXP  ランサムウェア対策の既知の制限事項</block>
+  <block id="1eba71d64e6c5e410e558530711e835b" category="paragraph">このリリースの製品でサポートされていない、または正しく相互運用できないプラットフォーム、デバイス、または機能については、既知の制限事項が記載されています。これらの制限事項をよく確認してください。</block>
+  <block id="e742b92803487dd57d41c5028236224e" category="section-title">準備ドリルリセットオプションの問題</block>
+  <block id="ac36698324cb58e80610e027dc77d907" category="paragraph">ランサムウェア攻撃準備のドリルでONTAP 9.11.1ボリュームを選択すると、BlueXP  ランサムウェア対策がアラートで通知します。「clone-to-volume」オプションを使用してデータをリカバリし、ドリルをリセットすると、リセット操作は失敗します。</block>
+  <block id="c97840e501e12a9e468c80b3e3aaf1e4" category="list-text">ドロップダウンメニューから*準備ドリル*または*設定*を選択します。</block>
+  <block id="0b51810a1136dc1d22b2a572727e3531" category="paragraph">準備のドリルを開始すると、BlueXP  ランサムウェア対策はラーニングモードをスキップし、アクティブモードでドリルを開始します。ワークロードの検出ステータスは「Active」です。</block>
+  <block id="4210647acc9b0dff8ae60481f5dbae02" category="admonition">ワークロードのランサムウェア検出*ラーニングモード*ステータスは、最近ランサムウェア検出ポリシーがワークロードに割り当てられ、サービスがワークロードをスキャンしていることを示します。検出ステータスが* Active *の場合は、ランサムウェア検出保護ポリシーが割り当てられていることを示します。</block>
+  <block id="918afe8d47cac8e65affe228df4d1798" category="list-text">「Readiness drill（準備ドリル）」と表示されたアラートを選択します。インシデントアラートのリストが[Alerts]詳細ページに表示されます。</block>
+  <block id="81ec450a746d2846c599b97e0284672a" category="inline-image-macro">準備状況ドリルアラートを示す[Alerts]詳細ページ</block>
+  <block id="2869923d8a7e4947ee11eff41f3267f2" category="paragraph"><block ref="2869923d8a7e4947ee11eff41f3267f2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7a01e31bb54fb84b5dbc9ee51947a45b" category="list-text">潜在的な攻撃タイプを確認します。</block>
+  <block id="7d8343c0bc6249f96b5c9e2c1d4f8d8f" category="paragraph">タイプがユーザーが悪意のあるアクティビティの疑いがあることを示している場合は、ユーザー名を確認します。[Data Infrastructure Insights Workload Security]で[Investigate in Workload Security]を選択して、ユーザを詳しく調査することもできます。</block>
+  <block id="2da9a9f4e6a92f5857d147337ae308f7" category="list-text">[ステータスを編集（Edit status）]*を選択してステータスを指定し、ステータスを次のいずれかに変更します。</block>
+  <block id="3ce945a70891d1550d3b785a4c8624ed" category="section-title">準備状況のドリルレポートをダウンロード</block>
+  <block id="153e13288e2e43aabfecd526b2fef2b5" category="paragraph">準備ドリルが完了したら、ドリルのCSVレポートを確認して保存することができます。</block>
+  <block id="bd048471c80988072b8f583ab0ca3a12" category="list-text">アラートを選択し、*[Download]*矢印を選択してCSVファイルをダウンロードします。</block>
+  <block id="482723983a4f2af954e36ff41e567451" category="sidebar">既知の制限事項</block>
 </blocks>

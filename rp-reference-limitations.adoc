@@ -1,0 +1,21 @@
+---
+sidebar: sidebar 
+permalink: rp-reference-limitations.html 
+keywords: ransomware protection, protect against ransomware attacks, anti-ransomware, role-based access control, rbac, role, permission, access rights, organization,project,account 
+summary: BlueXP  ランサムウェア対策では、Role-Based Access Control（RBAC；ロールベースアクセス制御）を使用して、特定の機能やアクションに対する各ユーザのアクセスを制御します。このサービスでは、BlueXP  ランサムウェア対策（RPS）に固有のロールを使用する。 
+---
+= BlueXP  ランサムウェア対策の既知の制限事項
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+このリリースの製品でサポートされていない、または正しく相互運用できないプラットフォーム、デバイス、または機能については、既知の制限事項が記載されています。これらの制限事項をよく確認してください。
+
+
+
+== 準備ドリルリセットオプションの問題
+
+ランサムウェア攻撃準備のドリルでONTAP 9.11.1ボリュームを選択すると、BlueXP  ランサムウェア対策がアラートで通知します。「clone-to-volume」オプションを使用してデータをリカバリし、ドリルをリセットすると、リセット操作は失敗します。

@@ -17,6 +17,8 @@ sidebar:
     entries:
     - title: BlueXPランサムウェア対策の新機能
       url: "/whats-new.html"
+    - title: 既知の制限事項
+      url: "/rp-reference-limitations.html"
   - title: はじめに
     entries:
     - title: BlueXPランサムウェア対策の詳細をご確認ください

@@ -35,7 +35,7 @@ image:screen-landing.png["BlueXPランサムウェア対策のランディング
 それ以外の場合は、BlueXPランサムウェア対策ダッシュボードが表示されます。
 
 +
-image:screen-dashboard.png["BlueXPランサムウェア対策ダッシュボード"]
+image:screen-dashboard2.png["BlueXPランサムウェア対策ダッシュボード"]
 
 +
 

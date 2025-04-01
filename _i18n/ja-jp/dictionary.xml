@@ -601,7 +601,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="b77e52b2729a45733366be275a2b1834" category="list-text">BlueXPのランサムウェア対策メニューから、*[レポート]*を選択します。</block>
   <block id="2bb8f47d5dd5e5e9025658aa3c0fc126" category="list-text">[レポート]*オプションを選択した場合は、事前設定されたCSVファイル名のいずれかを選択し、*[ダウンロード（CSV）]*または*[ダウンロード（JSON）]*を選択します。</block>
   <block id="44f0d43cd92781ec793d9ba50c2d422e" category="inline-image-macro">[レポート]ページ</block>
-  <block id="4aa52d006a13407e9446998cde5abf48" category="paragraph"><block ref="4aa52d006a13407e9446998cde5abf48" category="inline-image-macro-rx" type="image"></block></block>
   <block id="fcb74668c58aed2ac30ddcdee292a0c5" category="inline-link-macro">オプションで脅威検出を有効にする</block>
   <block id="896465c47d1995c6e7b722de16fa80e5" category="list-text"><block ref="4e4968353ad45e1648e9b700ebce5a49" category="inline-link-macro-rx"></block>。</block>
   <block id="01d9db102d1bd61a6c3336ec537d1d6b" category="list-text">ワークロードにランサムウェア対策戦略を割り当てる。</block>
@@ -1601,8 +1600,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="cb3c0a83218c46d38ab0842ce49a7e6e" category="list-text">このリリースでは、以前に選択した作業環境に追加された新たに作成されたワークロードを検出できます。</block>
   <block id="6a4c9cc76f7f432efa274c3ff0dae3dd" category="list-text">このリリースでは、_new_working environmentsを選択することもできます。この機能は、環境に追加される新しいワークロードを保護するのに役立ちます。</block>
   <block id="28573ff4f820730a3eeae9cdd51b54d4" category="list-text">これらの検出プロセスは、最初の検出プロセス中に実行することも、設定オプション内で実行することもできます。</block>
-  <block id="16e3b92f9b1f5d1c29b18c748e6a228e" category="inline-link">[Settings]オプションを使用してフェターを設定します。</block>
-  <block id="98e6e30b63e5242616c686684a17c03b" category="paragraph">詳細については、およびを<block ref="026d9da5e400c1054ac1084b0f63056d" category="inline-link-rx"></block>参照して<block ref="7d31e5b11cc548279f7c20a9569ec8fc" category="inline-link-rx"></block>ください。</block>
   <block id="d957d0c80017f235b131c557ae0876b1" category="section-title">高い暗号化が検出されたときに生成されるアラート</block>
   <block id="8c8c1a747835015c86248b11a2097c02" category="paragraph">このリリースでは、高いファイル拡張子が変更されていなくても、ワークロードで高い暗号化が検出されたときにアラートを表示できます。ONTAP Autonomous Ransomware Protection（ARP）AIを使用するこの機能は、ランサムウェア攻撃のリスクがあるワークロードを特定するのに役立ちます。この機能を使用して、影響を受けるファイルのリスト全体をダウンロードし、拡張子を変更するかどうかを指定します。</block>
   <block id="ab27c5853140d6fe360c8b6756a8c2c6" category="summary">BlueXP  ランサムウェア対策では、Role-Based Access Control（RBAC；ロールベースアクセス制御）を使用して、特定の機能やアクションに対する各ユーザのアクセスを制御します。このサービスでは、BlueXP  ランサムウェア対策（RPS）に固有のロールを使用する。</block>
@@ -1736,8 +1733,10 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="7a01e31bb54fb84b5dbc9ee51947a45b" category="list-text">潜在的な攻撃タイプを確認します。</block>
   <block id="7d8343c0bc6249f96b5c9e2c1d4f8d8f" category="paragraph">タイプがユーザーが悪意のあるアクティビティの疑いがあることを示している場合は、ユーザー名を確認します。[Data Infrastructure Insights Workload Security]で[Investigate in Workload Security]を選択して、ユーザを詳しく調査することもできます。</block>
   <block id="2da9a9f4e6a92f5857d147337ae308f7" category="list-text">[ステータスを編集（Edit status）]*を選択してステータスを指定し、ステータスを次のいずれかに変更します。</block>
-  <block id="3ce945a70891d1550d3b785a4c8624ed" category="section-title">準備状況のドリルレポートをダウンロード</block>
-  <block id="153e13288e2e43aabfecd526b2fef2b5" category="paragraph">準備ドリルが完了したら、ドリルのCSVレポートを確認して保存することができます。</block>
-  <block id="bd048471c80988072b8f583ab0ca3a12" category="list-text">アラートを選択し、*[Download]*矢印を選択してCSVファイルをダウンロードします。</block>
   <block id="482723983a4f2af954e36ff41e567451" category="sidebar">既知の制限事項</block>
+  <block id="210e4b14373af6b033275b95f93f9177" category="inline-link">設定オプションを使用した機能の設定</block>
+  <block id="b094aa2183c533f36783add64e674cad" category="paragraph">詳細については、およびを<block ref="852406c43f066a159f215dbd2c4abfc1" category="inline-link-rx"></block>参照して<block ref="7d31e5b11cc548279f7c20a9569ec8fc" category="inline-link-rx"></block>ください。</block>
+  <block id="7992a2f93dea39d7df576f4591a08a35" category="paragraph"><block ref="7992a2f93dea39d7df576f4591a08a35" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fe4a10adefd95198c71721789b65ec39" category="paragraph"><block ref="fe4a10adefd95198c71721789b65ec39" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fc75a3cf3d58a1a3fcbe221a5a34b910" category="paragraph"><block ref="fc75a3cf3d58a1a3fcbe221a5a34b910" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

@@ -26,7 +26,7 @@ BlueXPランサムウェア対策ダッシュボードには、ワークロー�
 検出が完了すると、ワークロードのデータ保護の健常性がダッシュボードに表示されます。
 
 +
-image:screen-dashboard.png["ダッシュボードページ"]
+image:screen-dashboard2.png["ダッシュボードページ"]
 
 . ダッシュボードの各ペインでは、次の操作を実行できます。
 +
@@ -164,7 +164,7 @@ CSVファイルには、すべてのBlueXP作業環境のすべてのワーク�
 .手順
 . BlueXPの左側のナビゲーションで、*[保護]*>*[Ransomware protection]*を選択します。
 +
-image:screen-dashboard.png["ダッシュボードページ"]
+image:screen-dashboard2.png["ダッシュボードページ"]
 
 . ページで、右上の*更新*オプションを選択し image:button-refresh.png["更新オプション"] て、ファイルに表示されるデータを更新します。
 . 次のいずれかを実行します。

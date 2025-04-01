@@ -21,7 +21,7 @@
 * これらの検出プロセスは、最初の検出プロセス中に実行することも、設定オプション内で実行することもできます。
 
 
-詳細については、およびを https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["[Settings]オプションを使用してフェターを設定します。"]参照して https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discover.html["以前に選択した作業環境用に新しく作成されたワークロードを検出する"]ください。
+詳細については、およびを https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["設定オプションを使用した機能の設定"]参照して https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discover.html["以前に選択した作業環境用に新しく作成されたワークロードを検出する"]ください。
 
 
 

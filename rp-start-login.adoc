@@ -14,7 +14,9 @@ summary: BlueXPのサービスにアクセスして、BlueXPのランサムウ�
 [role="lead"]
 NetApp BlueXPを使用して、BlueXPランサムウェア対策サービスにログインします。
 
-BlueXP  ランサムウェア対策では、ロールベースアクセス制御（RBAC）を使用して、各ユーザが特定のアクションに対して持つアクセスを制御します。各ロールで実行できるアクションの詳細については、を参照してくださいlink:rp-reference-roles.html["BlueXP  ランサムウェア対策ロールベースアクセス制御Privileges"]。
+BlueXP  ランサムウェア対策では、ロールベースアクセス制御（RBAC）を使用して、各ユーザが特定のアクションに対して持つアクセスを制御します。 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["すべてのサービスのBlueXP  ロールに関する詳細情報"^]です。
+
+各ロールで実行できるアクションの詳細については、を参照してくださいlink:rp-reference-roles.html["BlueXP  ランサムウェア対策ロールベースアクセス制御Privileges"]。
 
 BlueXPにログインするには、NetApp Support Site のクレデンシャルを使用するか、Eメールとパスワードを使用してネットアップクラウドへのログインにサインアップします。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["ログインの詳細については、こちらをご覧ください"^]。
 

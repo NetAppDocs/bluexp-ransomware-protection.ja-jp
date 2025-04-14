@@ -17,7 +17,7 @@ BlueXPランサムウェア対策では、さまざまなライセンスプラ�
 次のライセンスタイプを使用できます。
 
 * 30日間の無償トライアルにサインアップしてください。
-* Amazon Web Services（AWS）Marketplace、Google Cloud Marketplace、Azure Marketplace（近日提供予定）で従量課金制（PAYGO）サブスクリプションを購入
+* Amazon Web Services（AWS）Marketplace、Google Cloud Marketplace、Azure Marketplaceで従量課金制（PAYGO）サブスクリプションを購入
 * お客様所有のライセンスを使用（BYOL）：NetApp営業担当から入手するNetAppライセンスファイル（NLF）です。ライセンスのシリアル番号を使用して、BlueXPデジタルウォレットでBYOLをアクティブ化できます。
 
 
@@ -80,6 +80,8 @@ image:screen-landing.png["BlueXPランサムウェア対策のランディング
 *試用期間終了後、サブスクリプションまたはライセンスを取得*
 
 無料トライアルが終了したら、マーケットプレイスのいずれかを介してサブスクライブするか、NetAppからライセンスを購入できます。
+
+すでにPAYGOサブスクリプションをお持ちの場合は、無料トライアルの終了後にライセンスが自動的にサブスクリプションに切り替えられます。
 
 <<AWS Marketplaceでサブスクライブ>> <<Microsoft Azure Marketplaceでサブスクライブ>> <<Google Cloud Marketplaceでサブスクライブ>> <<お客様所有のライセンスを使用（BYOL）>>
 
@@ -286,4 +288,17 @@ TIP: このメッセージは、BlueXPのデジタルウォレットと https://
 .. [データサービスライセンス]*タブを選択し、更新するサービスシリアル番号の*[アクション...]*アイコンを選択して、*[ライセンスの更新]*を選択します。
 
 
+
+
+
+
+== PAYGOサブスクリプションを終了する
+
+PAYGOサブスクリプションを終了したい場合は、いつでも終了できます。
+
+.手順
+. BlueXP  ransomware protectionの右上にあるライセンスオプションを選択します。
+. [支払い方法の表示]*を選択します。
+. ドロップダウンの詳細で、*現在の支払い方法の有効期限が切れた後に使用する*チェックボックスをオフにします。
+. [ 保存（ Save ） ] を選択します。
 

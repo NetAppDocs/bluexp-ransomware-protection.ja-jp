@@ -17,7 +17,7 @@ BlueXPのランサムウェア対策を使用するには、まずデータを�
 BlueXPのランサムウェア対策で、MySQLアプリケーション、Oracleアプリケーション、VMwareデータストア、ファイル共有を評価
 
 
-NOTE: FlexGroupまたはiSCSIを使用するボリュームを含むワークロードは検出されません。
+NOTE: FlexGroupまたはiSCSIを使用するボリュームを含むワークロードは検出されません。Amazon FSx for NetApp ONTAPまたはAzure NetApp Filesのワークロードはサポートされません。BlueXP  ランサムウェア対策で検出プロセスが完了すると、サポートされていないボリュームがダッシュボードに表示されます。
 
 このサービスは、現在のバックアップ保護、Snapshotコピー、NetApp Autonomous Ransomware Protectionのオプションなど、既存の保護レベルを評価します。評価に基づいて、サービスはランサムウェア対策を改善する方法を提案します。
 

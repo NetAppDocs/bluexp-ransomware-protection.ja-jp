@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: rp-use-alert.html 
 keywords: ransomware protection alert, ransomware protection attack, detect ransomware alert 
-summary: 'BlueXP  ランサムウェア対策が攻撃の可能性を検出すると、BlueXP  ランサムウェア対策ダッシュボードに攻撃の可能性を示すアラートが表示されます。また、サービスはすぐにSnapshotコピーの作成を開始します。この時点で、BlueXPランサムウェア対策の[Alerts]タブで潜在的なリスクを確認する必要があります。' 
+summary: 'BlueXP  ランサムウェア対策が攻撃の可能性を検出すると、BlueXP  ランサムウェア対策ダッシュボードに攻撃の可能性を示すアラートが表示されます。また、Snapshotコピーの作成もすぐに開始されます。この時点で、BlueXPランサムウェア対策の[Alerts]タブで潜在的なリスクを確認する必要があります。' 
 ---
 = 検出されたランサムウェアに関するアラートに対応
 :hardbreaks:
@@ -61,6 +61,7 @@ CAUTION: 攻撃を却下した後は、これを元に戻すことはできま�
 
 * *却下*：インシデントは却下中です。
 * *解決済み*：インシデントが軽減されました。
+* *自動解決済み*：優先度が低いアラートの場合、5日以内に対応がなかったインシデントは自動的に解決されます。
 
 
 
@@ -232,7 +233,7 @@ image:screen-alerts-status-edit.png["[Alert Edit Status]ページ"]
 
 . [ステータスの編集]ボックスで、*[却下]*ステータスを選択します。
 +
-ワークロードと削除するSnapshotコピーに関する追加情報が表示されます。
+ワークロードと削除するSnapshotコピーに関する詳細情報が表示されます。
 
 . [ 保存（ Save ） ] を選択します。
 +

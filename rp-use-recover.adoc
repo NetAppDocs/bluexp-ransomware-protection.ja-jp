@@ -233,7 +233,7 @@ image:screen-alerts-incidents-impacted-files.png["特定のアラートの影響
 . *リストアポイント*：*リストアポイント*の横にある下向き矢印を選択して、詳細を表示します。データのリストアに使用する復元ポイントを選択します。
 +
 
-NOTE: [Restore points]ペインの[Reason]列に、Snapshotまたはバックアップの理由が[Scheduled]または[Automated response to ransomware incident]として表示されます。
+NOTE: [Restore points]ペインの[Reason]列に、スナップショットまたはバックアップの理由が[Scheduled]または[Automated response to ransomware incident]のいずれかとして表示されます。
 
 . *ファイル*：
 +

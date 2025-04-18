@@ -30,7 +30,9 @@ TIP: BlueXP  ランサムウェア対策で検出するには、「Ransomware p
 * *データサービスの役割*は、特定のデータサービスに限定されます。ジョブに応じて、複数のデータサービスロールを割り当てることができます。BlueXP  ランサムウェア対策は、BlueXP  のデータサービスの1つです。
 
 
-プラットフォームロールの詳細については、を参照してください https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP  のセットアップと管理に関するドキュメント"^]。
+他のBlueXP  プラットフォームロールは、BlueXP  ランサムウェア対策ではビューアとして扱われます。たとえば、* Organization viewer *ロールでは、保護計画を表示できますが、BlueXP  ランサムウェアからの保護でのアクションを実行することはできません。
+
+すべてのBlueXP  プラットフォームロールの詳細については、を参照してください https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP  のセットアップと管理に関するドキュメント"^]。
 
 次の表に、BlueXP  ランサムウェア対策の各ロールで実行できるアクションを示します。
 

@@ -257,7 +257,7 @@ https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["
 
 === プライマリストレージでのSnapshotコピーロック
 
-これを有効にすると、プライマリストレージ上のSnapshotコピーがロックされ、ランサムウェア攻撃を受けてバックアップ先にたどり着いた場合でも、一定期間変更や削除ができないようになります。
+これを有効にすると、プライマリストレージ上のSnapshotコピーがロックされ、ランサムウェア攻撃を受けてバックアップストレージデスティネーションに到達した場合でも、一定期間変更や削除ができないようになります。
 
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["ランサムウェア対策戦略におけるワークロードの保護とバックアップロックの有効化の詳細"]。
 
@@ -317,7 +317,7 @@ https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["
 
 === ランサムウェア対策戦略
 
-ワークロードにSnapshotポリシーまたはバックアップポリシーがない場合は、ランサムウェア対策戦略を作成できます。この戦略には、このサービスで作成する次のポリシーを含めることができます。
+ワークロードにSnapshotポリシーやバックアップポリシーがない場合は、ランサムウェア対策戦略を作成できます。この戦略には、このサービスで作成する次のポリシーを含めることができます。
 
 * スナップショットポリシー
 * バックアップポリシー

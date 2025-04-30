@@ -18,6 +18,33 @@ BlueXPランサムウェア対策の新機能をご紹介します。
 
 
 
+== 2025年4月29日
+
+
+
+=== Amazon FSx for NetApp ONTAP をサポートします
+
+このリリースでは、Amazon FSx for NetApp ONTAPがサポートされます。この機能は、BlueXP  ランサムウェア対策でFSx for ONTAPワークロードを保護するのに役立ちます。
+
+FSx for ONTAPは、NetApp ONTAPストレージのパワーをクラウドで提供するフルマネージドサービスです。オンプレミスと同じ機能、パフォーマンス、管理機能を、AWSネイティブサービスの即応性と拡張性で提供します。
+
+BlueXP  ランサムウェア対策のワークフローに次の変更が加えられました。
+
+* 検出には、FSx for ONTAP 9.15作業環境のワークロードが含まれます。
+* [Protection]タブには、FSx for ONTAP環境のワークロードが表示されます。この環境では、FSx for ONTAPバックアップサービスを使用してバックアップ処理を実行する必要があります。これらのワークロードは、BlueXP  ランサムウェア対策のSnapshotを使用してリストアできます。
++
+
+TIP: FSx for ONTAPで実行されるワークロードのバックアップポリシーは、BlueXP  では設定できません。Amazon FSx for NetApp ONTAPで設定されている既存のバックアップポリシーは変更されません。
+
+* アラートインシデントには、新しいFSx for ONTAP作業環境が表示されます。
+
+
+詳細については、を参照してください https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-protection.html["BlueXP  ランサムウェア対策と作業環境の詳細"]。
+
+サポートされるオプションについては、を参照して https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-reference-limitations.html["BlueXP  ランサムウェア対策の制限事項"]ください。
+
+
+
 == 2025年4月14日
 
 

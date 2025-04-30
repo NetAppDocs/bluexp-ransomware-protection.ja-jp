@@ -85,7 +85,7 @@ BlueXP  のバックアップとリカバリとBlueXP  のランサムウェ�
 
 == ライセンス
 
-BlueXPランサムウェア対策なら、無償トライアル、従量課金制サブスクリプション、お客様所有のライセンスを使用するなど、さまざまなライセンスプランを利用できます。
+BlueXPランサムウェア対策では、無償トライアル、従量課金制サブスクリプション、お客様所有のライセンスを使用するなど、さまざまなライセンスプランを使用できます。
 
 BlueXP  ランサムウェア対策サービスにはNetApp ONTAP Oneライセンスが必要です。
 
@@ -173,6 +173,11 @@ BlueXP  ランサムウェア対策を使用して、次のタイプのバッ�
 * AWS向けCloud Volumes ONTAP 9.11.1以降（NFSプロトコルとCIFSプロトコルを使用）
 * Google Cloud Platform向けCloud Volumes ONTAP 9.11.1以降（NFSプロトコルとCIFSプロトコルを使用）
 * Cloud Volumes ONTAP 9.12.1以降（Microsoft Azure用）（NFSプロトコルとCIFSプロトコルを使用）
+* Amazon FSx for NetApp ONTAPは、自律型ランサムウェア対策（ARP / AIではなくARP）を使用します。
++
+
+NOTE: ARP / AIにはONTAP 9.16以降が必要です。
+
 
 
 

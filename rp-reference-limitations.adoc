@@ -19,3 +19,13 @@ summary: BlueXP  ランサムウェア対策では、Role-Based Access Control�
 == 準備ドリルリセットオプションの問題
 
 ランサムウェア攻撃準備のドリルでONTAP 9.11.1ボリュームを選択すると、BlueXP  ランサムウェア対策がアラートで通知します。「clone-to-volume」オプションを使用してデータをリカバリし、ドリルをリセットすると、リセット操作は失敗します。
+
+
+
+== Amazon FSx for NetApp ONTAPの制限事項
+
+Amazon FSx for NetApp ONTAPの作業環境は、BlueXP  ランサムウェア対策でサポートされています。この作業環境には次の制限事項があります。
+
+* FSx for ONTAPではバックアップポリシーはサポートされません。この環境では、Amazon FS for ONTAPバックアップサービスを使用してバックアップ処理を実行する必要があります。これらのワークロードは、BlueXP  ランサムウェア対策のSnapshotを使用してリストアできます。
+* リストア処理はSnapshotからのみ実行されます。
+

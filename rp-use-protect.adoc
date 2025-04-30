@@ -4,7 +4,7 @@ permalink: rp-use-protect.html
 keywords: ransomware protection, protect against ransomware attacks, anti-ransomware policies, protect, malware, attack 
 summary: BlueXPのランサムウェア対策でワークロードにポリシーを割り当てることで、ランサムウェア攻撃からワークロードを保護できます。 
 ---
-= ランサムウェア戦略でワークロードを保護
+= ランサムウェア対策戦略でワークロードを保護
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -42,10 +42,13 @@ BlueXPのランサムウェア対策を使用して次の操作を実行する�
 * * NetAppアプリケーションによる既存の保護が適用されるワークロード*：これらのワークロードには、SnapCenter、SnapCenter for VMware vSphere、またはBlueXP  バックアップ/リカバリで管理されるバックアップポリシーまたはSnapshotポリシーが適用されます。
 +
 ** SnapCenter、SnapCenter for VMware、またはBlueXP  のバックアップとリカバリでSnapshotポリシーやバックアップポリシーを管理している場合は、それらのアプリケーションで引き続き管理されます。BlueXP  ランサムウェア対策を使用すると、これらのワークロードにランサムウェア検出ポリシーを適用することもできます。
-** ランサムウェア検出ポリシーがAutonomous Ransomware Protection（ARP）およびONTAPのFPolicyで管理されている場合、それらのワークロードは保護され、引き続きARPおよびFPolicyで管理されます。
+** ランサムウェア検出ポリシーがAutonomous Ransomware Protection（ONTAPのバージョンに応じてARPまたはARP/AI）およびONTAPのFPolicyで管理されている場合、それらのワークロードは保護され、引き続きARPおよびFPolicyで管理されます。
 
 
 
+
+
+NOTE: Amazon FSx for NetApp ONTAPのワークロードにはバックアップ先を使用できません。FSx for ONTAPバックアップサービスを使用してバックアップ処理を実行BlueXP  のランサムウェア対策ではなく、AWSのFSx for ONTAPでワークロードのバックアップポリシーを設定します。バックアップポリシーはBlueXP  ランサムウェア対策に表示され、AWSからは変更されません。
 
 *ランサムウェア対策戦略で必要なポリシーはどれですか？*
 
@@ -83,7 +86,7 @@ image:screen-protection.png["[Protection]ページ"]
 
 
 
-NOTE: SnapCenterまたはBlueXPのバックアップおよびリカバリサービスですでに保護ポリシーが設定されているワークロードについては、保護を編集することはできません。これらのワークロードに対して、BlueXPランサムウェアは自律型ランサムウェア対策やFPolicy保護（他のサービスですでにアクティブ化されている場合）を有効にします。、およびの詳細については、を参照して https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自律的なランサムウェア防御"^] https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXPのバックアップとリカバリ"^] https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy"^]ください。
+NOTE: SnapCenterまたはBlueXPのバックアップおよびリカバリサービスですでに保護ポリシーが設定されているワークロードについては、保護を編集することはできません。これらのワークロードに対して、BlueXP  ランサムウェアは、他のサービスですでにアクティブ化されている場合、自律型ランサムウェア対策とFPolicy保護を有効にします。、およびの詳細については、を参照して https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自律的なランサムウェア防御"^] https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXPのバックアップとリカバリ"^] https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy"^]ください。
 
 
 
@@ -93,7 +96,7 @@ NOTE: SnapCenterまたはBlueXPのバックアップおよびリカバリサー�
 
 *保護ステータス*：ワークロードには、ポリシーが適用されているかどうかを示す次のいずれかの保護ステータスが表示されます。
 
-* *保護*：ポリシーが適用されます。ワークロードに関連するすべてのボリュームでARPが有効になっている。
+* *保護*：ポリシーが適用されます。ワークロードに関連するすべてのボリュームでARP（ONTAPのバージョンに応じてARP / AI）が有効になります。
 * *リスクあり*：ポリシーは適用されません。ワークロードでプライマリ検出ポリシーが有効になっていない場合は、Snapshotポリシーとバックアップポリシーが有効になっていても「リスク」になります。
 * *進行中*：ポリシーが適用されていますが、まだ完了していません。
 * *失敗*:ポリシーは適用されていますが、機能していません。

@@ -42,7 +42,7 @@ NOTE: BlueXP  のバックアップとリカバリとBlueXP  のランサム�
 Data Infrastructure Insights Workload Securityを使用して、ユーザの異常な行動を確認できます。これには、Data Infrastructure Insights Workload Securityのライセンスが必要であり、BlueXP  ランサムウェア対策で有効にする必要があります。Data Infrastucture Insights Workload Securityの概要については、 https://docs.netapp.com/us-en/data-infrastructure-insights/cs_intro.html["ワークロードセキュリティについて"^]
 
 
-TIP: データインフラワークロードセキュリティのライセンスをお持ちでなく、BlueXP  ランサムウェア対策で有効にしていない場合、ユーザの異常な行動情報は表示されません。
+TIP: Data Infrastructure Insights Workload Securityのライセンスをお持ちでなく、BlueXP  ランサムウェア対策で有効にしていない場合、ユーザの異常な行動情報は表示されません。
 
 
 
@@ -83,7 +83,7 @@ image:screen-landing.png["BlueXPランサムウェア対策のランディング
 
 すでにPAYGOサブスクリプションをお持ちの場合は、無料トライアルの終了後にライセンスが自動的にサブスクリプションに切り替えられます。
 
-<<AWS Marketplaceでサブスクライブ>> <<Microsoft Azure Marketplaceでサブスクライブ>> <<Google Cloud Marketplaceでサブスクライブ>> <<お客様所有のライセンスを使用（BYOL）>>
+<<AWS Marketplaceでサブスクライブ>> <<Microsoft Azure Marketplaceでサブスクライブ>> <<Subscribe through Google Cloud Marketplace>> <<お客様所有のライセンスを使用（BYOL）>>
 
 
 
@@ -97,11 +97,11 @@ image:screen-landing.png["BlueXPランサムウェア対策のランディング
 ** 無料トライアルの有効期限が近づいているというメッセージが表示されます。メッセージで、*支払い方法を表示*を選択します。
 ** 右上の*無料トライアル*通知をクリックし、*支払い方法を表示*を選択します。
 +
-image:screen-license-payment-methods2.png["BlueXPランサムウェア対策の[Payment Methods]ページ"]
+image:screen-license-payment-methods3.png["BlueXPランサムウェア対策の[Payment Methods]ページ"]
 
 
 
-. [支払い方法]ページで、*[AWS Marketplaceでサブスクライブ]*を選択します。
+. [Payment Methods]ページで、*[Subscribe]* for * Amazon Web Services *を選択します。
 . AWS Marketplaceで、*購入オプションを表示*を選択します。
 . AWS Marketplaceを使用して、BlueXPランサムウェア対策のサブスクリプションを登録します。
 . BlueXPランサムウェア対策に戻ると、登録したことを示すメッセージが表示されます。
@@ -145,11 +145,11 @@ image:screen-dw-data-services-license.png["BlueXPデジタルウォレットデ�
 ** 無料トライアルの有効期限が近づいているというメッセージが表示されます。メッセージで、*支払い方法を表示*を選択します。
 ** 右上の*無料トライアル*通知をクリックし、*支払い方法を表示*を選択します。
 +
-image:screen-license-payment-methods2.png["BlueXPランサムウェア対策の[Payment Methods]ページ"]
+image:screen-license-payment-methods3.png["BlueXPランサムウェア対策の[Payment Methods]ページ"]
 
 
 
-. [支払い方法]ページで、*[ Azure Marketplaceでサブスクライブ]*を選択します。
+. [Payment Methods]ページで、* Subscribe * for * Microsoft Azure Marketplace *を選択します。
 . Azure Marketplaceで、*購入オプションを表示*を選択します。
 . Azure Marketplaceを使用して、BlueXPランサムウェア対策のサブスクリプションを登録します。
 . BlueXPランサムウェア対策に戻ると、登録したことを示すメッセージが表示されます。
@@ -183,9 +183,9 @@ image:screen-dw-data-services-license.png["BlueXPデジタルウォレットデ�
 
 
 
-== Google Cloud Marketplaceでサブスクライブ
+== Google Cloud Platform Marketplaceでサブスクライブ
 
-ここでは、Google Cloud Marketplaceで直接サブスクライブする方法の概要を説明します。
+ここでは、Google Cloud Platform Marketplaceで直接サブスクライブする方法の概要を説明します。
 
 .手順
 . BlueXPのランサムウェア対策で、次のいずれかを実行します。
@@ -193,17 +193,17 @@ image:screen-dw-data-services-license.png["BlueXPデジタルウォレットデ�
 ** 無料トライアルの有効期限が近づいているというメッセージが表示されます。メッセージで、*支払い方法を表示*を選択します。
 ** 右上の*無料トライアル*通知をクリックし、*支払い方法を表示*を選択します。
 +
-image:screen-license-payment-methods3-gcp.png["BlueXPランサムウェア対策の[Payment Methods]ページ"]
+image:screen-license-payment-methods3.png["BlueXPランサムウェア対策の[Payment Methods]ページ"]
 
 
 
-. [支払い方法]ページで、*[ Google Cloud Marketplaceでサブスクライブ]*を選択します。
-. Google Cloud Marketplaceで、*[サブスクライブ]*を選択します。
-. Google Cloud Marketplaceを使用して、BlueXP  ランサムウェア対策をサブスクライブします。image:screen-license-payments-gcp.png["Google Cloud Marketplaceのサブスクリプションページ"]
+. [Payment Methods]ページで、*[Subscribe]* for Google Cloud Platform Marketplace *を選択します。
+. Google Cloud Platform Marketplaceで、*[サブスクライブ]*を選択します。
+. Google Cloud Platform Marketplaceを使用して、BlueXP  ランサムウェア対策をサブスクライブします。image:screen-license-payments-gcp.png["Google Cloud Marketplaceのサブスクリプションページ"]
 . BlueXPランサムウェア対策に戻ると、登録したことを示すメッセージが表示されます。
 +
 
-NOTE: BlueXP  ランサムウェア対策のシリアル番号と、BlueXP  ランサムウェア対策がGoogle Cloud Marketplaceでサブスクライブされていることを通知するEメールが送信されます。
+NOTE: BlueXP  ランサムウェア対策のシリアル番号と、BlueXP  ランサムウェア対策がGoogle Cloud Platform Marketplaceでサブスクライブされていることを示すEメールが送信されます。
 
 . BlueXPランサムウェア対策の支払い方法のページに戻ります。
 . [ライセンスをBlueXPに追加]*を選択して、ライセンスをBlueXPに追加します。

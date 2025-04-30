@@ -57,7 +57,7 @@ image:screen-discover-workloads1.png["ワークロードの検出のスクリー
 作業環境のリストが表示されます。
 
 +
-image:screen-discover-workloads-select-no-autodiscovery.png["ワークロードの検出のスクリーンショット"]
+image:screen-discover-workloads-select.png["ワークロードの検出のスクリーンショット"]
 
 . ワークロードを検出する作業環境を選択するか、テーブルの上部にあるボックスを選択して、検出されたすべてのワークロード環境でワークロードを検出します。
 . [検出]*を選択します。

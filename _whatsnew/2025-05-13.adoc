@@ -21,4 +21,4 @@
 
 検出プロセスの結果は、検出後にダウンロードできます。
 
-詳細については、を参照してください https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discovery.html["BlueXPのランサムウェア対策でワークロードを検出"]。
+詳細については、を参照してください https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discover.html["BlueXPのランサムウェア対策でワークロードを検出"]。

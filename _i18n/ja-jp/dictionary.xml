@@ -1446,12 +1446,9 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="1c2afeca94eb9c399bfa2c175f98ac90" category="paragraph">BlueXP  ランサムウェア対策では、ユーザの異常な行動を検出するために、ONTAP内の機械学習（ML）モデルであるNetApp Autonomous Ransomware Protectionを使用して、悪意のあるファイルアクティビティを検出します。このモデルは、BlueXP  ランサムウェア対策ライセンスに含まれています。また、Data Infrastructure Insights（旧Cloud Insights）ワークロードセキュリティ（ライセンスが必要）を使用して、ユーザの行動を調査し、特定のユーザがそれ以降のアクティビティを行わないようにブロックすることもできます。</block>
   <block id="7c74958c48ce3d27f457ae44b83cfb4c" category="paragraph">次の操作を実行できます。</block>
   <block id="1ad499ee6cba4f056f735fb9eae4b5ce" category="paragraph">各コネクタで、ワークロードを検出する作業環境を選択します。</block>
-  <block id="98ab4e23cce41ca38b39c7baf6ef4567" category="admonition">このプロセスには数分かかることがあります。</block>
   <block id="18eb5242d6e5ac768698e677b047a0eb" category="inline-image-macro">ワークロードの検出のスクリーンショット</block>
   <block id="6717014f0e48b7ab08c9846925b42c93" category="list-text">[検出]*を選択します。</block>
-  <block id="39d30ea27067e18c7724603fcd547e90" category="paragraph">サービスは、選択した作業環境を持つコネクタのワークロードデータのみを検出します。</block>
   <block id="d816d69cfca30588b735f0def37770e3" category="inline-image-macro">ワークロード検出のスクリーンショット</block>
-  <block id="994043f7651608eba900e66133c89241" category="list-text">検出されたワークロードのリストをダウンロードするには、*[結果（CSV）をダウンロード]*を選択します。</block>
   <block id="955afffb8a05f2f0ed1bf75405e20929" category="list-text">BlueXP  ランサムウェア対策ダッシュボードを表示するには、*[ダッシュボードに移動]*を選択します。</block>
   <block id="54a939b9714096ed5c428eb009f07a1c" category="paragraph">ダッシュボードには、データ保護の健常性が表示されます。新たに検出されたワークロードに基づいて、リスクがあるワークロードまたは保護されているワークロードの数が増加します。</block>
   <block id="33e99171183cf72ac66db77d8dd5792a" category="section-title">以前に選択した作業環境用に新しく作成されたワークロードを検出する</block>
@@ -1525,10 +1522,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="51871ed75f741b0dab90d2d1612f6499" category="doc">BlueXP  ランサムウェア対策機能へのロールベースアクセス</block>
   <block id="9f8dac12ddf6d062aacb043cac5a6b8d" category="paragraph">BlueXP  ランサムウェア対策では、特定の機能やアクションに対する各ユーザのアクセス権をロールで管理します。</block>
   <block id="06135c09643e0b875311a4989ef81443" category="paragraph">このサービスは、現在のバックアップ保護、Snapshotコピー、NetApp Autonomous Ransomware Protectionのオプションなど、既存の保護レベルを評価します。評価に基づいて、サービスはランサムウェア対策を改善する方法を提案します。</block>
-  <block id="ea84e987da35b78faef15d182ea98e25" category="paragraph">このサービスは、BlueXP  コネクタ内の作業環境を検出します。</block>
-  <block id="656ebea707f2c709a19d8f845b2477e7" category="list-text">特定のコネクタのワークロードを検出するには、ワークロードを検出するコネクタの横にある*[新しい作業環境を検索]*を選択します。</block>
-  <block id="4c21761c15d83552dd8cd3a0a8db257d" category="paragraph">作業環境のリストが表示されます。</block>
-  <block id="683b598a3c2decc48c00425ef8b86635" category="paragraph"><block ref="683b598a3c2decc48c00425ef8b86635" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c02e66aaa8def7a1b94dfd795479c114" category="paragraph">検出対象としてすでに作業環境を選択している場合は、それらの環境に対して新しく作成されたワークロードをダッシュボードで検出できます。</block>
   <block id="70b4939004396411f22f03d5d20bd5e4" category="list-text">最後に検出された日付を特定するには、ダッシュボードで右上の*[Refresh]*アイコンの横にある日時スタンプを確認します。</block>
   <block id="0e6eeee847f00d7ef1cb454555892f49" category="list-text"><block ref="92c4728cc5c0729bcbef66420d0a7a81" category="inline-link-macro-rx"></block>です。</block>
@@ -1614,12 +1607,9 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="574f730f175872b7e8ae030664be0b63" category="list-text">BlueXP  ランサムウェア対策の設定メニューから、*ワークロードセキュリティ接続*タイルを探します。</block>
   <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">2025年3月10日</block>
   <block id="a216cb7967dcfa49b3b976657369cd25" category="sidebar">[Settings]でバックアップ、脅威検出、および攻撃シミュレーションを構成します。</block>
-  <block id="8e409065d2ff7418c22e196d64a6f17c" category="paragraph"><block ref="8e409065d2ff7418c22e196d64a6f17c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="28f4eac4cfa4a0f9f4579a8d7853aa5d" category="list-text">ワークロードを検出する作業環境を選択するか、テーブルの上部にあるボックスを選択して、検出されたすべてのワークロード環境でワークロードを検出します。</block>
   <block id="6cd7d81917c9dbf1647c62c550c7a4a0" category="list-text">ダッシュボードで、*[リフレッシュ]アイコン*を選択します。これにより、新しいワークロードの検出が開始されます。</block>
   <block id="ce5939b4e8126f1cd90a90e246bba04d" category="list-text">BlueXP  ransomware protectionメニューから、<block ref="ddacd9651566dbd67045ad6fbaf81a6c" category="inline-image-macro-rx" type="image"></block>右上にあるvertical...オプションを選択します。ドロップダウンメニューから*[設定]*を選択します。</block>
   <block id="7834f1609389d2dc0ac0789a0ac2db2f" category="list-text">ワークロード検出カードで、*[ワークロードを検出]*を選択します。</block>
-  <block id="25c2a18f9bef5efa05b349a8a6bf472f" category="list-text">作成する新しいテストワークロードの名前を入力します。</block>
   <block id="ccf00254ed4dd27ce3cb568ef11757f1" category="list-text">BlueXP  ransomware protection Settingsメニューから* Readiness drill *を選択し、Readiness drillページで* Start *を選択します。</block>
   <block id="8d2bd4422410271303c0633a19aefea9" category="list-text">または、[設定]ページの[準備]ドリルカードで、*[開始]*を選択します。</block>
   <block id="f54a2552361ef76d1d69e95fc2f63e90" category="list-text">準備ドリルをすでに構成している場合は、* Start *を選択した後、準備ドリルが開始されます。</block>
@@ -1713,7 +1703,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="0e6583bdbbf88acbfc57d3f868629d3c" category="cell">検出設定の更新</block>
   <block id="5439d77b96ff7a9498be958a6755e89a" category="cell">検出設定の表示</block>
   <block id="1ed006cd78ff9bf590a02c6fc268141f" category="cell">*[レポート]タブで*：</block>
-  <block id="6863f1e2b172aa86375945f4be5c9f9e" category="admonition">FlexGroupまたはiSCSIを使用するボリュームを含むワークロードは検出されません。Amazon FSx for NetApp ONTAPまたはAzure NetApp Filesのワークロードはサポートされません。BlueXP  ランサムウェア対策で検出プロセスが完了すると、サポートされていないボリュームがダッシュボードに表示されます。</block>
   <block id="b5bf014c6bc530be1a7b68b5bcfb8ce0" category="list-text">Amazon Web Services（AWS）Marketplace、Google Cloud Marketplace、Azure Marketplaceで従量課金制（PAYGO）サブスクリプションを購入</block>
   <block id="8fe507392e8a4aeb2bd185146f2e7aa5" category="paragraph">すでにPAYGOサブスクリプションをお持ちの場合は、無料トライアルの終了後にライセンスが自動的にサブスクリプションに切り替えられます。</block>
   <block id="36fba8530ad94f3768ad1e658bd480e1" category="section-title">PAYGOサブスクリプションを終了する</block>
@@ -1781,7 +1770,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="5668e6bae7d2d785f6d070533231a9fb" category="paragraph">Amazon FSx for NetApp ONTAPの作業環境は、BlueXP  ランサムウェア対策でサポートされています。この作業環境には次の制限事項があります。</block>
   <block id="094cfa33c7eca5353db86f232ec97ece" category="list-text">FSx for ONTAPではバックアップポリシーはサポートされません。この環境では、Amazon FS for ONTAPバックアップサービスを使用してバックアップ処理を実行する必要があります。これらのワークロードは、BlueXP  ランサムウェア対策のSnapshotを使用してリストアできます。</block>
   <block id="ae06555bf1899a4ef9c10d46f1e1d5ab" category="list-text">リストア処理はSnapshotからのみ実行されます。</block>
-  <block id="de73a0aa09da7ce72e71260570480f65" category="paragraph"><block ref="de73a0aa09da7ce72e71260570480f65" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5ea39ab903803ce7754cfdbc99b11099" category="admonition">Data Infrastructure Insights Workload Securityのライセンスをお持ちでなく、BlueXP  ランサムウェア対策で有効にしていない場合、ユーザの異常な行動情報は表示されません。</block>
   <block id="6bc331c26571e71e2fd090b87423f299" category="paragraph"><block ref="6bc331c26571e71e2fd090b87423f299" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1136b7614d1f28d3b605ae13cff2a9b9" category="list-text">[Payment Methods]ページで、*[Subscribe]* for * Amazon Web Services *を選択します。</block>
@@ -1798,4 +1786,29 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="463f5e1b668b83efc12cf4dbc90300ff" category="list-text">*保護*：ポリシーが適用されます。ワークロードに関連するすべてのボリュームでARP（ONTAPのバージョンに応じてARP / AI）が有効になります。</block>
   <block id="065ced4e95bc23c02a22f53b7d00da49" category="admonition">Amazon FSx for NetApp ONTAPのワークロードにはバックアップ先を使用できません。FSx for ONTAPバックアップサービスを使用してバックアップ処理を実行</block>
   <block id="8855742ef7ac60d26f35536e1d09aef9" category="section-title">2025年4月29日</block>
+  <block id="3c2a45fff6f8bee383d20bf70ff8535a" category="doc">BlueXP  ランサムウェア対策でサポートされていない作業環境に関するレポート</block>
+  <block id="b42180eb0fa303da5a11adbc08be431f" category="paragraph">検出ワークフローで、BlueXP  ランサムウェア対策でサポート対象またはサポート対象外のワークロードにカーソルを合わせると、詳細が報告されます。これは、ワークロードや作業環境の一部がダッシュボードの一部ではなく、ランサムウェア対策サービスによって管理されていない理由を理解するのに役立ちます。次の作業環境は、現在BlueXP  ランサムウェア対策サービスでサポートされていません。</block>
+  <block id="200b74de2e12f861dad63aa0de84ec6c" category="list-text">Cloud Volumes Service</block>
+  <block id="c8e90ee73047c3063b54a44eae9d4af6" category="list-text">Eシリーズ</block>
+  <block id="8496bc8fa09162b4a1d6b5482545d7e5" category="list-text">Google Cloud Platform（GCP）</block>
+  <block id="48b747470192bb1f3eb893cd89cddb83" category="list-text">ONTAP 9.11.1以前のバージョン</block>
+  <block id="9b705ea007b3ac220c55a333054a1e7c" category="list-text">ONTAP BlueXP  Connectorで管理されない直接オンプレミスクラスタ</block>
+  <block id="392d70ca39f31f10bd637936769788df" category="list-text">StorageGRID</block>
+  <block id="579848aa0d8bdd4f7904793483675637" category="paragraph">サポートされていない作業環境は、初回検出時以降に[Settings]ページの*[Workload discovery]*オプションで確認できます。サービスで作業環境がサポートされない理由は数多くあります。たとえば、作業環境のONTAPバージョンが必要なバージョンよりも低い場合などです。サポートされていない作業環境にカーソルを合わせると、ツールチップに理由が表示されます。</block>
+  <block id="4c47a495695584c11b9bc39a46126b3f" category="paragraph">検出プロセスの結果は、検出後にダウンロードできます。</block>
+  <block id="39c54f7d4df40cc8068c415171304f04" category="paragraph">詳細については、を参照してください<block ref="52ea2f296b1d66ace77da9b46bb70668" category="inline-link-rx"></block>。</block>
+  <block id="aad9baa97ac0eac36d06a06e92779e20" category="admonition">FlexGroupまたはiSCSIを使用するボリュームを含むワークロードは検出されません。Azure NetApp Filesのワークロードはサポートされません。サポートされている作業環境構成とサポートされていない作業環境構成の両方を検出して表示します。</block>
+  <block id="63e2bb0c5a3c29dbfc9712f5986829f5" category="list-text">新しい作業環境の発見</block>
+  <block id="ba0a4542cb75319d2d7ef0f3aedde438" category="paragraph">サポート対象の作業環境とサポート対象外の作業環境の両方が検出されます。このプロセスには数分かかることがあります。</block>
+  <block id="4c7b7f129d904ef9645325e6106a26cc" category="paragraph"><block ref="4c7b7f129d904ef9645325e6106a26cc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4ca9313727b27bd23777fa2f2642a687" category="list-text">特定のコネクタのワークロードを検出するには、ワークロードを検出するコネクタの横にある*[作業環境の選択]*を選択します。</block>
+  <block id="83f7d0abba284cbb1363333164129384" category="list-text">ワークロードを検出する作業環境を選択します。</block>
+  <block id="c92c64e9822e5690e2695093c40d414f" category="paragraph">サービスは、選択した作業環境を持つコネクタのワークロードデータのみを検出します。このプロセスには数分かかることがあります。</block>
+  <block id="b9a71444c25e02475b7567dd75e6f5bc" category="paragraph"><block ref="b9a71444c25e02475b7567dd75e6f5bc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="60b91ac4e4f14d7cb892956fc74437d2" category="list-text">検出されたワークロードのリストをダウンロードするには、*[結果をダウンロード]*を選択します。</block>
+  <block id="ac63ea00f0dd830473ac8e776eef3502" category="list-text">サポートされている作業環境とサポートされていない作業環境の両方を検出します。サービスで作業環境がサポートされない理由は数多くあります。たとえば、作業環境のONTAPバージョンが必要なバージョンよりも低い場合などです。サポートされていない作業環境にカーソルを合わせると、ツールチップに理由が表示されます。ワークロードを検出する作業環境を選択します。</block>
+  <block id="5382046ea385cbcd7367b36d70b4decb" category="list-text">次の手順を実行します。</block>
+  <block id="9d5c8a6e3597683b4559e2c596a2ead9" category="list-text">テスト用ストレージSVMを選択します。</block>
+  <block id="6773f809e3f238c4a8a25adcd8e46f13" category="list-text">作成する新しいテストワークロードの名前を入力します。名前にダッシュを含めないでください。</block>
+  <block id="71df7d09aaee8e6796df0c3d10989fbd" category="section-title">2025年5月13日</block>
 </blocks>

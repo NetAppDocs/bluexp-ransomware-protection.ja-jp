@@ -32,7 +32,7 @@ BYOLをセットアップするか、PAYGOサブスクリプションを購入�
 
 
 
-=== その他のライセンスに関する考慮事項
+== その他のライセンス
 
 BlueXP  ランサムウェア対策ライセンスには、追加のNetApp製品は含まれていません。BlueXP  ランサムウェア対策では、ライセンスがなくてもBlueXP  のバックアップとリカバリを使用できます。
 
@@ -83,7 +83,7 @@ image:screen-landing.png["BlueXPランサムウェア対策のランディング
 
 すでにPAYGOサブスクリプションをお持ちの場合は、無料トライアルの終了後にライセンスが自動的にサブスクリプションに切り替えられます。
 
-<<AWS Marketplaceでサブスクライブ>> <<Microsoft Azure Marketplaceでサブスクライブ>> <<Subscribe through Google Cloud Marketplace>> <<お客様所有のライセンスを使用（BYOL）>>
+<<AWS Marketplaceでサブスクライブ>> <<Microsoft Azure Marketplaceでサブスクライブ>> <<Google Cloud Platform Marketplaceでサブスクライブ>> <<お客様所有のライセンスを使用（BYOL）>>
 
 
 
@@ -103,7 +103,7 @@ image:screen-license-payment-methods3.png["BlueXPランサムウェア対策の[
 
 . [Payment Methods]ページで、*[Subscribe]* for * Amazon Web Services *を選択します。
 . AWS Marketplaceで、*購入オプションを表示*を選択します。
-. AWS Marketplaceを使用して、BlueXPランサムウェア対策のサブスクリプションを登録します。
+. AWS Marketplaceを使用して、* NetAppインテリジェントサービス*と* BlueXP  ランサムウェア対策*にサブスクライブします。
 . BlueXPランサムウェア対策に戻ると、登録したことを示すメッセージが表示されます。
 +
 
@@ -151,7 +151,7 @@ image:screen-license-payment-methods3.png["BlueXPランサムウェア対策の[
 
 . [Payment Methods]ページで、* Subscribe * for * Microsoft Azure Marketplace *を選択します。
 . Azure Marketplaceで、*購入オプションを表示*を選択します。
-. Azure Marketplaceを使用して、BlueXPランサムウェア対策のサブスクリプションを登録します。
+. Azure Marketplaceを使用して、* NetAppインテリジェントサービス*と* BlueXP  ランサムウェア対策*にサブスクライブします。
 . BlueXPランサムウェア対策に戻ると、登録したことを示すメッセージが表示されます。
 +
 
@@ -199,7 +199,7 @@ image:screen-license-payment-methods3.png["BlueXPランサムウェア対策の[
 
 . [Payment Methods]ページで、*[Subscribe]* for Google Cloud Platform Marketplace *を選択します。
 . Google Cloud Platform Marketplaceで、*[サブスクライブ]*を選択します。
-. Google Cloud Platform Marketplaceを使用して、BlueXP  ランサムウェア対策をサブスクライブします。image:screen-license-payments-gcp.png["Google Cloud Marketplaceのサブスクリプションページ"]
+. Google Cloud Platform Marketplaceを使用して、* NetAppインテリジェントサービス*と* BlueXP  ランサムウェア対策*にサブスクライブします。image:screen-license-payments-gcp2.png["Google Cloud Marketplaceのサブスクリプションページ"]
 . BlueXPランサムウェア対策に戻ると、登録したことを示すメッセージが表示されます。
 +
 

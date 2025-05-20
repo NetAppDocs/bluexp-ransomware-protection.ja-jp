@@ -16,7 +16,7 @@ summary: ランサムウェア攻撃は、ビジネス時間、リソース、�
 [role="lead"]
 ランサムウェア攻撃はデータへのアクセスをブロックし、攻撃者はデータのリリースや復号と引き換えに身代金を要求する可能性があります。IDCによると、ランサムウェアの被害者が複数のランサムウェア攻撃を受けることは珍しくありません。攻撃によって、1日から数週間の間、データへのアクセスが中断される可能性があります。
 
-BlueXPランサムウェア対策は、ランサムウェアからデータを保護するためのサービスです。このサービスは、オンプレミスのNASストレージにあるOracle、MySQL、VMデータストア、ファイル共有のアプリケーションベースのワークロード（NFSプロトコルとCIFSプロトコルを使用）に加え、BlueXP  for Amazon Web Services、Cloud Volumes ONTAP for Google Cloud、Cloud Volumes ONTAP for Microsoft AzureのアプリケーションベースのワークロードをCloud Volumes ONTAP組織全体で保護します。このサービスは、Amazon Web Services、Google Cloud、Microsoft Azureクラウドストレージ、NetApp StorageGRIDにデータをバックアップします。
+BlueXP  ランサムウェア対策は、ランサムウェア攻撃からデータを保護するサービスです。このサービスは、オンプレミスのNASストレージにあるOracle、MySQL、VMデータストア、ファイル共有のアプリケーションベースのワークロード（NFSプロトコルとCIFSプロトコルを使用）に加え、BlueXP  for Amazon Web Services、Cloud Volumes ONTAP for Google Cloud、Cloud Volumes ONTAP for Microsoft AzureのアプリケーションベースのワークロードをCloud Volumes ONTAP組織全体で保護します。このサービスは、Amazon Web Services、Google Cloud、Microsoft Azureクラウドストレージ、NetApp StorageGRIDにデータをバックアップします。
 
 
 

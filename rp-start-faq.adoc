@@ -23,7 +23,7 @@ summary: この FAQ は、質問に対する簡単な回答を探している場
 次のライセンスタイプを使用できます。
 
 * 30日間の無償トライアルにサインアップしてください。
-* Amazon Web Services（AWS）Marketplace、Google Cloud Marketplace、Microsoft Azure Marketplace（近日提供予定）で従量課金制（PAYGO）サブスクリプションを購入
+* 従量課金制（PAYGO）サブスクリプションを購入して、Amazon Web Services（AWS）Marketplace、Google Cloud Marketplace、Microsoft Azure MarketplaceでNetAppインテリジェントサービスとBlueXP  ランサムウェア対策を利用できます。
 * お客様所有のライセンスを使用（BYOL）：NetApp営業担当から入手するNetAppライセンスファイル（NLF）です。ライセンスのシリアル番号を使用して、BlueXPデジタルウォレットでBYOLをアクティブ化できます。
 
 
@@ -101,8 +101,6 @@ BlueXP  ランサムウェア対策は、次の方法でデータをワーク�
 
 *新しいボリュームが追加されたがまだ表示されない*環境に新しいボリュームを追加した場合は、再度検出を開始し、保護ポリシーを適用して新しいボリュームを保護します。
 
-*ダッシュボードにすべてのワークロードが表示されない。何が間違っている可能性がありますか？*現時点では、NFSボリュームとCIFSボリュームのみがサポートされています。 iSCSIボリュームおよびサポートされないその他の構成は除外され、ダッシュボードには表示されません。
-
 
 
 == 保護ポリシー
@@ -148,6 +146,6 @@ BlueXP  ランサムウェア対策は、BlueXP  のバックアップとリ�
 
 *ポリシーを無効にできますか？*
 
-System ManagerのUI、API、またはCLIを使用して、検出ポリシーでARPを無効にすることができます。
+System ManagerのUI、API、またはCLIを使用して、検出ポリシーのARPを無効にすることができます。
 
 FPolicyポリシーとバックアップポリシーを含まない別のポリシーを適用することで、それらのポリシーを無効にすることができます。

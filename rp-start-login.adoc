@@ -14,11 +14,9 @@ summary: BlueXPのサービスにアクセスして、BlueXPのランサムウ�
 [role="lead"]
 NetApp BlueXPを使用して、BlueXPランサムウェア対策サービスにログインします。
 
-BlueXP  ランサムウェア対策では、ロールベースアクセス制御（RBAC）を使用して、各ユーザが特定のアクションに対して持つアクセスを制御します。 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["すべてのサービスのBlueXP  ロールに関する詳細情報"^]です。
-
-各ロールで実行できるアクションの詳細については、を参照してくださいlink:rp-reference-roles.html["BlueXP  ランサムウェア対策ロールベースアクセス制御Privileges"]。
-
 BlueXPにログインするには、NetApp Support Site のクレデンシャルを使用するか、Eメールとパスワードを使用してネットアップクラウドへのログインにサインアップします。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["ログインの詳細については、こちらをご覧ください"^]。
+
+*必要な BlueXP ロール* 組織管理者、フォルダーまたはプロジェクト管理者、ランサムウェア保護管理者、またはランサムウェア保護ビューアのロール。  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["すべてのサービスに対するBlueXPのアクセスロールについて学ぶ"^] 。
 
 .手順
 . Webブラウザを開き、にアクセスします https://console.bluexp.netapp.com/["BlueXPコンソール"^]。
@@ -31,17 +29,17 @@ NetApp BlueXPのログインページが表示されます。
 このサービスに初めてログインする場合は、ランディングページが表示されます。
 
 +
+
+NOTE: BlueXP コネクタがない場合、またはこのサービス用のものではない場合は、コネクタを展開する必要があります。link:rp-start-setup.html["コネクタの設定方法を学ぶ"]です。
+
++
 image:screen-landing.png["BlueXPランサムウェア対策のランディングページのスクリーンショット"]
 
 +
 それ以外の場合は、BlueXPランサムウェア対策ダッシュボードが表示されます。
 
 +
-image:screen-dashboard2.png["BlueXPランサムウェア対策ダッシュボード"]
-
-+
-
-NOTE: BlueXPコネクタがない場合や、このサービス用のコネクタでない場合は、NetAppサポートにお問い合わせください。
+image:screen-dashboard3.png["BlueXPランサムウェア対策ダッシュボード"]
 
 . [ワークロードを検出]*オプションを選択します（まだ選択していない場合）。
 +

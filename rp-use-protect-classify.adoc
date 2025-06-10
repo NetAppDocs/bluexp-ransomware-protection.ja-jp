@@ -2,30 +2,33 @@
 sidebar: sidebar 
 permalink: rp-use-protect-classify.html 
 keywords: ransomware protection, protect against ransomware attacks, anti-ransomware policies, cds, sensitive, pii, classification 
-summary: BlueXP  ランサムウェア対策サービスでは、BlueXP  ファミリーのコアコンポーネントであるBlueXP  Classificationを使用して、ファイル共有ワークロード上のデータをスキャンして分類できます。データを分類することで、データに個人情報が含まれているかどうかを特定し、セキュリティリスクを高めることができます。 
+summary: BlueXP 分類を使用してデータのセキュリティとプライバシーのコンプライアンスを強化し、データに個人を特定できる情報や個人情報が含まれているかどうかを識別します。 
 ---
-= BlueXP  分類を使用して、個人を特定できる情報をスキャンします。
-:hardbreaks:
+= BlueXPランサムウェア保護のBlueXP分類で個人を特定できる情報をスキャンします
 :allow-uri-read: 
-:icons: font
-:imagesdir: ./media/
 
 
 [role="lead"]
-BlueXP  ランサムウェア対策サービスでは、BlueXP  ファミリーのコアコンポーネントであるBlueXP  Classificationを使用して、ファイル共有ワークロード上のデータをスキャンして分類できます。データを分類すると、データに個人を特定できる情報（PII）が含まれているかどうかを特定できるため、セキュリティリスクが高まります。
+BlueXPランサムウェア対策サービスでは、BlueXP分類機能を使用して、ファイル共有ワークロード内のデータをスキャン・分類できます。データの分類により、データセットにセキュリティリスクを高める可能性のある個人識別情報（PII）が含まれているかどうかを判断できます。BlueXP分類機能はBlueXPファミリーの中核コンポーネントであり、追加費用なしでご利用いただけます。
+
+link:https://docs.netapp.com/us-en/bluexp-classification/["BlueXPの分類"^] AI 駆動型の自然言語処理を活用してコンテキスト データの分析と分類を行い、データに関する実用的な分析情報を提供することで、コンプライアンス要件への対応、セキュリティの脆弱性の検出、コストの最適化、移行の加速を実現します。
 
 
-TIP: このプロセスは、適切な保護を確保するために、ワークロードの重要性に影響を与える可能性があります。
+TIP: このプロセスはワークロードの重要性に影響を与え、適切な保護が確保されるようにします。
+
+*必要な BlueXP ロール* 組織管理者、フォルダーまたはプロジェクト管理者、またはランサムウェア保護管理者のロール。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["すべてのサービスに対するBlueXPのアクセスロールについて学ぶ"^]です。
 
 
 
-== BlueXP  分類を有効にする
+== BlueXP分類でプライバシーの露出を特定する
 
-BlueXP  ランサムウェア対策サービスでBlueXP  分類を使用する前に、BlueXP  分類を有効にしてデータをスキャンする必要があります。
+BlueXPランサムウェア保護サービス内でBlueXP分類を使用する前に、 link:https://docs.netapp.com/us-en/bluexp-classification/task-deploy-cloud-compliance.html["BlueXP分類を有効にしてデータをスキャンする"^] 。
 
-別の方法としてBlueXP  分類UIを使用すると、管理者はBlueXP  ランサムウェア対策でBlueXP  分類を有効にできます。
+BlueXPランサムウェア保護サービスの「保護」ページからBlueXP分類を導入できます。手順に従ってプライバシーの露出を特定してください。「**露出を特定**」を選択すると、BlueXP分類をまだ導入していない場合は、ダイアログが表示され、BlueXP分類を有効にできます。
 
-サービスの使用を開始する前に、次のBlueXP  分類に関するリソースを確認しておくと便利です。
+image:classification-deploy.png["分類の展開のスクリーンショット"]
+
+BlueXP 分類の詳細については、以下を参照してください。
 
 * https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXPの分類について説明します"^]
 * https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html["プライベートデータのカテゴリ"^]
@@ -33,7 +36,7 @@ BlueXP  ランサムウェア対策サービスでBlueXP  分類を使用す�
 
 
 .作業を開始する前に
-BlueXP  ランサムウェア対策でのPIIデータのスキャンは、BlueXP  分類を導入したお客様が利用できます。BlueXP  の分類は、BlueXP  プラットフォームの一部として追加料金なしで利用でき、オンプレミスまたはお客様のクラウドに導入できます。
+BlueXPランサムウェア保護のPIIデータのスキャンは、 link:https://docs.netapp.com/us-en/bluexp-classification/task-deploy-cloud-compliance.html["BlueXP分類を導入"^] 。BlueXP  の分類は、BlueXP  プラットフォームの一部として追加料金なしで利用でき、オンプレミスまたはお客様のクラウドに導入できます。
 
 .手順
 . BlueXPのランサムウェア対策メニューから、* Protection *を選択します。
@@ -41,25 +44,26 @@ BlueXP  ランサムウェア対策でのPIIデータのスキャンは、BlueX
 +
 image:screen-protection-sensitive-preview-column.png["プライバシーエクスポージャー列が表示された保護ページ"]
 
-. BlueXP  クラシフィケーションで個人を特定できるデータをスキャンできるようにするには、*プライバシー露出*列で*露出の識別*を選択します。
+. BlueXP 分類を有効にして、データ内の PII をスキャンするには、[*プライバシーの露出*] 列で [*露出の識別*] を選択します。
 
+
+
+NOTE: BlueXP分類を導入していない場合は、「*エクスポージャーを特定*」を選択すると、BlueXP分類を導入するためのダイアログが開きます。BlueXP[Deploy]*を選択します。分類を導入したら、「保護」ページに戻り、「*エクスポージャーを特定*」を選択してください。
 
 .結果
-データの量によっては、スキャンに数分かかることがあります。[Protection]ページには、BlueXP  分類によってファイルが識別されていることが表示され、スキャン中のファイル数が示されます。
-
-スキャンが完了すると、[プライバシー露光]列に露光レベルが[低]、[中]、または[高]に表示されます。
+スキャンには、ファイルのサイズと数に応じて数分かかる場合があります。スキャン中は、「保護」ページにファイルの識別とファイル数が表示されます。スキャンが完了すると、「プライバシー露出」列に露出レベルが「低」、「中」、「高」のいずれかで表示されます。
 
 
 
 == プライバシーの露出を確認する
 
-BlueXP  分類が個人識別情報（PII）をスキャンした後、PIIデータリスクを確認できます。
+BlueXP 分類で PII をスキャンした後、リスクを評価します。
 
-PIIデータには、次のいずれかのプライバシーエクスポージャーリスクステータスがあります。
+PII データは、次の 3 つの指定のいずれかに分類されます。
 
-* *高*: 70%を超えるファイルにPIIが含まれている
-* *中*:ファイルの30%以上70%未満にPIIがある
-* *低*: 0より大きく、ファイルの30%未満にPIIがある
+* *高*: ファイルの 70% 以上に PII が含まれています
+* *中*: ファイルの 30% 以上 70% 未満に PII が含まれています
+* *低*: ファイルの 0% 以上 30% 未満に PII が含まれています
 
 
 .手順
@@ -72,7 +76,7 @@ image:screen-protection-sensitive-preview-column-medium.png["プライバシー�
 +
 image:screen-protection-workload-details-privacy-exposure.png["[プライバシーエクスポージャー]タイルが表示されたワークロードの詳細画面"]
 
-. [ワークロードの詳細]ページで、[プライバシー露出]タイルの情報を確認します。
+. ワークロードの詳細ページで、プライバシーの公開タイルの詳細を確認します。
 
 
 
@@ -109,7 +113,7 @@ image:screen-protection-workload-details-privacy-exposure.png["[プライバシ�
 
 == 詳細情報
 
-BlueXP  分類の詳細については、次のBlueXP  分類のトピックを参照してください。
+BlueXP 分類の詳細については、BlueXP 分類ドキュメントを参照してください。
 
 * https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXPの分類について説明します"^]
 * https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html["プライベートデータのカテゴリ"^]

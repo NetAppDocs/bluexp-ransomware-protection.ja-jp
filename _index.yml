@@ -34,6 +34,8 @@ indexpage:
       url: "/rp-use-dashboard.html"
     - title: ワークロードを保護
       url: "/rp-use-protect.html"
+    - title: BlueXP  分類を使用して、個人を特定できる情報をスキャンします。
+      url: "/rp-use-protect-classify.html"
     - title: 検出されたアラートへの対応
       url: "/rp-use-alert.html"
     - title: 攻撃からのリカバリ

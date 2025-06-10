@@ -4,7 +4,7 @@ permalink: rp-use-recover.html
 keywords: ransomware protection recovery, recover from a ransomware attack, recovery point, RPA 
 summary: 攻撃を受けたあと、BlueXPのランサムウェア対策は、セカンダリストレージ上のバックアップデータがクリーンであることを検証し、実際のリカバリポイント（RPA）を提案し、耐障害性に優れたリカバリのワークフローをオーケストレーションします。 
 ---
-= ランサムウェア攻撃からのリカバリ（インシデントの中和後）
+= BlueXP ランサムウェア保護でランサムウェア攻撃から回復 (インシデントが中和された後)
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -59,6 +59,8 @@ image:screen-recovery2.png["[Recovery]ページ"]
 
 リストアに必要に応じて、アプリケーションの状態が変更されます。制御ファイルがバックアップに含まれている場合、アプリケーションは制御ファイルから以前の状態にリストアされます。リストアが完了すると、アプリケーションが読み取り/書き込みモードで開きます。
 
+*必要な BlueXP ロール* 組織管理者、フォルダーまたはプロジェクト管理者、またはランサムウェア保護管理者。  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["すべてのサービスに対するBlueXPのアクセスロールについて学ぶ"^] 。
+
 .手順
 . BlueXPのランサムウェア対策メニューから、*リカバリ*を選択します。
 . [リカバリ]*ページでワークロード情報を確認します。
@@ -90,6 +92,8 @@ TIP: BlueXPのランサムウェア対策は、インシデント発生直前の
 == SnapCenterで管理されていないワークロードをリストアする
 
 ストレージ管理者は、BlueXPのランサムウェア対策を使用して、推奨されるリストアポイントまたは推奨されるリストアポイントからワークロードをリストアする最適な方法を判断できます。
+
+*必要な BlueXP ロール* 組織管理者、フォルダーまたはプロジェクト管理者、またはランサムウェア保護管理者。  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["すべてのサービスに対するBlueXPのアクセスロールについて学ぶ"^] 。
 
 セキュリティストレージ管理者は、さまざまなレベルでデータをリカバリできます。
 

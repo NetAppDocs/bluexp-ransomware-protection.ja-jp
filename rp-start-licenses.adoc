@@ -14,7 +14,9 @@ summary: ライセンスを設定して、BlueXPランサムウェア対策を�
 [role="lead"]
 BlueXPランサムウェア対策では、さまざまなライセンスプランを使用できます。
 
-次のライセンスタイプを使用できます。
+*必要な BlueXP ロール* 組織管理者、フォルダーまたはプロジェクト管理者のロール。  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["すべてのサービスに対するBlueXPのアクセスロールについて学ぶ"^] 。
+
+*ライセンスの種類* 次のライセンスの種類を使用できます。
 
 * 30日間の無償トライアルにサインアップしてください。
 * Amazon Web Services（AWS）Marketplace、Google Cloud Marketplace、Azure Marketplaceで従量課金制（PAYGO）サブスクリプションを購入

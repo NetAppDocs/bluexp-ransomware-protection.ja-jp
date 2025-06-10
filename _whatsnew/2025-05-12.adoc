@@ -24,3 +24,11 @@ TIP: FSx for ONTAPで実行されるワークロードのバックアップポ�
 詳細については、を参照してください https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-protection.html["BlueXP  ランサムウェア対策と作業環境の詳細"]。
 
 サポートされるオプションについては、を参照して https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-reference-limitations.html["BlueXP  ランサムウェア対策の制限事項"]ください。
+
+
+
+=== BlueXPアクセスロールが必要
+
+BlueXP ランサムウェア保護を表示、検出、または管理するには、組織管理者、フォルダーまたはプロジェクト管理者、ランサムウェア保護管理者、またはランサムウェア保護閲覧者のいずれかのアクセス ロールが必要です。
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["すべてのサービスに対するBlueXPのアクセスロールについて学ぶ"^]です。

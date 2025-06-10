@@ -4,7 +4,7 @@ permalink: rp-use-protect.html
 keywords: ransomware protection, protect against ransomware attacks, anti-ransomware policies, protect, malware, attack 
 summary: BlueXPのランサムウェア対策でワークロードにポリシーを割り当てることで、ランサムウェア攻撃からワークロードを保護できます。 
 ---
-= ランサムウェア対策戦略でワークロードを保護
+= BlueXPランサムウェア対策戦略でワークロードを保護
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -12,7 +12,11 @@ summary: BlueXPのランサムウェア対策でワークロードにポリシ�
 
 
 [role="lead"]
-BlueXPのランサムウェア対策を使用して次の操作を実行することで、ランサムウェア攻撃からワークロードを保護できます。
+BlueXP ランサムウェア保護でワークロード一貫性保護を有効にするか、ランサムウェア保護戦略を作成することにより、ランサムウェア攻撃からワークロードを保護できます。
+
+*必要な BlueXP ロール* 組織管理者、フォルダーまたはプロジェクト管理者、またはランサムウェア保護管理者のロール。  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["すべてのサービスに対するBlueXPのアクセスロールについて学ぶ"^] 。
+
+*ワークロードをどのように保護できますか?*BlueXP ランサムウェア保護によるワークロードの保護には、次のタスクが含まれます。
 
 * SnapCenterソフトウェアまたはSnapCenter Plug-in for VMware vSphereと連携して、ワークロードと整合性のある保護を実現します。
 * ランサムウェア対策戦略を作成または管理します。この戦略には、Snapshot、バックアップ、ランサムウェア対策用に作成するポリシー（_detection policies_）が含まれます。

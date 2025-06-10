@@ -4,7 +4,7 @@ permalink: rp-use-reports.html
 keywords: ransomware protection, ransomware protection dashboard, detect ransomware attacks, recover from ransomware attack 
 summary: BlueXPのランサムウェア対策を使用すると、保護、アラート、リカバリの詳細が記載されたレポートをダウンロードしてとして保存できます。 CSVファイル。 
 ---
-= レポートのダウンロード
+= BlueXPランサムウェア保護のレポートをダウンロードする
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -14,9 +14,12 @@ summary: BlueXPのランサムウェア対策を使用すると、保護、ア�
 [role="lead"]
 保護データをエクスポートし、攻撃準備のためのドリル、保護、アラート、リカバリの詳細が記載されたCSVファイルまたはJSONファイルをダウンロードできます。
 
-ファイルをダウンロードする前に、データを更新する必要があります。また、ファイルに表示されるデータも更新されます。
 
-次のいずれかのメインメニューオプションからファイルをダウンロードできます。
+TIP: ファイルをダウンロードする前に、データを更新する必要があります。また、ファイルに表示されるデータも更新されます。
+
+*必要な BlueXP ロール* 組織管理者、フォルダーまたはプロジェクト管理者、ランサムウェア保護管理者、またはランサムウェア保護ビューアのロール。  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["すべてのサービスに対するBlueXPのアクセスロールについて学ぶ"^] 。
+
+*どのようなデータをダウンロードできますか?*次のいずれかのメインメニューオプションからファイルをダウンロードできます。
 
 * *保護*：すべてのワークロードのステータスと詳細（保護されているワークロードとリスクがあるワークロードの総数を含む）が表示されます。
 * *アラート*：アラートの総数や自動スナップショットなど、すべてのアラートのステータスと詳細が表示されます。
@@ -35,7 +38,7 @@ CSVファイルまたはJSONファイルには、すべてのBlueXP  作業環�
 .手順
 . BlueXPの左側のナビゲーションで、*[保護]*>*[Ransomware protection]*を選択します。
 +
-image:screen-dashboard.png["ダッシュボードページ"]
+image:screen-dashboard3.png["ダッシュボードページ"]
 
 . [ダッシュボード]または[その他]ページで、*[更新]* image:button-refresh.png["更新オプション"] レポートに表示されるデータを更新するには、右上のオプションを選択します。
 . 次のいずれかを実行します。

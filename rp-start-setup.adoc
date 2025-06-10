@@ -62,7 +62,7 @@ BlueXPでのAzureストレージの管理の詳細については、 https://doc
 
 次のステップでは、BlueXPとBlueXPランサムウェア対策サービスをセットアップします。
 
-レビュー https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["BlueXPの標準の要件"^]。
+確認 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-standard-mode.html["標準モードのBlueXP要件"^]：
 
 
 
@@ -70,7 +70,7 @@ BlueXPでのAzureストレージの管理の詳細については、 https://doc
 
 このサービスを試用または使用するには、NetApp営業担当者にお問い合わせください。その後、BlueXPコネクタを使用すると、ランサムウェア対策サービスに適した機能が含まれます。
 
-サービスを使用する前にBlueXPでコネクタを作成する方法については、該当するBlueXPのドキュメントを参照してください https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["BlueXPコネクタの作成方法"^]。
+サービスを使用する前にBlueXPでコネクタを作成するには、コネクタを作成する権限を持つBlueXP組織管理者に連絡し、コネクタの作成方法について説明しているBlueXPドキュメントを参照してください。  https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["BlueXPコネクタの作成方法"^] 。
 
 
 NOTE: BlueXPコネクタが複数ある場合は、BlueXP UIに現在表示されているコネクタ以外のすべてのコネクタのデータがスキャンされます。このサービスは、この組織に関連付けられているすべてのプロジェクトとすべてのコネクタを検出します。

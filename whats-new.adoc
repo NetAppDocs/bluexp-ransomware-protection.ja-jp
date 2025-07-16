@@ -18,6 +18,38 @@ BlueXPランサムウェア対策の新機能をご紹介します。
 
 
 
+== 2025年7月15日
+
+
+
+=== SANワークロードのサポート
+
+このリリースでは、BlueXP ransomware protectionに SAN ワークロードのサポートが追加されました。および CIFS ワークロードに加えて、SAN ワークロードも保護できるようになりました。
+
+詳細については、を参照してください link:https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-prerequisites.html["BlueXPのランサムウェア対策の前提条件"]。
+
+
+
+=== ワークロード保護の改善
+
+このリリースでは、データ保護の有無にかかわらずワークロードを保護するためのワークフローが改善されています。スナップショットやバックアップにSnapCenterやBlueXP backup and recoveryなどの他のNetAppデータ保護ツールを使用している場合、 BlueXP ransomware protectionがそれらを検出し、それらを管理するポリシーを維持できます。このリリースでは、それらのポリシーをBlueXP ransomware protectionポリシーに置き換えることも、既存のポリシーを引き続き使用することもできます。
+
+詳細については、を参照してください https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["ワークロードを保護"]。
+
+
+
+=== Eメール通知
+
+BlueXP ransomware protectionが攻撃の可能性を検知すると、 BlueXP通知に通知が表示され、設定したメールアドレスにメールが送信されます。また、サービスは直ちにスナップショットを開始します。
+
+この時点で、重大度と影響を受けるリソースをリストした電子メールを確認し、 BlueXP ransomware protectionの *アラート* タブで潜在的なリスクを確認する必要があります。
+
+BlueXP ransomware protectionでセキュリティおよびイベント管理 (SIEM) を構成した場合、サービスはアラートの詳細を SIEM システムに送信します。
+
+詳細については、を参照してください https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-alert.html["検出されたランサムウェアアラートを処理する"]。
+
+
+
 == 2025年6月9日
 
 

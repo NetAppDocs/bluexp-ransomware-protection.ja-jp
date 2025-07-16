@@ -58,7 +58,6 @@
   <block id="068f7fc4b5a2b14387afa21644b54045" category="list-text">ボリュームレベルまたはファイルおよびフォルダレベルでアプリケーションをリカバリします。</block>
   <block id="318b3b219a722faf75710b5f3a03fc90" category="list-text">ボリュームレベル、ディレクトリレベル、またはファイル/フォルダレベルでファイル共有をリカバリします。</block>
   <block id="e626ada343290f415dbe5463dd32adc6" category="list-text">データストアからVMレベルでリカバリ</block>
-  <block id="f404cb029bae4ec101681b1cc37a9673" category="paragraph">このプロセスはワークロードの種類によって多少異なります。</block>
   <block id="3c05d4c74e149bb88176ed4760fd51fb" category="list-text">BlueXPのランサムウェア対策メニューから、*リカバリ*を選択します。</block>
   <block id="399fa10d5614bf05b654b6e10e3ade5e" category="list-text">「Restore Needed」状態のワークロードを選択します。</block>
   <block id="3423ce5ef0c24dff08aba7c67e954912" category="list-text">リストアするには、*[リストア]*を選択します。</block>
@@ -107,7 +106,6 @@
   <block id="714d26f301c6941feb4b690ef1b39342" category="inline-image-macro">リストア中のVMを示す[Recovery]ページ</block>
   <block id="985a17beca436d81e26faeb5d73538bb" category="paragraph"><block ref="985a17beca436d81e26faeb5d73538bb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cc03ddbe51eba1cd776926690a07ca14" category="list-text">*目的地*：元の場所に移動します。</block>
-  <block id="150b98b7bdd494e0922e7bd3769c6178" category="summary">ランサムウェア攻撃は、ビジネス時間、リソース、評判を低下させる可能性があります。BlueXPのランサムウェア対策サービスでは、サイバーセキュリティに関する関連情報を確認し、サイバー攻撃に対する組織の耐障害性を評価できます。また、データのセキュリティを強化するためのアラートと修正措置のリストも記載されています。</block>
   <block id="6321ab6443de9de91f1f7313b1cfcce7" category="section-title">BlueXPのランサムウェア対策でできること</block>
   <block id="8e22c5498680469033ebfa929699936b" category="paragraph">BlueXPのランサムウェア対策サービスは、複数のNetAppテクノロジをフル活用して、ストレージ管理者、データセキュリティ管理者、セキュリティ運用エンジニアが次の目標を達成できるようにします。</block>
   <block id="0939045244bbd868a8a6209521a2393b" category="inline-image-macro">BlueXPのランサムウェア対策戦略（特定、保護、検出、対応、リカバリ）を示す図</block>
@@ -138,7 +136,6 @@
   <block id="14b17e6824f78ccf342b387a603935dc" category="cell">*応答*</block>
   <block id="4dd88eaac510fe3eb4a3ed59e5f8d753" category="list-text">ファイルアクティビティ、ユーザアクティビティ、エントロピーなどの関連データが表示され、攻撃に関するフォレンジックレビューを完了できます。</block>
   <block id="5fefe6c4ada89d95390ae77eba79e7db" category="cell">*リカバリ*</block>
-  <block id="f2ebc260c3bb5480d4c44df78fb6efb7" category="list-text">アプリケーションと整合性のある状態で、VM、ファイル共有、データベースなどのワークロードのリカバリをオーケストレーションします。</block>
   <block id="b6d7d516856554dea8fd74390c36ea82" category="paragraph">*サポートされるバックアップターゲット*</block>
   <block id="736ca911d7d143d01bd8cbfe0d4afbca" category="list-text">Amazon Web Services（AWS）S3</block>
   <block id="55cf1a0f0fce69fd543500e5761dd26d" category="list-text">NetApp StorageGRID</block>
@@ -189,7 +186,6 @@
   <block id="48a3fd80fe94fd5fab8bd8b5d0983950" category="cell">*標準ワークロードポリシー*</block>
   <block id="32bb90e8976aab5298d5da10fe66f21d" category="cell">72です</block>
   <block id="98dce83da57b0395e163467c9dae521b" category="cell">93</block>
-  <block id="20d541172ecc7e2d477ce2738120938c" category="list-text">[保護]*を選択します。</block>
   <block id="dc2fd6e50fca8f57a86fb10db498e07a" category="list-text">BlueXPのランサムウェア対策メニューから、* Protection *を選択します。</block>
   <block id="589d15d214feb500a590692bf3a50f04" category="list-text">*バックアップスケジュール*:セカンダリストレージのスケジュールオプションを選択し、スケジュールを有効にします。</block>
   <block id="fa12509cfb8e8ccded16e2a254e988c4" category="list-text">「 * 追加」を選択します。</block>
@@ -499,7 +495,6 @@ BlueXPのランサムウェア対策を有効にする必要はありません�
   <block id="839e0e7efb1b67f6416081c6e82a4aa9" category="inline-link-macro">検出されたランサムウェアに関するアラートに対応</block>
   <block id="66cea763fac3b4f8340502aaf5d8d0d2" category="cell">新しいアラートを確認します。
 を参照してください <block ref="09d5258094b1e39cdb847e9d6bbdf0b2" category="inline-link-macro-rx"></block>。</block>
-  <block id="6c5745ba3d16934a3156857cc1e46ec9" category="list-text">[推奨される操作]ペインで推奨事項を選択し、*[確認と修正]*を選択します。</block>
   <block id="b10e70829881666c441e82656f6ce36d" category="list-text">後で処理を終了するには、*[却下]*を選択します。</block>
   <block id="1ac10a835f53c6060811d5cfb8fbff70" category="paragraph">推奨事項がTo Doリストからクリアされ、却下されたリストに表示されます。</block>
   <block id="d546413031876c1e4d267a59f45f1a37" category="admonition">却下された項目は、後でTo Do項目に変更できます。アイテムを完了としてマークするか、却下されたアイテムをTo Doアクションに変更すると、合計アクションが1ずつ増加します。</block>
@@ -571,7 +566,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="896465c47d1995c6e7b722de16fa80e5" category="list-text"><block ref="4e4968353ad45e1648e9b700ebce5a49" category="inline-link-macro-rx"></block>。</block>
   <block id="01d9db102d1bd61a6c3336ec537d1d6b" category="list-text">ワークロードにランサムウェア対策戦略を割り当てる。</block>
   <block id="39eb13fe6281f202063b8531a23fd007" category="list-text">保護戦略を作成、変更、削除</block>
-  <block id="0d9d7270a47d859e5eb89fd0e5ea1994" category="cell">脅威検出を有効にする</block>
   <block id="189c4ff0677fc252921dcedc653aa720" category="cell">脅威の分析と検出のために、セキュリティおよびイベント管理システム（SIEM）にデータを送信します。</block>
   <block id="c9cf11dae3413da2395f3c9102153a2f" category="cell">これらのワークロードは、SnapCenterソフトウェアやSnapCenter Plug-in for VMware vSphereでは管理されません。</block>
   <block id="67f57f861a379dead16cb189597a369c" category="inline-link-macro">ランサムウェア攻撃からワークロードを保護</block>
@@ -584,8 +578,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="baa62fd9411df2ee7b4bf7a3fcdeb9c4" category="section-title">テクニカルドキュメントへのアクセス</block>
   <block id="858c0eb001d380e6c1276da7ebebbd32" category="inline-image-macro">[垂直アクション]オプション</block>
   <block id="8d50761a01ad46cdf490d2b5652e5a19" category="list-text">ダッシュボードで、垂直方向の*アクション*を選択します。 <block ref="03b376f37073f981f38dc4d6f450c046" category="inline-image-macro-rx" type="image"></block> オプション</block>
-  <block id="413b4c22ab2c40818a71fe8112e4d991" category="list-text">SnapCenterソフトウェアまたはSnapCenter Plug-in for VMware vSphereと連携して、ワークロードと整合性のある保護を実現します。</block>
-  <block id="dd1e598107a9b5e3a198a53a091c3553" category="list-text">ストラテジーをインポートして調整します。</block>
   <block id="48b06ad4392e9d571814713a4c79666f" category="paragraph">[Protection]ページには、ワークロードの保護に関する次の情報が表示されます。</block>
   <block id="2b93c51f3f6f625d3c03d48ec19d78ea" category="paragraph">*検出ステータス*：ワークロードは、次のいずれかのランサムウェア検出ステータスを持つことができます。</block>
   <block id="8daa232cd60a589e598f654bde7eeb16" category="list-text">*学習中*：最近、ランサムウェア検出ポリシーがワークロードに割り当てられ、サービスがワークロードをスキャンしています。</block>
@@ -607,7 +599,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="4c0abf2d4c54820b8d33061abaf30759" category="list-text">スナップショットポリシー</block>
   <block id="7759a4720271a1ab3b4e6b1c36a67058" category="list-text">バックアップポリシー</block>
   <block id="43963265d27ac7360fe50e98bde4f748" category="list-text">ランサムウェア検出ポリシー</block>
-  <block id="fe818592d516f26e58602635e76b8664" category="list-title">ランサムウェア対策戦略の策定手順</block>
   <block id="5d6ce0940be901e67c0f14481e54ccc9" category="inline-image-macro">[Manage strategy]ページ</block>
   <block id="197c283a01f19c77a4081693cf2ef5bf" category="list-text">[Ransomware protection strategory]ページで、*[Add]*を選択します。</block>
   <block id="2eaf03a47e19fb4342355aea7247f987" category="list-text">新しいストラテジー名を入力するか、既存の名前を入力してコピーします。既存の名前を入力した場合は、コピーする名前を選択して*コピー*を選択します。</block>
@@ -619,24 +610,9 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="7c06fadd4f73e4b63eb519df7d9880fc" category="paragraph">ブロックされるファイル拡張子を変更する場合は、System Managerで編集します。</block>
   <block id="c8499d03897189696e5af26fc5ab9f45" category="list-text">* Snapshotポリシー*：</block>
   <block id="bec83ad5f3237718ad523140fca8ac2b" category="list-text">*バックアップポリシー*：</block>
-  <block id="aadd6f26574b76b3ee798f3c4c8ab40f" category="paragraph">BlueXPのバックアップとリカバリやSnapCenterなどの他のサービスでは、次のタイプのポリシーを使用してワークロードを管理しています。</block>
-  <block id="bf887237a81e21c9dcecf279d8214bd8" category="list-text">セカンダリストレージへのレプリケーションを管理するポリシー</block>
-  <block id="55b476ecebc3baef1c3059d09114ed32" category="list-text">オブジェクトストレージへのバックアップに関するポリシー</block>
-  <block id="2ad7688a26afeef5315e1abd054383d5" category="list-text">[保護]ページで、ワークロードを選択し、*[保護]*を選択します。</block>
-  <block id="3a3201f72b1119d843f15824fc69bc24" category="paragraph">[保護]ページには、SnapCenterソフトウェア、SnapCenter for VMware vSphere、およびBlueXPのバックアップとリカバリで管理されるポリシーが表示されます。</block>
-  <block id="e072170af14504f3b739ac689f48324c" category="paragraph">次の例は、SnapCenterで管理されるポリシーを示しています。</block>
-  <block id="96f9a77bb160a4643ce9b7367a0cd45d" category="inline-image-macro">SnapCenterポリシーが表示された[保護]ページ</block>
-  <block id="177a963d48d93ca9f2d15dfeba581db4" category="paragraph"><block ref="177a963d48d93ca9f2d15dfeba581db4" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6437f2ca09f9cef9209f752412b07bf7" category="paragraph">次の例は、BlueXPのバックアップとリカバリで管理されるポリシーを示しています。</block>
-  <block id="4e3dce8a353ad69745e4ed75725c1139" category="inline-image-macro">BlueXPのバックアップとリカバリのポリシーが表示された[保護]ページ</block>
-  <block id="bf9aecd0c3a8e6593d618b83fde9e3d2" category="paragraph"><block ref="bf9aecd0c3a8e6593d618b83fde9e3d2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5b770013dd3aa28921bf7c17490aa92a" category="list-text">他の場所で管理されているポリシーの詳細を表示するには、*下矢印*をクリックします。</block>
   <block id="82f3ca7fa2e1f82d7f077e15af9747a4" category="section-title">別のポリシーを割り当てる</block>
-  <block id="da1e4da519410c1405fff63f18d68127" category="paragraph">現在の保護ポリシーを置き換える別の保護ポリシーを割り当てることができます。</block>
   <block id="46d1903c41e1de7b9bef66a115265f90" category="list-text">[保護]ページのワークロードの行で、*[保護の編集]*を選択します。</block>
-  <block id="b9e02bfe9506fcf186ee622509a30847" category="list-text">[Policies]ページで、割り当てるポリシーの下矢印をクリックして詳細を確認します。</block>
   <block id="bb5447070c795a6e8d29fa9cd98a5127" category="list-text">割り当てるポリシーを選択します。</block>
-  <block id="427a5dfbb09ab1cc6737506e06431570" category="list-text">[保護]*を選択して変更を終了します。</block>
   <block id="5e76a23879d0e6f7325f31678e623972" category="section-title">2024年5月14日</block>
   <block id="a0f248fceae83613cf99c651e3c24be5" category="inline-link">ライセンスの設定に関する詳細情報</block>
   <block id="17f6ba003825118fb67d19c8c26be794" category="paragraph"><block ref="36f38233d2460bc4dacb6b4bd4fd46ab" category="inline-link-rx"></block>。</block>
@@ -772,8 +748,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="c81ae261ce25e22a1af05caba692e648" category="list-text">*ガバナンス*：ランサムウェア対策戦略を導入し、結果を監視</block>
   <block id="25b79915ef7b5ee03ffec649fd035b25" category="paragraph"><block ref="25b79915ef7b5ee03ffec649fd035b25" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b271e9c6be36aff67404f5d3ab5006f5" category="list-text">ワークロードとその既存のSnapshotスケジュールとバックアップスケジュールを検出し、相対的な重要度を順位付けします。</block>
-  <block id="f9139206de5b0d603d23f42e66a50c61" category="paragraph">BlueXPランサムウェア対策の試用版を使用した場合、NetAppは料金を請求しません。</block>
-  <block id="d0e4a743e8ed40dbf01bacaa0ec70fe1" category="list-text">BlueXPに接続されているオンプレミスのNAS（NFSプロトコルとCIFSプロトコル）とCloud Volumes ONTAPデータをすべて検出</block>
   <block id="4ddd3abee434eb92eb13e6cac3e1ad1d" category="cell">*管理*</block>
   <block id="cc4378b1dc9af2e69cb13a88397e2aa7" category="list-text">ランサムウェア対策戦略を割り当て</block>
   <block id="90d096ff0013c9c2874a247b26e69950" category="list-text">結果の監視に役立ちます。</block>
@@ -792,7 +766,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="fe3f4461c233a8ac4062f3d5f2af86f7" category="paragraph"><block ref="fe3f4461c233a8ac4062f3d5f2af86f7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="42af6072d9f6b15575af87c244abaa0a" category="section-title">ファイル共有またはデータストアのリストア</block>
   <block id="1dd6a4919bb3486348521d221ec659ba" category="list-text">リストアするファイル共有またはデータストアを選択したら、[リストア]ページの[リストア対象]で*[ボリューム別]*を選択します。</block>
-  <block id="e7c81f7323ce88fb040e5538bda0ea2a" category="paragraph">ランサムウェア攻撃はデータへのアクセスをブロックし、攻撃者はデータのリリースや復号と引き換えに身代金を要求する可能性があります。IDCによると、ランサムウェアの被害者が複数のランサムウェア攻撃を受けることは珍しくありません。攻撃によって、1日から数週間の間、データへのアクセスが中断される可能性があります。</block>
   <block id="dface268a2071eff798d124445615938" category="list-text">*複数のNetAppテクノロジーをオーケストレーションすることで、ワークロードのアップタイムを促進するワークロードをリカバリ*します。特定のボリュームをリカバリするように選択できます。このサービスは、最適なオプションに関する推奨事項を提供します。</block>
   <block id="693cf7ee0375c87d1ecc02615f651ebe" category="inline-link">ランサムウェア対策戦略におけるワークロードの保護とバックアップロックの有効化の詳細</block>
   <block id="d9e97b4dacf8789a452df06f4739d3b7" category="paragraph"><block ref="691f168695c0ebf6c9e1bf6093933aac" category="inline-link-rx"></block>。</block>
@@ -810,7 +783,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="be48871d3fcb22d62d5de71b2de11ab9" category="list-text">*新規*:すべてのインシデントは、最初に識別されたときに「新規」とマークされます。</block>
   <block id="d2b7a3286df55d9570e26ad7450dfeb9" category="list-text">*却下*：アクティビティがランサムウェア攻撃ではないと疑われる場合は、ステータスを「却下」に変更できます。</block>
   <block id="abcc01ccddba81d6df2f14e786d4b375" category="list-text">*却下*：インシデントは却下中です。</block>
-  <block id="0eb84a756a0efb96624e019ea3d9cc23" category="list-text">次へ：</block>
   <block id="3de551d699ac2cc6d8ee45100e3c09c2" category="list-text"><block ref="7b8fc6583551e56b0c8a96f4e8f63c8a" category="inline-xref-macro-rx"></block>です。</block>
   <block id="ab66e5346633f4af4f4982dc29ca7015" category="list-text"><block ref="e99b3e15cfc7ea44c087b4875208c217" category="inline-xref-macro-rx"></block>です。</block>
   <block id="dbb2ae89216b8dfda3662d01ab32469f" category="paragraph">アラートがリストア対象としてマークされると、アラートは[Alerts]タブから[Recovery]タブに移動します。</block>
@@ -853,7 +825,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="daed4261480079bedadbb918fa15519d" category="paragraph">データをエクスポートしたり、保護、アラート、リカバリの詳細が記載されたCSVファイルをダウンロードしたりできます。</block>
   <block id="ca2c7b61db4fca32a940552e9d295d4b" category="list-text">ページで、右上の*更新*オプションを選択し <block ref="94d384894f036157c348eadc55c40952" category="inline-image-macro-rx" type="image"></block> て、ファイルに表示されるデータを更新します。</block>
   <block id="fdf229b723a77d85d0134f45f3d183ce" category="list-text">ページで、*ダウンロード*オプションを選択します <block ref="c05ed6b7dc469ce447520bacbf36b3ca" category="inline-image-macro-rx" type="image"></block> 。</block>
-  <block id="5c642143c637288108b06423d16dfcfb" category="list-text">[レポート]オプションを選択した場合は、事前設定された名前付きファイルのいずれかを選択し、*[ダウンロード（CSV）]*または*[ダウンロード（JSON）]*を選択します。</block>
   <block id="ee0e4c0a4f10747e23810b484cf81b62" category="paragraph">このテクニカルドキュメントは、docs.netapp.comから、またはBlueXPランサムウェア対策サービス内からアクセスできます。</block>
   <block id="da9b0b803342ecbbfeed5ada41b8ed48" category="list-text">次のいずれかのオプションを選択します。</block>
   <block id="9cd2fdc543bd545d0901aa3a644323f5" category="list-text">*新機能*現在または以前のリリースの機能に関する情報をリリースノートに表示します。</block>
@@ -869,7 +840,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="09133e0e805dc45102304048f4a9224f" category="list-text">使用可能なSnapCenter Plug-in for VMware vSphere（SCV）をBlueXPに登録</block>
   <block id="e64cc4d864037812a9599e7c5d937de9" category="list-text">表示された情報に従って、BlueXPのバックアップとリカバリを使用してSnapCenterまたはSnapCenter Plug-in for VMware vSphereホストを登録します。</block>
   <block id="0d793ce6c24acfe5b63d8e0ef4cd8c62" category="list-text">BlueXPランサムウェア対策に戻ります。</block>
-  <block id="a0bcd228903cff8ca5c5de971f78b647" category="list-text">BlueXPのランサムウェア対策から、ダッシュボードに移動して検出プロセスを再度開始します。</block>
   <block id="733f41aae97f52087b0ed39ff3235bb1" category="list-text">BlueXPのランサムウェア対策で、* Protection *を選択してProtectionページを表示します。</block>
   <block id="90f081941b9ec4d54a22065d524e3c77" category="list-text">[保護]ページで、*[保護戦略の管理]*を選択します。</block>
   <block id="4c2335d5c61b4722f3bc7508bd4a0ada" category="list-text">*バックアップポリシーのベース名*：新しい名前を入力するか、既存の名前を選択します。</block>
@@ -920,8 +890,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="ee0be683b67076eb7125d9ca487f8d28" category="paragraph">BlueXP  ランサムウェア対策ライセンスには、追加のNetApp製品は含まれていません。BlueXP  ランサムウェア対策では、ライセンスがなくてもBlueXP  のバックアップとリカバリを使用できます。</block>
   <block id="79b74457c154f490e3b7fa5a0e9552e5" category="paragraph">BlueXP  ランサムウェア対策では、BlueXP  のバックアップとリカバリを使用してファイル共有ワークロードのSnapshotポリシーとバックアップポリシーを検出および設定し、SnapCenterまたはSnapCenter for VMwareを使用してアプリケーションとVMワークロードのSnapshotとバックアップポリシーを検出および設定します。さらに、BlueXP  ランサムウェア対策では、BlueXP  のバックアップとリカバリとSnapCenter / SnapCenter for VMwareを使用して、ファイルとワークロードの整合性のあるリカバリを実行します。</block>
   <block id="76794f7a61abb15de470fc2d1f863064" category="section-title">サポートされるバックアップターゲット、作業環境、ワークロードのデータソース</block>
-  <block id="82df58c34a1661b9823ba5014f2938d1" category="paragraph">BlueXP  ランサムウェア対策を使用して、次のタイプのバックアップターゲット、作業環境、ワークロードデータソースに対するサイバー攻撃に対するデータの耐障害性を確認します。</block>
-  <block id="7b2ac1caa1c899683a384c1808575847" category="admonition">サポートされないボリュームは次のとおりです。FlexGroup、9.11.1より前のバージョンのONTAP、iSCSIボリューム、マウントポイントボリューム、マウントパスボリューム、オフラインボリューム、 およびデータ保護（DP）ボリュームが含まれます。</block>
   <block id="77c629a59dc2544fbc0a071f880e6dec" category="paragraph">*サポートされるワークロードデータソース*</block>
   <block id="ba5ad7803ec94a7574390ade1154e462" category="paragraph">さらに、SnapCenterまたはSnapCenter for VMwareを使用している場合、それらの製品でサポートされるすべてのワークロードもBlueXP  ランサムウェア対策の対象となります。BlueXP  ランサムウェア対策は、ワークロードと整合性のある方法でこれらを保護、リカバリできます。</block>
   <block id="9e13464b45174329de24194d85aff824" category="summary">BlueXP  ランサムウェア対策サービスの使用が不要になった場合は、ライセンスの有効期限を有効期限にすることができます。</block>
@@ -946,8 +914,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="4b0f985fb2ce8eb70d786ac8ec6c4618" category="paragraph">さらに、BlueXP  ランサムウェア対策では、BlueXP  のバックアップとリカバリとSnapCenter / SnapCenter for VMwareを使用して、ファイルとワークロードの整合性のあるリカバリを実行します。</block>
   <block id="51a55206b7a52955b0a31059706b3eb5" category="paragraph">*ワークロードの構成要素*ワークロードとは、アプリケーション、VM、ファイル共有のいずれかです。ワークロードには、単一のアプリケーションインスタンスで使用されるすべてのボリュームが含まれます。たとえば、ora3.host.comに導入されたOracle DBインスタンスのデータとログには、それぞれvol1とvol2を含めることができます。これらのボリュームを合わせて、Oracle DBインスタンスの特定のインスタンスのワークロードを構成します。</block>
   <block id="c7611c5f6655b760285d69228531818a" category="paragraph">* BlueXP  ランサムウェア対策はどのようなワークロードをサポートしていますか？*</block>
-  <block id="7d43971166bc9984c9a52eed2796f5fa" category="paragraph">BlueXP  ランサムウェア対策では、Oracle、MySQL、ファイル共有、VM、VMデータストアのワークロードを特定できます。</block>
-  <block id="babb68bfea1f0b533883f1c651628f93" category="paragraph">さらに、お客様がSnapCenterまたはSnapCenter for VMwareを使用している場合、これらの製品でサポートされているすべてのワークロードがBlueXP  ランサムウェア対策で特定され、BlueXP  ランサムウェア対策でワークロードと整合性のある方法で保護およびリカバリできます。</block>
   <block id="f0cc4b9fad963de99a7aa42aabde7243" category="paragraph">*どのようにしてデータをワークロードに関連付けますか？*</block>
   <block id="09d77ad68346f49eac9f61a6bd649172" category="paragraph">BlueXP  ランサムウェア対策は、次の方法でデータをワークロードに関連付けます。</block>
   <block id="7d2b6d6ad021f007de2cb3d1e181e023" category="list-text">BlueXP  ランサムウェア対策は、ボリュームとファイル拡張子を検出し、適切なワークロードに関連付けます。</block>
@@ -974,18 +940,13 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="389b413db649d1d5d2854fd3e4faf2e6" category="paragraph">FPolicyポリシーとバックアップポリシーを含まない別のポリシーを適用することで、それらのポリシーを無効にすることができます。</block>
   <block id="65b0401d3f724e2259009131f8634056" category="paragraph">BYOLをセットアップするか、PAYGOサブスクリプションを購入すると、BlueXP  デジタルウォレット*データサービスライセンス*タブでライセンスを確認するか、BlueXP  デジタルウォレット*サブスクリプション*タブでアクティブなサブスクリプションを確認できます。</block>
   <block id="81ecb148314373b6868cc327725a5c74" category="paragraph">無料トライアルが終了した後、またはライセンスまたはサブスクリプションの有効期限が切れた後も、サービスで次のことを行うことができます。</block>
-  <block id="15ac9f54f9fb2140c2336e6aa6dfc7c0" category="paragraph">BlueXP  ランサムウェア対策を使用するには、次の前提条件が必要です。</block>
   <block id="a83f1ed3639378d8a5c8766fc08ab842" category="section-title">BlueXP  の場合</block>
-  <block id="d373cf4cd1bda4abc274d13ad2831391" category="list-text">オンプレミスのNetApp ONTAPクラスタまたはAWSまたはAzureのCloud Volume ONTAP（NASまたはCIFSプロトコルを使用）を含む少なくとも1つのBlueXP  作業環境。</block>
-  <block id="437052b46bb04e16e3617994a6dc3e3b" category="list-text">ONTAP OSバージョン9.11.1以降のONTAPまたはCloud Volume ONTAPクラスタがサポートされます。</block>
-  <block id="1c65e968a7f40931fc801e74436f80f4" category="list-text">オンプレミスのONTAPクラスタまたはAWSまたはAzureクラウドのCloud Volume ONTAPがBlueXP  にまだオンボードされていない場合は、BlueXP  Connectorが必要です。</block>
   <block id="2859350d666beccb5f7f3adcb55da72a" category="inline-link">BlueXP  Connectorの設定方法</block>
   <block id="d6533074153f439dd193d8acd5343357" category="paragraph">およびを参照してください<block ref="56433f466b3d2b557361e0cd67da19f4" category="inline-link-rx"></block><block ref="2954ccba2c34ed9319cfb7bdfb096d90" category="inline-link-rx"></block>。</block>
   <block id="2501cbb4187a9a6c7f42f035596578a4" category="section-title">ONTAP 9.11.1以降</block>
   <block id="0c62671cec4cc1d20210f98a3f9fc05f" category="list-text">保護設定を適用するには（自律型ランサムウェア対策などの有効化）、BlueXP  ランサムウェア対策には、ONTAPクラスタに対する管理者権限が必要です。ONTAPクラスタのオンボードには、ONTAPクラスタ管理者のユーザクレデンシャルのみを使用する必要があります。</block>
   <block id="1af62e464c9d7b123ffec7775c4c5385" category="list-text">ONTAPクラスタが管理者以外のユーザクレデンシャルを使用してBlueXP  にすでにオンボードされている場合は、このページで説明するONTAPクラスタにログインして、管理者以外のユーザの権限を必要な権限で更新する必要があります。</block>
   <block id="ed5ce0cb12bbc7e366d04460145d59f3" category="section-title">テエタハツクアツフ</block>
-  <block id="c9a3ad38b8e178a9206f6010b5029c98" category="list-text">バックアップターゲットおよびアクセス権限セット用のNetApp StorageGRID、AWS S3、またはAzure Blobのアカウント。</block>
   <block id="d2e3e802d3f25894bd170688859d6cef" category="inline-link">AWS、Azure、S3の権限リスト</block>
   <block id="ac4fdc4198bc2cc800bf5c56ef9956c6" category="paragraph">詳細については、を参照して<block ref="bd599500598cefd5a0de11f99f2bd899" category="inline-link-rx"></block> ください。</block>
   <block id="6ad42ccda7c2a073bfd383bb76ce7c88" category="list-text">作業環境でBlueXP  バックアップおよびリカバリサービスを有効にする必要はありません。</block>
@@ -993,18 +954,12 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="f41322f9f14cdcdf41a427fbee652476" category="section-title">ONTAP作業環境での管理者以外のユーザ権限の更新</block>
   <block id="8297305d42008c5892a2f344fb12572c" category="paragraph">特定の作業環境で管理者以外のユーザ権限を更新する必要がある場合は、次の手順を実行します。</block>
   <block id="64e55ed1c9910b83fdba604d01c14d94" category="list-text">作業環境をダブルクリックして詳細を表示します。</block>
-  <block id="fd9987b033d105239454a8b09bbfc1d7" category="list-text">ユーザ名を表示する*[追加情報を表示]*をクリックします。</block>
   <block id="9fe71dce626bd006ff641fd38ed29790" category="list-text">管理者ユーザを使用してONTAPクラスタCLIにログインします。</block>
   <block id="af2fd7f57e628b460dd2978fa6cf0a79" category="list-text">そのユーザの既存のロールを表示します。入力：</block>
   <block id="ec2732dacf33a5e90fbcf1cf42cb9ef7" category="list-text">ユーザのロールを変更します。入力：</block>
   <block id="2d5422701fe060f1b4df91101404e4ba" category="list-text">BlueXP  ランサムウェア対策UIに戻って使用します。</block>
   <block id="bbb730a044e88545c3476ffea030b9f1" category="list-text">ダッシュボードの各ペインでは、次の操作を実行できます。</block>
-  <block id="a0d3acda8b40798d6b03c633ead12276" category="cell">脅威レポートを作成するには、SEIMに接続してください。</block>
   <block id="c00b830d377d62d0c3d20c11bcd0ce1e" category="cell">脅威検出をイネーブルにするには、SIEM/XDRサーバの詳細を入力します。を参照してください <block ref="9f0b279394cf25f00a608a52b5aed0b2" category="inline-link-macro-rx"></block>。</block>
-  <block id="31d09a40fac7ed173c873af34fa091e3" category="paragraph">現在のワークロード保護に基づいて保護ポリシーを変更できます。</block>
-  <block id="62f5dde62c0a3fd5031230003e689f50" category="list-text">* NetAppアプリケーションで保護されていないワークロード*：これらのワークロードは、SnapCenter、SnapCenter Plug-in for VMware vSphere、BlueXP  のバックアップとリカバリでは管理されません。このようなワークロードでは、ONTAPやその他の製品の一部としてSnapshotが作成される場合があります。ONTAPのFPolicy保護が設定されている場合は、ONTAPを使用してFPolicyの保護を変更できます。</block>
-  <block id="2dc2810cd1eba83b7cb91a8a6ce61d1e" category="list-text">* NetAppアプリケーションによる既存の保護が適用されるワークロード*：これらのワークロードには、SnapCenter、SnapCenter for VMware vSphere、またはBlueXP  バックアップ/リカバリで管理されるバックアップポリシーまたはSnapshotポリシーが適用されます。</block>
-  <block id="8b4535b61df88d36c1c7fe4fa465a975" category="section-title">[Protection]ページでの保護の詳細</block>
   <block id="2849b9294b844719ab6e63ff0e8d64a0" category="list-text">*リスクあり*：ポリシーは適用されません。ワークロードでプライマリ検出ポリシーが有効になっていない場合は、Snapshotポリシーとバックアップポリシーが有効になっていても「リスク」になります。</block>
   <block id="af7c29ca6782b7ae5d91d2eb4d1c1dbd" category="admonition">BlueXP  ランサムウェア対策で保護を有効にすると、ランサムウェア検出ポリシーのステータスがラーニングモードからアクティブモードに変わった後にアラート検出とレポートが開始されます。</block>
   <block id="f6de47008760d29836d5758a5a06bf0f" category="section-title">[Settings]ページに直接アクセスする</block>
@@ -1064,38 +1019,24 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="ed1df3b69f10d586e5712ba9ce41d501" category="cell">NetAppデジタルアドバイザは、少なくとも1つの高または重大なセキュリティリスクを特定しました。</block>
   <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">Digital Advisorのドキュメント</block>
   <block id="c422252635de9cce46903202ef695202" category="cell">NetAppデジタルアドバイザですべてのセキュリティリスクをレビューします。を参照してください<block ref="5d1aa2fae9958ef5ced45eec5d13d250" category="inline-link-rx"></block>。</block>
-  <block id="fce50e2060d77397ad723b03afeed2c1" category="paragraph">変更可能な保護ポリシーに関する情報や保護戦略に含まれるポリシーのタイプを確認すると役立つことがあります。</block>
-  <block id="e38a78b6f8fec891a76f3e95f74a807d" category="paragraph">*どの保護ポリシーを変更できますか？*</block>
-  <block id="683e243f289e56afa9f8815dcba452b6" category="list-text">SnapCenter、SnapCenter for VMware、またはBlueXP  のバックアップとリカバリでSnapshotポリシーやバックアップポリシーを管理している場合は、それらのアプリケーションで引き続き管理されます。BlueXP  ランサムウェア対策を使用すると、これらのワークロードにランサムウェア検出ポリシーを適用することもできます。</block>
-  <block id="ddf41a90dae9aa0dcf13fb9a5696b612" category="paragraph">*ランサムウェア対策戦略で必要なポリシーはどれですか？*</block>
   <block id="fcfaa1717a25ca0b7a0ee4d01c88d881" category="paragraph">* Snapshotポリシーとバックアップポリシー*：この列には、ワークロードに適用されているSnapshotポリシーとバックアップポリシー、およびそれらのポリシーを管理している製品またはサービスが表示されます。</block>
   <block id="6041f003f0f1bda39024283f18c8591b" category="list-text">Snapshotとバックアップを管理するランサムウェア対策ポリシーの名前</block>
   <block id="0b780e70f563e19cd1a3f1e2bce2f198" category="paragraph">*ワークロードの重要性*</block>
   <block id="5ec126ed52a75d2edc80f9bc2cb1daaa" category="paragraph">BlueXPのランサムウェア対策では、各ワークロードの分析に基づいて、検出時に各ワークロードの重要度や優先度を割り当てます。ワークロードの重要度は、次のSnapshot作成頻度によって決まります。</block>
-  <block id="dd4a303384788280a3dc067d27182365" category="paragraph">*事前定義された検出ポリシー*</block>
   <block id="3483881dbe027d2b6694af9c606b5075" category="paragraph">次のいずれかのBlueXP  ランサムウェア対策事前定義ポリシーを選択でき、ワークロードの重要性に応じて調整できます。</block>
   <block id="39531fdceaea662abd6669cba8f989fc" category="cell">Snapshotコピーの数</block>
   <block id="c6b8cedaee837159aadd999ac609755e" category="cell">Snapshotコピーの最大総数</block>
   <block id="fe661c5d6ba0af0ece684143c7da827e" category="paragraph">ワークロードと整合性のある保護を有効にしたら、BlueXPのランサムウェア対策で保護戦略を管理できます。保護戦略には、他の場所で管理されるSnapshotポリシーとバックアップポリシー、およびBlueXP  ランサムウェア対策で管理されるランサムウェア検出ポリシーが含まれます。</block>
   <block id="cebfa4409b0603554b2d559a348328f3" category="list-text">[Protection]ページの[snapshot policies]列で詳細を確認して、別の場所でポリシーが管理されていることを確認します。</block>
   <block id="cf077fd7afe54e3a0c2d1f4f171b9592" category="section-title">ランサムウェア対策戦略を追加</block>
-  <block id="54bdf309cd573298347b047ca6b07740" category="paragraph">ワークロードにランサムウェア対策戦略を追加できます。この方法は、Snapshotポリシーとバックアップポリシーがすでに存在するかどうかによって異なります。</block>
-  <block id="4a3696472e41e77b4b20caa5facc276d" category="list-text">*スナップショットポリシーやバックアップポリシーがない場合は、ランサムウェア対策戦略を作成*。ワークロードにSnapshotポリシーやバックアップポリシーがない場合は、ランサムウェア対策戦略を作成できます。この戦略には、BlueXP  ランサムウェア対策で作成する次のポリシーを含めることができます。</block>
-  <block id="4da508e2244295be47c269e0c9fbc299" category="list-text">*スナップショットポリシーとバックアップポリシー*がすでに設定されているワークロードに対して検出ポリシーを作成します。これらのポリシーは、他のNetApp製品またはサービスで管理されています。検出ポリシーでは、他の製品で管理されているポリシーは変更されません。</block>
   <block id="1b49dfb35b7ec360208537cc7e5a9d62" category="section-title">ランサムウェア対策戦略を作成する（Snapshotポリシーやバックアップポリシーがない場合）</block>
   <block id="c05b10a2aa016dc0b1a5a65345a1f104" category="paragraph">ワークロードにSnapshotポリシーやバックアップポリシーがない場合は、ランサムウェア対策戦略を作成できます。この戦略には、BlueXP  ランサムウェア対策で作成する次のポリシーを含めることができます。</block>
   <block id="a5be5d648ce22c25337cedcc760abd3c" category="inline-image-macro">[Snapshot]セクションを示す[Add strategy]ページ</block>
   <block id="3c47a09fd51a5bf078b6b75c88195ad8" category="paragraph"><block ref="3c47a09fd51a5bf078b6b75c88195ad8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="564554ffee3adeca7b5ef87876d33434" category="list-text">*ファイル拡張子をブロック*:これを有効にすると、既知の疑わしいファイル拡張子がサービスブロックされます。プライマリ検出が有効になっている場合、このサービスは自動スナップショットコピーを作成します。</block>
-  <block id="3337aa01d12ee5674f3cecbfe3340bfb" category="list-text">* Snapshotポリシーのベース名*：ポリシーを選択するか*[作成]*を選択してSnapshotポリシーの名前を入力します。</block>
   <block id="db1a1db15ec89ce3f1720ebaa5e16708" category="list-text">* Snapshotロック*：このオプションを有効にすると、プライマリストレージ上のSnapshotコピーがロックされ、ランサムウェア攻撃を受けてバックアップ先にたどり着いた場合でも、一定期間変更や削除ができないようになります。これは_不変ストレージ_とも呼ばれます。これにより、リストア時間が短縮されます。</block>
   <block id="adffa2f644199b61c95070a8e5f0b6a4" category="paragraph">Snapshotがロックされると、ボリュームの有効期限はSnapshotコピーの有効期限に設定されます。</block>
   <block id="32d9d253b967fa9a09765582b443ab9f" category="list-text">* Snapshotスケジュール*：スケジュールオプションと保持するSnapshotコピーの数を選択し、スケジュールを有効にする場合に選択します。</block>
-  <block id="e374f6a40f572d1199dd953ededcc9f5" category="section-title">Snapshotポリシーとバックアップポリシーがすでに設定されているワークロードに検出ポリシーを追加する</block>
-  <block id="29d7e895cea79705d94089f726977763" category="paragraph">BlueXP  ランサムウェア対策では、Snapshotポリシーとバックアップポリシーがすでに設定されているワークロードにランサムウェア検出ポリシーを割り当てることができます。これらのポリシーは、他のNetApp製品やサービスで管理されます。検出ポリシーでは、他の製品で管理されているポリシーは変更されません。</block>
-  <block id="8567d109509afd34b92567c97e30d51a" category="list-text">スナップショットを管理するポリシー</block>
-  <block id="77b389df5a36dfb9672167bb6f9adfa6" category="list-text">他の場所で管理されているスナップショットポリシーとバックアップポリシーに加えて検出ポリシーを適用するには、検出ポリシーを選択します。</block>
-  <block id="33fe9dbf95e38dedb3c8458045ea1cc5" category="list-text">[Protection]ページで、[Detection policy]列を確認して、割り当てられた検出ポリシーを確認します。また、スナップショットポリシーとバックアップポリシーの列には、ポリシーを管理している製品またはサービスの名前が表示されます。</block>
   <block id="f3d0cde08790f065a5bc8c494e512b95" category="section-title">ランサムウェア対策戦略の管理</block>
   <block id="b7c78f5e474c6b8d64bb9440e0c2207c" category="section-title">ランサムウェア対策戦略で保護されているワークロードを表示する</block>
   <block id="ce1be6d505f661c5110f1445e0bf19ba" category="paragraph">ワークロードは、戦略のリストから表示するか、特定の戦略を編集するときに表示できます。</block>
@@ -1121,7 +1062,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="5c6a145c454aef23e256b2459f8c4c75" category="paragraph"><block ref="e1153028bb0f55bf33080551a5d7f6f3" category="inline-link-rx"></block>です。</block>
   <block id="c7038711405bbbe2f0f37c53c5eb81ad" category="inline-link">ロールベースアクセス制御Privileges</block>
   <block id="edf15150f2ed24145a29e67792372ecc" category="paragraph">各ロールで実行できるアクションの詳細については、を参照してください<block ref="03cd1069228e8895d221bed8eef34f69" category="inline-link-rx"></block>。</block>
-  <block id="f408bca27d184a4c16751c8a466fdbd5" category="list-text">ランサムウェア対策戦略を削除</block>
   <block id="317bbac6055df0ef617acb0406fbde5b" category="list-text">*保護*：BlueXP  ランサムウェア対策における保護とは、保護ポリシーを使用して、スナップショットや変更不可のバックアップを別のセキュリティドメインに定期的に実行することを意味します。</block>
   <block id="e7d05f872780d58e08011a44ce4be77b" category="doc">BlueXP  分類を使用して、個人を特定できる機密データをスキャン</block>
   <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="inline-link">BlueXPの分類について説明します</block>
@@ -1150,34 +1090,22 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="f8307a8be7170a599a441165be60a2d7" category="cell">低または中</block>
   <block id="655d20c1ca69519ca647684edbb2db35" category="paragraph">高</block>
   <block id="f5bfc54a73042ca571add47438fea77e" category="cell">「標準」または「重要」から「重要」への変更</block>
-  <block id="c39a37a7df296279dc521553fc906d98" category="list-text">ランサムウェア対策戦略を作成または管理します。この戦略には、Snapshot、バックアップ、ランサムウェア対策用に作成するポリシー（_detection policies_）が含まれます。</block>
-  <block id="1eadddc9d91e496dbb866d7f860980b3" category="list-text">ファイル共有をグループ化すると、ワークロードを個別に保護するのではなく、簡単に保護できます。</block>
-  <block id="311eb3db2bcf5936c110b8f424329f53" category="paragraph">*保護にはどのサービスが使用されていますか？*保護ポリシーの管理には次のサービスを使用できます。これらのサービスからの保護情報は、BlueXP  ransomware protectionに表示されます。</block>
   <block id="e73ca9305dfbbe468d9b5345bda92144" category="list-text">ファイル共有、VMファイル共有のBlueXP  バックアップとリカバリ</block>
   <block id="e10a2e4ef1f3cc661e89aa47c1655787" category="list-text">VMデータストア用のVMware SnapCenter</block>
   <block id="4a7e813ec2cbdfc4d32fb9d8fe51caf8" category="list-text">OracleおよびMySQL向けSnapCenter</block>
   <block id="1c00777a5fc73931b43c8deab8cfa46e" category="inline-image-macro">戦略の管理</block>
   <block id="8c3e123759e77036cb4a9cc98934b5d5" category="paragraph"><block ref="8c3e123759e77036cb4a9cc98934b5d5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9ecdceb343294a7a296ceead052c3db6" category="section-title">グループファイル共有による保護の強化</block>
-  <block id="bde9948cee62f58e6a82d706989af01c" category="paragraph">ファイル共有をグループ化すると、データ資産の保護が容易になります。このサービスでは、各ボリュームを個別に保護するのではなく、グループ内のすべてのボリュームを同時に保護できます。</block>
   <block id="c0083e031f0cf112f85b91ba1e7e9ede" category="list-text">[保護]ページで、*[保護グループ]*タブを選択します。</block>
   <block id="eff1f461a10b29d3af110ea7c19ed170" category="inline-image-macro">[Protection Groups]ページ</block>
   <block id="eafdfecbaead6d931ea739364927dcc6" category="paragraph"><block ref="eafdfecbaead6d931ea739364927dcc6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6960d725adb16550e514e4fb6fa7e00c" category="inline-image-macro">[保護グループの追加]ページ</block>
   <block id="1aa2481b1a95ca9395aacf6b9a30a1c7" category="paragraph"><block ref="1aa2481b1a95ca9395aacf6b9a30a1c7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c00eea78dd35d73950f20580d2786ff1" category="list-text">保護グループの名前を入力します。</block>
-  <block id="d5645bdd26cb1c7cd7fc2462048eb19a" category="list-text">次のいずれかの手順を実行します。</block>
-  <block id="7891f8e2bd3fd5e5cd953a6b10727df3" category="list-text">保護ポリシーがすでに設定されている場合は、次のいずれかでワークロードが管理されているかどうかに基づいてワークロードをグループ化するかどうかを選択します。</block>
-  <block id="67ecb6c0a19888100e5352d06f886856" category="list-text">BlueXPのランサムウェア対策</block>
-  <block id="1b490212b32a4c3caf639731d1a92e0f" category="list-text">SnapCenterまたはBlueXP  のバックアップとリカバリ</block>
-  <block id="42de93f4e92831b4197dfe887f1fa120" category="list-text">保護ポリシーがまだ設定されていない場合は、設定済みのランサムウェア対策戦略がページに表示されます。</block>
-  <block id="2bfee3b4d31b6232853be7465ac69a0e" category="list-text">1つを選択してグループを保護し、*次へ*を選択します。</block>
-  <block id="c458f9efc96a3ab102f69f54f437302b" category="list-text">選択したワークロードに複数の作業環境にボリュームが含まれている場合は、複数の作業環境のバックアップ先を選択してクラウドにバックアップできるようにします。</block>
   <block id="376a69ac55505c1a623e25b54f405c37" category="list-text">グループに追加するワークロードを選択します。</block>
   <block id="a20680ff0c06974c898decf51eb23a95" category="admonition">ワークロードの詳細を確認するには、右にスクロールします。</block>
   <block id="f7ba12bb96df2ae9d69ffbf1bc2af6bb" category="inline-image-macro">[Add protection group]-[Policy]ページ</block>
   <block id="a739b6145911af1f850b745cae737475" category="paragraph"><block ref="a739b6145911af1f850b745cae737475" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="eeb66cc642f94e09fb2fea35f4da620a" category="list-text">このグループの保護を制御するポリシーを選択します。</block>
   <block id="0fc76de5572d1186f1358665dff6076f" category="list-text">保護グループの選択内容を確認します。</block>
   <block id="44264335870d783d6e7b840b5015b4b8" category="inline-image-macro">[保護グループの詳細]ページ</block>
   <block id="b65981674e374f9759dbdb3ca4f23faf" category="paragraph"><block ref="b65981674e374f9759dbdb3ca4f23faf" category="inline-image-macro-rx" type="image"></block></block>
@@ -1193,7 +1121,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="923d9e45e363794e64a67b73838142ac" category="list-text">グループを削除することを確認し、*[削除]*を選択します。</block>
   <block id="e299818a27e1f0221ee8f26b09166030" category="paragraph">ランサムウェア対策は削除できます。</block>
   <block id="74c3d5e9f3c5f4a3eb1732ac96ae76d8" category="paragraph">ランサムウェア対策戦略を削除する前に、その戦略で保護されているワークロードを確認することができます。</block>
-  <block id="bbc537f055749cfce71735203f0f8fdb" category="list-text">[Ransomware protection strategory]ページの[Protected workloads]列で、行の最後にある下矢印をクリックします。</block>
   <block id="b850d388555da9da0c8036cffa6c6951" category="list-text">[操作]メニューから*[ポリシーの削除]*を選択します。</block>
   <block id="60dd850afcb2a2d844806b3503dc20b0" category="paragraph">BlueXP  ランサムウェア対策でSIEMを有効にする前に、SIEMシステムを設定する必要があります。</block>
   <block id="53ff0c832c14f6bc98decd93490e2576" category="list-text">SIEMシステムのいずれかを選択します。</block>
@@ -1201,10 +1128,8 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="964635dcf6206ebb279b58d13cf69a92" category="section-title">2024年9月30日</block>
   <block id="a1c75029051cebc5ca5ea85a84cfc065" category="inline-link">ランサムウェア対策戦略におけるファイル共有ワークロードのグループ化の詳細</block>
   <block id="d67482bbf82ef9c339e44809ea9873b1" category="sidebar">ランサムウェア対策戦略でワークロードを保護</block>
-  <block id="7d491636abfe1c22299d387cd25b5297" category="list-text">* BlueXP  のNFSまたはCIFS作業環境を使用するオンプレミスのNetApp NASで、BlueXP  の組織、プロジェクト、BlueXP  コネクタにわたって、アプリケーションベース、ファイル共有、またはVMwareが管理するすべてのワークロードを特定します。次に、データの優先順位を分類し、ランサムウェア対策の強化に関する推奨事項を提供します。</block>
   <block id="28017f63775595195f8bc7296bf383df" category="paragraph">BlueXPのランサムウェア対策を使用するには、まずデータを検出する必要があります。調査中に、BlueXP  ランサムウェア対策は、組織内のすべてのBlueXP  コネクタとプロジェクトにわたって、作業環境内のすべてのボリュームとファイルを分析します。</block>
   <block id="581365c1705cc0acc9951fa2431b194f" category="paragraph">BlueXP  ランサムウェア対策のシリアル番号が必要です。この番号は、SOから確認するか、アカウントチームにお問い合わせください。</block>
-  <block id="6674b495a5c26c68ef2278fe3c1da714" category="list-text">オンプレミスのONTAPクラスタに接続する、またはAWSまたはAzureのCloud Volumes ONTAPに接続する、アクティブなBlueXP  Connectorが少なくとも1つあるBlueXP  組織。</block>
   <block id="ca455f87aae9ad05b9b56c1b2323a2c0" category="admonition">1つのBlueXP  組織に複数のBlueXP  コネクタがある場合、BlueXP  ランサムウェア対策サービスは、BlueXP  UIで現在選択されているコネクタ以外のすべてのコネクタのONTAPリソースをスキャンします。</block>
   <block id="a2522bc84ab4c15eaa356f762fb3afc8" category="list-text">BlueXP  にログインし、ONTAPユーザ権限を更新する必要がある作業環境を探します。</block>
   <block id="157728f4599cc3ddabf4c2d8076aa8c0" category="admonition">BlueXPコネクタが複数ある場合は、BlueXP UIに現在表示されているコネクタ以外のすべてのコネクタのデータがスキャンされます。このサービスは、この組織に関連付けられているすべてのプロジェクトとすべてのコネクタを検出します。</block>
@@ -1220,7 +1145,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">これらのNSSクレデンシャルは、特定のBlueXP  組織IDに関連付けられています。BlueXP  組織に属するユーザは、*[サポート]&gt;[NSS管理]*からこれらのクレデンシャルにアクセスできます。</block>
   <block id="978aa39e867fbe7badda46cb2834d11f" category="paragraph">プレビュー版では、オンプレミスのNASストレージ上のOracle、MySQL、VMデータストア、ファイル共有、およびCloud Volumes ONTAP on AWS（NFSプロトコルを使用）のアプリケーションベースのワークロードをBlueXP  組織全体で個別に保護し、Amazon Web Servicesクラウドストレージにデータをバックアップします。</block>
   <block id="72066c262bc44f1ada77598ec3915f18" category="sidebar">BlueXPランサムウェア対策は、ランサムウェアの保護、検出、リカバリのためのオーケストレーションサービスです。このサービスは、オンプレミスのNASストレージ上のOracle、MySQL、VMデータストア、ファイル共有のアプリケーションベースのワークロードや、Amazon Web ServicesのCloud Volumes ONTAP（NFSプロトコルとCIFSプロトコルを使用）をBlueXP  組織全体で保護し、Amazon Web Services（AWS）クラウドストレージまたはNetApp StorageGRIDにデータをバックアップします。</block>
-  <block id="248b0512a0978346a77e8e8124cf2634" category="admonition">2024年10月のリリースでは、BlueXP  ランサムウェア対策の新規導入に30日間の無償トライアルが提供されます。以前は、BlueXP  ランサムウェア対策は90日間の無償トライアルを提供していました。すでに90日間の無償トライアルを利用している場合は、90日間継続されます。</block>
   <block id="19bb2bd2050ae1b493e68252954c103c" category="paragraph">BlueXP  ランサムウェア対策サービスにはNetApp ONTAP Oneライセンスが必要です。</block>
   <block id="4d32d1cc8c36c71c8d57d570d802694f" category="list-text">Cloud Volumes ONTAP 9.12.1以降（Microsoft Azure用）（NFSプロトコルとCIFSプロトコルを使用）</block>
   <block id="63f202b7fcd80e9277a9e585cd35c7ae" category="list-text">30日間の無償トライアルにサインアップしてください。</block>
@@ -1513,10 +1437,8 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="e908284c251515cdeccdcceee2edd943" category="paragraph">このオプションを選択するには、Data Infrastructure Insightsワークロードセキュリティのライセンスが必要であり、BlueXP  ランサムウェア対策で有効にする必要があります。</block>
   <block id="c4594ac420411c136c07306b926ab110" category="paragraph">BlueXP  ランサムウェア対策でワークロードのセキュリティを有効にするには、次の手順を実行します。</block>
   <block id="65be46ab7235d388f0d005087a518abe" category="list-text">[Data Infrastructure Insights Workload security]でアラートをさらに調査するには、*[Investigate in Workload security]*リンクを選択します。</block>
-  <block id="769b88476b7cff9dc35cfc192348ed80" category="paragraph">[設定]*オプションにアクセスして、バックアップ先の設定、脅威検出の有効化、攻撃準備のドリルダウン、ワークロード検出の設定、Data Infrastructure Insightsワークロードセキュリティへの接続の設定を行うことができます。</block>
   <block id="2fdebc69dc6e7b0ee210d7c727cf37e2" category="list-text">準備訓練を実施してランサムウェア攻撃をシミュレートし、シミュレートされたランサムウェアアラートに対応します。詳細については、を参照してください <block ref="764586bbfc596fce1f2309fe8b2a42c0" category="inline-link-macro-rx"></block>。</block>
   <block id="3fdd6341b0ef86488ae1a773932c96c7" category="list-text">ワークロード検出を設定します。</block>
-  <block id="7b4447f64e0f45c79278d6c27e4b82f6" category="list-text">脅威の検出を有効にし、セキュリティおよびイベント管理システム（SIEM）を接続して脅威の分析と検出を行います。脅威検出を有効にすると、脅威分析のためにデータがSIEMに自動的に送信されます。</block>
   <block id="fd062f03b35e0850abe8729a63d5dfd8" category="section-title">ランサムウェア攻撃をシミュレート</block>
   <block id="32061d28c608414124c4b8a09cdbf743" category="paragraph">詳細については、を参照してください <block ref="764586bbfc596fce1f2309fe8b2a42c0" category="inline-link-macro-rx"></block>。</block>
   <block id="95f4d49dba3929bc4382593edcb20316" category="section-title">ワークロード検出の設定</block>
@@ -1573,9 +1495,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="1ad9a57c1d01d273fe16565461711c2b" category="paragraph">本サービスでは、BlueXP  ランサムウェア対策に固有の次のロールを使用します。</block>
   <block id="bdcfe1c3dfeb861ab87e4cc4b8edc1fc" category="list-text">*ランサムウェア対策管理者*：[保護]、[アラート]、[リカバリ]、[設定]、[レポート]の各タブでアクションを管理します。</block>
   <block id="fd20661221eb12c617e1586eea038921" category="list-text">*ランサムウェア対策ビューア*：ワークロードデータの表示、アラートデータの表示、リカバリデータのダウンロード、レポートのダウンロードが可能です。</block>
-  <block id="150ef0020312394b5d2aaedef375c98e" category="paragraph">すべてのBlueXP  サービスのBlueXP  プラットフォームでは、次のタイプのロールが使用されます。</block>
-  <block id="7e11a5ae1dc8d1f9fc96a3842452652f" category="list-text">*プラットフォームロール*を使用すると、ユーザーの管理、リソースへの割り当て、および他のプラットフォーム全体のアクションと一緒にロールを割り当てることができます。</block>
-  <block id="bf834e60211b6d166d9c8e4f07288eef" category="list-text">*データサービスの役割*は、特定のデータサービスに限定されます。ジョブに応じて、複数のデータサービスロールを割り当てることができます。BlueXP  ランサムウェア対策は、BlueXP  のデータサービスの1つです。</block>
   <block id="201c33f8708666e946fc8a93af563122" category="inline-link">BlueXP  のセットアップと管理に関するドキュメント</block>
   <block id="3f98c69b7a30e8738c9db0faf43b547a" category="paragraph">次の表に、BlueXP  ランサムウェア対策の各ロールで実行できるアクションを示します。</block>
   <block id="b60c44c6bbbb3793d0c08c34cd6e2382" category="cell">ダッシュボードとすべてのタブを表示</block>
@@ -1650,7 +1569,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="47e33d9ae6ff8d9d2f15f1368e181c32" category="list-text">プライマリストレージにおけるランサムウェア攻撃の可能性を検出し、自動化されたSnapshotコピーを追加で作成して最も近いデータリストアポイントを作成することで、異常なアクティビティに対応することから始まる、デュアルレイヤの検出機能を提供します。このサービスは、プライマリワークロードのパフォーマンスに影響を与えることなく、潜在的な攻撃をより詳細に特定する機能を提供します。</block>
   <block id="b1d747ad7060df692913a3b8e839735e" category="list-text">は、ONTAP、Autonomous Ransomware Protection（ONTAPのバージョンに応じてARPまたはARP / AI）、FPolicyなどのNetAppテクノロジや製品を使用して、Snapshotコピーを迅速に作成します。</block>
   <block id="7cfd5cf6018882dd4611eabb894b8b52" category="list-text">BlueXP  のバックアップとリカバリ、ONTAP、Autonomous Ransomware Protection（ARPまたはARP / AI）ONTAP、およびFPolicyのテクノロジとサービスを使用して、最適なスナップショットまたはバックアップを決定し、実際のRPA（Recovery Point Actual）を推奨します。</block>
-  <block id="b6d2ebd1cf10fedf838ed421106b740d" category="paragraph">すべてのBlueXP  プラットフォームロールの詳細については、を参照してください<block ref="6bffc5f2028d38b62e8412df031cefed" category="inline-link-rx"></block>。</block>
   <block id="dd039569367d819e345c8f6be240f7d8" category="paragraph">* BlueXPのランサムウェア対策はNetApp ONTAPで行われた保護設定を認識していますか？*はい。BlueXP  ランサムウェア対策では、ONTAPで設定されたSnapshotスケジュールが検出されます。</block>
   <block id="66c2a4e2a6f031ea74c393c1c9ef41a3" category="paragraph">* BlueXPのランサムウェア対策では、ワークロードデータの優先順位をどのように設定しますか？*データの優先順位は、作成されるSnapshotコピーとスケジュールされたバックアップによって決まります。</block>
   <block id="19c94ea5372746331c5809f6307cfa3d" category="paragraph">ワークロードの優先度（critical、standard、important）は、ワークロードに関連付けられた各ボリュームにすでに適用されているSnapshotの頻度によって決まります。</block>
@@ -1673,7 +1591,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="08ceca9f9a853977a5c71c8c66b68b55" category="inline-link">BlueXP  ランサムウェア対策の制限事項</block>
   <block id="eb745462fc54b055b8087d694fb01b5f" category="paragraph">サポートされるオプションについては、を参照して<block ref="875047b763859105fc2c6e622181cfbb" category="inline-link-rx"></block>ください。</block>
   <block id="bee08f23ca369b2595a89d6e84540438" category="paragraph">BlueXPランサムウェア対策では、無償トライアル、従量課金制サブスクリプション、お客様所有のライセンスを使用するなど、さまざまなライセンスプランを使用できます。</block>
-  <block id="8655f9570d9c12ec9ea2ae4026123720" category="list-text">Amazon FSx for NetApp ONTAPは、自律型ランサムウェア対策（ARP / AIではなくARP）を使用します。</block>
   <block id="1d6131f7ad87ad503cde9efa2561d2d8" category="admonition">ARP / AIにはONTAP 9.16以降が必要です。</block>
   <block id="ac36698324cb58e80610e027dc77d907" category="paragraph">ランサムウェア攻撃準備のドリルでONTAP 9.11.1ボリュームを選択すると、BlueXP  ランサムウェア対策がアラートで通知します。「clone-to-volume」オプションを使用してデータをリカバリし、ドリルをリセットすると、リセット操作は失敗します。</block>
   <block id="4662983aa04c5f2df5dded885a7f15c5" category="section-title">Amazon FSx for NetApp ONTAPの制限事項</block>
@@ -1689,9 +1606,7 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="d29d0373cd79b8e898203557819f515e" category="list-text">[Payment Methods]ページで、*[Subscribe]* for Google Cloud Platform Marketplace *を選択します。</block>
   <block id="4513e0585e6fa1797f2c21b150a14a89" category="list-text">Google Cloud Platform Marketplaceで、*[サブスクライブ]*を選択します。</block>
   <block id="9eec4c2f05425d810427a9b6f2efccd2" category="admonition">BlueXP  ランサムウェア対策のシリアル番号と、BlueXP  ランサムウェア対策がGoogle Cloud Platform Marketplaceでサブスクライブされていることを示すEメールが送信されます。</block>
-  <block id="0db03e668d4feaef689b9436d3ce8e4a" category="list-text">ランサムウェア検出ポリシーがAutonomous Ransomware Protection（ONTAPのバージョンに応じてARPまたはARP/AI）およびONTAPのFPolicyで管理されている場合、それらのワークロードは保護され、引き続きARPおよびFPolicyで管理されます。</block>
   <block id="375e52128c9aeb217244b1b9b6968d32" category="admonition">Amazon FSx for NetApp ONTAPのワークロードにはバックアップ先を使用できません。FSx for ONTAPバックアップサービスを使用してバックアップ処理を実行BlueXP  のランサムウェア対策ではなく、AWSのFSx for ONTAPでワークロードのバックアップポリシーを設定します。バックアップポリシーはBlueXP  ランサムウェア対策に表示され、AWSからは変更されません。</block>
-  <block id="87b9e3b79b73a66d142f8e50b9179137" category="admonition">SnapCenterまたはBlueXPのバックアップおよびリカバリサービスですでに保護ポリシーが設定されているワークロードについては、保護を編集することはできません。これらのワークロードに対して、BlueXP  ランサムウェアは、他のサービスですでにアクティブ化されている場合、自律型ランサムウェア対策とFPolicy保護を有効にします。、およびの詳細については、を参照して<block ref="f30128629f1afb4b75b9a7fc6de548bc" category="inline-link-rx"></block><block ref="eb41fa8ef2a588e65533beee945728a7" category="inline-link-rx"></block><block ref="591ebe16737e602cc342b68e859c040e" category="inline-link-rx"></block>ください。</block>
   <block id="463f5e1b668b83efc12cf4dbc90300ff" category="list-text">*保護*：ポリシーが適用されます。ワークロードに関連するすべてのボリュームでARP（ONTAPのバージョンに応じてARP / AI）が有効になります。</block>
   <block id="065ced4e95bc23c02a22f53b7d00da49" category="admonition">Amazon FSx for NetApp ONTAPのワークロードにはバックアップ先を使用できません。FSx for ONTAPバックアップサービスを使用してバックアップ処理を実行</block>
   <block id="8855742ef7ac60d26f35536e1d09aef9" category="section-title">2025年4月29日</block>
@@ -1712,7 +1627,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="670b6a838a9eab9baafd717669b2bcc5" category="paragraph">検出ワークフローで、BlueXP  ランサムウェア対策でサポート対象またはサポート対象外のワークロードにカーソルを合わせると、詳細が報告されます。これは、一部のワークロードがBlueXP  ランサムウェア対策サービスで検出されない理由を理解するのに役立ちます。</block>
   <block id="960c5f3106f70ebe4000fa5d5121f60f" category="paragraph">サービスで作業環境がサポートされない理由は数多くあります。たとえば、作業環境のONTAPバージョンが必要なバージョンよりも低い場合などです。サポートされていない作業環境にカーソルを合わせると、ツールチップに理由が表示されます。</block>
   <block id="e7aba228bdeba9407e415c5afb1137a2" category="paragraph">初期検出時にサポートされていない作業環境を表示し、その結果をダウンロードすることもできます。検出結果は、[設定]ページの*[ワークロード検出]*オプションでも確認できます。</block>
-  <block id="6c38ac425b1212da5d296521d2fe28f0" category="paragraph">BlueXP  ランサムウェア対策は、ランサムウェア攻撃からデータを保護するサービスです。このサービスは、オンプレミスのNASストレージにあるOracle、MySQL、VMデータストア、ファイル共有のアプリケーションベースのワークロード（NFSプロトコルとCIFSプロトコルを使用）に加え、BlueXP  for Amazon Web Services、Cloud Volumes ONTAP for Google Cloud、Cloud Volumes ONTAP for Microsoft AzureのアプリケーションベースのワークロードをCloud Volumes ONTAP組織全体で保護します。このサービスは、Amazon Web Services、Google Cloud、Microsoft Azureクラウドストレージ、NetApp StorageGRIDにデータをバックアップします。</block>
   <block id="b40b1dd517da35050c4de0c3b7a728db" category="list-text">従量課金制（PAYGO）サブスクリプションを購入して、Amazon Web Services（AWS）Marketplace、Google Cloud Marketplace、Microsoft Azure MarketplaceでNetAppインテリジェントサービスとBlueXP  ランサムウェア対策を利用できます。</block>
   <block id="c90f429b2fc82db14813e44ccf0893a7" category="paragraph">System ManagerのUI、API、またはCLIを使用して、検出ポリシーのARPを無効にすることができます。</block>
   <block id="231fd9de718f42c1c9e89368821092dd" category="section-title">その他のライセンス</block>
@@ -1737,10 +1651,7 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="960c237c5456a08952ee4a0c6bc67ab9" category="paragraph">BlueXPランサムウェア保護機能から、ファイル共有ワークロードにBlueXP分類を展開できます。「プライバシーの露出」列で「露出を特定」オプションを選択してください。分類サービスを有効にしている場合は、このアクションによって露出が特定されます。有効でない場合は、このリリースではダイアログボックスにBlueXP分類を展開するオプションが表示されます。「展開」を選択すると、BlueXP分類サービスのランディングページに移動し、サービスを展開できます。W</block>
   <block id="55d5a81a565b7cb4265c8c73ecd4aa37" category="inline-link">BlueXPの分類機能をクラウドに導入します</block>
   <block id="1ebb3fd0e37e111d097f72f481a8495f" category="paragraph">詳細については、 <block ref="3daa2f037f0ac9e3dc92dfaca32cdfd8" category="inline-link-rx"></block> BlueXPランサムウェア保護内でサービスを利用するには、 <block ref="92298fee5b4e50be64de76505f153d1a" category="inline-link-rx"></block> 。</block>
-  <block id="4f2046c1e5b35d574bdcb5bc07d165e4" category="paragraph">他のBlueXP  プラットフォームロールは、BlueXP  ランサムウェア対策ではビューアとして扱われます。たとえば、*ランサムウェア保護閲覧者* ロールでは、保護プランを表示することはできますが、BlueXP ランサムウェア保護でアクションを実行することはできません。</block>
   <block id="079f60e0743ee6f0520bab8bc27fd42b" category="paragraph">*必要な BlueXP ロール* 組織管理者、フォルダーまたはプロジェクト管理者、またはランサムウェア保護管理者のロール。 <block ref="c46fcff617e849cb6f8ded33051f7905" category="inline-link-rx"></block> 。</block>
-  <block id="59242f33127c0b7fdd04aa8fb2817208" category="paragraph">*サービスは何を発見しますか?*BlueXPのランサムウェア対策で、MySQLアプリケーション、Oracleアプリケーション、VMwareデータストア、ファイル共有を評価</block>
-  <block id="ffbc7a5ef47d60041a2da40547a10b6e" category="admonition">このサービスは、FlexGroup または iSCSI を使用するボリュームを持つワークロードを検出しません。</block>
   <block id="285036f6882f78d196725b37fb46af81" category="paragraph">BlueXP ランサムウェア保護は、サポートされている作業環境構成とサポートされていない作業環境構成の両方を検出し、ダッシュボードに表示します。</block>
   <block id="46ff02154e96494e2146ba48f0cf82a1" category="paragraph">このサービスは、現在のバックアップ保護、スナップショットコピー、NetApp Autonomous Ransomware Protectionのオプションを確認し、ランサムウェア対策を強化するための方法を推奨します。</block>
   <block id="66fde4240a0e74342b069b682c733504" category="paragraph">*ワークロードをどのように検出できますか?*次の操作を実行できます。</block>
@@ -1807,7 +1718,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="36903136d6a3578a94710b192f64284a" category="list-text">*ワークロード データ保護*: [保護] ページで、危険にさらされている、または保護されているすべてのワークロードを表示するには、[すべて表示] を選択します。保護レベルが保護ポリシーと一致しないと、ワークロードがリスクにさらされます。を参照してください <block ref="2b2daeeb32402291362fa9fa843a5c7e" category="inline-link-macro-rx"></block>。</block>
   <block id="e5555b9444433e46ec95e94a9e8611f1" category="admonition">「i」ノートを選択すると、このデータに関するヒントが表示されます。ワークロード制限を増やすには、この「i」ノート内の「*ワークロード制限を増やす*」を選択してください。これをクリックすると、BlueXP  サポートページが表示され、ケースチケットを作成できます。</block>
   <block id="3e68731452668c74a209b358c132dbaa" category="list-text">*アラートとワークロード データの回復*: [すべて表示] を選択すると、ワークロードに影響を与えたアクティブなインシデント、インシデントが解決された後に回復の準備ができているアクティブなインシデント、または回復中のインシデントが表示されます。を参照してください <block ref="a57b82018dcad508c33f5a5c54351028" category="inline-link-macro-rx"></block>。</block>
-  <block id="3fb4d6a9a31f174febadd5de028e7d58" category="list-text">*推奨されるアクション*: 保護を強化するには、各推奨事項を確認し、[確認して修正] を選択します。</block>
   <block id="41bf60aacff85fc3a6f5582156e8869c" category="inline-link-macro">ダッシュボードで保護の提案を確認する</block>
   <block id="fc21f844b3d14213e03663d544317aef" category="paragraph">見る<block ref="f1ff80e23a7fe8beb1fae2892663601f" category="inline-link-macro-rx"></block>または<block ref="2b2daeeb32402291362fa9fa843a5c7e" category="inline-link-macro-rx"></block> 。</block>
   <block id="a5de9bf94042d2a1742e7f78694e20d1" category="paragraph">BlueXPは、ダッシュボードへの前回のアクセス以降に追加された新しい推奨事項を24時間「新規」としてマークします。アクションは優先度順で表示され、最も重要なものが上部に表示されます。各推奨事項を確認し、対応または却下してください。</block>
@@ -1843,7 +1753,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="1a6fec67d952df4f80fda754ce7fbf87" category="paragraph">BlueXP 分類の詳細については、BlueXP 分類ドキュメントを参照してください。</block>
   <block id="14be330dd4ee8605216b5c6292b8fc1b" category="doc">BlueXPランサムウェア対策戦略でワークロードを保護</block>
   <block id="d339d11685047723e5986c552fd00e94" category="paragraph">BlueXP ランサムウェア保護でワークロード一貫性保護を有効にするか、ランサムウェア保護戦略を作成することにより、ランサムウェア攻撃からワークロードを保護できます。</block>
-  <block id="b5fdf2e7121e948197d90ead0e3c61dc" category="paragraph">*ワークロードをどのように保護できますか?*BlueXP ランサムウェア保護によるワークロードの保護には、次のタスクが含まれます。</block>
   <block id="74b4a55989c01fdf680bb95b29730fc5" category="doc">BlueXP ランサムウェア保護でランサムウェア攻撃から回復 (インシデントが中和された後)</block>
   <block id="97f09c7d2deb80b51dfacd1a8059abfa" category="doc">BlueXPランサムウェア保護のレポートをダウンロードする</block>
   <block id="229560de4c61096e275f68d7eda37c00" category="paragraph">*どのようなデータをダウンロードできますか?*次のいずれかのメインメニューオプションからファイルをダウンロードできます。</block>
@@ -1851,4 +1760,138 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="105c4d7cf6704d10a27fac5acd7333a3" category="paragraph">*設定ページで何ができますか?*[Settings]ページでは、次の操作を実行できます。</block>
   <block id="f27f1ce6df3e2ec2518f77e8e1a4a531" category="section-title">2025年6月9日</block>
   <block id="36eabf0873c4e7de41ebd02438b3b19f" category="sidebar">ランサムウェア攻撃を準備訓練でシミュレートする</block>
+  <block id="90b6690e6ff7c4f6c224ce1794630ced" category="doc">SANワークロードのサポート</block>
+  <block id="bbc67024ab73d889ccf53c2243f12ec0" category="paragraph">このリリースでは、BlueXP ransomware protectionに SAN ワークロードのサポートが追加されました。および CIFS ワークロードに加えて、SAN ワークロードも保護できるようになりました。</block>
+  <block id="b0be1d6aabf21f92b904023f7be7a58f" category="paragraph">詳細については、を参照してください <block ref="33be8222deb74c9ad42f0bbaa1bb9ee8" category="inline-link-macro-rx"></block>。</block>
+  <block id="e155741c288e2488f325db0165488b59" category="section-title">ワークロード保護の改善</block>
+  <block id="6221ab5554b5d3e0db095000c99ba117" category="paragraph">このリリースでは、データ保護の有無にかかわらずワークロードを保護するためのワークフローが改善されています。スナップショットやバックアップにSnapCenterやBlueXP backup and recoveryなどの他のNetAppデータ保護ツールを使用している場合、 BlueXP ransomware protectionがそれらを検出し、それらを管理するポリシーを維持できます。このリリースでは、それらのポリシーをBlueXP ransomware protectionポリシーに置き換えることも、既存のポリシーを引き続き使用することもできます。</block>
+  <block id="93fc7709d1644ed6e29ed01f149bda1b" category="paragraph">詳細については、を参照してください<block ref="188a19487c814fdd2606d06b97bea154" category="inline-link-rx"></block>。</block>
+  <block id="a67ce68ccac082ad54a552bdbcb6ecd7" category="section-title">Eメール通知</block>
+  <block id="3a60790dda30a91a55583973f6b71ca1" category="paragraph">BlueXP ransomware protectionが攻撃の可能性を検知すると、 BlueXP通知に通知が表示され、設定したメールアドレスにメールが送信されます。また、サービスは直ちにスナップショットを開始します。</block>
+  <block id="fa5ea5d07e6e245b2470f85837725f54" category="paragraph">この時点で、重大度と影響を受けるリソースをリストした電子メールを確認し、 BlueXP ransomware protectionの *アラート* タブで潜在的なリスクを確認する必要があります。</block>
+  <block id="284b692777b519f280cdc038cca76279" category="paragraph">BlueXP ransomware protectionでセキュリティおよびイベント管理 (SIEM) を構成した場合、サービスはアラートの詳細を SIEM システムに送信します。</block>
+  <block id="62addb7514a50d7194a434db543d1e3f" category="inline-link">検出されたランサムウェアアラートを処理する</block>
+  <block id="c9919fb4d12ef0868dc54924ba92c214" category="paragraph">詳細については、を参照してください<block ref="f5c08491560330056ed27a3a5a41c318" category="inline-link-rx"></block>。</block>
+  <block id="9f757ad28ed67f0f0c51cd1de91c8bbc" category="summary">BlueXP ransomware protectionサービスでは、サイバーセキュリティに関する関連情報を確認し、組織のサイバー攻撃に対する耐性を評価できます。また、データのセキュリティ強化に役立つアラートリストと修復手順も提供されます。</block>
+  <block id="841f32df73c3e26168caae171cbe303e" category="paragraph">ランサムウェア攻撃はデータへのアクセスをブロックし、攻撃者はデータのリリースや復号と引き換えに身代金を要求する可能性があります。IDCによると、ランサムウェアの被害者が複数のランサムウェア攻撃を受けることは珍しくありません。この攻撃により、1 日から数週間にわたりデータへのアクセスが中断される可能性があります。</block>
+  <block id="089ae557d982eb6beade74a8ca41d157" category="paragraph">BlueXP ランサムウェア対策は、ランサムウェア攻撃からデータを保護するサービスです。このサービスは、オンプレミスの NAS ストレージ (NFS および CIFS プロトコルを使用) と SAN ストレージ (FC、iSCSI、NVMe) 上の Oracle、MySQL、VM データストア、ファイル共有のアプリケーションベースのワークロード、および BlueXP 組織全体のCloud Volumes ONTAP for Amazon Web Services、 Cloud Volumes ONTAP for Google Cloud、 Cloud Volumes ONTAP for Microsoft Azure、 Amazon FSx for NetApp ONTAPBlueXP。このサービスは、Amazon Web Services、Google Cloud、Microsoft Azureクラウドストレージ、NetApp StorageGRIDにデータをバックアップします。</block>
+  <block id="6fc5bb0d0994c5bf599c08e6622f337b" category="list-text">BlueXP の組織、プロジェクト、 BlueXPコネクタ全体にわたって、 BlueXPのNetAppオンプレミス NAS (NFS または CIFS) SAN (FC、iSCSI、NVMe) 作業環境内のすべてのアプリケーションベース、ファイル共有、または VMware 管理のワークロードを *識別* します。次に、データの優先順位を分類し、ランサムウェア対策の強化に関する推奨事項を提供します。</block>
+  <block id="ffb4eafd58f87f5b5eb18565a2c3b556" category="paragraph">NetApp は、BlueXP ransomware protectionの試用版の使用に対して料金を請求しません。</block>
+  <block id="f21913194d161d5f18f710d992ba01aa" category="admonition">2024年10月のリリースでは、 BlueXP ransomware protectionの新規導入に30日間の無料トライアルが提供されます。以前は、 BlueXP ransomware protectionは90日間の無料トライアルを提供していました。すでに90日間の無料トライアルにご登録いただいている場合は、そのトライアルは90日間有効です。</block>
+  <block id="4282433f8f5c0e6acad137adab28f337" category="paragraph">BlueXP backup and recoveryとBlueXP ransomware protectionの両方をお持ちの場合、両方の製品で保護されている共通データについては、 BlueXP ransomware protectionに対してのみ課金されます。</block>
+  <block id="feccdf428c2b7a1a214161ac19c68ca0" category="list-text">BlueXPに接続されたすべての顧客のオンプレミス NAS (NFS および CIFS プロトコル)、SAN (FC、iSCSI、NVMe)、およびCloud Volumes ONTAPデータを検索します。</block>
+  <block id="26871f0800751ffb8b48674992b42dfe" category="list-text">VM、ファイル共有、ブロック ストレージ、データベースなどのワークロードのリカバリをアプリケーションの一貫性を保ちながらオーケストレーションします。</block>
+  <block id="78e699264ce91050e8afe900e83193b2" category="paragraph">BlueXP ransomware protectionを使用して、次の種類のバックアップ ターゲット、作業環境、ワークロード データ ソースに対するサイバー攻撃に対するデータの耐性を確認します:</block>
+  <block id="ec756c3d78ad9564b3bcd967a807328f" category="paragraph">BlueXPランサムウェアは、次の動作環境とバックアップ先をサポートしています:</block>
+  <block id="36471da59b7d9b72aa431fd1f5059d05" category="list-text">ONTAPバージョン 9.17.1 以降を搭載したオンプレミスのONTAP SAN (FC、iSCSI、NVMe プロトコルを使用)</block>
+  <block id="35042137939d246a1fd01199cb942d15" category="list-text">AWS、Google Cloud Platform、Microsoft Azure 向けのCloud Volumes ONTAP 9.17.1 以上 (FC、iSCSI、NVMe プロトコルを使用)</block>
+  <block id="54d1e9634870c74de38de33364a86d27" category="list-text">Amazon FSx for NetApp ONTAP は、自律型ランサムウェア保護 (ARP であり、ARP/AI ではありません) を使用します</block>
+  <block id="c231c2b9f4d999149380b14f4bd21a7e" category="admonition">以下はサポートされていません: FlexGroupボリューム、9.11.1 より前のONTAPバージョン、マウント ポイント ボリューム、マウント パス ボリューム、オフライン ボリューム、およびデータ保護 (DP) ボリューム。</block>
+  <block id="4f0550f066ae72bb8c24fc3f59c323bf" category="list-text">ブロックストレージ</block>
+  <block id="1a7895ae2bee7a37a6b57416cd5f54a8" category="paragraph">これらのロールは、 BlueXPサービスおよびデータ保護、ワークロード管理などのその他のサービスへのアクセスを制御するBlueXPプラットフォーム ロールに加えて提供されます。すべてのBlueXP プラットフォームロールの詳細については、を参照してください<block ref="6bffc5f2028d38b62e8412df031cefed" category="inline-link-rx"></block>。</block>
+  <block id="02c943314c7fe8d046b6b6eeeae47052" category="paragraph">*サービスは何を発見しますか?*BlueXP ransomware protectionは、MySQL アプリケーション、Oracle アプリケーション、VMware データストア、ファイル共有、ブロック ストレージを評価します。</block>
+  <block id="44cad5b7d20432019b9fc5e8909dd215" category="admonition">サービスは、 FlexGroupを使用するボリュームを持つワークロードを検出しません。</block>
+  <block id="60d4892569333f0927bf9b9888728e34" category="paragraph">BlueXP ransomware protectionは、Oracle、MySQL、ファイル共有、ブロック ストレージ、VM、VM データストアなどのワークロードを識別できます。</block>
+  <block id="257a27fc6cfece236e79eaf50edc04b8" category="paragraph">さらに、 SnapCenterまたはSnapCenter for VMware を使用している場合は、これらの製品でサポートされているすべてのワークロードもBlueXP ransomware protectionで識別され、 BlueXP ransomware protectionはワークロードの一貫性を保ちながらこれらを保護および回復できます。</block>
+  <block id="dc6b539ea91db1ed61395e7411438492" category="paragraph">BlueXP ransomware protectionを使用するには、前提条件を満たす必要があります。</block>
+  <block id="98a421437f587e2d95ac21e20e8f3bb9" category="list-text">オンプレミスのONTAPクラスターまたは AWS または Azure のCloud Volumes ONTAPに接続するアクティブなBlueXPコネクタが少なくとも 1 つあるBlueXP組織。</block>
+  <block id="2668bf2f2a620337d35d07b4c311e138" category="list-text">NetAppオンプレミスONTAPクラスタまたはAWSまたはAzureのCloud Volumes ONTAPを備えたBlueXP作業環境が少なくとも1つ必要です。BlueXP ransomware protectionは、NAS（NFSおよびSMB）とSAN（iSCSI、FC、NVMe）の両方のプロトコルをサポートします。</block>
+  <block id="fd90f947530ad3e6b6dfdb82ceff50cb" category="list-text">ONTAP OS バージョン 9.11.1 以降のONTAPまたはCloud Volumes ONTAPクラスターがサポートされています。</block>
+  <block id="7ea40a0c9f950a0c8c2ee16edd7f77f2" category="admonition">SAN ワークロードは、 ONTAP 9.17.1 以降でのみサポートされます。</block>
+  <block id="d00e098bc6c4321c2b684839ca74f01b" category="list-text">オンプレミスのONTAPクラスターまたは AWS または Azure クラウドのCloud Volumes ONTAPがまだBlueXPにオンボードされていない場合は、 BlueXPコネクタが必要です。</block>
+  <block id="0885a21123eeb2ad2e03289064c229ea" category="list-text">バックアップ ターゲットおよびアクセス権限セット用のNetApp StorageGRID、AWS S3、Azure Blob、または Google Cloud Platform のアカウント。</block>
+  <block id="ddf0d8cb7fa932ccfbf9231d4f27f992" category="list-text">ユーザー名を表示するには、「*追加情報を表示*」を選択します。</block>
+  <block id="4f858e67fc48b09c62f03c91ac157622" category="paragraph">BlueXP ransomware protectionが攻撃の可能性を検知すると、 BlueXP通知に通知が表示され、設定したメールアドレスにランサムウェア攻撃の可能性を知らせるメールが送信されます。また、サービスは直ちにスナップショットを開始します。この時点で、BlueXPのランサムウェア対策*アラート*タブで潜在的なリスクを確認する必要があります。</block>
+  <block id="4da187364d63bcda0c1ea8730221bf1a" category="admonition">SAN 環境の場合、警告は高エントロピーに基づいてのみ行われます。</block>
+  <block id="fdfe1c881a4c1b0fc74986ab458d8937" category="admonition">設定ページでBlueXP ransomware protectionのセキュリティおよびイベント管理システム (SIEM) を構成した場合、サービスはアラートの詳細を SIEM システムに送信します。</block>
+  <block id="96f2e06ea6a3042c6d492dfbd3ef6aeb" category="list-text">次のいずれかに進みます:</block>
+  <block id="9b317c5e8c93afadbc7755c407538945" category="section-title">アラートメールに返信する</block>
+  <block id="5f60b68810e8991ab3c9dd3466247e47" category="paragraph">BlueXP ransomware protectionは、潜在的な攻撃を検出すると、サブスクリプションの通知設定に基づいて、登録ユーザーにメール通知を送信します。メールには、重大度や影響を受けるリソースなど、アラートに関する情報が記載されています。</block>
+  <block id="d108c441c3c4aa46e131d69441a8fbff" category="paragraph">BlueXP ransomware protectionのアラートに関するメール通知を受け取ることができます。この機能により、アラートの内容、重大度、影響を受けるリソースに関する情報を常に把握できます。</block>
+  <block id="def7f3eac7eed1dada5cdcd2951ede36" category="inline-link">Eメール通知を設定します</block>
+  <block id="afe1e86b0fa28a987f6f134c9a552280" category="admonition">メール通知を購読するには、<block ref="cc336e2e43ff14a29a8dbeb64864077d" category="inline-link-rx"></block> 。</block>
+  <block id="c751b6dbeb8c89afb2a6a080234189dc" category="list-text">BlueXP ransomware protectionで、設定 ページに移動します。</block>
+  <block id="ed6e52d47993626528f7c48bb20927cd" category="list-text">*通知*の下で、電子メール通知設定を見つけます。</block>
+  <block id="581a71037b750a62c75558dfea9bae72" category="list-text">アラートを受信するメールアドレスを入力します。</block>
+  <block id="345e93a96b6e66cb9274dbad975c0db2" category="list-text">変更を保存します。</block>
+  <block id="ea9dd721e10f4a1fefec35d95c57efc7" category="paragraph">新しいアラートが生成されると、電子メール通知が届くようになります。</block>
+  <block id="e66d9f5613065312cf1d46114b193ed7" category="list-text">メールを表示します。</block>
+  <block id="ade6d0cb5a6e7ae530d20bd529c64e8b" category="list-text">メールで「アラートを表示」を選択し、 BlueXP ransomware protectionにログインします。</block>
+  <block id="9d425c6001c325d2240cf2219c5c8111" category="paragraph">Alerts ページが表示されます。</block>
+  <block id="ebce9876dfa9cc6dfd0e7d91d6a4ff2e" category="list-text">各アラートについて、各ボリュームのすべてのインシデントを確認します。</block>
+  <block id="2f2494e8d44ad82e6788144197a32c92" category="list-text">その他のアラートを確認するには、左上のパンくずリストにある* Alert *をクリックします。</block>
+  <block id="f9a5e70d083b4b276ca27983e0da35c8" category="admonition">これらの詳細はNASワークロードで表示可能です。環境ではエントロピーデータのみが利用可能です。</block>
+  <block id="01ee1fb42827033e1ee6460d34d24118" category="list-text">*推奨されるアクション*: 保護を強化するには、各推奨事項を確認し、確認して修正を選択します。</block>
+  <block id="ddbb9fa44f09efeb718a317e736340b1" category="cell">脅威レポートを作成するには、SIEMに接続してください。</block>
+  <block id="d2bca437de1e1d1db4628d6306421ade" category="list-text">推奨されるアクション] ペインから推奨事項を選択し、[*確認して修正*] を選択します。</block>
+  <block id="f34a80cb389a208db15e7ae434fbddf2" category="list-text">*レポート* オプションを選択した場合は、事前設定された名前付きファイルの 1 つを選択し、*ダウンロード (CSV)* または *ダウンロード (JSON)* を選択します。</block>
+  <block id="308fd5c5b7d26e15f08bb886b60ccb51" category="section-title">BlueXP ransomware protection戦略を理解する</block>
+  <block id="cac26d13ab14c03bbc5ea1a763dd0665" category="paragraph">BlueXP ransomware protection戦略には、検出ポリシーと保護ポリシーの両方が含まれます。</block>
+  <block id="2488d8d558f933e2679b4f8a47bfe679" category="list-text">**検出ポリシー** はランサムウェアの脅威を検出し、オプションで疑わしいファイル拡張子をブロックします。</block>
+  <block id="b5728c1f0d5859e4bf3e89712b5ddbdf" category="list-text">**保護ポリシー**には、スナップショットポリシーとバックアップポリシーが含まれます。検出ポリシーとスナップショットポリシーは保護戦略に必須です。バックアップポリシーはオプションです。</block>
+  <block id="3b067c9915d343b00e35c08cf92e4936" category="paragraph">他のNetApp製品を使用してワークロードを保護している場合、 BlueXP ransomware protectionはそれらを検出し、次のいずれかのオプションを提供します:</block>
+  <block id="0e468f869572effeac4af4bbea21ed06" category="list-text">ランサムウェア検出ポリシーを使用し、他のNetAppツールによって作成されたスナップショットおよびバックアップポリシーを引き続き使用するか</block>
+  <block id="04d4ced91ee1f5ff8bcd97ce0279cc0b" category="list-text">BlueXP ransomware protectionを使用して、検出、スナップショット、およびバックアップを管理します。</block>
+  <block id="299dad2dd448d97ac3577bbf54e62bae" category="inline-link-macro">グループファイル共有</block>
+  <block id="fa3c8bf55340369ad7a673c1a81366a7" category="admonition">データ資産の管理と保護を強化するために、 <block ref="4a4ad3a4077a5a0070d8c24000f1c0b5" category="inline-link-macro-rx"></block> 1 つの戦略の下でボリュームをまとめて保護します。</block>
+  <block id="be96aa820e4d4c79150a1ea86f47ceb0" category="section-title">他のNetAppマネージドサービスとの保護ポリシー</block>
+  <block id="161e0aa09a2388b4c4c103d0bb43a26e" category="paragraph">BlueXP ransomware protectionに加えて、次のサービスを使用して保護を管理できます:</block>
+  <block id="cdd15946ee11b4a2b28ce36be183b4f5" category="paragraph">これらのサービスからの保護情報は、BlueXP ransomware protectionに表示されます。BlueXP ransomware protectionを使用して、これらのサービスに検出ポリシーを追加できます。BlueXP ランサム。BlueXP ransomware protectionで保護ポリシーを追加すると、既存の保護ポリシーが置き換えられます。</block>
+  <block id="f37d79a56cb20cdcf206acc1cfa8be14" category="paragraph">ランサムウェア検出ポリシーがONTAPの Autonomous Ransomware Protection（ ONTAP のバージョンに応じて ARP または ARP/AI）と FPolicy によって管理されている場合、それらのワークロードは保護され、引き続き ARP と FPolicy によって管理されます。</block>
+  <block id="d62f06f1ca9fb020be7953fe3101f0a3" category="section-title">NetAppアプリケーションによって保護されていないワークロードの保護ポリシー</block>
+  <block id="df35a5276591153eb0891ab21b80a90c" category="paragraph">ワークロードが BlueXP backup and recovery、 BlueXP ransomware protection、 SnapCenter、またはSnapCenter Plug-in for VMware vSphereによって管理されていない場合は、 ONTAPまたはその他の製品の一部としてスナップショットが取得されている可能性があります。ONTAPのFPolicy保護が設定されている場合は、ONTAPを使用してFPolicyの保護を変更できます。</block>
+  <block id="8a5042da8154d7b57ae6ca95c51af501" category="list-text">ブロックワークロード</block>
+  <block id="ded9559ad2d30f8a151f886151ea749c" category="admonition">見る<block ref="63a8fd9f713a393cc650fb6baf07f02c" category="inline-link-macro-rx"></block> SnapCenterまたはBlueXP backup and recoveryサービスで既存の保護ポリシーがある場合にBlueXP ransomware protectionを使用する方法について説明します。</block>
+  <block id="ea8dec8d3636bbf3ba7b767b038d9d54" category="section-title">保護ページを理解する</block>
+  <block id="48102e7d0a568223836c2d653abd58e5" category="paragraph">*定義済み検出ポリシー* [[定義済み]]</block>
+  <block id="16604b656f4d1b505cdab08ed2230dc8" category="list-text">BlueXP ransomware protectionからダッシュボードに移動し、検出プロセスを再度開始します。</block>
+  <block id="5a0562438e5d5b94d2b1f72b243b05b6" category="paragraph">ランサムウェア保護戦略を追加するには、次の 3 つのアプローチがあります:</block>
+  <block id="4f55a46d628f47452a1508b130bbaa08" category="list-text">**スナップショットまたはバックアップ ポリシーがない場合は、ランサムウェア保護戦略を作成します。**</block>
+  <block id="06c84d9fd2ec5293677c8364dc1b3da7" category="paragraph">ランサムウェア保護戦略には以下が含まれます:</block>
+  <block id="78e874a708785909191271944f144230" category="list-text">** SnapCenterまたはBlueXP backup and recoveryバックアップ ポリシーを、 BlueXP ransomware protectionによって管理される保護戦略に置き換えます。**</block>
+  <block id="a49a95f9a293b47d316bebea16d14e29" category="list-text">*他のNetApp製品またはサービスで管理されている既存のスナップショットおよびバックアップ ポリシーを使用して、ワークロードの検出ポリシーを作成します。*</block>
+  <block id="b7caa7f3615aea01fd626561bb13bda1" category="paragraph">検出ポリシーは、他の製品で管理されているポリシーを変更するものではありません。</block>
+  <block id="a37405512cb28a318d2dcd8070f185c4" category="paragraph">検出ポリシーは、他のサービスで既に有効化されている場合、自律ランサムウェア保護とFPolicy保護を有効にします。詳細はこちら<block ref="1b5ca5e6db0400e20efef2d18e2ed058" category="inline-link-macro-rx"></block> 、<block ref="5cec94a9d4ab1693a81e02d060566413" category="inline-link-macro-rx"></block> 、 そして<block ref="e579faf0a14efb59aa4bfe357406413f" category="inline-link-macro-rx"></block> 。</block>
+  <block id="f23b77237fe3a13c45d11aeb7e85a8cb" category="list-title">ランサムウェア対策戦略を作成する手順 [[手順]]</block>
+  <block id="2112d0c55db08c310d0929ecb4524b74" category="list-text">保護 ページでワークロードを選択し、[保護] を選択します。</block>
+  <block id="007ac2633329ecdb55692304050d9260" category="list-text">*スナップショット ポリシー ベース名*: ポリシーを選択するか、*作成* を選択してスナップショット ポリシーの名前を入力します。</block>
+  <block id="6f287502f955c38d84a7a6c6bb745a3b" category="section-title">SnapCenterまたはBlueXP backup and recoveryによって管理されている既存のスナップショットおよびバックアップ ポリシーを使用して、ワークロードに検出ポリシーを追加します</block>
+  <block id="8f71f26670eaf4a849b519c32bebd10f" category="paragraph">BlueXP ransomware protectionを使用すると、他のNetApp製品またはサービスで管理されている既存のスナップショットおよびバックアップ保護を使用しているワークロードに、検出ポリシーまたは保護ポリシーのいずれかを割り当てることができます。BlueXP backup and recoveryやSnapCenterなどの他のサービスでは、スナップショット、セカンダリストレージへのレプリケーション、オブジェクトストレージへのバックアップを管理するポリシーが使用されます。</block>
+  <block id="1a068d6a85d666ea306209409d3e8bca" category="section-title">既存のバックアップまたはスナップショット ポリシーを持つワークロードに検出ポリシーを追加する</block>
+  <block id="b2b9697bcd8704a92ea2adc3d5f10522" category="inline-xref">BlueXP ransomware protectionで保護</block>
+  <block id="8ebd773bb3e2b38b28b2d1c9308a786c" category="paragraph">BlueXP backup and recoveryまたはSnapCenterで既存のスナップショットまたはバックアップポリシーを使用している場合は、ランサムウェア攻撃を検知するためのポリシーを追加できます。BlueXP ransomware protectionで保護と検知を管理するには、以下を参照してください。 <block ref="ae3fab4cd25c7fbea7691447aa3e3b94" category="inline-xref-macro-rx"></block>。</block>
+  <block id="09c6435d6ace09bdb7d8fc52f7d5661e" category="list-text">保護 ページでワークロードを選択し、保護 を選択します。</block>
+  <block id="2b58f19f7e65c72a31c9208d9204d440" category="list-text">BlueXP ransomware protectionは、アクティブなSnapCenterまたはBlueXP backup and recoveryポリシーが存在しているかどうかを検出します。</block>
+  <block id="aa36bece069fe4c6f7d5879ceb22a205" category="list-text">既存のBlueXP backup and recoveryポリシーまたはSnapCenterポリシーをそのままにして、_検出_ ポリシーのみを適用するには、**既存のポリシーを置き換える** ボックスのチェックを外しておきます。</block>
+  <block id="346ced422939f5220048eed80e512829" category="list-text">SnapCenterポリシーの詳細を表示するには、*下矢印*を選択します。</block>
+  <block id="b358576fc12085fd0ff12deea2f027d9" category="paragraph">検出ポリシーを選択し、**保護** を選択します。</block>
+  <block id="24fae1821c4530c41f4af2d4f1f70175" category="list-text">保護 ページで、**検出ステータス** を確認し、検出がアクティブであることを確認します。</block>
+  <block id="b7030bdf920d25d873a03cdfa6b93f5b" category="section-title">既存のバックアップまたはスナップショットポリシーをBlueXP ransomware protection戦略に置き換えます</block>
+  <block id="259b078b779163ee180d7a6fd4ef88f4" category="paragraph">既存のバックアップまたはスナップショットポリシーをBlueXP ransomware protection戦略に置き換えることができます。このアプローチでは、外部管理されている保護を削除し、 BlueXP ransomware protectionで検出と保護を設定します。</block>
+  <block id="e942889ab2363c5bca1effa9f0e94002" category="list-text">BlueXP ransomware protectionは、 BlueXP backup and recoveryまたはSnapCenter の既存のアクティブなポリシーが存在するかどうかを検出します。既存のBlueXP backup and recoveryまたはSnapCenter のポリシーを置き換えるには、「**既存のポリシーを置き換える**」ボックスをオンにしてください。このボックスをオンにすると、 BlueXP ransomware protectionは検出ポリシーのリストを検出ポリシーに置き換えます。</block>
+  <block id="df03f91b3a74d5ec2baa41276e3a16de" category="inline-xref">保護ポリシーを作成する</block>
+  <block id="6254fbe0af1c355b3b21ba0edff9f802" category="list-text">保護ポリシーを選択してください。保護ポリシーが存在しない場合は、「**追加**」を選択して新しいポリシーを作成してください。ポリシーの作成方法については、以下をご覧ください。 <block ref="176be3a772dd966966fe67b132b5ec7b" category="inline-xref-macro-rx"></block>。** Next **を選択します。</block>
+  <block id="375396793fa0187dd9b04e12d4a0a7b3" category="list-text">バックアップ先を選択するか、新しいバックアップ先を作成します。** Next **を選択します。</block>
+  <block id="bd320a2d0a55e1edf2c57054719c7c15" category="list-text">新しい保護戦略を確認し、**保護** を選択して適用します。</block>
+  <block id="0fd65377e78b78ae68af3a3a26d93972" category="paragraph">既存のポリシーを別のポリシーに置き換えることができます。</block>
+  <block id="cd60c01e3ce2668bf812c1bc912e1cbc" category="list-text">ワークロードに既存のBlueXP backup and recoveryポリシーまたはSnapCenterポリシーがあり、それを維持したい場合は、「**既存のポリシーを置き換える**」のチェックを外してください。既存のポリシーを置き換えるには、「**既存のポリシーを置き換える**」のチェックを入れてください。</block>
+  <block id="66ec3353b28340ad300fda396a4ba1f1" category="list-text">「ポリシー」ページで、割り当てるポリシーの下矢印を選択して詳細を確認します。</block>
+  <block id="29864b11a88d292065fabaefa9c7fd21" category="list-text">変更を完了するには、保護 を選択します。</block>
+  <block id="05d2e9d365d69217e48a0bb68674e7fc" category="paragraph">ファイル共有を保護グループにグループ化することで、データ資産の保護が容易になります。このサービスでは、各ボリュームを個別に保護するのではなく、グループ内のすべてのボリュームを同時に保護できます。</block>
+  <block id="474fb3b92af99bc39d9dc410d68a7c9c" category="paragraph">保護状態（保護されていないグループと保護されているグループ）に関係なく、グループを作成できます。保護グループに保護ポリシーを追加すると、 BlueXP backup and recoveryとSnapCenterによって管理されているポリシーを含む既存のポリシーが新しい保護ポリシーに置き換えられます。</block>
+  <block id="d5fc4bf8c0e9a03cea6fbde26d8608f2" category="list-text">このグループの保護を管理するポリシーを選択します。</block>
+  <block id="eda3b9c0a863dbdeae5ac8cceaa9106b" category="section-title">グループ保護の編集</block>
+  <block id="109a3a62d5a108a8bab007233de0c046" category="paragraph">既存のグループの検出ポリシーを変更できます。</block>
+  <block id="ecfb3b2431beb33b5fe2ef7c83f7fb1b" category="list-text">保護 ページで 保護グループ タブを選択し、ポリシーを変更するグループを選択します。</block>
+  <block id="a26badbee19c22b720b3fd3aab2acb10" category="list-text">保護グループの概要ページで、*保護の編集*を選択します。</block>
+  <block id="2ff762148d68ddc135491ee1e6eebb11" category="list-text">適用する既存の保護ポリシーを選択するか、「**追加**」を選択して新しい保護ポリシーを作成します。保護ポリシーの追加の詳細については、を参照してください。 <block ref="176be3a772dd966966fe67b132b5ec7b" category="inline-xref-macro-rx"></block>.**保存** を選択します。</block>
+  <block id="5e98270982ef1359c1d22eb22e2503e8" category="list-text">バックアップ先の概要で、既存のバックアップ先を選択するか、**新しいバックアップ先を追加**します。</block>
+  <block id="b2eb460947dbe219806dbc27f478d291" category="list-text">変更内容を確認するには、**次へ** を選択します。</block>
+  <block id="b4f3b22ae011fb04bce785386b9d1062" category="list-text">「ランサムウェア保護戦略」ページの「保護されたワークロード」列で、行の末尾にある下矢印を選択します。</block>
+  <block id="f7c909c79472e02e68ad0d93011cfe0d" category="paragraph">プロセスはワークロードの種類によって異なります。</block>
+  <block id="46a7598fc73d53164244a0638ecf7951" category="admonition">SAN ワークロードの場合、ワークロードごとにのみ復元できます。</block>
+  <block id="bf5b382ecbd03d433a3417b0380fe861" category="paragraph">*設定* オプションにアクセスすることで、バックアップ先を構成したり、外部のセキュリティおよびイベント管理 (SIEM) システムへデータを送信したり、攻撃準備訓練を実施したり、ワークロード検出を構成したり、 Data Infrastructure Insights Workload Security への接続を構成したりすることができます。</block>
+  <block id="43360d747c31106b5dbf428088f9fabc" category="list-text">セキュリティおよびイベント管理システム（SIEM）を接続して、脅威の分析と検出を行います。脅威検出を有効にすると、脅威分析のためにデータがSIEMに自動的に送信されます。</block>
+  <block id="e82028134cc149b687f7fdb64684dbf7" category="section-title">脅威の分析と検出のためにセキュリティおよびイベント管理システム（SIEM）に接続する</block>
+  <block id="36981b3e282313667db719384f6f7a69" category="section-title">2025年7月15日</block>
 </blocks>

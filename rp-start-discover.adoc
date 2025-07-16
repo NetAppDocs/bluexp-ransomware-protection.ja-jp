@@ -16,10 +16,10 @@ BlueXPのランサムウェア対策を使用するには、まずデータを�
 
 *必要な BlueXP ロール* 組織管理者、フォルダーまたはプロジェクト管理者、またはランサムウェア保護管理者のロール。  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["すべてのサービスに対するBlueXPのアクセスロールについて学ぶ"^] 。
 
-*サービスは何を発見しますか?*BlueXPのランサムウェア対策で、MySQLアプリケーション、Oracleアプリケーション、VMwareデータストア、ファイル共有を評価
+*サービスは何を発見しますか?*BlueXP ransomware protectionは、MySQL アプリケーション、Oracle アプリケーション、VMware データストア、ファイル共有、ブロック ストレージを評価します。
 
 
-NOTE: このサービスは、FlexGroup または iSCSI を使用するボリュームを持つワークロードを検出しません。
+NOTE: サービスは、 FlexGroupを使用するボリュームを持つワークロードを検出しません。
 
 BlueXP ランサムウェア保護は、サポートされている作業環境構成とサポートされていない作業環境構成の両方を検出し、ダッシュボードに表示します。
 

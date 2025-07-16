@@ -83,9 +83,9 @@ link:rp-use-protect.html["ワークロードの優先順位または重要性"]�
 
 * BlueXP  ランサムウェア対策はどのようなワークロードをサポートしていますか？*
 
-BlueXP  ランサムウェア対策では、Oracle、MySQL、ファイル共有、VM、VMデータストアのワークロードを特定できます。
+BlueXP ransomware protectionは、Oracle、MySQL、ファイル共有、ブロック ストレージ、VM、VM データストアなどのワークロードを識別できます。
 
-さらに、お客様がSnapCenterまたはSnapCenter for VMwareを使用している場合、これらの製品でサポートされているすべてのワークロードがBlueXP  ランサムウェア対策で特定され、BlueXP  ランサムウェア対策でワークロードと整合性のある方法で保護およびリカバリできます。
+さらに、 SnapCenterまたはSnapCenter for VMware を使用している場合は、これらの製品でサポートされているすべてのワークロードもBlueXP ransomware protectionで識別され、 BlueXP ransomware protectionはワークロードの一貫性を保ちながらこれらを保護および回復できます。
 
 *どのようにしてデータをワークロードに関連付けますか？*
 

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: rp-reference-roles.html 
 keywords: ransomware protection, protect against ransomware attacks, anti-ransomware, role-based access control, rbac, role, permission, access rights, organization,project,account 
-summary: BlueXP  ランサムウェア対策では、Role-Based Access Control（RBAC；ロールベースアクセス制御）を使用して、特定の機能やアクションに対する各ユーザのアクセスを制御します。このサービスでは、BlueXP  ランサムウェア対策（RPS）に固有のロールを使用する。 
+summary: BlueXP  ランサムウェア対策では、特定の機能やアクションに対する各ユーザのアクセス権をロールで管理します。 
 ---
 = BlueXP  ランサムウェア対策機能へのロールベースアクセス
 :hardbreaks:
@@ -20,15 +20,7 @@ BlueXP  ランサムウェア対策では、特定の機能やアクション�
 * *ランサムウェア対策ビューア*：ワークロードデータの表示、アラートデータの表示、リカバリデータのダウンロード、レポートのダウンロードが可能です。
 
 
-すべてのBlueXP  サービスのBlueXP  プラットフォームでは、次のタイプのロールが使用されます。
-
-* *プラットフォームロール*を使用すると、ユーザーの管理、リソースへの割り当て、および他のプラットフォーム全体のアクションと一緒にロールを割り当てることができます。
-* *データサービスの役割*は、特定のデータサービスに限定されます。ジョブに応じて、複数のデータサービスロールを割り当てることができます。BlueXP  ランサムウェア対策は、BlueXP  のデータサービスの1つです。
-
-
-他のBlueXP  プラットフォームロールは、BlueXP  ランサムウェア対策ではビューアとして扱われます。たとえば、*ランサムウェア保護閲覧者* ロールでは、保護プランを表示することはできますが、BlueXP ランサムウェア保護でアクションを実行することはできません。
-
-すべてのBlueXP  プラットフォームロールの詳細については、を参照してください https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP  のセットアップと管理に関するドキュメント"^]。
+これらのロールは、 BlueXPサービスおよびデータ保護、ワークロード管理などのその他のサービスへのアクセスを制御するBlueXPプラットフォーム ロールに加えて提供されます。すべてのBlueXP プラットフォームロールの詳細については、を参照してください https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP  のセットアップと管理に関するドキュメント"^]。
 
 次の表に、BlueXP  ランサムウェア対策の各ロールで実行できるアクションを示します。
 

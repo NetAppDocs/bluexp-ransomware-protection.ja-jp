@@ -14,19 +14,23 @@ summary: お客様の環境、ネットワークアクセス、ログイン、We
 [role="lead"]
 運用環境、ログイン、ネットワークアクセス、Webブラウザの準備状況を確認して、BlueXPランサムウェア対策を始めましょう。
 
-BlueXP  ランサムウェア対策を使用するには、次の前提条件が必要です。
+BlueXP ransomware protectionを使用するには、前提条件を満たす必要があります。
 
 
 
 == BlueXP  の場合
 
 * リソースを検出するためのOrganization Admin Privilegesを持つBlueXP  ユーザアカウント。
-* オンプレミスのONTAPクラスタに接続する、またはAWSまたはAzureのCloud Volumes ONTAPに接続する、アクティブなBlueXP  Connectorが少なくとも1つあるBlueXP  組織。
+* オンプレミスのONTAPクラスターまたは AWS または Azure のCloud Volumes ONTAPに接続するアクティブなBlueXPコネクタが少なくとも 1 つあるBlueXP組織。
 * BlueXP  Connectorは、コンテナがアクティブな状態である必要があります `cloudmanager-ransomware-protection`。
-* オンプレミスのNetApp ONTAPクラスタまたはAWSまたはAzureのCloud Volume ONTAP（NASまたはCIFSプロトコルを使用）を含む少なくとも1つのBlueXP  作業環境。
+* NetAppオンプレミスONTAPクラスタまたはAWSまたはAzureのCloud Volumes ONTAPを備えたBlueXP作業環境が少なくとも1つ必要です。BlueXP ransomware protectionは、NAS（NFSおよびSMB）とSAN（iSCSI、FC、NVMe）の両方のプロトコルをサポートします。
 +
-** ONTAP OSバージョン9.11.1以降のONTAPまたはCloud Volume ONTAPクラスタがサポートされます。
-** オンプレミスのONTAPクラスタまたはAWSまたはAzureクラウドのCloud Volume ONTAPがBlueXP  にまだオンボードされていない場合は、BlueXP  Connectorが必要です。
+** ONTAP OS バージョン 9.11.1 以降のONTAPまたはCloud Volumes ONTAPクラスターがサポートされています。
++
+
+NOTE: SAN ワークロードは、 ONTAP 9.17.1 以降でのみサポートされます。
+
+** オンプレミスのONTAPクラスターまたは AWS または Azure クラウドのCloud Volumes ONTAPがまだBlueXPにオンボードされていない場合は、 BlueXPコネクタが必要です。
 +
 およびを参照してください https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["BlueXP  Connectorの設定方法"] https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["BlueXPの標準の要件"^]。
 
@@ -59,7 +63,7 @@ NOTE: BlueXPランサムウェア対策の一般リリースには、プレビ�
 
 == テエタハツクアツフ
 
-* バックアップターゲットおよびアクセス権限セット用のNetApp StorageGRID、AWS S3、またはAzure Blobのアカウント。
+* バックアップ ターゲットおよびアクセス権限セット用のNetApp StorageGRID、AWS S3、Azure Blob、または Google Cloud Platform のアカウント。
 +
 詳細については、を参照して https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["AWS、Azure、S3の権限リスト"^] ください。
 
@@ -77,7 +81,7 @@ BlueXPランサムウェア対策サービスは、[Settings]オプションを�
 
 . BlueXP  にログインし、ONTAPユーザ権限を更新する必要がある作業環境を探します。
 . 作業環境をダブルクリックして詳細を表示します。
-. ユーザ名を表示する*[追加情報を表示]*をクリックします。
+. ユーザー名を表示するには、「*追加情報を表示*」を選択します。
 . 管理者ユーザを使用してONTAPクラスタCLIにログインします。
 . そのユーザの既存のロールを表示します。入力：
 +

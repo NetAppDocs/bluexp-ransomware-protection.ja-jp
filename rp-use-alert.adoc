@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: rp-use-alert.html 
 keywords: ransomware protection alert, ransomware protection attack, detect ransomware alert 
-summary: 'BlueXP  ランサムウェア対策が攻撃の可能性を検出すると、BlueXP  ランサムウェア対策ダッシュボードに攻撃の可能性を示すアラートが表示されます。また、Snapshotコピーの作成もすぐに開始されます。この時点で、BlueXPランサムウェア対策の[Alerts]タブで潜在的なリスクを確認する必要があります。' 
+summary: 'BlueXP  ランサムウェア対策が攻撃の可能性を検出すると、BlueXP  ランサムウェア対策ダッシュボードに攻撃の可能性を示すアラートが表示されます。この時点で、BlueXPランサムウェア対策の[Alerts]タブで潜在的なリスクを確認する必要があります。' 
 ---
 = BlueXPランサムウェア保護で検出されたランサムウェアアラートを処理する
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 'BlueXP  ランサムウェア対策が攻撃の可能性を検出す�
 [role="lead"]
 BlueXPランサムウェア対策は、潜在的な攻撃を検知すると、ダッシュボードと通知エリアにアラートを表示します。サービスは直ちにスナップショットを作成します。BlueXPランサムウェア対策の[アラート]タブで潜在的なリスクを確認してください。
 
-BlueXP ransomware protectionが攻撃の可能性を検知すると、 BlueXP通知に通知が表示され、設定したメールアドレスにランサムウェア攻撃の可能性を知らせるメールが送信されます。また、サービスは直ちにスナップショットを開始します。この時点で、BlueXPのランサムウェア対策*アラート*タブで潜在的なリスクを確認する必要があります。
+BlueXP ransomware protectionが攻撃の可能性を検知すると、 「BlueXP通知」に通知が表示され、設定されたアドレスにメールが送信されます。メールには、深刻度、影響を受けるワークロード、そしてBlueXP ransomware protectionの「*アラート*」タブに表示されるアラートへのリンクが含まれます。
 
 誤検出を却下することも、データをすぐに回復することもできます。
 
@@ -152,12 +152,12 @@ Alerts ページが表示されます。
 BlueXP  ランサムウェア対策でワークロードセキュリティを有効にするには、*[設定]*ページに移動し、*[ワークロードセキュリティ接続]*オプションを選択します。
 
 +
-Data Infrastucture Insightsワークロードのセキュリティの概要については、を参照してください https://docs.netapp.com/us-en/data-infrastructure-insights/cs_intro.html["ワークロードセキュリティについて"^]。
+Data Infrastructure Insightsワークロードセキュリティの概要については、  https://docs.netapp.com/us-en/data-infrastructure-insights/cs_intro.html["ワークロードセキュリティについて"^] 。
 
 
 
 
-TIP: データインフラワークロードセキュリティのライセンスをお持ちでなく、BlueXP  ランサムウェア対策で有効にしていない場合、ユーザの異常な行動情報は表示されません。
+TIP: Data Infrastructure Workload Security のライセンスを所有しておらず、 BlueXP ransomware protectionで有効にしていない場合、異常なユーザー動作の情報は表示されません。
 
 悪意のあるアクティビティが発生すると、アラートが生成され、Snapshotが自動作成されます。
 

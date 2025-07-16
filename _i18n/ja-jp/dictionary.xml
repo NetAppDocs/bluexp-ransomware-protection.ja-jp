@@ -1429,8 +1429,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="0152e4b08d769def55f114d835660cb2" category="list-text">データインフラの分析情報ワークロードのセキュリティによってトリガーされます。これには、Data Infrastructure Insights Workloadセキュリティのライセンスが必要であり、BlueXP  ランサムウェア対策で有効にする必要があります。この機能を使用すると、ストレージワークロードの異常なユーザ動作を検出し、そのユーザによる以降のアクセスをブロックできます。</block>
   <block id="900224a7eb4d4424692600ce3e4b5262" category="paragraph">BlueXP  ランサムウェア対策でワークロードセキュリティを有効にするには、*[設定]*ページに移動し、*[ワークロードセキュリティ接続]*オプションを選択します。</block>
   <block id="425da964d78a62f785936af67e3c687f" category="inline-link">ワークロードセキュリティについて</block>
-  <block id="d4f7642c0debd8dc1a4caac9d3b8fa1c" category="paragraph">Data Infrastucture Insightsワークロードのセキュリティの概要については、を参照してください<block ref="61a89dd403e895daaa4d98a27b91c870" category="inline-link-rx"></block>。</block>
-  <block id="f45da5a45d45864a04012a2336cb4b3f" category="admonition">データインフラワークロードセキュリティのライセンスをお持ちでなく、BlueXP  ランサムウェア対策で有効にしていない場合、ユーザの異常な行動情報は表示されません。</block>
   <block id="627c9caf27de22ab63a8c85f8e162aeb" category="list-text">影響を受けるファイルとディレクトリ</block>
   <block id="bf33e88f89f8370f960763fdaf5e0753" category="section-title">データインフラの分析情報ワークロードのセキュリティでユーザの異常な行動を確認</block>
   <block id="d27458084722491c4ddb4bb5f1966d73" category="paragraph">データインフラのインサイトワークロードセキュリティがBlueXP  ランサムウェア対策でアラートをトリガーすると、データインフラのインサイトワークロードセキュリティで、疑わしいユーザの表示、ユーザのブロック、ユーザアクティビティの調査を直接行うことができます。</block>
@@ -1572,7 +1570,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="dd039569367d819e345c8f6be240f7d8" category="paragraph">* BlueXPのランサムウェア対策はNetApp ONTAPで行われた保護設定を認識していますか？*はい。BlueXP  ランサムウェア対策では、ONTAPで設定されたSnapshotスケジュールが検出されます。</block>
   <block id="66c2a4e2a6f031ea74c393c1c9ef41a3" category="paragraph">* BlueXPのランサムウェア対策では、ワークロードデータの優先順位をどのように設定しますか？*データの優先順位は、作成されるSnapshotコピーとスケジュールされたバックアップによって決まります。</block>
   <block id="19c94ea5372746331c5809f6307cfa3d" category="paragraph">ワークロードの優先度（critical、standard、important）は、ワークロードに関連付けられた各ボリュームにすでに適用されているSnapshotの頻度によって決まります。</block>
-  <block id="ea0d3754a202d50b0ac3e93babe7d310" category="summary">BlueXP  ランサムウェア対策が攻撃の可能性を検出すると、BlueXP  ランサムウェア対策ダッシュボードに攻撃の可能性を示すアラートが表示されます。また、Snapshotコピーの作成もすぐに開始されます。この時点で、BlueXPランサムウェア対策の[Alerts]タブで潜在的なリスクを確認する必要があります。</block>
   <block id="5295c827fac90b16880fb1c75f51694f" category="admonition">攻撃を却下した後は、これを元に戻すことはできません。ワークロードを却下すると、ランサムウェア攻撃の可能性に応じて自動的に作成されたすべてのSnapshotコピーが完全に削除されます。</block>
   <block id="4f303d58ecece08d64f03bf8e77bc7a5" category="list-text">*アラート*：アラートの総数や自動スナップショットなど、すべてのアラートのステータスと詳細が表示されます。</block>
   <block id="be4771625b56693d7077bb50b9ce2ffd" category="admonition">[Restore points]ペインの[Reason]列に、スナップショットまたはバックアップの理由が[Scheduled]または[Automated response to ransomware incident]のいずれかとして表示されます。</block>
@@ -1708,7 +1705,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="ddc6c453c965c414db89d40920292b62" category="paragraph">*どのような詳細が表示されますか?*表示される詳細は、アラートがトリガーされた方法によって異なります。</block>
   <block id="3950c317c3c61c1f422abb2e301a90ca" category="paragraph">攻撃を阻止した後、データの準備ができたことをストレージ管理者に通知し、リカバリを開始できるようにします。</block>
   <block id="0d65ccc6a323f2dc093c64fd9ee55da4" category="paragraph">インシデントを確認したら、インシデントが潜在的な攻撃かどうかを判断する必要があります。前述の条件が満たされない場合は、却下される可能性があります。</block>
-  <block id="2d009582c788b082d1655de90757d890" category="paragraph">誤検出を却下することも、データをすぐに回復することもできます。アラートを無視すると、サービスはこの動作を学習し、通常の操作と関連付けて、そのような動作に対して再度アラートを発行しなくなります。</block>
   <block id="5a5533258cfacee641d19f7f201b727f" category="paragraph">ワークロードを閉じると、潜在的なランサムウェア攻撃に応じて自動的に作成されたすべてのスナップショット コピーが完全に削除されます。</block>
   <block id="0d77ad85eefae95571395461b82d0990" category="paragraph">ワークロードに関する追加情報とスナップショット コピーが削除されたことが表示されます。</block>
   <block id="da754c5b4e36c5f41df7372441ba3df1" category="doc">BlueXP ランサムウェア保護ダッシュボードを使用してワークロードの健全性を監視する</block>
@@ -1764,14 +1760,8 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="bbc67024ab73d889ccf53c2243f12ec0" category="paragraph">このリリースでは、BlueXP ransomware protectionに SAN ワークロードのサポートが追加されました。および CIFS ワークロードに加えて、SAN ワークロードも保護できるようになりました。</block>
   <block id="b0be1d6aabf21f92b904023f7be7a58f" category="paragraph">詳細については、を参照してください <block ref="33be8222deb74c9ad42f0bbaa1bb9ee8" category="inline-link-macro-rx"></block>。</block>
   <block id="e155741c288e2488f325db0165488b59" category="section-title">ワークロード保護の改善</block>
-  <block id="6221ab5554b5d3e0db095000c99ba117" category="paragraph">このリリースでは、データ保護の有無にかかわらずワークロードを保護するためのワークフローが改善されています。スナップショットやバックアップにSnapCenterやBlueXP backup and recoveryなどの他のNetAppデータ保護ツールを使用している場合、 BlueXP ransomware protectionがそれらを検出し、それらを管理するポリシーを維持できます。このリリースでは、それらのポリシーをBlueXP ransomware protectionポリシーに置き換えることも、既存のポリシーを引き続き使用することもできます。</block>
-  <block id="93fc7709d1644ed6e29ed01f149bda1b" category="paragraph">詳細については、を参照してください<block ref="188a19487c814fdd2606d06b97bea154" category="inline-link-rx"></block>。</block>
   <block id="a67ce68ccac082ad54a552bdbcb6ecd7" category="section-title">Eメール通知</block>
-  <block id="3a60790dda30a91a55583973f6b71ca1" category="paragraph">BlueXP ransomware protectionが攻撃の可能性を検知すると、 BlueXP通知に通知が表示され、設定したメールアドレスにメールが送信されます。また、サービスは直ちにスナップショットを開始します。</block>
-  <block id="fa5ea5d07e6e245b2470f85837725f54" category="paragraph">この時点で、重大度と影響を受けるリソースをリストした電子メールを確認し、 BlueXP ransomware protectionの *アラート* タブで潜在的なリスクを確認する必要があります。</block>
-  <block id="284b692777b519f280cdc038cca76279" category="paragraph">BlueXP ransomware protectionでセキュリティおよびイベント管理 (SIEM) を構成した場合、サービスはアラートの詳細を SIEM システムに送信します。</block>
   <block id="62addb7514a50d7194a434db543d1e3f" category="inline-link">検出されたランサムウェアアラートを処理する</block>
-  <block id="c9919fb4d12ef0868dc54924ba92c214" category="paragraph">詳細については、を参照してください<block ref="f5c08491560330056ed27a3a5a41c318" category="inline-link-rx"></block>。</block>
   <block id="9f757ad28ed67f0f0c51cd1de91c8bbc" category="summary">BlueXP ransomware protectionサービスでは、サイバーセキュリティに関する関連情報を確認し、組織のサイバー攻撃に対する耐性を評価できます。また、データのセキュリティ強化に役立つアラートリストと修復手順も提供されます。</block>
   <block id="841f32df73c3e26168caae171cbe303e" category="paragraph">ランサムウェア攻撃はデータへのアクセスをブロックし、攻撃者はデータのリリースや復号と引き換えに身代金を要求する可能性があります。IDCによると、ランサムウェアの被害者が複数のランサムウェア攻撃を受けることは珍しくありません。この攻撃により、1 日から数週間にわたりデータへのアクセスが中断される可能性があります。</block>
   <block id="089ae557d982eb6beade74a8ca41d157" category="paragraph">BlueXP ランサムウェア対策は、ランサムウェア攻撃からデータを保護するサービスです。このサービスは、オンプレミスの NAS ストレージ (NFS および CIFS プロトコルを使用) と SAN ストレージ (FC、iSCSI、NVMe) 上の Oracle、MySQL、VM データストア、ファイル共有のアプリケーションベースのワークロード、および BlueXP 組織全体のCloud Volumes ONTAP for Amazon Web Services、 Cloud Volumes ONTAP for Google Cloud、 Cloud Volumes ONTAP for Microsoft Azure、 Amazon FSx for NetApp ONTAPBlueXP。このサービスは、Amazon Web Services、Google Cloud、Microsoft Azureクラウドストレージ、NetApp StorageGRIDにデータをバックアップします。</block>
@@ -1801,7 +1791,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="d00e098bc6c4321c2b684839ca74f01b" category="list-text">オンプレミスのONTAPクラスターまたは AWS または Azure クラウドのCloud Volumes ONTAPがまだBlueXPにオンボードされていない場合は、 BlueXPコネクタが必要です。</block>
   <block id="0885a21123eeb2ad2e03289064c229ea" category="list-text">バックアップ ターゲットおよびアクセス権限セット用のNetApp StorageGRID、AWS S3、Azure Blob、または Google Cloud Platform のアカウント。</block>
   <block id="ddf0d8cb7fa932ccfbf9231d4f27f992" category="list-text">ユーザー名を表示するには、「*追加情報を表示*」を選択します。</block>
-  <block id="4f858e67fc48b09c62f03c91ac157622" category="paragraph">BlueXP ransomware protectionが攻撃の可能性を検知すると、 BlueXP通知に通知が表示され、設定したメールアドレスにランサムウェア攻撃の可能性を知らせるメールが送信されます。また、サービスは直ちにスナップショットを開始します。この時点で、BlueXPのランサムウェア対策*アラート*タブで潜在的なリスクを確認する必要があります。</block>
   <block id="4da187364d63bcda0c1ea8730221bf1a" category="admonition">SAN 環境の場合、警告は高エントロピーに基づいてのみ行われます。</block>
   <block id="fdfe1c881a4c1b0fc74986ab458d8937" category="admonition">設定ページでBlueXP ransomware protectionのセキュリティおよびイベント管理システム (SIEM) を構成した場合、サービスはアラートの詳細を SIEM システムに送信します。</block>
   <block id="96f2e06ea6a3042c6d492dfbd3ef6aeb" category="list-text">次のいずれかに進みます:</block>
@@ -1894,4 +1883,15 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="43360d747c31106b5dbf428088f9fabc" category="list-text">セキュリティおよびイベント管理システム（SIEM）を接続して、脅威の分析と検出を行います。脅威検出を有効にすると、脅威分析のためにデータがSIEMに自動的に送信されます。</block>
   <block id="e82028134cc149b687f7fdb64684dbf7" category="section-title">脅威の分析と検出のためにセキュリティおよびイベント管理システム（SIEM）に接続する</block>
   <block id="36981b3e282313667db719384f6f7a69" category="section-title">2025年7月15日</block>
+  <block id="9bd93ada9b2fbfbf189c8da933c74698" category="paragraph">このリリースでは、 SnapCenterやBlueXP backup and recoveryなどの他のNetAppツールのスナップショットおよびバックアップポリシーを使用するワークロードの設定プロセスが改善されました。以前のリリースでは、 BlueXP ransomware protectionは他のツールのポリシーを検出し、検出ポリシーの変更のみが可能でした。このリリースでは、スナップショットおよびバックアップポリシーをBlueXP ransomware protectionポリシーに置き換えたり、他のツールのポリシーを引き続き使用したりできるようになりました。</block>
+  <block id="e987acfdc962b0eb42352c6d8ec215e7" category="paragraph">詳細については、を参照してください <block ref="dbda711c6a230fdddbe71a22c957db68" category="inline-link-macro-rx"></block>。</block>
+  <block id="2e56c79ddae096c75542884a58378a73" category="paragraph">BlueXP ransomware protectionが攻撃の可能性を検出すると、 BlueXP通知に通知が表示され、設定した電子メール アドレスに電子メールが送信されます。</block>
+  <block id="bc3b495f0e6ccbb6814f27f401bf0cfd" category="paragraph">電子メールには、重大度、影響を受けるワークロード、 BlueXP ransomware protectionの *アラート* タブのアラートへのリンクに関する情報が含まれます。</block>
+  <block id="a10971f24efc7a9c00402bf3e28fa1f0" category="paragraph">BlueXP ransomware protectionでセキュリティおよびイベント管理 (SIEM) システムを構成した場合、サービスはアラートの詳細を SIEM システムに送信します。</block>
+  <block id="473c570ea2acf44ac968aff271fe6ce8" category="paragraph">詳細については、を参照してください <block ref="8a71d50b7ca933f633225cea05d9764f" category="inline-link-macro-rx"></block>。</block>
+  <block id="8478d2d2f131fab50a6128e5da639963" category="summary">BlueXP  ランサムウェア対策が攻撃の可能性を検出すると、BlueXP  ランサムウェア対策ダッシュボードに攻撃の可能性を示すアラートが表示されます。この時点で、BlueXPランサムウェア対策の[Alerts]タブで潜在的なリスクを確認する必要があります。</block>
+  <block id="8748f9cf0f2ac9c5e804697f114dd880" category="paragraph">BlueXP ransomware protectionが攻撃の可能性を検知すると、 「BlueXP通知」に通知が表示され、設定されたアドレスにメールが送信されます。メールには、深刻度、影響を受けるワークロード、そしてBlueXP ransomware protectionの「*アラート*」タブに表示されるアラートへのリンクが含まれます。</block>
+  <block id="fc16f99f8f194db3c5491ab6fef98d3c" category="paragraph">Data Infrastructure Insightsワークロードセキュリティの概要については、 <block ref="61a89dd403e895daaa4d98a27b91c870" category="inline-link-rx"></block> 。</block>
+  <block id="a411a37a314e9f2b77d0a4559ae70ea2" category="admonition">Data Infrastructure Workload Security のライセンスを所有しておらず、 BlueXP ransomware protectionで有効にしていない場合、異常なユーザー動作の情報は表示されません。</block>
+  <block id="05526b7ad3e4bf2881f5ccf1a99ea6c2" category="paragraph">誤検出を却下することも、データをすぐに回復することもできます。アラートを無視すると、サービスはこの動作を学習し、通常の操作と関連付けて、そのような動作に対して再度アラートを発行しなくなります。</block>
 </blocks>

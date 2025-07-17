@@ -1771,8 +1771,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="4282433f8f5c0e6acad137adab28f337" category="paragraph">BlueXP backup and recoveryとBlueXP ransomware protectionの両方をお持ちの場合、両方の製品で保護されている共通データについては、 BlueXP ransomware protectionに対してのみ課金されます。</block>
   <block id="feccdf428c2b7a1a214161ac19c68ca0" category="list-text">BlueXPに接続されたすべての顧客のオンプレミス NAS (NFS および CIFS プロトコル)、SAN (FC、iSCSI、NVMe)、およびCloud Volumes ONTAPデータを検索します。</block>
   <block id="26871f0800751ffb8b48674992b42dfe" category="list-text">VM、ファイル共有、ブロック ストレージ、データベースなどのワークロードのリカバリをアプリケーションの一貫性を保ちながらオーケストレーションします。</block>
-  <block id="78e699264ce91050e8afe900e83193b2" category="paragraph">BlueXP ransomware protectionを使用して、次の種類のバックアップ ターゲット、作業環境、ワークロード データ ソースに対するサイバー攻撃に対するデータの耐性を確認します:</block>
-  <block id="ec756c3d78ad9564b3bcd967a807328f" category="paragraph">BlueXPランサムウェアは、次の動作環境とバックアップ先をサポートしています:</block>
   <block id="36471da59b7d9b72aa431fd1f5059d05" category="list-text">ONTAPバージョン 9.17.1 以降を搭載したオンプレミスのONTAP SAN (FC、iSCSI、NVMe プロトコルを使用)</block>
   <block id="35042137939d246a1fd01199cb942d15" category="list-text">AWS、Google Cloud Platform、Microsoft Azure 向けのCloud Volumes ONTAP 9.17.1 以上 (FC、iSCSI、NVMe プロトコルを使用)</block>
   <block id="54d1e9634870c74de38de33364a86d27" category="list-text">Amazon FSx for NetApp ONTAP は、自律型ランサムウェア保護 (ARP であり、ARP/AI ではありません) を使用します</block>
@@ -1894,4 +1892,5 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="fc16f99f8f194db3c5491ab6fef98d3c" category="paragraph">Data Infrastructure Insightsワークロードセキュリティの概要については、 <block ref="61a89dd403e895daaa4d98a27b91c870" category="inline-link-rx"></block> 。</block>
   <block id="a411a37a314e9f2b77d0a4559ae70ea2" category="admonition">Data Infrastructure Workload Security のライセンスを所有しておらず、 BlueXP ransomware protectionで有効にしていない場合、異常なユーザー動作の情報は表示されません。</block>
   <block id="05526b7ad3e4bf2881f5ccf1a99ea6c2" category="paragraph">誤検出を却下することも、データをすぐに回復することもできます。アラートを無視すると、サービスはこの動作を学習し、通常の操作と関連付けて、そのような動作に対して再度アラートを発行しなくなります。</block>
+  <block id="a815e68282b1aa9bd3ce4985ebc97a8f" category="paragraph">BlueXPランサムウェアは、次のバックアップ ターゲット、作業環境、およびデータ ソースをサポートします。</block>
 </blocks>

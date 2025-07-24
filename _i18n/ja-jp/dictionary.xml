@@ -210,8 +210,6 @@ BlueXPのランサムウェア対策を有効にする必要はありません�
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files の特長</block>
   <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
-  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Cloud Volumes Service for Google Cloud</block>
-  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">サポート登録の概要</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">サポート資格を有効にする登録には、次の2つの形式があります。</block>
   <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">これは、BlueXP内のすべてのサービスのシングルサポートサブスクリプションIDとして機能します。各BlueXPアカウントレベルのサポート契約が登録されている必要があります。</block>
@@ -1893,4 +1891,6 @@ BlueXPランサムウェア対策サービスからポリシーを変更する�
   <block id="a411a37a314e9f2b77d0a4559ae70ea2" category="admonition">Data Infrastructure Workload Security のライセンスを所有しておらず、 BlueXP ransomware protectionで有効にしていない場合、異常なユーザー動作の情報は表示されません。</block>
   <block id="05526b7ad3e4bf2881f5ccf1a99ea6c2" category="paragraph">誤検出を却下することも、データをすぐに回復することもできます。アラートを無視すると、サービスはこの動作を学習し、通常の操作と関連付けて、そのような動作に対して再度アラートを発行しなくなります。</block>
   <block id="a815e68282b1aa9bd3ce4985ebc97a8f" category="paragraph">BlueXPランサムウェアは、次のバックアップ ターゲット、作業環境、およびデータ ソースをサポートします。</block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
 </blocks>

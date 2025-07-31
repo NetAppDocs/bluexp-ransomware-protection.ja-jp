@@ -321,6 +321,30 @@ image:screen-settings-backup-destinations-list2.png["[Backup destinations]ペー
 
 BlueXP  ランサムウェア対策でSIEMを有効にする前に、SIEMシステムを設定する必要があります。
 
+.SIEMに送信されるイベントデータについて
+BlueXP ransomware protectionは、次のイベント データを SIEM システムに送信できます。
+
+* *コンテクスト*：
++
+** *os*: これはONTAPの値を持つ定数です。
+** *os_version*: 作業環境で実行されているONTAPのバージョン。
+** *connector_id*: 作業環境を管理するコネクタの ID。
+** *cluster_id*: 作業環境に対してONTAPによって報告されたクラスタ ID。
+** *svm_name*: アラートが見つかった SVM の名前。
+** *volume_name*: アラートが見つかったボリュームの名前。
+** *volume_id*: 作業環境のONTAPによって報告されたボリュームの ID。
+
+
+* *事件*：
++
+** *incident_id*: サービス内の攻撃を受けているボリュームに対してBlueXP ransomware protectionによって生成されたインシデント ID。
+** *alert_id*: ワークロードに対してBlueXP ransomware protectionによって生成された ID。
+** *重大度*: 次のアラート レベルのいずれか: 「CRITICAL」、「HIGH」、「MEDIUM」、「LOW」。
+** *説明*: 検出されたアラートの詳細。例: 「ワークロード arp_learning_mode_test_2630 で潜在的なランサムウェア攻撃が検出されました」
+
+
+
+
 
 
 === 脅威検出のためのAWS Security Hubの設定

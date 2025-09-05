@@ -38,8 +38,6 @@ sidebar:
       url: "/rp-start-simulate.html"
     - title: "[Settings]でバックアップ、脅威検出、および攻撃シミュレーションを構成します。"
       url: "/rp-use-settings.html"
-    - title: よく寄せられる質問
-      url: "/rp-start-faq.html"
   - title: BlueXPのランサムウェア対策を活用
     entries:
     - title: BlueXPのランサムウェア対策の概要を活用
@@ -59,6 +57,8 @@ sidebar:
     - title: レポートのダウンロード
       url: "/rp-use-reports.html"
   - section: support
+  - title: よく寄せられる質問
+    url: "/rp-start-faq.html"
   - title: 法的通知
     url: "/legal-notices.html"
 product-family:
